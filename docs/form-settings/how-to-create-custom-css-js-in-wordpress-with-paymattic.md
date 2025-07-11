@@ -19,13 +19,13 @@ If you do not have any existing forms, read [Create a Form from Scratch](../form
 
 For example, I choose an existing form to show the whole process.
 
-![Opening a form to edit in Paymattic](../public/images/form-settings/how-to-create-custom-css-js-in-wordpress-with-paymattic/1.-Open-desired-form-5-scaled.webp)
+![Opening a form to edit in Paymattic](/images/form-settings/how-to-create-custom-css-js-in-wordpress-with-paymattic/1.-Open-desired-form-5-scaled.webp)
 
 Once you open the **Editor** page, go to the **Settings** tab from the left sidebar, and you will get the **Custom CSS/JS** settings option to create Custom CSS or JS.
 
 After you complete coding for your Custom CSS/JS, click the **Save CSS & JS** button to save all your customization.
 
-![Custom CSS/JS settings in form editor](../public/images/form-settings/how-to-create-custom-css-js-in-wordpress-with-paymattic/2.-Settings-tab-and-Custom-CSSJS-option-scaled.webp)
+![Custom CSS/JS settings in form editor](/images/form-settings/how-to-create-custom-css-js-in-wordpress-with-paymattic/2.-Settings-tab-and-Custom-CSSJS-option-scaled.webp)
 
 **The Custom CSS and JS mentioned above are briefly explained below:**
 

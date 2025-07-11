@@ -9,7 +9,7 @@ In [Paymattic](https://paymattic.com/), the **Dynamic Payment Item,** an **in-bu
 This article will guide you on how to embed the **Dynamic Payment Item** field to the **WordPress Site** through **Paymattic**.
 
 ::: warning
-Remember, **Dynamic Payment Item** is a premium feature and you need the [Paymattic Pro Plugin](/getting-started-with-paymattic/how-to-install-and-activate-paymattic-in-wordpress#installation) to use this field.
+Remember, **Dynamic Payment Item** is a premium feature and you need the [Paymattic Pro Plugin](../getting-started-with-paymattic/how-to-install-and-activate-paymattic-in-wordpress#installing-and-activating-paymattic-pro) to use this field.
 :::
 
 ## Adding Dynamic Payment Item Field 

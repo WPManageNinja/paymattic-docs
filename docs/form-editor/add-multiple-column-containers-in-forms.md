@@ -111,4 +111,4 @@ Here is the **preview** of the **Multiple Column Container** fields in a **Form*
 ![](/images/form-editor/add-multiple-column-containers-in-forms/Preview-of-Multiple-Column-Container.webp)
 
 This way you can easily add the **Multiple Column Container** field in Paymattic Forms!
-If you have any further questions, concerns, or suggestions, please do not hesitate to contact our [@support team](https://wpmanageninja.com/support-tickets/?utm_source=wpmn&utm_medium=home&utm_campaign=site#/). Thank you.
+If you have any further questions, concerns, or suggestions, please do not hesitate to contact our [@support team](https://wpmanageninja.com/support-tickets/). Thank you.

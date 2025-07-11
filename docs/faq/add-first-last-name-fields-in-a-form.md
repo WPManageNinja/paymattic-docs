@@ -11,8 +11,8 @@ This guide explains how to add separate First Name and Last Name fields to your 
 
 1. Open your target form
 2. If you need a new form, see our guides for:
-   - [Creating from scratch](../form-editor/how-to-create-a-form-from-scratch-with-paymattic.md)
-   - [Using templates](../form-editor/simple-form-templates.md)
+   - [Creating from scratch](../form-editor/how-to-create-a-form-from-scratch-with-paymattic)
+   - [Using templates](../form-editor/simple-form-templates)
 
 ![Open form](/images/faq/add-first-last-name-fields-in-a-form/1.-Open-desired-form-2-scaled.webp)
 
@@ -76,9 +76,9 @@ You must update Admin Labels to see separate fields in:
 ### Additional Customization
 
 For more customization options, see:
-- [Two Column Container guide](../form-editor/add-multiple-column-containers-in-forms.md)
-- [Name field options](../general-input-fields/how-to-use-general-form-input-fields-in-wordpress-with-paymattic.md#name-fields)
-- [Advanced field settings](../form-editor/how-to-use-conditional-logic-in-form-fields-with-paymattic.md)
+- [Two Column Container guide](../form-editor/add-multiple-column-containers-in-forms)
+- [Name field options](../general-input-fields/how-to-use-general-form-input-fields-in-wordpress-with-paymattic#_1-name-field)
+- [Advanced field settings](../form-editor/how-to-use-conditional-logic-in-form-fields-with-paymattic)
 
 ## Save and Preview
 

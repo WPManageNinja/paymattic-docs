@@ -35,8 +35,8 @@ Once you open the **Editor** page, add the **Custom Payment Amount** field by ei
 
 ::: warning Required Fields
 Always include these fields at the start of your form:
-1. [Name Field](/general-input-fields/how-to-use-general-form-input-fields-in-wordpress-with-paymattic#name-field)
-2. [Email Field](/general-input-fields/how-to-use-general-form-input-fields-in-wordpress-with-paymattic#email-field)
+1. [Name Field](/general-input-fields/how-to-use-general-form-input-fields-in-wordpress-with-paymattic#_1-name-field)
+2. [Email Field](/general-input-fields/how-to-use-general-form-input-fields-in-wordpress-with-paymattic#_2-email-field)
 3. [Payment Method Field](/general-input-fields/how-to-use-the-payment-method-fields-section) (for processing payments)
 :::
 

@@ -102,11 +102,11 @@ And, the Stripe Webhooks will be configured with your WordPress Site!
 
 ## Add Stripe in Forms
 
-Once you finish setting up your **Stripe** payment gateway, you can easily add this payment method to any of your existing [Payment Form](/form-editor/how-to-create-your-first-payment-form-in-a-minute-and-accept-payments-with-paymattic).
+Once you finish setting up your **Stripe** payment gateway, you can easily add this payment method to any of your existing [Payment Form](../form-editor/how-to-create-your-first-payment-form-in-a-minute-and-accept-payments-with-paymattic).
 
-If you do not have any existing forms, read this [Create a Form from Scratch](/form-editor/how-to-create-a-form-from-scratch-with-paymattic) or [Create a Form using Templates](/form-editor/simple-form-templates) documentation to create one.
+If you do not have any existing forms, read this [Create a Form from Scratch](../form-editor/how-to-create-a-form-from-scratch-with-paymattic) or [Create a Form using Templates](../form-editor/simple-form-templates) documentation to create one.
 
-To learn the detailed process of adding a payment method to an existing form, read this [Documentation](/general-input-fields/how-to-use-the-payment-method-fields-section).
+To learn the detailed process of adding a payment method to an existing form, read this [Documentation](../general-input-fields/how-to-use-the-payment-method-fields-section).
 
 ::: warning Important
 Remember, the added **Stripe** payment method in your **Form** will not function unless you complete the configuration process properly.
@@ -116,7 +116,7 @@ Remember, the added **Stripe** payment method in your **Form** will not function
 
 To learn how to customize the Settings of Stripe payment method for a specific form, refer to the article below:
 
-[Form Specific Payment Settings](/form-settings/customize-form-specific-payment-settings)
+[Form Specific Payment Settings](../form-settings/customize-form-specific-payment-settings)
 
 ::: tip Need Help?
 If you have any questions, concerns, or suggestions, please contact our [support team](https://wpmanageninja.com/support-tickets/).

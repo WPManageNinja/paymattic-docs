@@ -1,5 +1,5 @@
 ---
-title: "How to Add Currency Switcher in WordPress Form?"
+title: "Add Currency Switcher in WordPress Form"
 category: "Donation and Product Fields"
 ---
 # How to Add Currency Switcher in WordPress Form?
@@ -28,8 +28,8 @@ For example, I choose an existing Donation Form to show the whole process.
 
 Once you open the **Editor** page, add the **Currency Switcher** field by typing the **"/"** or clicking the **Plus Icon** at the bottom.
 
-::: tip
-We always suggest you keep the [**Name**](/general-input-fields/how-to-use-general-form-input-fields-in-wordpress-with-paymattic#name-field) and [**Email**](/general-input-fields/how-to-use-general-form-input-fields-in-wordpress-with-paymattic#email-field) field at the beginning of any Form.
+::: tip Best Practice
+We always suggest you keep the [**Name**](/general-input-fields/how-to-use-general-form-input-fields-in-wordpress-with-paymattic.md#_1-name-field) and [**Email**](/general-input-fields/how-to-use-general-form-input-fields-in-wordpress-with-paymattic.md#_2-email-field) field at the beginning of any Form.
 :::
 
 ![Type / or click + icon](/images/donation-and-product-fields/add-currency-switcher-in-wordpress-form/2.-Type-or-click-icon.webp)

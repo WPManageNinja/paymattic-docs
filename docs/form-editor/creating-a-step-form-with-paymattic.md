@@ -19,11 +19,11 @@ If you do not have any existing forms, read [Create a Form from Scratch](../form
 
 For example, I choose an existing form to show the whole process.
 
-![Opening an existing form](../public/images/form-editor/creating-a-step-form-with-paymattic/open-desired-form-scaled.webp)
+![Opening an existing form](/images/form-editor/creating-a-step-form-with-paymattic/open-desired-form-scaled.webp)
 
 Once you open the **Editor** page, add the necessary fields by typing the **" / "** or clicking the **Plus Icon** placed at the bottom.
 
-![Adding fields using slash or plus icon](../public/images/form-editor/creating-a-step-form-with-paymattic/type-22-22-or-click-2222-to-add-desired-fileds.webp)
+![Adding fields using slash or plus icon](/images/form-editor/creating-a-step-form-with-paymattic/type-22-22-or-click-2222-to-add-desired-fileds.webp)
 
 On the **Choose form field** page, you will get all the fields that Paymattic offers.
 
@@ -31,7 +31,7 @@ On the **Choose form field** page, you will get all the fields that Paymattic of
 Remember, to create a Step Form, you must add the **Step Form** field.
 :::
 
-![Step form field selection](../public/images/form-editor/creating-a-step-form-with-paymattic/Step-Form-field.webp)
+![Step form field selection](/images/form-editor/creating-a-step-form-with-paymattic/Step-Form-field.webp)
 
 ## Customizing Step Form Field
 
@@ -44,10 +44,10 @@ Now, under one specific step, you can add any field as per your need by typing "
 To add more different field/s, click the **Plus Icon** placed at the bottom.
 
 ::: tip Best Practice
-We always suggest you keep the **[Name](../general-input-fields/how-to-use-general-form-input-fields-in-wordpress-with-paymattic.md#_1-name)** and **[Email](../general-input-fields/how-to-use-general-form-input-fields-in-wordpress-with-paymattic.md#_2-email)** field at the beginning of any Form.
+We always suggest you keep the **[Name](../general-input-fields/how-to-use-general-form-input-fields-in-wordpress-with-paymattic#_1-name-field)** and **[Email](../general-input-fields/how-to-use-general-form-input-fields-in-wordpress-with-paymattic#_2-email-field)** field at the beginning of any Form.
 :::
 
-![Step form customization options](../public/images/form-editor/creating-a-step-form-with-paymattic/Step-name-editor-icon-to-add-steps-2222-icon-to-insert-fields.webp)
+![Step form customization options](/images/form-editor/creating-a-step-form-with-paymattic/Step-name-editor-icon-to-add-steps-2222-icon-to-insert-fields.webp)
 
 ### Field Customization Options
 
@@ -62,10 +62,10 @@ You can also adjust the settings of the fields with the help of **three icon opt
 Once you complete Step 1, click **Next** to go to Step 2 and follow the same process to add your desired fields. You can also delete any steps by clicking the **Delete Step** button.
 
 ::: tip Note
-Remember, almost every step has a similar functionality for adding and customizing field/s. For example, I chose the **[Name](../general-input-fields/how-to-use-general-form-input-fields-in-wordpress-with-paymattic.md#_1-name)** and **[Email](../general-input-fields/how-to-use-general-form-input-fields-in-wordpress-with-paymattic.md#_2-email)** field to show the process.
+Remember, almost every step has a similar functionality for adding and customizing field/s. For example, I chose the **[Name](../general-input-fields/how-to-use-general-form-input-fields-in-wordpress-with-paymattic#_1-name-field)** and **[Email](../general-input-fields/how-to-use-general-form-input-fields-in-wordpress-with-paymattic#_2-email-field)** field to show the process.
 :::
 
-![Next and delete step buttons](../public/images/form-editor/creating-a-step-form-with-paymattic/Next-and-Delete-button.webp)
+![Next and delete step buttons](/images/form-editor/creating-a-step-form-with-paymattic/Next-and-Delete-button.webp)
 
 ## Embedding the Form in Frontend
 
@@ -76,20 +76,20 @@ Also, to embed and display the form on a specific Page/Post, **copy** this **Sho
 Once you complete the edit, press the **Save** button to save all the changes you made.
 And, to see the **Preview** of the form, click the **Eye** icon.
 
-![Save, preview and shortcode buttons](../public/images/form-editor/creating-a-step-form-with-paymattic/Save-preview-shortcode-buttons-scaled.webp)
+![Save, preview and shortcode buttons](/images/form-editor/creating-a-step-form-with-paymattic/Save-preview-shortcode-buttons-scaled.webp)
 
 ## Preview of Step Form
 
 Here is the **preview** of the **Step Form**:
 
 ### Step 1: User Information
-![User information step](../public/images/form-editor/creating-a-step-form-with-paymattic/User-Information.webp)
+![User information step](/images/form-editor/creating-a-step-form-with-paymattic/User-Information.webp)
 
 ### Step 2: Products
-![Products step](../public/images/form-editor/creating-a-step-form-with-paymattic/Products.webp)
+![Products step](/images/form-editor/creating-a-step-form-with-paymattic/Products.webp)
 
 ### Step 3: Payment Methods
-![Payment methods step](../public/images/form-editor/creating-a-step-form-with-paymattic/Payment-methods.webp)
+![Payment methods step](/images/form-editor/creating-a-step-form-with-paymattic/Payment-methods.webp)
 
 This way you can easily add the **Step Form** fields in Paymattic Forms!
 

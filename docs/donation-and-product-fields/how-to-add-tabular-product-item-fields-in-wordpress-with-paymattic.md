@@ -29,7 +29,9 @@ For example, I choose an existing form to show the whole process.
 
 Once you open the **Editor** page, add the Tabular Product Items fields by typing the **" / "** or clicking the **" + " icon** placed at the bottom.
 
-We always suggest you keep the [Name Field](/general-input-fields/how-to-use-general-form-input-fields-in-wordpress-with-paymattic#name-field) and [Email Field](/general-input-fields/how-to-use-general-form-input-fields-in-wordpress-with-paymattic#email-field) at the beginning of any Form.
+::: tip Best Practice
+We always suggest you keep the [Name Field](/general-input-fields/how-to-use-general-form-input-fields-in-wordpress-with-paymattic#_1-name-field) and [Email Field](/general-input-fields/how-to-use-general-form-input-fields-in-wordpress-with-paymattic#_2-email-field) at the beginning of any Form.
+:::
 
 ![Add Field Options](/images/donation-and-product-fields/how-to-add-tabular-product-item-fields-in-wordpress-with-paymattic/Type-or-click-icon.webp)
 

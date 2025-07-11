@@ -14,12 +14,12 @@ To learn how to configure **Confirmation Settings** of a specific form, follow t
 First, go to the **All Forms** section from the **Paymattic Navbar**, choose a **Form**, and click the **Pencil/Edit** icon to open the **Editor** page of that form.
 
 ::: tip
-If you do not have any existing forms, read [Create a Form from Scratch](../form-editor/how-to-create-a-form-from-scratch-with-paymattic.md) or [Create a Form using Templates](../form-editor/simple-form-templates.md) documentation to create one.
+If you do not have any existing forms, read [Create a Form from Scratch](../form-editor/how-to-create-a-form-from-scratch-with-paymattic) or [Create a Form using Templates](../form-editor/simple-form-templates) documentation to create one.
 :::
 
 For example, I choose an existing form to show the whole process.
 
-![Opening a form to configure confirmation settings](../public/images/form-settings/how-to-configure-confirmation-settings-in-wordpress-with-paymattic/1.-Open-desired-form-9-scaled.webp)
+![Opening a form to configure confirmation settings](/images/form-settings/how-to-configure-confirmation-settings-in-wordpress-with-paymattic/1.-Open-desired-form-9-scaled.webp)
 
 Once you open the **Editor** page, go to the **Settings** tab from the left sidebar, and you will get the **Confirmation** settings option.
 
@@ -30,7 +30,7 @@ Here you will get the four types of Confirmation Settings tab. These are:
 3. reCaptcha Settings
 4. Turnstile Settings
 
-![Confirmation settings options in form settings](../public/images/form-settings/how-to-configure-confirmation-settings-in-wordpress-with-paymattic/2.-Confirmation-settings-under-Form-Settings-option-scaled.webp)
+![Confirmation settings options in form settings](/images/form-settings/how-to-configure-confirmation-settings-in-wordpress-with-paymattic/2.-Confirmation-settings-under-Form-Settings-option-scaled.webp)
 
 **All the confirmation settings mentioned above are explained below:**
 
@@ -44,7 +44,7 @@ This feature allows you to customize the confirmation settings for form submissi
 
 Once you are done, click the **Save Confirmation Settings** button to save all changes.
 
-![Form confirmation settings configuration](../public/images/form-settings/how-to-configure-confirmation-settings-in-wordpress-with-paymattic/3.-Form-Confirmation-Settings.webp)
+![Form confirmation settings configuration](/images/form-settings/how-to-configure-confirmation-settings-in-wordpress-with-paymattic/3.-Form-Confirmation-Settings.webp)
 
 ### 2. Receipt Customization
 
@@ -57,27 +57,27 @@ The Receipt Customization tab lets you customize the content of the receipt that
 
 After customizing everything, click the **Save Receipt Settings** button to save all changes.
 
-![Receipt customization settings](../public/images/form-settings/how-to-configure-confirmation-settings-in-wordpress-with-paymattic/4.-Receipt-Customization-tab.webp)
+![Receipt customization settings](/images/form-settings/how-to-configure-confirmation-settings-in-wordpress-with-paymattic/4.-Receipt-Customization-tab.webp)
 
 ### 3. reCaptcha Settings
 
 You can enable reCaptcha for any form with the **reCaptcha Settings** tab.
 
 ::: tip
-Check this [Documentation](../global-settings/how-to-configure-recaptcha-in-wordpress-with-paymattic.md) to learn more about how to configure reCAPTCHA.
+Check this [Documentation](../global-settings/how-to-configure-recaptcha-in-wordpress-with-paymattic) to learn more about how to configure reCAPTCHA.
 :::
 
-![reCaptcha configuration settings](../public/images/form-settings/how-to-configure-confirmation-settings-in-wordpress-with-paymattic/5.-Recaptcha-settings.webp)
+![reCaptcha configuration settings](/images/form-settings/how-to-configure-confirmation-settings-in-wordpress-with-paymattic/5.-Recaptcha-settings.webp)
 
 ### 4. Turnstile Settings
 
 You can enable Turnstile for any form with the **Turnstile Settings** tab.
 
 ::: tip
-Check this [Documentation](../global-settings/how-to-configure-cloudflare-turnstile-with-paymattic.md) to learn more about how to configure the Turnstile.
+Check this [Documentation](../global-settings/how-to-configure-cloudflare-turnstile-with-paymattic) to learn more about how to configure the Turnstile.
 :::
 
-![Turnstile configuration settings](../public/images/form-settings/how-to-configure-confirmation-settings-in-wordpress-with-paymattic/6.-Turnstile-settings-tab.webp)
+![Turnstile configuration settings](/images/form-settings/how-to-configure-confirmation-settings-in-wordpress-with-paymattic/6.-Turnstile-settings-tab.webp)
 
 This is the simple process to configure the form Confirmation Settings in Paymattic. 
 If you have any further questions, concerns, or suggestions, please do not hesitate to contact our [@support team](https://wpmanageninja.com/support-tickets/). Thank you.

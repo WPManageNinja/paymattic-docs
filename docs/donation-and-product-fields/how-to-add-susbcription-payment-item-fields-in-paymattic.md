@@ -8,7 +8,7 @@ category: "Donation and Product Fields"
 In [Paymattic](https://paymattic.com/), the **Subscription Payment** field allows you to create forms with **Subscription Items** for collecting **Recurring Payments.** This article will guide you on how to embed the Subscription Payment field to the WordPress Site through Paymattic.
 
 ::: warning
-**Subscription Payment** is a premium feature and you need [**Paymattic Pro Plugin**](/getting-started-with-paymattic/how-to-install-and-activate-paymattic-in-wordpress#installation) **to use this field.**
+**Subscription Payment** is a premium feature and you need [**Paymattic Pro Plugin**](../getting-started-with-paymattic/how-to-install-and-activate-paymattic-in-wordpress#installing-and-activating-paymattic-pro) **to use this field.**
 :::
 
 ## Adding Subscription Payment Field
@@ -27,8 +27,8 @@ For example, I choose an existing form to show the whole process.
 
 Once you open the **Editor** page, add the Payment Item fields by typing the **"/"** or clicking the **Plus Icon** placed at the bottom.
 
-::: tip
-We always suggest you keep the [**Name**](/general-input-fields/how-to-use-general-form-input-fields-in-wordpress-with-paymattic#name-field) and [**Email**](/general-input-fields/how-to-use-general-form-input-fields-in-wordpress-with-paymattic#email-field) field at the beginning of any Form.
+::: tip Best Practice
+We always suggest you keep the [**Name**](/general-input-fields/how-to-use-general-form-input-fields-in-wordpress-with-paymattic#_1-name-field) and [**Email**](/general-input-fields/how-to-use-general-form-input-fields-in-wordpress-with-paymattic#_2-email-field) field at the beginning of any Form.
 :::
 
 ![Type / or click + icon](/images/donation-and-product-fields/how-to-add-susbcription-payment-item-fields-in-paymattic/2.-Type-or-click-icon-1.webp)

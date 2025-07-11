@@ -4,7 +4,7 @@ category: "FAQ"
 ---
 
 :::tip Overview
-This guide explains how to customize date and time formats in Paymattic's [Date & Time fields](../general-input-fields/how-to-use-general-form-input-fields-in-wordpress-with-paymattic.md#_10-date-amp-). Paymattic uses [flatpickr](https://flatpickr.js.org/) for powerful date/time handling.
+This guide explains how to customize date and time formats in Paymattic's [Date & Time fields](../general-input-fields/how-to-use-general-form-input-fields-in-wordpress-with-paymattic#_10-date-amp-time-field). Paymattic uses [flatpickr](https://flatpickr.js.org/) for powerful date/time handling.
 :::
 
 ## Quick Reference

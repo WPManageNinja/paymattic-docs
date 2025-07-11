@@ -50,8 +50,8 @@ You can add the Donation Progress Item field in two ways:
 1. Type **"/"** in the editor
 2. Click the **Plus Icon** at the bottom
 
-::: warning Important
-Always include [Name](/general-input-fields/how-to-use-general-form-input-fields-in-wordpress-with-paymattic#name-field) and [Email](/general-input-fields/how-to-use-general-form-input-fields-in-wordpress-with-paymattic#email-field) fields at the beginning of your donation forms.
+::: tip Required Fields
+Always include [Name](/general-input-fields/how-to-use-general-form-input-fields-in-wordpress-with-paymattic#_1-name-field) and [Email](/general-input-fields/how-to-use-general-form-input-fields-in-wordpress-with-paymattic#_2-email-field) fields at the beginning of your donation forms.
 :::
 
 ![Add Field Options](/images/donation-and-product-fields/how-to-add-donation-progress-item-in-wordpress-with-paymattic/Type-or-click-icon.webp)

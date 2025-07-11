@@ -7,7 +7,7 @@ category: "Payment Method Fields"
 [PayPal](https://paypal.com/) is a trusted global payment gateway that allows you to securely receive payments from your users. This article will guide you through configuring PayPal on your WordPress Site with the [Paymattic](https://paymattic.com/) plugin.
 
 ::: warning Prerequisites
-To get access to the [PayPal](https://paypal.com/) payment gateway, you need the [Paymattic Pro Plugin](/getting-started-with-paymattic/how-to-install-and-activate-paymattic-in-wordpress).
+To get access to the [PayPal](https://paypal.com/) payment gateway, you need the [Paymattic Pro Plugin](../getting-started-with-paymattic/how-to-install-and-activate-paymattic-in-wordpress).
 :::
 
 ## Configuring PayPal Payment Method
@@ -73,7 +73,7 @@ For recurring payments to work properly:
 
 1. Enable notifications for recurring PayPal payments
 2. Copy the provided **IPN URL**
-3. Configure the URL in PayPal - [Learn how to set up PayPal IPN](/payment-method-fields/how-to-set-paypal-ipn-in-wordpress-with-paymattic)
+3. Configure the URL in PayPal - [Learn how to set up PayPal IPN](../payment-method-fields/how-to-set-paypal-ipn-in-wordpress-with-paymattic)
 
 Without IPN setup:
 - Single payments will work normally
@@ -88,13 +88,13 @@ Click **Save Settings** to apply all changes.
 
 Once you've completed the setup, you can add PayPal to your forms:
 
-1. For existing forms: Add it to any [Payment Form](/payment-method-fields/how-to-create-your-first-payment-form-in-a-minute-and-accept-payments-with-paymattic)
+1. For existing forms: Add it to any [Payment Form](../form-editor/how-to-create-your-first-payment-form-in-a-minute-and-accept-payments-with-paymattic)
 
 2. For new forms:
-   - [Create a Form from Scratch](/form-editor/how-to-create-a-form-from-scratch-with-paymattic)
-   - [Use Form Templates](/form-editor/simple-form-templates)
+   - [Create a Form from Scratch](../form-editor/how-to-create-a-form-from-scratch-with-paymattic)
+   - [Use Form Templates](../form-editor/simple-form-templates)
 
-3. Learn more about [adding payment methods](/payment-method-fields/how-to-use-the-payment-method-fields-section)
+3. Learn more about [adding payment methods](../general-input-fields/how-to-use-the-payment-method-fields-section)
 
 ::: warning Note
 The PayPal payment method will not function unless you complete the configuration process properly.
@@ -102,7 +102,7 @@ The PayPal payment method will not function unless you complete the configuratio
 
 ## Form-Specific PayPal Settings
 
-Need to customize PayPal settings for a specific form? Check out our guide on [Form-Specific Payment Settings](/form-settings/form-specific-payment-settings).
+Need to customize PayPal settings for a specific form? Check out our guide on [Form-Specific Payment Settings](../form-settings/customize-form-specific-payment-settings).
 
 ::: tip Need Help?
 If you have any questions, concerns, or suggestions, please contact our [@support team](https://wpmanageninja.com/support-tickets/). We're here to help!

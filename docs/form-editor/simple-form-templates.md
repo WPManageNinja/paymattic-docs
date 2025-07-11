@@ -19,7 +19,7 @@ First, go to **Paymattic Dashboard** from the **WordPress Left Sidebar**, click 
 
 Click the **Choose Templates** tab to avoid creating a form from scratch.
 
-![Choose Templates button in Paymattic dashboard](../public/images/form-editor/simple-form-templates/Choose-Templates-button-scaled.webp)
+![Choose Templates button in Paymattic dashboard](/images/form-editor/simple-form-templates/Choose-Templates-button-scaled.webp)
 
 Here, you will get all the **Pre-built Templates** Paymattic offers to make your form creation easier.
 
@@ -27,13 +27,13 @@ You can choose any template based on your needs by **entering the name in the se
 
 First, expand the **Donation** dropdown and choose one Category between **Simple Form** and **Advanced Form** as per your need. For example, I opened the **Advanced Form** category to choose templates.
 
-![Choose template categories and options](../public/images/form-editor/simple-form-templates/Choose-template-pop-up-page.webp)
+![Choose template categories and options](/images/form-editor/simple-form-templates/Choose-template-pop-up-page.webp)
 
 After selecting the Template you want to use, click the **+ Create Form** button.
 
 If you want to see the front-end view of your chosen template before starting the process, click the **Preview Form** button.
 
-![Create Form and Preview Form buttons](../public/images/form-editor/simple-form-templates/Create-Form-and-Preview-Form-button-.webp)
+![Create Form and Preview Form buttons](/images/form-editor/simple-form-templates/Create-Form-and-Preview-Form-button-.webp)
 
 ## Editing/Customizing the Template
 
@@ -49,14 +49,14 @@ Then, you can see the **Donation Progress Item**, **Name**, **Email**, and **Cho
 Read these documentations for detailed usage:
 - [Donation Progress Item](../donation-and-product-fields/how-to-add-donation-progress-item-in-wordpress-with-paymattic.md)
 - [General Fields](../general-input-fields/how-to-use-general-form-input-fields-in-wordpress-with-paymattic.md)
-- [Select Payment Method](../general-input-fields/how-to-use-the-payment-method-fields-section.md#choose-payment-method)
+- [Select Payment Method](../general-input-fields/how-to-use-the-payment-method-fields-section#multiplechoose-payment-method)
 
 Remember, the process of adding and customizing every field is almost similar.
 :::
 
 If you want to add a new field/s, click the **Add More field** dropdown arrow and select the desired field you want to add.
 
-![Form editor with donation template fields](../public/images/form-editor/simple-form-templates/Editor-page-of-Donation-template-2-scaled.webp)
+![Form editor with donation template fields](/images/form-editor/simple-form-templates/Editor-page-of-Donation-template-2-scaled.webp)
 
 ## Embedding the Form into Frontend
 
@@ -65,13 +65,13 @@ To embed and display the form on a specific Page/Post, **copy** this **Shortcode
 Once you complete the edit, press the **Save** button to save all the changes you made.
 And, to see the **Preview** of the form, click the **Eye** icon.
 
-![Save, preview and shortcode buttons](../public/images/form-editor/simple-form-templates/Save-preview-shortocde-buttons-scaled.webp)
+![Save, preview and shortcode buttons](/images/form-editor/simple-form-templates/Save-preview-shortocde-buttons-scaled.webp)
 
 ## Preview of Donation Form Template
 
 Here is the **preview** of the **Donation Progress Item** field in a **Donation Form**.
 
-![Preview of donation form template](../public/images/form-editor/simple-form-templates/Preview-of-Donation-Form.webp)
+![Preview of donation form template](/images/form-editor/simple-form-templates/Preview-of-Donation-Form.webp)
 
 This way you can easily create a **Form** with **Templates** in Paymattic!
 

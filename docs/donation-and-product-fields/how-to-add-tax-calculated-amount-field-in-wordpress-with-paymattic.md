@@ -42,8 +42,8 @@ If you don't have a form yet:
 
 ::: warning Required Fields
 Your form must include these fields in order:
-1. [Name Field](/general-input-fields/how-to-use-general-form-input-fields-in-wordpress-with-paymattic#name-field)
-2. [Email Field](/general-input-fields/how-to-use-general-form-input-fields-in-wordpress-with-paymattic#email-field)
+1. [Name Field](/general-input-fields/how-to-use-general-form-input-fields-in-wordpress-with-paymattic#_1-name-field)
+2. [Email Field](/general-input-fields/how-to-use-general-form-input-fields-in-wordpress-with-paymattic#_2-email-field)
 3. [Payment Item Field](/donation-and-product-fields/how-to-add-payment-item-fields-in-wordpress-with-paymattic) (for the item being taxed)
 4. Tax Calculated Amount Field (added below)
 5. [Payment Method Field](/general-input-fields/how-to-use-the-payment-method-fields-section) (for processing payments)

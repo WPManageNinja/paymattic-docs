@@ -96,4 +96,4 @@ Here, you can see the preview of the notification messages of Slack through the 
 ![](/images/integrations/how-to-integrate-slack-in-wordpress-with-paymattic/Preview-of-Slack.webp)
 
 This way you can easily integrate Slack with Paymattic!
-If you have any further questions, concerns, or suggestions, please do not hesitate to contact our [@support team](https://wpmanageninja.com/support-tickets/?utm_source=wpmn&utm_medium=home&utm_campaign=site#/). Thank you.
+If you have any further questions, concerns, or suggestions, please do not hesitate to contact our [@support team](https://wpmanageninja.com/support-tickets/). Thank you.
