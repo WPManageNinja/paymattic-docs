@@ -27,9 +27,11 @@ Then, go to the Email tab from the top bar of the form Editor page, and ensure t
 - Go to **Entries** of the particular form and select an entry to check the submission activity log.
 - If the email is successfully triggered then you will see a message as **Email Notification broadcasted to**. This means the email is successfully triggered and Paymattic is working as it should.
 
-![Submission Activity Events](/add1-1.png)Submission Activity EventsIf the form was unable to trigger the email notification you will see an error message like the below screenshot -
+![Submission Activity Events](/images/faq/how-to-fix-not-sending-email-confirmations-issue-in-wordpress-with-paymattic/add1-1.png)
 
-![error message](/add2-1.png)
+If the form was unable to trigger the email notification you will see an error message like the below screenshot -
+
+![error message](/images/faq/how-to-fix-not-sending-email-confirmations-issue-in-wordpress-with-paymattic/add2-1.png)
 
 ## Test Email Functionality on your Server
 
@@ -38,17 +40,17 @@ If there is any issue with your server configuration it will show you the messag
 - After activating the plugin go to **Check &amp; Log Email** from your WordPress dashboard.
 - Enter an email address to where the test email will be sent.
 
-![Test email](/Test-email-1024x663.png)
+![Test email](/images/faq/how-to-fix-not-sending-email-confirmations-issue-in-wordpress-with-paymattic/Test-email-1024x663.png)
 
 Now, check the inbox whether you received the test mail. Do not forget to check the spam or junk folder. If you receive the test email that means WordPress is successfully sending emails from your web server. If WordPress fails to send an email then contact your hosting provider to fix the issue.
 
 ## SMTP for Emails
 
-We always recommend using SMTP for better email deliverability. An SMTP plugin can tell WordPress to use an external SMTP server like Amazon SES, MailGun, SendGrid, etc. for emailing. If you have dedicated hosting that includes email hosting, you can easily configure the hosting’s SMTP with an SMTP plugin.
+We always recommend using SMTP for better email deliverability. An SMTP plugin can tell WordPress to use an external SMTP server like Amazon SES, MailGun, SendGrid, etc. for emailing. If you have dedicated hosting that includes email hosting, you can easily configure the hosting's SMTP with an SMTP plugin.
 
 You can try out [Fluent SMTP](https://wordpress.org/plugins/fluent-smtp/), which is a free SMTP plugin you can use that does not require any license!
 
-Fluent SMTP handles email deliverability in real time. It is the perfect solution for WordPress email not sending issues. All of your emails will reach the user’s inbox while maintaining optimal performance. Fluent SMTP can deliver any chunk of emails using your SMTP server. Fluent SMTP will help you deliver emails even if they somehow get blocked, by resending the emails. To learn more about using FluentSMTP please take a look at the below video.
+Fluent SMTP handles email deliverability in real time. It is the perfect solution for WordPress email not sending issues. All of your emails will reach the user's inbox while maintaining optimal performance. Fluent SMTP can deliver any chunk of emails using your SMTP server. Fluent SMTP will help you deliver emails even if they somehow get blocked, by resending the emails. To learn more about using FluentSMTP please take a look at the below video.
 
 https://youtu.be/Je0OPk1NnjI 
 

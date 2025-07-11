@@ -14,7 +14,7 @@ First, go to the **Plugins**, open the **Add New Plugin** page from the **WordPr
 
 Now, click the **Install** button and the **Paymattic** plugin will be successfully **installed** on your WordPress site.
 
-![Adding Paymattic plugin free version](/Adding-Paymattic-plugin-directly-from-WordPress-scaled.webp)
+![Adding Paymattic plugin free version](/images/getting-started-with-paymattic/how-to-install-and-activate-paymattic-in-wordpress/Adding-Paymattic-plugin-directly-from-WordPress-scaled.webp)
 
 Finally, to activate the Paymattic plugin, click on the **Activate** button.
 
