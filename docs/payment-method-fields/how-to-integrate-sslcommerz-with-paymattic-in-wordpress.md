@@ -2,48 +2,104 @@
 title: "How to Integrate SSLCOMMERZ with Paymattic in WordPress?"
 category: "Payment Method Fields"
 ---
-SSLCOMMERZ is the largest Bangladesh-based payment gateway and aggregator that offers 30+ payment options including all types of debit cards, credit cards, prepaid cards, mobile banking, E-Wallets, and EMI. This article will guide you through configuring SSLCOMMERZ on your WordPress Site with the Paymattic plugin.
+# How to Integrate SSLCOMMERZ with Paymattic in WordPress
 
-Remember, to get access to the [SSLCOMMERZ](https://sslcommerz.com/) payment gateway, you need the [Paymattic Pro Plugin](/# 1-toc-title).
+SSLCOMMERZ is the largest Bangladesh-based payment gateway and aggregator that offers 30+ payment options including:
+- Debit cards
+- Credit cards
+- Prepaid cards
+- Mobile banking
+- E-Wallets
+- EMI
+
+This article will guide you through configuring SSLCOMMERZ on your WordPress Site with the Paymattic plugin.
+
+::: warning Prerequisites
+To get access to the [SSLCOMMERZ](https://sslcommerz.com/) payment gateway, you need the [Paymattic Pro Plugin](/getting-started-with-paymattic/how-to-install-and-activate-paymattic-in-wordpress).
+:::
 
 ## Configuring SSLCOMMERZ Payment Method 
 
-To learn how to configure the SSLCOMMERZ payment gateway through Paymattic, follow the steps with screenshots below –
+Follow these steps to configure the SSLCOMMERZ payment gateway through Paymattic:
 
-First, go to **Payment Gatewa**y from the **Paymattic Navbar**, click the **SSLCOMMERZ** tab from the left sidebar, and the **SSLCOMMERZ Settings** page will open.
+### Step 1: Access SSLCOMMERZ Settings
 
-Select any **Payment Mode** between **Test** (for test payments) and **Live** ( for real payments) as both options follow the same configuration process, e.g., I choose the **Test Mode**.
+1. Go to **Payment Gateway** from the **Paymattic Navbar**
+2. Click the **SSLCOMMERZ** tab from the left sidebar
+3. The **SSLCOMMERZ Settings** page will open
 
-Then, you need to obtain the **Store ID** and **Secret** **Key** from your **SSLCOMMERZ** **Account**.
+### Step 2: Choose Payment Mode
 
-![](/images/payment-method-fields/how-to-integrate-sslcommerz-with-paymattic-in-wordpress/Payment-Gateway-SSLCOMMERZ-scaled.webp)
+Select your **Payment Mode**:
+- **Test Mode** - for test payments
+- **Live Mode** - for real payments
 
-### Get the Store ID &amp; Secret Key from SSLCOMMERZ
+Both options follow the same configuration process. For this guide, we'll use **Test Mode**.
 
-To learn how to get the **Store ID** and **Secret key** from your [SSLCOMMERZ](https://sslcommerz.com/), follow the steps below –
+::: info Note
+You'll need to obtain the **Store ID** and **Secret Key** from your **SSLCOMMERZ Account** (covered in the next section).
+:::
 
-First, open a merchant account with SSLCOMMERZ by clicking [here](https://join.sslcommerz.com/).
-- *Remember**, you must add your **Email**, **Name**, and **Address** field on your **SSLCOMMERZ** **Signup Form** to get payment data correctly.
-- *But**, if you already have an existing account, **contact** the **SSLCOMMERZ manager manually** through the official channel to get your Store ID and Store Password/Secret Key.
+![SSLCOMMERZ Settings Page](/images/payment-method-fields/how-to-integrate-sslcommerz-with-paymattic-in-wordpress/Payment-Gateway-SSLCOMMERZ-scaled.webp)
 
-Once you open the account, you'll receive a welcome email with all your account details including **Store ID** and **Secret Key** similar to the screenshot below. Simply copy them.
+### Step 3: Get Store ID & Secret Key
 
-![](/images/payment-method-fields/how-to-integrate-sslcommerz-with-paymattic-in-wordpress/SSLCOMMERZ-account-Detail-Mail.webp)
+To get your SSLCOMMERZ credentials, follow these steps:
 
-Go back to **Payment Gatewa**y from the **Paymattic Navbar**, click the **SSLCOMMERZ** tab, and paste the copied **Store ID** and **Secret key** into the respective fields.
+#### For New Users
 
-Finally, press the **Save Settings** button and your SSLCOMMERZ account will be integrated with Paymattic for your WordPress Site.
+1. Open a merchant account with [SSLCOMMERZ](https://join.sslcommerz.com/)
 
-![](/images/payment-method-fields/how-to-integrate-sslcommerz-with-paymattic-in-wordpress/Paste-the-Store-ID-and-Secret-Key-scaled.webp)
+::: warning Important
+When signing up, you MUST provide:
+- Email address
+- Full name
+- Complete address
 
-## Add SSLCOMMERZ in Forms
+These fields are required for proper payment data processing.
+:::
 
-Once you finish setting up your **SSLCOMMERZ** payment gateway, you can easily add this payment method to any of your existing [Payment Form](/how-to-create-your-first-payment-form-in-a-minute-and-accept-payments-with-paymattic).
+2. After account creation, you'll receive a welcome email containing:
+   - Store ID
+   - Secret Key
 
-If you do not have any existing forms, read[ Create a Form from Scratch](/how-to-create-a-form-from-scratch-with-paymattic) or[ Create a Form using Templates](/simple-form-templates) documentation.
+![SSLCOMMERZ Welcome Email](/images/payment-method-fields/how-to-integrate-sslcommerz-with-paymattic-in-wordpress/SSLCOMMERZ-account-Detail-Mail.webp)
 
-To learn the detailed process of adding a payment method to an existing form, read this [Documentation](/how-to-use-the-payment-method-fields-section).
+#### For Existing Users
 
-But, remember, the added **SSLCOMMERZ** payment method in your **Form** will not function unless you complete the configuration process properly.
+::: tip
+If you already have an SSLCOMMERZ account, contact the SSLCOMMERZ manager through official channels to obtain your:
+- Store ID
+- Store Password/Secret Key
+:::
 
-If you have any further questions, concerns, or suggestions, please do not hesitate to contact our [@support team](https://wpmanageninja.com/support-tickets/?utm_source=wpmn&utm_medium=home&utm_campaign=site#/). Thank you.
+### Step 4: Configure in Paymattic
+
+1. Return to **Payment Gateway** from the **Paymattic Navbar**
+2. Click the **SSLCOMMERZ** tab
+3. Enter your credentials:
+   - Paste the **Store ID**
+   - Paste the **Secret Key**
+4. Click **Save Settings** to complete the integration
+
+![Configure SSLCOMMERZ Credentials](/images/payment-method-fields/how-to-integrate-sslcommerz-with-paymattic-in-wordpress/Paste-the-Store-ID-and-Secret-Key-scaled.webp)
+
+## Using SSLCOMMERZ in Forms
+
+Once you've completed the setup, you can add SSLCOMMERZ to your forms:
+
+1. For existing forms: Add it to any [Payment Form](/payment-method-fields/how-to-create-your-first-payment-form-in-a-minute-and-accept-payments-with-paymattic)
+
+2. For new forms:
+   - [Create a Form from Scratch](/form-editor/how-to-create-a-form-from-scratch-with-paymattic)
+   - [Use Form Templates](/form-editor/simple-form-templates)
+
+3. Learn more about [adding payment methods](/payment-method-fields/how-to-use-the-payment-method-fields-section)
+
+::: warning Note
+The SSLCOMMERZ payment method will not function unless you complete the configuration process properly.
+:::
+
+::: tip Need Help?
+If you have any questions, concerns, or suggestions, please contact our [@support team](https://wpmanageninja.com/support-tickets/). We're here to help!
+:::

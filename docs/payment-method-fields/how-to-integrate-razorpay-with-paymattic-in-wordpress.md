@@ -2,67 +2,129 @@
 title: "How to Integrate Razorpay with Paymattic in WordPress"
 category: "Payment Method Fields"
 ---
-RazorPay allows you to smoothly handle online payments in India, supporting various payment methods including credit cards, debit cards, net banking, UPI, and popular wallets like JioMoney, Mobikwik, Airtel Money, FreeCharge, Ola Money, and PayZapp. This article will guide you through configuring RazorPay on your WordPress Site with the Paymattic plugin.
+# How to Integrate Razorpay with Paymattic in WordPress
 
-Remember, to get access to the [RazorPay](https://razorpay.com/) payment gateway, you need the [Paymattic Pro Plugin](/# 1-toc-title).
+[Razorpay](https://razorpay.com/) allows you to smoothly handle online payments in India, supporting various payment methods including:
+- Credit cards
+- Debit cards
+- Net banking
+- UPI
+- Popular wallets:
+  - JioMoney
+  - Mobikwik
+  - Airtel Money
+  - FreeCharge
+  - Ola Money
+  - PayZapp
 
-## Configuring RazorPay Payment Method
+This article will guide you through configuring Razorpay on your WordPress Site with the Paymattic plugin.
 
-To learn how to configure the Razorpay payment gateway through Paymattic, follow the steps with screenshots below –
+::: warning Prerequisites
+To get access to the [Razorpay](https://razorpay.com/) payment gateway, you need the [Paymattic Pro Plugin](/getting-started-with-paymattic/how-to-install-and-activate-paymattic-in-wordpress).
+:::
 
-First, go to **Payment Gatewa**y from the **Paymattic Navbar**, click the **Razorpay** tab from the left sidebar, and the **Razorpay Settings** page will open.
+## Configuring Razorpay Payment Method
 
-![](/images/payment-method-fields/how-to-integrate-razorpay-with-paymattic-in-wordpress/Payment-gateway-Razorpay-Razorpay-Settings-scaled.webp)
+Follow these steps to configure the Razorpay payment gateway through Paymattic:
 
-Select any **Payment Mode** between **Test** (for test payments) and **Live** (for real payments) as both options follow the same configuration process, e.g., I choose **Test Mode**.
+### Step 1: Access Razorpay Settings
 
-Also, choose the **Checkout Style** as either **Modal Checkout** (allows you to collect Payments on your site) or **Hosted** **Checkout** (it will redirect users to the RazorPay Website for checkout).
+1. Go to **Payment Gateway** from the **Paymattic Navbar**
+2. Click the **Razorpay** tab from the left sidebar
+3. The **Razorpay Settings** page will open
 
-Then, you need to obtain the **Public key** and **Secret key** from your **RazorPay account**.
+![Razorpay Settings Page in Paymattic](/images/payment-method-fields/how-to-integrate-razorpay-with-paymattic-in-wordpress/Payment-gateway-Razorpay-Razorpay-Settings-scaled.webp)
 
-![](/images/payment-method-fields/how-to-integrate-razorpay-with-paymattic-in-wordpress/Payment-Mode-Checkout-Style-Public-key-Secret-key.webp)
+### Step 2: Configure Basic Settings
 
-### Get the Key ID and Key Secret from RazorPay
+1. Select your **Payment Mode**:
+   - **Test Mode** - for test payments
+   - **Live Mode** - for real payments
+   
+   Both options follow the same configuration process. For this guide, we'll use **Test Mode**.
 
-First, log in to your [RazorPay Account](http://dashboard.razorpay.com/signin). If you do not have an account, sign up from [here](https://easy.razorpay.com/onboarding/l1/signup?field=MobileNumber&cta_btn=Navbar_Header).
+2. Choose your **Checkout Style**:
+   - **Modal Checkout** - collect payments directly on your site
+   - **Hosted Checkout** - redirect users to the Razorpay website
 
-Once you log in to the **RazorPay Dashboard**, go to the **Accounts &amp; Settings** section from the **Left sidebar**, and click the **API keys** tab.
+3. You'll need to obtain two credentials from your Razorpay Account:
+   - Public Key
+   - Secret Key
 
-![](/images/payment-method-fields/how-to-integrate-razorpay-with-paymattic-in-wordpress/RazorPay-dashboard-Account-Settings-API-keys-scaled.webp)
+![Payment Mode and Checkout Style Settings](/images/payment-method-fields/how-to-integrate-razorpay-with-paymattic-in-wordpress/Payment-Mode-Checkout-Style-Public-key-Secret-key.webp)
 
-To get the Key ID and Key Secret, you need to generate new key.
+### Step 3: Get Razorpay Credentials
 
-Click the **Regenerate Test Key** button and new keys will be generated for the configuration.
+1. Log in to your [Razorpay Account](https://dashboard.razorpay.com/signin)
+   
+   ::: tip
+   If you don't have an account, [sign up here](https://easy.razorpay.com/onboarding/l1/signup).
+   :::
 
-![](/images/payment-method-fields/how-to-integrate-razorpay-with-paymattic-in-wordpress/Regenarate-Test-Key.webp)
+2. In the **Razorpay Dashboard**:
+   - Go to **Accounts & Settings** in the left sidebar
+   - Click the **API keys** tab
 
-Here, you will get your desired **Key ID** and **Key Secret**, copy them.
+![Razorpay Dashboard API Keys Section](/images/payment-method-fields/how-to-integrate-razorpay-with-paymattic-in-wordpress/RazorPay-dashboard-Account-Settings-API-keys-scaled.webp)
 
-![](/images/payment-method-fields/how-to-integrate-razorpay-with-paymattic-in-wordpress/Copy-the-public-key-secret-key.webp)
+::: info
+To get the Key ID and Key Secret, you need to generate new keys.
+:::
 
-Go back to **Payment Gatewa**y from the **Paymattic Navbar**, click the **Razorpay** tab, and paste the copied **Key Id** and into the **Key Secret** and **Secret key** fields respectively.
+3. Click the **Regenerate Test Key** button to generate new keys
 
-Finally, press the **Save Settings** button and your RazorPay account will be integrated with Paymattic for your WordPress Site.
+![Regenerate Test Keys in Razorpay](/images/payment-method-fields/how-to-integrate-razorpay-with-paymattic-in-wordpress/Regenarate-Test-Key.webp)
 
-![](/images/payment-method-fields/how-to-integrate-razorpay-with-paymattic-in-wordpress/Paste-the-Public-key-Secret-key-scaled.webp)
+4. Copy your credentials:
+   - **Key ID**
+   - **Key Secret**
 
-### RazorPay Notifications
+![Copy Razorpay API Keys](/images/payment-method-fields/how-to-integrate-razorpay-with-paymattic-in-wordpress/Copy-the-public-key-secret-key.webp)
 
-With this setting option, you can configure the SMS and Email notifications from your RazorPay to your WordPress Site to ensure you stay updated.
+### Step 4: Configure in Paymattic
 
-You can select both **SMS** and **Email** or any one of them by simply checking the boxes to receive notifications.
-- *Remember**, always press the **Save Settings** button to save the changes you made on your Razorpay Settings page.
+1. Return to **Payment Gateway** from the **Paymattic Navbar**
+2. Click the **Razorpay** tab
+3. Enter your credentials:
+   - Paste the **Key ID** into the **Public Key** field
+   - Paste the **Key Secret** into the **Secret Key** field
+4. Click **Save Settings** to complete the integration
 
-![](/images/payment-method-fields/how-to-integrate-razorpay-with-paymattic-in-wordpress/Razorpay-notifications.webp)
+![Configure Razorpay Credentials in Paymattic](/images/payment-method-fields/how-to-integrate-razorpay-with-paymattic-in-wordpress/Paste-the-Public-key-Secret-key-scaled.webp)
 
-## Add RazorPay in Forms
+## Configuring Notifications
 
-Once you finish setting up your **RazorPay** payment gateway, you can easily add this payment method to any of your existing [Payment Form](/how-to-create-your-first-payment-form-in-a-minute-and-accept-payments-with-paymattic).
+You can configure SMS and Email notifications from Razorpay to your WordPress site to stay updated on transactions.
 
-If you do not have any existing forms, read[ Create a Form from Scratch](/how-to-create-a-form-from-scratch-with-paymattic) or[ Create a Form using Templates](/simple-form-templates) documentation.
+### Notification Options
 
-To learn the detailed process of adding a payment method to an existing form, read this [Documentation](/how-to-use-the-payment-method-fields-section).
+1. Choose your notification methods:
+   - **SMS** - receive SMS notifications
+   - **Email** - receive email notifications
+   - You can select either or both options
 
-But, remember, the added **RazorPay** payment method in your **Form** will not function unless you complete the configuration process properly.
+::: warning Important
+Always click **Save Settings** after making changes to your Razorpay settings.
+:::
 
-If you have any further questions, concerns, or suggestions, please do not hesitate to contact our [@support team](https://wpmanageninja.com/support-tickets/?utm_source=wpmn&utm_medium=home&utm_campaign=site#/). Thank you.
+![Razorpay Notification Settings](/images/payment-method-fields/how-to-integrate-razorpay-with-paymattic-in-wordpress/Razorpay-notifications.webp)
+
+## Using Razorpay in Forms
+
+Once you've completed the setup, you can add Razorpay to your forms:
+
+1. For existing forms: Add it to any [Payment Form](/payment-method-fields/how-to-create-your-first-payment-form-in-a-minute-and-accept-payments-with-paymattic)
+
+2. For new forms:
+   - [Create a Form from Scratch](/form-editor/how-to-create-a-form-from-scratch-with-paymattic)
+   - [Use Form Templates](/form-editor/simple-form-templates)
+
+3. Learn more about [adding payment methods](/payment-method-fields/how-to-use-the-payment-method-fields-section)
+
+::: warning Note
+The Razorpay payment method will not function unless you complete the configuration process properly.
+:::
+
+::: tip Need Help?
+If you have any questions, concerns, or suggestions, please contact our [@support team](https://wpmanageninja.com/support-tickets/). We're here to help!
+:::

@@ -2,50 +2,88 @@
 title: "How to Integrate Mollie in WordPress with Paymattic?"
 category: "Payment Method Fields"
 ---
-Mollie is a fantastic payment gateway for your webshop. This article will guide you through configuring Mollie on your WordPress Site with the Paymattic plugin.
+# How to Integrate Mollie in WordPress with Paymattic
 
-Remember, to get access to the [Mollie](https://mollie.com/) payment gateway, you need the [Paymattic Pro Plugin](/# 1-toc-title).
+[Mollie](https://mollie.com/) is a powerful payment gateway that simplifies online payments for your webshop. This article will guide you through configuring Mollie on your WordPress Site with the Paymattic plugin.
+
+::: warning Prerequisites
+To get access to the [Mollie](https://mollie.com/) payment gateway, you need the [Paymattic Pro Plugin](/getting-started-with-paymattic/how-to-install-and-activate-paymattic-in-wordpress).
+:::
 
 ## Configuring Mollie Payment Method
 
-To learn how to configure the Mollie payment gateway through Paymattic, follow the steps with screenshots below –
+Follow these steps to configure the Mollie payment gateway through Paymattic:
 
-First, go to **Payment Gatewa**y from the **Paymattic Navbar**, click the **Mollie** tab from the left sidebar, and the **Mollie Settings** page will open.
+### Step 1: Access Mollie Settings
 
-Select any **Payment Mode** between **Test** (for test payments) and **Live** ( for real payments) as both options follow the same configuration process, e.g., I choose the **Test Mode**.
+1. Go to **Payment Gateway** from the **Paymattic Navbar**
+2. Click the **Mollie** tab from the left sidebar
+3. The **Mollie Settings** page will open
 
-Then, you need to obtain the **Publishable key** from your **Mollie Account**.
+### Step 2: Configure Basic Settings
 
-![](/images/payment-method-fields/how-to-integrate-mollie-in-wordpress-with-paymattic/Payment-gateways-Mollie-Mollie-Settings-page-scaled.webp)
+1. Select your **Payment Mode**:
+   - **Test Mode** - for test payments
+   - **Live Mode** - for real payments
+   
+   Both options follow the same configuration process. For this guide, we'll use **Test Mode**.
 
-### Get the API Key from Mollie
+2. You'll need to obtain the **Publishable Key** from your Mollie Account
 
-First, log in to your Mollie account from [here](https://my.mollie.com/dashboard/login). If you do not have account, sign up from [here](https://my.mollie.com/dashboard/signup).
+![Mollie Settings Page in Paymattic](/images/payment-method-fields/how-to-integrate-mollie-in-wordpress-with-paymattic/Payment-gateways-Mollie-Mollie-Settings-page-scaled.webp)
 
-Once you log in to the **Mollie Dashboard**, go to the **Developers** section from the **Navbar**, and the **API keys** tab will appear.
+### Step 3: Get Mollie API Key
 
-![](/images/payment-method-fields/how-to-integrate-mollie-in-wordpress-with-paymattic/Developers-tab-from-Mollie-Dashboard-scaled.webp)
+1. Log in to your [Mollie Account](https://my.mollie.com/dashboard/login)
+   
+   ::: tip
+   If you don't have an account, [sign up here](https://my.mollie.com/dashboard/signup).
+   :::
 
-Here, you will get your desired **API key** from the **Test API key** row, copy it.
+2. In the **Mollie Dashboard**:
+   - Go to **Developers** in the navbar
+   - The **API Keys** tab will appear
 
-Copy the **Live API Key** to activate **Live mode** if Live is chosen as the payment mode.
+![Mollie Developer Dashboard](/images/payment-method-fields/how-to-integrate-mollie-in-wordpress-with-paymattic/Developers-tab-from-Mollie-Dashboard-scaled.webp)
 
-![](/images/payment-method-fields/how-to-integrate-mollie-in-wordpress-with-paymattic/Copy-Test-API-Key.webp)
+3. Get your API Key:
+   - For Test Mode: Copy the **Test API Key**
+   - For Live Mode: Copy the **Live API Key**
 
-Go back to **Payment Gatewa**y from the **Paymattic Navbar**, click the **Mollie** tab, and paste the copied **API key** into the **Publishable** **key** fields.
+::: info Note
+Make sure to use the correct API key that matches your selected Payment Mode:
+- Test Mode → Test API Key
+- Live Mode → Live API Key
+:::
 
-Finally, press the **Save Settings** button and your Mollie account will be integrated with Paymattic for your WordPress Site.
+![Copy Mollie API Key](/images/payment-method-fields/how-to-integrate-mollie-in-wordpress-with-paymattic/Copy-Test-API-Key.webp)
 
-![](/images/payment-method-fields/how-to-integrate-mollie-in-wordpress-with-paymattic/Paste-API-Key-scaled.webp)
+### Step 4: Configure in Paymattic
 
-## Add Mollie in Forms
+1. Return to **Payment Gateway** from the **Paymattic Navbar**
+2. Click the **Mollie** tab
+3. Enter your credentials:
+   - Paste the API Key into the **Publishable Key** field
+4. Click **Save Settings** to complete the integration
 
-Once you finish setting up your **Mollie** payment gateway, you can easily add this payment method to any of your existing [Payment Form](/how-to-create-your-first-payment-form-in-a-minute-and-accept-payments-with-paymattic).
+![Configure Mollie Credentials in Paymattic](/images/payment-method-fields/how-to-integrate-mollie-in-wordpress-with-paymattic/Paste-API-Key-scaled.webp)
 
-If you do not have any existing forms, read[ Create a Form from Scratch](/how-to-create-a-form-from-scratch-with-paymattic) or[ Create a Form using Templates](/simple-form-templates) documentation.
+## Using Mollie in Forms
 
-To learn the detailed process of adding a payment method to an existing form, read this [Documentation](/how-to-use-the-payment-method-fields-section).
+Once you've completed the setup, you can add Mollie to your forms:
 
-But, remember, the added **Mollie** payment method in your **Form** will not function unless you complete the configuration process properly.
+1. For existing forms: Add it to any [Payment Form](/payment-method-fields/how-to-create-your-first-payment-form-in-a-minute-and-accept-payments-with-paymattic)
 
-If you have any further questions, concerns, or suggestions, please do not hesitate to contact our [@support team](https://wpmanageninja.com/support-tickets/?utm_source=wpmn&utm_medium=home&utm_campaign=site#/). Thank you.
+2. For new forms:
+   - [Create a Form from Scratch](/form-editor/how-to-create-a-form-from-scratch-with-paymattic)
+   - [Use Form Templates](/form-editor/simple-form-templates)
+
+3. Learn more about [adding payment methods](/payment-method-fields/how-to-use-the-payment-method-fields-section)
+
+::: warning Note
+The Mollie payment method will not function unless you complete the configuration process properly.
+:::
+
+::: tip Need Help?
+If you have any questions, concerns, or suggestions, please contact our [@support team](https://wpmanageninja.com/support-tickets/). We're here to help!
+:::

@@ -2,112 +2,173 @@
 title: "How to integrate Moneris Payment Gateway in Paymattic"
 category: "Payment Method Fields"
 ---
-In your Paymattic, you can use Moneris Payment Gateway to make your Payments. This article will guide you through configuring Moneris on your WordPress Site with the Paymattic plugin.
+# How to Integrate Moneris Payment Gateway in Paymattic
 
-Remember, to get access to the [Moneris](https://www.moneris.com/) payment gateway, you need the [Paymattic Pro Plugin](/# 1-toc-title).
+[Moneris](https://www.moneris.com/) is a leading payment gateway that allows you to process payments securely on your WordPress site. This article will guide you through configuring Moneris with the Paymattic plugin.
 
-## Enabling Moneris Payment Method
+::: warning Prerequisites
+To get access to the [Moneris](https://www.moneris.com/) payment gateway, you need the [Paymattic Pro Plugin](/getting-started-with-paymattic/how-to-install-and-activate-paymattic-in-wordpress).
+:::
 
-To learn how to enable the Moneris payment gateway through Paymattic, follow the steps with screenshots below –
+## Configuring Moneris Payment Method
 
-First, go to **Payment Gatewa**y from the **Paymattic Navbar**, click the **Moneris** tab from the left sidebar, and the **Moneris Settings** page will open.
+Follow these steps to configure the Moneris payment gateway through Paymattic:
 
-Click the **Install and Activate** **Moneris** button to connect Moneris with Paymattic Pro.
+### Step 1: Install and Activate Moneris
 
-This add-on needs to be installed the first time you integrate with Moneris.
+1. Go to **Payment Gateway** from the **Paymattic Navbar**
+2. Click the **Moneris** tab from the left sidebar
+3. The **Moneris Settings** page will open
+4. Click the **Install and Activate Moneris** button
 
-![](/images/payment-method-fields/how-to-integrate-moneris-payment-gateway-in-paymattic/Payment-gateway-Moneris-Install-Activate-Moneris-scaled.webp)
+::: info Note
+This add-on only needs to be installed the first time you integrate with Moneris.
+:::
 
-Select any **Payment Mode** between **Test** (for test payments) and **Live** ( for real payments) as both options follow the same configuration process, e.g., I choose the **Test Mode**.
+![Install and Activate Moneris in Paymattic](/images/payment-method-fields/how-to-integrate-moneris-payment-gateway-in-paymattic/Payment-gateway-Moneris-Install-Activate-Moneris-scaled.webp)
 
-Then, you need to obtain the **Store ID, API Token,** and **Checkout ID** from your **Moneris Account**.
+### Step 2: Configure Basic Settings
 
-![](/images/payment-method-fields/how-to-integrate-moneris-payment-gateway-in-paymattic/Moneris-Settings-page.webp)
+1. Select your **Payment Mode**:
+   - **Test Mode** - for test payments
+   - **Live Mode** - for real payments
+   
+   Both options follow the same configuration process. For this guide, we'll use **Test Mode**.
 
-### Get All the Credentials from the Moneris
+2. You'll need to obtain three credentials from your Moneris Account:
+   - Store ID
+   - API Token
+   - Checkout ID
 
-To get all credentials, first, log in to your [Moneris Account](https://www.moneris.com/en/login-portal-hub). If you do not have an account, sign up from [here](https://ordernow.moneris.com/landing/).
+![Moneris Settings Page in Paymattic](/images/payment-method-fields/how-to-integrate-moneris-payment-gateway-in-paymattic/Moneris-Settings-page.webp)
 
-Once you log in, go to your **Profile Details** from the right sidebar, and click on the **Full Profile** button in the Test Credential section.
+### Step 3: Get Moneris Credentials
 
-Remember, to get the credentials you need to complete your Profile Details.
+1. Log in to your [Moneris Account](https://www.moneris.com/en/login-portal-hub)
+   
+   ::: tip
+   If you don't have an account, [sign up here](https://ordernow.moneris.com/landing/).
+   :::
 
-#### **Get Moneris Store ID** &amp; API Token
+2. Access your profile:
+   - Go to **Profile Details** in the right sidebar
+   - Click **Full Profile** in the Test Credential section
 
-![](/images/payment-method-fields/how-to-integrate-moneris-payment-gateway-in-paymattic/Home-Moneris-Developers-scaled.webp)
+::: warning Important
+You must complete your Profile Details to get the credentials.
+:::
 
-Give all the necessary details here then click on the **Request Testing Credentials** button.
+#### Getting Store ID & API Token
 
-![](/images/payment-method-fields/how-to-integrate-moneris-payment-gateway-in-paymattic/Home-Moneris-Developers-Test-Credentials-scaled.webp)
+1. In your profile:
+   - Fill in all necessary details
+   - Click **Request Testing Credentials**
 
-Now you will get your **Store ID** and **API Token** here. **Copy** these credentials into the clipboard for later use.
+![Moneris Developer Portal](/images/payment-method-fields/how-to-integrate-moneris-payment-gateway-in-paymattic/Home-Moneris-Developers-scaled.webp)
 
-![](/images/payment-method-fields/how-to-integrate-moneris-payment-gateway-in-paymattic/My-Profile-Moneris-Developers-2-scaled.webp)
+2. Submit your details:
 
-#### **Get Moneris Checkout ID**
+![Request Test Credentials](/images/payment-method-fields/how-to-integrate-moneris-payment-gateway-in-paymattic/Home-Moneris-Developers-Test-Credentials-scaled.webp)
 
-To get the **Moneris** **Checkout ID, go to your Moneris Profile again,** in the **Test Credential** section, you will see your **Store** **ID** and **API** **Access** **Token**.
+3. Copy your credentials:
+   - Store ID
+   - API Token
 
-Now, right below the credentials, you will find the **Merchant Resource Center** button. Click on it.
+![Moneris Test Credentials](/images/payment-method-fields/how-to-integrate-moneris-payment-gateway-in-paymattic/My-Profile-Moneris-Developers-2-scaled.webp)
 
-![](/images/payment-method-fields/how-to-integrate-moneris-payment-gateway-in-paymattic/Moneris-Developer-Test-Credentials-4-scaled.webp)
+#### Getting Checkout ID
 
-Here give your **Username**, **Store ID**, and **Password** and click on the **Submit** button.
+1. Return to your Moneris Profile
+2. In the Test Credential section:
+   - Locate your Store ID and API Access Token
+   - Click the **Merchant Resource Center** button below
 
-To set your Moneris Account in Live Mode, you have to visit the **Merchant Resource Center** with this **[URL](https://www3.moneris.com/mpg/)**.
-Other steps will be the same as in Test Mode. You have to manage **Moneris Checkout Config**, **Moneris Checkout Page**, and **Recurring Payments** from this [URL](https://www3.moneris.com/mpg/).
+![Access Merchant Resource Center](/images/payment-method-fields/how-to-integrate-moneris-payment-gateway-in-paymattic/Moneris-Developer-Test-Credentials-4-scaled.webp)
 
-![](/images/payment-method-fields/how-to-integrate-moneris-payment-gateway-in-paymattic/Moneris-Gateway-Merchant-Resource-Center-2.webp)
+3. Log in to the Resource Center:
+   - Enter your Username
+   - Enter your Store ID
+   - Enter your Password
+   - Click Submit
 
-You need to add some security questions here. Add them and click on the **Save Reset Password Data** button now.
+::: tip Live Mode Access
+For Live Mode, use [this URL](https://www3.moneris.com/mpg/) to access the Merchant Resource Center. The configuration steps remain the same.
+:::
 
-![](/images/payment-method-fields/how-to-integrate-moneris-payment-gateway-in-paymattic/Moneris-Gateway-Merchant-Resource-Center-monca09834.webp)
+![Merchant Resource Center Login](/images/payment-method-fields/how-to-integrate-moneris-payment-gateway-in-paymattic/Moneris-Gateway-Merchant-Resource-Center-2.webp)
 
-Now you will get access to the **Moneris Resource Center**. Select the **Admin** from the Nav bar and select the **Moneris Checkout Config** option from the dropdown list.
+4. Set up security questions:
+   - Add your security questions
+   - Click **Save Reset Password Data**
 
-![](/images/payment-method-fields/how-to-integrate-moneris-payment-gateway-in-paymattic/Moneris-Gateway-Merchant-Resource-Center-configure.webp)
+![Set Security Questions](/images/payment-method-fields/how-to-integrate-moneris-payment-gateway-in-paymattic/Moneris-Gateway-Merchant-Resource-Center-monca09834.webp)
 
-Click on the **Create Profile** button.
+5. Configure Checkout:
+   - Click **Admin** in the navbar
+   - Select **Moneris Checkout Config**
 
-![](/images/payment-method-fields/how-to-integrate-moneris-payment-gateway-in-paymattic/Moneris-Gateway-Merchant-Resource-Center-view-profile.webp)
+![Access Checkout Configuration](/images/payment-method-fields/how-to-integrate-moneris-payment-gateway-in-paymattic/Moneris-Gateway-Merchant-Resource-Center-configure.webp)
 
-##### **Moneris Checkout Page Settings** 
+6. Create a new profile:
+   - Click **Create Profile**
 
-You should be concerned about some settings on the Moneris Checkout Page:
+![Create Checkout Profile](/images/payment-method-fields/how-to-integrate-moneris-payment-gateway-in-paymattic/Moneris-Gateway-Merchant-Resource-Center-view-profile.webp)
 
-1. In **Checkout Type** use Moneris Checkout Froms for Paymnets.
-2. We don’t recommend **Product Images** in the **Order Summary** (Cart Details).
-3. The **Email** field should be Mandatory in the **Customer’s Personal Details**.
-4. If you enable **AVS** (Address Verification System) in **Payment Security** then the billing address field in **Paymattic** will be mandatory.
+#### Checkout Page Settings
 
-You will see the **Checkout ID** here. Copy the **Checkout ID** for later use from here.
+::: info Important Settings
+Configure these key settings for optimal integration:
 
-![](/images/payment-method-fields/how-to-integrate-moneris-payment-gateway-in-paymattic/Moneris-Gateway-Merchant-Resource-Center-CheckID-scaled.webp)
+1. **Checkout Type**: Use Moneris Checkout Forms for Payments
+2. **Order Summary**: We recommend disabling Product Images
+3. **Customer's Personal Details**: Make Email field mandatory
+4. **Payment Security**: If you enable AVS (Address Verification System), the billing address field in Paymattic becomes mandatory
+:::
 
-## Configuring Moneris Settings
+7. Copy your Checkout ID:
+   - Find the Checkout ID in your profile
+   - Save it for the next step
 
-Return to **Payment Gatewa**y from the **Paymattic Navbar**, click the **Moneris** tab, and paste the **Store ID, API Token,** and **Checkout ID** you copied from the Moneris account into the respective fields.
+![Get Checkout ID](/images/payment-method-fields/how-to-integrate-moneris-payment-gateway-in-paymattic/Moneris-Gateway-Merchant-Resource-Center-CheckID-scaled.webp)
 
-Finally, press the **Save Settings** button and your Moneris account will be integrated with Paymattic for your WordPress Site.
+### Step 4: Configure in Paymattic
 
-![](/images/payment-method-fields/how-to-integrate-moneris-payment-gateway-in-paymattic/Paste-all-the-credentials-scaled.webp)
+1. Return to **Payment Gateway** from the **Paymattic Navbar**
+2. Click the **Moneris** tab
+3. Enter your credentials:
+   - Paste the Store ID
+   - Paste the API Token
+   - Paste the Checkout ID
+4. Click **Save Settings** to complete the integration
 
-## Add Moneris in Forms
+![Configure Moneris Credentials in Paymattic](/images/payment-method-fields/how-to-integrate-moneris-payment-gateway-in-paymattic/Paste-all-the-credentials-scaled.webp)
 
-Once you finish setting up your **Moneris** payment gateway, you can easily add this payment method to any of your existing [Payment Form](/how-to-create-your-first-payment-form-in-a-minute-and-accept-payments-with-paymattic).
+## Using Moneris in Forms
 
-If you do not have any existing forms, read[ Create a Form from Scratch](/how-to-create-a-form-from-scratch-with-paymattic) or[ Create a Form using Templates](/simple-form-templates) documentation.
+Once you've completed the setup, you can add Moneris to your forms:
 
-To learn the detailed process of adding a payment method to an existing form, read this [Documentation](/how-to-use-the-payment-method-fields-section).
+1. For existing forms: Add it to any [Payment Form](/payment-method-fields/how-to-create-your-first-payment-form-in-a-minute-and-accept-payments-with-paymattic)
 
-But, remember, the added **Moneris** payment method in your **Form** will not function unless you complete the configuration process properly.
+2. For new forms:
+   - [Create a Form from Scratch](/form-editor/how-to-create-a-form-from-scratch-with-paymattic)
+   - [Use Form Templates](/form-editor/simple-form-templates)
 
-## Managing **Recurring Payments in Moneris** 
+3. Learn more about [adding payment methods](/payment-method-fields/how-to-use-the-payment-method-fields-section)
 
-To manage **Recurring Payments** in **Moneris**, go to the **Recurring** and then select **Manage Recurring**.
+::: warning Note
+The Moneris payment method will not function unless you complete the configuration process properly.
+:::
 
-Now the **Manage Recurring Transaction** page will come and you can manage your Recurring Payments from here.
+## Managing Recurring Payments
 
-![](/images/payment-method-fields/how-to-integrate-moneris-payment-gateway-in-paymattic/Moneris-Gateway-Merchant-Resource-Center-manage-recurring-scaled.webp)
+To manage recurring payments in Moneris:
 
-If you have any further questions, concerns, or suggestions, please do not hesitate to contact our [@support team](https://wpmanageninja.com/support-tickets/?utm_source=wpmn&utm_medium=home&utm_campaign=site#/). Thank you.
+1. Go to **Recurring** in the navbar
+2. Select **Manage Recurring**
+3. Access the **Manage Recurring Transaction** page
+
+![Manage Recurring Payments](/images/payment-method-fields/how-to-integrate-moneris-payment-gateway-in-paymattic/Moneris-Gateway-Merchant-Resource-Center-manage-recurring-scaled.webp)
+
+::: tip Need Help?
+If you have any questions, concerns, or suggestions, please contact our [@support team](https://wpmanageninja.com/support-tickets/). We're here to help!
+:::

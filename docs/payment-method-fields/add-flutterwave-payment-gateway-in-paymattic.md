@@ -2,75 +2,111 @@
 title: "How to Add Flutterwave Payment Gateway in Paymattic?"
 category: "Payment Method Fields"
 ---
-Flutterwave unlocks boundless payment opportunities for enterprises, individuals, small businesses, emerging markets, and startups alike. This article will guide you through configuring Flutterwave on your WordPress Site with the Paymattic plugin.
+# How to Add Flutterwave Payment Gateway in Paymattic
 
-Remember, to get access to the [Flutterwave](https://flutterwave.com/us/) payment gateway, you need the [Paymattic Pro Plugin](/# 1-toc-title).
+[Flutterwave](https://flutterwave.com/us/) is a powerful payment gateway that unlocks boundless payment opportunities for enterprises, individuals, small businesses, emerging markets, and startups alike. This article will guide you through configuring Flutterwave on your WordPress Site with the Paymattic plugin.
+
+::: warning Prerequisites
+To get access to the [Flutterwave](https://flutterwave.com/us/) payment gateway, you need the [Paymattic Pro Plugin](/getting-started-with-paymattic/how-to-install-and-activate-paymattic-in-wordpress).
+:::
 
 ## Configuring Flutterwave Payment Method
 
-To learn how to configure the Flutterwave payment gateway through Paymattic, follow the steps with screenshots below –
+Follow these steps to configure the Flutterwave payment gateway through Paymattic:
 
-First, go to **Payment Gatewa**y from the **Paymattic Navbar**, click the **Flutterwave** tab from the left sidebar, and the **Flutterwave Settings** page will open.
+### Step 1: Install and Activate Flutterwave
 
-Click the **Install and Activate** **Flutterwave** button to connect Flutterwave with Paymattic.
+1. Go to **Payment Gateway** from the **Paymattic Navbar**
+2. Click the **Flutterwave** tab from the left sidebar
+3. The **Flutterwave Settings** page will open
+4. Click the **Install and Activate Flutterwave** button
 
-This add-on needs to be installed the first time you integrate with Flutterwave.
+::: info Note
+This add-on only needs to be installed the first time you integrate with Flutterwave.
+:::
 
-![](/images/payment-method-fields/add-flutterwave-payment-gateway-in-paymattic/Payment-gateway-Flutterwave-Install-activate-flutterwave-button--scaled.webp)
+![Install and Activate Flutterwave in Paymattic](/images/payment-method-fields/add-flutterwave-payment-gateway-in-paymattic/Payment-gateway-Flutterwave-Install-activate-flutterwave-button--scaled.webp)
 
-Select any **Payment Mode** between **Test** (for test payments) and **Live** ( for real payments) as both options follow the same configuration process, e.g., I choose the **Test Mode**.
+### Step 2: Configure Basic Settings
 
-Then, you need to obtain the **Public and Secret** **Key** from your **Flutterwave** **Account**.
+1. Select your **Payment Mode**:
+   - **Test Mode** - for test payments
+   - **Live Mode** - for real payments
+   
+   Both options follow the same configuration process. For this guide, we'll use **Test Mode**.
 
-![](/images/payment-method-fields/add-flutterwave-payment-gateway-in-paymattic/Payment-mode-Public-Secret-key.webp)
+2. You'll need to obtain two credentials from your Flutterwave Account:
+   - Public Key
+   - Secret Key
 
-#### Get the Public Key &amp; Secret Key from Flutterwave 
+![Flutterwave Settings Page in Paymattic](/images/payment-method-fields/add-flutterwave-payment-gateway-in-paymattic/Payment-mode-Public-Secret-key.webp)
 
-To learn how to get the **Public key** and **Secret key** from your [Flutterwave](https://flutterwave.com/us/), follow the steps with screenshots below –
+### Step 3: Get Flutterwave Credentials
 
-First, log in to your [Flutterwave Account](https://app.flutterwave.com/login?_gl=1*1d9f3hl*_gcl_au*MTAzMDQ5NzIwNy4xNzI2MTE0OTY3*_ga*NjcwNjc0MjYwLjE3MjYxMTQ5Njc.*_ga_KQ9NSEMFCF*MTcyNjExNDk2Ni4xLjEuMTcyNjExNDk3MC41Ni4wLjA.). If you do not have an account, sign up from [here](https://app.flutterwave.com/register).
+1. Log in to your [Flutterwave Account](https://app.flutterwave.com/login)
+   
+   ::: tip
+   If you don't have an account, [sign up here](https://app.flutterwave.com/register).
+   :::
 
-Once you log in to the **Flutterwave Dashboard**, click the **Settings** section on the left sidebar.
+2. Access API Keys:
+   - Go to **Settings** in the left sidebar
+   - Click **API keys** under the **Developers** tab
+   - Copy both the **Public Key** and **Secret Key**
 
-![](/images/payment-method-fields/add-flutterwave-payment-gateway-in-paymattic/Settings-section-of-Flutterwave-scaled.webp)
+![Flutterwave Settings Section](/images/payment-method-fields/add-flutterwave-payment-gateway-in-paymattic/Settings-section-of-Flutterwave-scaled.webp)
 
-Click the **API keys** under the **Developers** tab and copy the **Public key** and **Secret key** by clicking the **Copy** button.
+![Copy Flutterwave API Keys](/images/payment-method-fields/add-flutterwave-payment-gateway-in-paymattic/Copy-Public-key-Secret-key-.webp)
 
-![](/images/payment-method-fields/add-flutterwave-payment-gateway-in-paymattic/Copy-Public-key-Secret-key-.webp)
+### Step 4: Configure in Paymattic
 
-Now, return to **Payment Gatewa**y from the **Paymattic Navbar**, click the **Flutterwave** tab, and paste the copied **Public key** and **Secret key** into the respective fields.
+1. Return to **Payment Gateway** from the **Paymattic Navbar**
+2. Click the **Flutterwave** tab
+3. Enter your credentials:
+   - Paste the Public Key
+   - Paste the Secret Key
+4. Click **Save Settings** to complete the integration
 
-Finally, press the **Save Settings** button and your Flutterwave account will be integrated with Paymattic for your WordPress Site.
+![Configure Flutterwave Credentials in Paymattic](/images/payment-method-fields/add-flutterwave-payment-gateway-in-paymattic/Paste-public-key-and-secret-key--scaled.webp)
 
-![](/images/payment-method-fields/add-flutterwave-payment-gateway-in-paymattic/Paste-public-key-and-secret-key--scaled.webp)
+### Step 5: Configure Webhooks
 
-### Add Flutterwave Webhooks
+::: warning Important
+To ensure your Flutterwave dashboard and Paymattic dashboard stay in sync, you must configure webhooks.
+:::
 
-To learn how to configure the **Xendit Webhooks** to your WordPress Site, follow the steps with the screenshots below –
+1. Copy the Webhook URL from Paymattic:
+   - This URL is needed for configuring webhooks in Flutterwave
 
-To ensure your Flutterwave dashboard and Paymattic dashboard are in sync, you must configure the Xendit Webhooks.
+![Copy Webhook URL from Paymattic](/images/payment-method-fields/add-flutterwave-payment-gateway-in-paymattic/Copy-the-webhook-url.webp)
 
-First, copy the **Webhook URL** for smooth transactions based on **Flutterwave Data.
-You will need them later to configure Flutterwave Webhooks to your WordPress Site.
+2. Configure in Flutterwave Dashboard:
+   - Go to **Settings** in the left sidebar
+   - Click **Webhooks** under the **Developers** tab
+   - Enter the following:
+     - **URL**: Paste your copied Webhook URL
+     - **Secret hash**: Enter `wpf_flutterwave_listener`
+   - Select your preferred **Webhook Preferences**
+   - Click **Save**
 
-![](/images/payment-method-fields/add-flutterwave-payment-gateway-in-paymattic/Copy-the-webhook-url.webp)
+![Configure Webhooks in Flutterwave](/images/payment-method-fields/add-flutterwave-payment-gateway-in-paymattic/Paste-Wehook-URL.webp)
 
-Now, visit your [Flutterwave Dashboard](https://dashboard.flutterwave.com/), go to the **Settings** section from the left sidebar, and click the **Webhooks** under the **Developers** tab.
+## Using Flutterwave in Forms
 
-Paste your copied **Webhook URL** into the **URL** field, enter **wpf\_flutterwave\_listener** as the **Secret hash**, and click the **Save** button.
+Once you've completed the setup, you can add Flutterwave to your forms:
 
-Also, you can select your **Webhook Preferences** according to your needs by checking the boxes.
+1. For existing forms: Add it to any [Payment Form](/payment-method-fields/how-to-create-your-first-payment-form-in-a-minute-and-accept-payments-with-paymattic)
 
-![](/images/payment-method-fields/add-flutterwave-payment-gateway-in-paymattic/Paste-Wehook-URL.webp)
+2. For new forms:
+   - [Create a Form from Scratch](/form-editor/how-to-create-a-form-from-scratch-with-paymattic)
+   - [Use Form Templates](/form-editor/simple-form-templates)
 
-## Add Flutterwave in Forms
+3. Learn more about [adding payment methods](/payment-method-fields/how-to-use-the-payment-method-fields-section)
 
-Once you finish setting up your **Flutterwave** payment gateway, you can easily add this payment method to any of your existing [Payment Form](/how-to-create-your-first-payment-form-in-a-minute-and-accept-payments-with-paymattic).
+::: warning Note
+The Flutterwave payment method will not function unless you complete the configuration process properly.
+:::
 
-If you do not have any existing forms, read[ Create a Form from Scratch](/how-to-create-a-form-from-scratch-with-paymattic) or[ Create a Form using Templates](/simple-form-templates) documentation.
-
-To learn the detailed process of adding a payment method to an existing form, read this [Documentation](/how-to-use-the-payment-method-fields-section).
-
-But, remember, the added **Flutterwave** payment method in your **Form** will not function unless you complete the configuration process properly.
-
-If you have any further questions, concerns, or suggestions, please do not hesitate to contact our [@support team](https://wpmanageninja.com/support-tickets/?utm_source=wpmn&utm_medium=home&utm_campaign=site#/). Thank you.
+::: tip Need Help?
+If you have any questions, concerns, or suggestions, please contact our [@support team](https://wpmanageninja.com/support-tickets/). We're here to help!
+:::

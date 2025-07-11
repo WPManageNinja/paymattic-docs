@@ -4,100 +4,149 @@ category: "Donation and Product Fields"
 ---
 # How to Add Coupon Field in WordPress with Paymattic
 
-In [Paymattic](https://paymattic.com/), the **Coupons** feature allows you to add coupons and apply discounts to your payment form. This article will guide you through adding as many coupons as you need in your WordPress site for your Paymattic forms.
+[Paymattic](https://paymattic.com/) offers a powerful **Coupon** feature that allows you to create and manage discounts for your payment forms. This article will guide you through setting up coupons in your WordPress site with Paymattic.
 
-::: warning
-**The Coupon** field is a premium feature and you need the [**Paymattic Pro Plugin**](./how-to-install-and-activate-paymattic-in-wordpress.md#1-toc-title) to use this field.
+::: warning Prerequisites
+The **Coupon** field is a premium feature. You'll need the [Paymattic Pro Plugin](/getting-started-with-paymattic/how-to-install-and-activate-paymattic-in-wordpress) to use this functionality.
 :::
 
-## Creating Coupon
+## Creating Coupons
 
-To learn how to create/add a **Coupon** field in Paymattic, follow the steps with the screenshots below – 
+Follow these steps to create a new coupon in Paymattic:
 
-First, go to **Settings** from the **Paymattic Navbar**, click the **Coupons** tab from the left sidebar, and click the **+ Add New Coupon** button. 
+### Step 1: Access Coupon Settings
 
-![Add new coupon button](../public/images/donation-and-product-fields/how-to-add-coupon-field-in-wordpress-with-paymattic/Add-new-coupon-button-scaled.webp)
+1. Go to **Settings** from the **Paymattic Navbar**
+2. Click the **Coupons** tab from the left sidebar
+3. Click the **+ Add New Coupon** button
 
-Now, fill in all the necessary information, click the **Save Coupon** button, and the coupon will be created.
+![Add New Coupon Button in Paymattic](/images/donation-and-product-fields/how-to-add-coupon-field-in-wordpress-with-paymattic/Add-new-coupon-button-scaled.webp)
 
-![Add a new coupon page](../public/images/donation-and-product-fields/how-to-add-coupon-field-in-wordpress-with-paymattic/Ad-a-new-coupon-page.webp)
+### Step 2: Configure Coupon Settings
 
-**All the options mentioned above to set up your Coupon are briefly explained below –**
+Fill in the coupon details in the following sections:
 
-### Coupon Title & Code
+![Add New Coupon Page](/images/donation-and-product-fields/how-to-add-coupon-field-in-wordpress-with-paymattic/Ad-a-new-coupon-page.webp)
 
-- **Coupon Title**: Add a name for your coupon into this field. 
+#### Basic Information
 
-- **Coupon Code**: Put your coupon code in the Coupon Code box, such as paymattic20. You can add only alphabets or numbers as coupon codes. 
+1. **Coupon Title**:
+   - Enter a descriptive name for your coupon
+   - This helps you identify the coupon in your dashboard
 
-![Coupon Title & Coupon Code](../public/images/donation-and-product-fields/how-to-add-coupon-field-in-wordpress-with-paymattic/Coupon-Title-Coupon-Code-.webp)
+2. **Coupon Code**:
+   - Enter the code customers will use (e.g., "SAVE20")
+   - Only letters and numbers are allowed
 
-### Amount
+![Coupon Title and Code Settings](/images/donation-and-product-fields/how-to-add-coupon-field-in-wordpress-with-paymattic/Coupon-Title-Coupon-Code-.webp)
 
-- **Discount Type**: Here, you can select your discount type either based on Percent or a fixed amount.
+#### Discount Configuration
 
-- **Discount Amount/Percent**: Here, enter the amount/percent you want to give a Discount to your coupon users.
+1. **Discount Type**:
+   - Percentage: Discount as a percentage of the total
+   - Fixed Amount: Specific amount off the total
 
-- **Min Purchase Amount**: This specifies the minimum amount that must be purchased to receive any discount. Leave blank if there is no minimum amount requirement.
+2. **Discount Amount/Percent**:
+   - Enter the discount value
+   - Use whole numbers for percentages
 
-![Amount section](../public/images/donation-and-product-fields/how-to-add-coupon-field-in-wordpress-with-paymattic/Amount-section.webp)
+3. **Minimum Purchase Amount**:
+   - Set minimum spend requirement (optional)
+   - Leave blank for no minimum
 
-### Expiration
+![Discount Amount Settings](/images/donation-and-product-fields/how-to-add-coupon-field-in-wordpress-with-paymattic/Amount-section.webp)
 
-- **Limit per user (Email Based)**: Here, you can set the number of times a specific user can use this coupon. Leave this field empty or enter zero if no limits are needed.
+#### Usage Limits & Expiration
 
-- **Start Date**: Enter the start date for this coupon code in the format of yyyy-mm-dd from. Leave blank if there is no start date.
+1. **Limit per User**:
+   - Set usage limit per email address
+   - Leave blank or enter 0 for unlimited use
+   - Email-based tracking
 
-- **End Date**: Enter the end date for this coupon code in the format of yyyy-mm-dd as an expiry date i.e., after that, this coupon code will not work. Leave blank if there is no end date. 
+2. **Valid Date Range**:
+   - **Start Date**: When the coupon becomes active (optional)
+   - **End Date**: When the coupon expires (optional)
+   - Format: YYYY-MM-DD
 
-![Expiration section](../public/images/donation-and-product-fields/how-to-add-coupon-field-in-wordpress-with-paymattic/Expiration-section.webp)
+![Expiration Settings](/images/donation-and-product-fields/how-to-add-coupon-field-in-wordpress-with-paymattic/Expiration-section.webp)
 
-### Additional Information 
+#### Additional Settings
 
-- **Applicable Forms**: Here, you can select the Form where this coupon code will be applicable. Leave this blank if you want to apply this coupon code or all forms
+1. **Form Restrictions**:
+   - Select specific forms for the coupon
+   - Leave blank to allow on all forms
 
-- **Status**: Here you can set the Coupon status as Active or Inactive.
+2. **Status**:
+   - Active: Coupon is ready to use
+   - Inactive: Temporarily disable the coupon
 
-- **Stackable**: Check this **Yes** box if you want this coupon code to be used with other coupon codes.
+3. **Stackable**:
+   - Enable to allow combining with other coupons
+   - Disable for exclusive use
 
-![Additional information section](../public/images/donation-and-product-fields/how-to-add-coupon-field-in-wordpress-with-paymattic/Additional-information-section.webp)
+![Additional Coupon Settings](/images/donation-and-product-fields/how-to-add-coupon-field-in-wordpress-with-paymattic/Additional-information-section.webp)
 
-## Adding Coupon Field in Forms
+### Step 3: Save Your Coupon
 
-Once you have successfully created your coupon code field, it's time to integrate this coupon code with your payment form.
+Click the **Save Coupon** button to create your coupon.
 
-First, go to **All Forms** from the **Paymattic Navbar,** choose the form you wish to work on, and click the **Pencil/Editor** icon, e.g., I choose the Donation form to show the process.
+## Adding Coupon Field to Forms
 
-::: tip
-If you do not have any existing forms, read the [Create a Form from Scratch](./how-to-create-a-form-from-scratch-with-paymattic.md) or [Create a Form using Templates](./simple-form-templates.md) documentation.
+Follow these steps to add the coupon field to your payment forms:
+
+### Step 1: Access Form Editor
+
+1. Go to **All Forms** from the **Paymattic Navbar**
+2. Find your target form
+3. Click the **Pencil/Editor** icon
+
+::: tip Creating New Forms
+If you don't have a form yet:
+- [Create a Form from Scratch](/form-editor/how-to-create-a-form-from-scratch-with-paymattic)
+- [Use Form Templates](/form-editor/simple-form-templates)
 :::
 
-![Desired form's editor](../public/images/donation-and-product-fields/how-to-add-coupon-field-in-wordpress-with-paymattic/Desired-forms-editor-scaled.webp)
+![Form Editor Access](/images/donation-and-product-fields/how-to-add-coupon-field-in-wordpress-with-paymattic/Desired-forms-editor-scaled.webp)
 
-Click the **Plus Icon** to add a new field to your form.
+### Step 2: Add Coupon Field
 
-![Plus icon](../public/images/donation-and-product-fields/how-to-add-coupon-field-in-wordpress-with-paymattic/Plus-icon.webp)
+1. Click the **Plus Icon** to add a new field
 
-Now click the **Coupon** field under the **Donation & Product Fields** section.
+![Add Field Button](/images/donation-and-product-fields/how-to-add-coupon-field-in-wordpress-with-paymattic/Plus-icon.webp)
 
-::: warning
-Remember, the **Coupon** field is a **Pro feature**. So, to use this field in your form, you must have the [Paymattic Pro Plugin](./how-to-install-and-activate-paymattic-in-wordpress.md).
+2. Under **Donation & Product Fields**, select **Coupon**
+
+::: warning Pro Feature
+Remember that the Coupon field requires the [Paymattic Pro Plugin](/getting-started-with-paymattic/how-to-install-and-activate-paymattic-in-wordpress).
 :::
 
-![Coupon field under Donations & Product fields](../public/images/donation-and-product-fields/how-to-add-coupon-field-in-wordpress-with-paymattic/Coupon-field-under-Donations-Product-fields.webp)
+![Select Coupon Field](/images/donation-and-product-fields/how-to-add-coupon-field-in-wordpress-with-paymattic/Coupon-field-under-Donations-Product-fields.webp)
 
-You can see the previously created coupon field is added to the form.
+### Step 3: Save and Preview
 
-Finally, click the **Save** button to save all changes you made.
-To see the preview, click the **Eye Icon** placed right before the Save button.
+1. Click **Save** to apply your changes
+2. Use the **Eye Icon** to preview your form
 
-![Added Coupon field - Save button](../public/images/donation-and-product-fields/how-to-add-coupon-field-in-wordpress-with-paymattic/Added-Coupon-field-Save-button.webp)
+![Save and Preview Form](/images/donation-and-product-fields/how-to-add-coupon-field-in-wordpress-with-paymattic/Added-Coupon-field-Save-button.webp)
 
-## Preview of Coupon Field
+## Preview
 
-Here, is the preview of the added Coupon Code field under the Donation Form.
+Here's how the coupon field appears in your form:
 
-![Preview of Added Coupon Code field](../public/images/donation-and-product-fields/how-to-add-coupon-field-in-wordpress-with-paymattic/Preview-of-Added-Coupon-Code-field-.webp)
+![Coupon Field Preview](/images/donation-and-product-fields/how-to-add-coupon-field-in-wordpress-with-paymattic/Preview-of-Added-Coupon-Code-field-.webp)
 
-This way you can easily add a Coupon Code field for your payment form!
-If you have any further questions, concerns, or suggestions, please do not hesitate to contact our [@support team](https://wpmanageninja.com/support-tickets/). Thank you.
+::: tip Best Practices
+1. Use memorable but secure coupon codes
+2. Set clear expiration dates
+3. Test coupons before sharing
+4. Monitor usage patterns
+5. Consider seasonal or special event coupons
+:::
+
+::: warning Important
+Always test your coupons in a test environment before making them available to customers.
+:::
+
+::: tip Need Help?
+If you have any questions, concerns, or suggestions, please contact our [@support team](https://wpmanageninja.com/support-tickets/). We're here to help!
+:::

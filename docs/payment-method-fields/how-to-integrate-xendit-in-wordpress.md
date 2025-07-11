@@ -2,103 +2,162 @@
 title: "How to Integrate Xendit Payment Gateway in WordPress with Paymattic?"
 category: "Payment Method Fields"
 ---
-Xendit is a popular payment gateway based in Indonesia, Philippines, and South East Asia region. It supports various local and international payment methods such as VISA, Mastercard, American Express, JCB, local bank transfer, e-wallets, and many more. This article will guide you through configuring Xendit on your WordPress Site with the Paymattic plugin.
+# How to Integrate Xendit Payment Gateway in WordPress with Paymattic
 
-Remember, to get access to the [Xendit](https://www.xendit.co/en/) payment gateway, you need the [Paymattic Pro Plugin](/# 1-toc-title).
+Xendit is a popular payment gateway based in Indonesia, Philippines, and South East Asia region. It supports various local and international payment methods such as:
+- VISA
+- Mastercard
+- American Express
+- JCB
+- Local bank transfer
+- E-wallets
+- And many more
+
+This article will guide you through configuring Xendit on your WordPress Site with the Paymattic plugin.
+
+::: warning Prerequisites
+To get access to the [Xendit](https://www.xendit.co/en/) payment gateway, you need the [Paymattic Pro Plugin](/getting-started-with-paymattic/how-to-install-and-activate-paymattic-in-wordpress).
+:::
 
 ## Configuring the Xendit Payment Method
 
-To learn how to configure the Xendit payment gateway through Paymattic, follow the steps with screenshots below –
+Follow these steps to configure the Xendit payment gateway through Paymattic:
 
-First, go to **Payment Gatewa**y from the **Paymattic Navbar**, click the **Xendit** tab from the left sidebar, and the **Xendit Settings** page will open.
+### Step 1: Install and Activate
 
-Click the **Install and Activate** **Xendit** button to connect Xendit with Paymattic Pro.
+1. Go to **Payment Gateway** from the **Paymattic Navbar**
+2. Click the **Xendit** tab from the left sidebar to open the **Xendit Settings** page
+3. Click the **Install and Activate Xendit** button to connect Xendit with Paymattic Pro
 
+::: info Note
 This add-on needs to be installed the first time you integrate with Xendit.
+:::
 
-![](/images/payment-method-fields/how-to-integrate-xendit-in-wordpress/Payment-gateway-Xendit-tab-scaled.webp)
+![Install and Activate Xendit](/images/payment-method-fields/how-to-integrate-xendit-in-wordpress/Payment-gateway-Xendit-tab-scaled.webp)
 
-Select any **Payment Mode** between **Test** (for test payments) and **Live** ( for real payments) as both options follow the same configuration process, e.g., I choose the **Test Mode**.
+### Step 2: Choose Payment Mode
 
-Then, you need to obtain the **Test Secret** **Key** from your **Xendit Account**.
+1. Select your **Payment Mode**:
+   - **Test Mode** - for test payments
+   - **Live Mode** - for real payments
+   
+   Both options follow the same configuration process. For this guide, we'll use **Test Mode**.
 
-![](/images/payment-method-fields/how-to-integrate-xendit-in-wordpress/Payment-Mode-and-Secret-Key.webp)
+2. You'll need to obtain the **Test Secret Key** from your **Xendit Account** (we'll cover this in the next section).
 
-#### Get the Secret Key from Xendit
+![Payment Mode Selection](/images/payment-method-fields/how-to-integrate-xendit-in-wordpress/Payment-Mode-and-Secret-Key.webp)
 
-First, log in to your [Xendit Account](https://dashboard.xendit.co/settings/developers#callbacks). If you do not have an account, sign up from [here](https://dashboard.xendit.co/register).
+### Step 3: Get the Secret Key from Xendit
 
-Once you log in to the **Xendit Dashboard**, go to the **Settings** section from the left sidebar, and click the **API Keys** under the **Developers** tab.
+1. Log in to your [Xendit Account](https://dashboard.xendit.co/settings/developers#callbacks)
+   
+   ::: tip
+   If you don't have an account, [sign up here](https://dashboard.xendit.co/register).
+   :::
 
-![](/images/payment-method-fields/how-to-integrate-xendit-in-wordpress/Xendits-Settings-section-API-key-under-Developer-tab-scaled.webp)
+2. In the **Xendit Dashboard**:
+   - Go to **Settings** in the left sidebar
+   - Click **API Keys** under the **Developers** tab
 
-Click the **+ Generate secret key** button and a pop-up page will appear.
+![Xendit Settings - API Keys](/images/payment-method-fields/how-to-integrate-xendit-in-wordpress/Xendits-Settings-section-API-key-under-Developer-tab-scaled.webp)
 
-![](/images/payment-method-fields/how-to-integrate-xendit-in-wordpress/Generate-Secret-Key.webp)
+3. Click the **+ Generate secret key** button
 
-Here, give a **Name** for your API key and set some **Permissions** for your API. Set the permissions like below:
-- Money-in Products – Write
-- Money-out Products – Write
-- Balance – Read
-- Report – Write
-- Transaction – Read
-- xenPlatform (Account) – Write
-- xenPlatform (Account Holder) – Write
-- xenPlatform (Split Payments) – Write
-- xenShield (Transaction Assessments) – Write
+![Generate Secret Key](/images/payment-method-fields/how-to-integrate-xendit-in-wordpress/Generate-Secret-Key.webp)
 
-After setting all permissions, click the **Generate Key** button.
+4. Configure your API key:
+   - Give it a **Name**
+   - Set the following **Permissions**:
+     - Money-in Products – Write
+     - Money-out Products – Write
+     - Balance – Read
+     - Report – Write
+     - Transaction – Read
+     - xenPlatform (Account) – Write
+     - xenPlatform (Account Holder) – Write
+     - xenPlatform (Split Payments) – Write
+     - xenShield (Transaction Assessments) – Write
+   - Click the **Generate Key** button
 
-![](/images/payment-method-fields/how-to-integrate-xendit-in-wordpress/Generate-API-Key-popup-page.webp)
+![API Key Configuration](/images/payment-method-fields/how-to-integrate-xendit-in-wordpress/Generate-API-Key-popup-page.webp)
 
-Now another popup will appear confirming the successful generation of your API key.
-Click on the **Copy** button to copy your **Secret API Key** and save it for future use.
+5. When the success popup appears:
+   - Click the **Copy** button to copy your **Secret API Key**
+   - Save it for future use
 
-![](/images/payment-method-fields/how-to-integrate-xendit-in-wordpress/Copy-secret-key.webp)
+![Copy Secret Key](/images/payment-method-fields/how-to-integrate-xendit-in-wordpress/Copy-secret-key.webp)
 
-Return to **Payment Gatewa**y from the **Paymattic Navbar**, click the **Xendit** tab, and paste the copied **Secret key** into the respective field.
+### Step 4: Configure Xendit in Paymattic
 
-Finally, press the **Save Settings** button and your Xendit account will be integrated with Paymattic for your WordPress Site.
+1. Return to **Payment Gateway** from the **Paymattic Navbar**
+2. Click the **Xendit** tab
+3. Paste the copied **Secret Key** into the respective field
+4. Click **Save Settings** to complete the integration
 
-![](/images/payment-method-fields/how-to-integrate-xendit-in-wordpress/Paste-Secret-Key-.webp)
+![Configure Xendit Settings](/images/payment-method-fields/how-to-integrate-xendit-in-wordpress/Paste-Secret-Key-.webp)
 
-### Invoice Duration &amp; Customer Notification Preference
+## Additional Configuration
 
-Once you configure Xendit, you can set up the **Invoice Duration in** and **Customer Notification Preference** if needed.
-- **Invoice Duration:** Select the duration from the dropdown list according to your requirements or select **None** if you want to keep the configuration in the Xendit dashboard for invoice duration. By the way, this setting is optional.
-- **Customer Notification Preference**: Select the notification preference of your choice for the customer.
-- *Remember**, always press the **Save Settings** button to save the changes you made on your Xendit Settings page.
+### Invoice Duration & Customer Notification
 
-![](/images/payment-method-fields/how-to-integrate-xendit-in-wordpress/Invoice-duration-in-Customer-notification-preference.webp)
+After configuring Xendit, you can customize these optional settings:
 
-### Add Xendit Webhooks
+1. **Invoice Duration**:
+   - Select a duration from the dropdown list
+   - Choose **None** to use Xendit dashboard settings
+   
+2. **Customer Notification Preference**:
+   - Select your preferred notification settings for customers
 
-To learn how to configure the **Xendit Webhooks** to your WordPress Site, follow the steps with the screenshots below –
+::: warning Important
+Always click **Save Settings** after making any changes to your Xendit Settings.
+:::
 
-To ensure your Xendit dashboard and Paymattic dashboard are in sync, you must configure the Xendit Webhooks.
+![Invoice and Notification Settings](/images/payment-method-fields/how-to-integrate-xendit-in-wordpress/Invoice-duration-in-Customer-notification-preference.webp)
 
-First, copy the **Webhook URL** and paste it to the suggested **Webhook Event** of **Xendit** for smooth transactions based on **Xendit Data.**
+### Configure Webhooks
 
-![](/images/payment-method-fields/how-to-integrate-xendit-in-wordpress/Webhook-URL-Events.webp)
+::: warning Important
+To ensure your Xendit dashboard and Paymattic dashboard stay synchronized, you must configure Xendit Webhooks.
+:::
 
-Now, visit your [Xendit Dashboard](https://dashboard.xendit.co/settings/developers#callbacks), go to the **Settings** section from the left sidebar, and click the **Webhooks** under the **Developers** tab.
+#### Step 1: Get Webhook URL
 
-![](/images/payment-method-fields/how-to-integrate-xendit-in-wordpress/Webhooks-under-Developers-tab-of-Xendit-Setting-scaled.webp)
+1. Copy the **Webhook URL** from Paymattic's Xendit Settings
+2. This URL will be used for the **Webhook Event** in Xendit for transaction synchronization
 
-Now, scroll down to **Invoices** section and paste the **Webhook URL** you have copied from the **Xendit Settings** in **Paymattic**.
+![Webhook URL in Paymattic](/images/payment-method-fields/how-to-integrate-xendit-in-wordpress/Webhook-URL-Events.webp)
 
-Finally, check heck the **Notification Boxes** and click the **Test and Save button**. And, the Xendit Webhooks will be configured with your WordPress Site!
+#### Step 2: Configure in Xendit
 
-![](/images/payment-method-fields/how-to-integrate-xendit-in-wordpress/Paste-the-webhook-URL-in-Xendit.webp)
+1. Visit your [Xendit Dashboard](https://dashboard.xendit.co/settings/developers#callbacks)
+2. Go to **Settings** > **Developers** > **Webhooks**
 
-## Add Xendit in Forms
+![Xendit Webhook Settings](/images/payment-method-fields/how-to-integrate-xendit-in-wordpress/Webhooks-under-Developers-tab-of-Xendit-Setting-scaled.webp)
 
-Once you finish setting up your **Xendit** payment gateway, you can easily add this payment method to any of your existing [Payment Form](/how-to-create-your-first-payment-form-in-a-minute-and-accept-payments-with-paymattic).
+3. In the **Invoices** section:
+   - Paste the **Webhook URL** from Paymattic
+   - Check the **Notification Boxes**
+   - Click **Test and Save**
 
-If you do not have any existing forms, read[ Create a Form from Scratch](/how-to-create-a-form-from-scratch-with-paymattic) or[ Create a Form using Templates](/simple-form-templates) documentation.
+![Configure Webhook URL](/images/payment-method-fields/how-to-integrate-xendit-in-wordpress/Paste-the-webhook-URL-in-Xendit.webp)
 
-To learn the detailed process of adding a payment method to an existing form, read this [Documentation](/how-to-use-the-payment-method-fields-section).
+## Using Xendit in Forms
 
-But, remember, the added **Xendit** payment method in your **Form** will not function unless you complete the configuration process properly.
+Once you've completed the setup, you can add Xendit to your forms:
 
-If you have any further questions, concerns, or suggestions, please do not hesitate to contact our [@support team](https://wpmanageninja.com/support-tickets/?utm_source=wpmn&utm_medium=home&utm_campaign=site#/). Thank you.
+1. For existing forms: Add it to any [Payment Form](/payment-method-fields/how-to-create-your-first-payment-form-in-a-minute-and-accept-payments-with-paymattic)
+
+2. For new forms:
+   - [Create a Form from Scratch](/form-editor/how-to-create-a-form-from-scratch-with-paymattic)
+   - [Use Form Templates](/form-editor/simple-form-templates)
+
+3. Learn more about [adding payment methods](/payment-method-fields/how-to-use-the-payment-method-fields-section)
+
+::: warning Note
+The Xendit payment method will not function unless you complete the configuration process properly.
+:::
+
+::: tip Need Help?
+If you have any questions, concerns, or suggestions, please contact our [@support team](https://wpmanageninja.com/support-tickets/). We're here to help!
+:::

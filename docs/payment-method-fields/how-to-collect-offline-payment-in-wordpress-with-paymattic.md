@@ -2,28 +2,70 @@
 title: "How to Collect Offline Payment in WordPress with Paymattic"
 category: "Payment Method Fields"
 ---
-[Paymattic](https://paymattic.com/) also allows you the **Offline** feature to avoid the hassle of collecting payments online. This feature lets your customers exit the checkout page without paying online and can pay through direct bank transfer or cheque. Another edge of Offline payment is, that it is very user-friendly for those customers who do not want to provide card information online. This article will guide you through the process of how you can integrate the Offline payment option in your WordPress Site with Paymattic.
+# How to Collect Offline Payments in WordPress with Paymattic
+
+[Paymattic](https://paymattic.com/) offers a convenient **Offline Payment** feature that simplifies payment collection without requiring online transactions. This feature is particularly useful for:
+
+- Customers who prefer direct bank transfers or checks
+- Users who don't want to share card information online
+- Businesses that accept manual payment verification
+
+This article will guide you through setting up offline payments in your WordPress site with Paymattic.
+
+::: tip Benefits of Offline Payments
+1. Flexible payment options for customers
+2. No need for online payment processing
+3. Support for traditional payment methods
+4. Manual payment verification
+5. Ideal for bank transfers and checks
+:::
 
 ## Configuring Offline Payment Method
 
-To learn how to configure the Offline payment gateway through Paymattic, follow the steps with screenshots below –
+Follow these steps to configure the offline payment gateway through Paymattic:
 
-First, go to **Payment Gatewa**y from the **Paymattic Navbar**, click the **Offline** tab from the left sidebar, and the **Offline Settings** page will open.
+### Step 1: Access Offline Settings
 
-Select any **Payment Mode** between **Test** (for test payments) and **Live** (for real payments) as both options follow the same configuration process, e.g., I choose the **Test Mode**.
+1. Go to **Payment Gateway** from the **Paymattic Navbar**
+2. Click the **Offline** tab from the left sidebar
+3. The **Offline Settings** page will open
 
-Now, click the **Save Settings** button to save your preferred payment mode.
+### Step 2: Configure Payment Mode
 
-![](/images/payment-method-fields/how-to-collect-offline-payment-in-wordpress-with-paymattic/Offline-Settings-page-scaled.webp)
+1. Select your **Payment Mode**:
+   - **Test Mode** - for testing the setup
+   - **Live Mode** - for real transactions
+   
+   Both options follow the same configuration process. For this guide, we'll use **Test Mode**.
 
-## Add Offline in Forms
+2. Click **Save Settings** to apply your changes
 
-Once you finish setting up your **Offline** payment gateway, you can easily add this payment method to any of your existing [Payment Form](/how-to-create-your-first-payment-form-in-a-minute-and-accept-payments-with-paymattic).
+![Offline Payment Settings in Paymattic](/images/payment-method-fields/how-to-collect-offline-payment-in-wordpress-with-paymattic/Offline-Settings-page-scaled.webp)
 
-If you do not have any existing forms, read[ Create a Form from Scratch](/how-to-create-a-form-from-scratch-with-paymattic) or[ Create a Form using Templates](/simple-form-templates) documentation.
+## Using Offline Payments in Forms
 
-To learn the detailed process of adding a payment method to an existing form, read this [Documentation](/how-to-use-the-payment-method-fields-section).
+Once you've completed the setup, you can add offline payments to your forms:
 
-But, remember, the added **Offline** payment method in your **Form** will not function unless you complete the configuration process properly.
+1. For existing forms: Add it to any [Payment Form](/payment-method-fields/how-to-create-your-first-payment-form-in-a-minute-and-accept-payments-with-paymattic)
 
-If you have any further questions, concerns, or suggestions, please do not hesitate to contact our [@support team](https://wpmanageninja.com/support-tickets/?utm_source=wpmn&utm_medium=home&utm_campaign=site#/). Thank you.
+2. For new forms:
+   - [Create a Form from Scratch](/form-editor/how-to-create-a-form-from-scratch-with-paymattic)
+   - [Use Form Templates](/form-editor/simple-form-templates)
+
+3. Learn more about [adding payment methods](/payment-method-fields/how-to-use-the-payment-method-fields-section)
+
+::: warning Note
+The offline payment method will not function unless you complete the configuration process properly.
+:::
+
+::: info Payment Process
+When a customer chooses offline payment:
+1. They can submit the form without immediate payment
+2. You'll receive a notification of the pending payment
+3. You can manually verify the payment when received
+4. Mark the payment as complete in your dashboard
+:::
+
+::: tip Need Help?
+If you have any questions, concerns, or suggestions, please contact our [@support team](https://wpmanageninja.com/support-tickets/). We're here to help!
+:::

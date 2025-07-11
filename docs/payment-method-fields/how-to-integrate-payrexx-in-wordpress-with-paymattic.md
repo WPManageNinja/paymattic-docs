@@ -2,74 +2,133 @@
 title: "How to Integrate Payrexx in WordPress with Paymattic"
 category: "Payment Method Fields"
 ---
-Payrexx is a worldwide recognized fast and secure payment gateway that allows you to collect payments globally. You can accept payments via Visa, Mastercard, Paypal, Apple Pay, Samsung Pay, and a further 200+ available payment options through Payrexx. This article will guide you through configuring Payrexx on your WordPress Site with the Paymattic plugin.
+# How to Integrate Payrexx in WordPress with Paymattic
 
-Remember, to get access to the [Payrexx](https://www.payrexx.com/) payment gateway, you need the [Paymattic Pro Plugin](/# 1-toc-title).
+[Payrexx](https://www.payrexx.com/) is a globally recognized fast and secure payment gateway that allows you to collect payments worldwide. You can accept payments through:
+
+- Credit/Debit Cards:
+  - Visa
+  - Mastercard
+- Digital Wallets:
+  - PayPal
+  - Apple Pay
+  - Samsung Pay
+- Plus 200+ additional payment options
+
+This article will guide you through configuring Payrexx on your WordPress Site with the Paymattic plugin.
+
+::: warning Prerequisites
+To get access to the [Payrexx](https://www.payrexx.com/) payment gateway, you need the [Paymattic Pro Plugin](/getting-started-with-paymattic/how-to-install-and-activate-paymattic-in-wordpress).
+:::
 
 ## Configuring Payrexx Payment Method
 
-To learn how to configure the Payrexx payment gateway through Paymattic, follow the steps with screenshots below –
+Follow these steps to configure the Payrexx payment gateway through Paymattic:
 
-First, go to **Payment Gatewa**y from the **Paymattic Navbar**, click the **Payrexx** tab from the left sidebar, and the **Payrexx Settings** page will open.
+### Step 1: Access Payrexx Settings
 
-Select the **Checkout Style Type** as either **Modal checkout style** (allows you to collect Payments on your site) or **Hosted payrexx.com style** (it will redirect users to the Payraxx Website for checkout).
+1. Go to **Payment Gateway** from the **Paymattic Navbar**
+2. Click the **Payrexx** tab from the left sidebar
+3. The **Payrexx Settings** page will open
 
-Then, you need to obtain the **Instance Name** and **API Key** from your **Payrexx Account**.
+### Step 2: Configure Basic Settings
 
-![](/images/payment-method-fields/how-to-integrate-payrexx-in-wordpress-with-paymattic/Payment-gateway-Payrexx-Payrexx-Settings-scaled.webp)
+1. Choose your **Checkout Style Type**:
+   - **Modal Checkout Style** - collect payments directly on your site
+   - **Hosted Payrexx.com Style** - redirect users to the Payrexx website
 
-#### Get the API key &amp; Secret key from Payrexx
+2. You'll need to obtain two credentials from your Payrexx Account:
+   - Instance Name
+   - API Key
 
-First, log in to your [Payrexx Account](https://login.payrexx.com/en). If you do not have an account, sign up from [here](https://signup.payrexx.com/en).
+![Payrexx Settings Page in Paymattic](/images/payment-method-fields/how-to-integrate-payrexx-in-wordpress-with-paymattic/Payment-gateway-Payrexx-Payrexx-Settings-scaled.webp)
 
-Once you log in to the **Payrexx Dashboard**, go to the **API &amp; Plugins** section from the left sidebar, and click the **Add** **API Key** button**.**
+### Step 3: Get Payrexx Credentials
 
-![](/images/payment-method-fields/how-to-integrate-payrexx-in-wordpress-with-paymattic/API-Plugins-Add-API-Payrexx-dashboard-scaled.webp)
+1. Log in to your [Payrexx Account](https://login.payrexx.com/en)
+   
+   ::: tip
+   If you don't have an account, [sign up here](https://signup.payrexx.com/en).
+   :::
 
-Now**,** provide a **Name** for your integration into the **Integration Name** field and click the **Add** button.
+2. In the **Payrexx Dashboard**:
+   - Go to **API & Plugins** in the left sidebar
+   - Click the **Add API Key** button
 
-![](/images/payment-method-fields/how-to-integrate-payrexx-in-wordpress-with-paymattic/Integration-Name-and-Add-button.webp)
+![Payrexx API Settings](/images/payment-method-fields/how-to-integrate-payrexx-in-wordpress-with-paymattic/API-Plugins-Add-API-Payrexx-dashboard-scaled.webp)
 
-Here, you will get your **API Key**, simply copy it.
+3. Create a new API Key:
+   - Enter a **Name** in the **Integration Name** field
+   - Click **Add**
 
-![](/images/payment-method-fields/how-to-integrate-payrexx-in-wordpress-with-paymattic/Copy-Integration-API-key.webp)
+![Create New API Key](/images/payment-method-fields/how-to-integrate-payrexx-in-wordpress-with-paymattic/Integration-Name-and-Add-button.webp)
 
-Next, collect the **Instance Name** that Payrexx sent with the welcome email while opening the Payrexx account.
+4. Copy your new **API Key**
 
-Remember, if your payment page URL is **https://example.payrexx.com** then the **example** is your Instance Name.
+![Copy Payrexx API Key](/images/payment-method-fields/how-to-integrate-payrexx-in-wordpress-with-paymattic/Copy-Integration-API-key.webp)
 
-![](/images/payment-method-fields/how-to-integrate-payrexx-in-wordpress-with-paymattic/Instance-name.webp)
+5. Get your **Instance Name**:
+   - Check the welcome email from Payrexx
+   - Or use your payment page URL:
+   
+   ::: info Example
+   If your payment page URL is `https://example.payrexx.com`, then `example` is your Instance Name.
+   :::
 
-Go back to **Payment Gatewa**y from the **Paymattic Navbar**, click the **Payrexx** tab, and paste the copied **Instance Name** and **API Key** into the respective fields.
+![Instance Name Example](/images/payment-method-fields/how-to-integrate-payrexx-in-wordpress-with-paymattic/Instance-name.webp)
 
-Finally, press the **Save Settings** button and your Payrexx account will be integrated with Paymattic for your WordPress Site.
+### Step 4: Configure in Paymattic
 
-![](/images/payment-method-fields/how-to-integrate-payrexx-in-wordpress-with-paymattic/Paste-the-API-key-scaled.webp)
+1. Return to **Payment Gateway** from the **Paymattic Navbar**
+2. Click the **Payrexx** tab
+3. Enter your credentials:
+   - Paste the **Instance Name** into its field
+   - Paste the **API Key** into its field
+4. Click **Save Settings** to complete the integration
 
-### Payrexx IPN Settings
+![Configure Payrexx Credentials in Paymattic](/images/payment-method-fields/how-to-integrate-payrexx-in-wordpress-with-paymattic/Paste-the-API-key-scaled.webp)
 
-To learn how to configure the **Webhook URL** io your Payrexx follow the steps with the screenshots below –
+## Configuring Webhooks (IPN)
 
-To ensure your Payrexx function completely to get IPN (instant payment notifications), configure the Webhook URL given by Paymattic in your Payrexx account.
+::: warning Important
+To ensure your Payrexx integration functions properly and receives Instant Payment Notifications (IPN), you must configure the Webhook URL in your Payrexx account.
+:::
 
-Again, go to **Payment Gatewa**y from the **Paymattic Navbar**, click the **Payrexx** tab, and copy the **Webhook URL.**
+### Step 1: Get Webhook URL
 
-![](/images/payment-method-fields/how-to-integrate-payrexx-in-wordpress-with-paymattic/Copy-the-Webhook-URL-scaled.webp)
+1. In Paymattic:
+   - Go to **Payment Gateway**
+   - Click the **Payrexx** tab
+   - Copy the **Webhook URL**
 
-Now go back to the [Payrexx Dashboard](https://login.payrexx.com/en), paste the URL you copied from the Payrexx Settings page into the **Webhook URL** field, and use the **Webhook Type** as **Normal(PHP-Post)**.
+![Copy Webhook URL from Paymattic](/images/payment-method-fields/how-to-integrate-payrexx-in-wordpress-with-paymattic/Copy-the-Webhook-URL-scaled.webp)
 
-Finally, click the **Add** button, and the webhook will be configured in Payrexx to get the INP notification on your WordPress Site.
+### Step 2: Configure in Payrexx
 
-![](/images/payment-method-fields/how-to-integrate-payrexx-in-wordpress-with-paymattic/Paste-the-Webhook-URL-in-Payrexx.webp)
+1. Go to your [Payrexx Dashboard](https://login.payrexx.com/en)
+2. Configure the webhook:
+   - Paste the copied URL into the **Webhook URL** field
+   - Set **Webhook Type** to **Normal(PHP-Post)**
+3. Click **Add** to complete the webhook configuration
 
-## Add Payrexx in Forms
+![Configure Webhook in Payrexx](/images/payment-method-fields/how-to-integrate-payrexx-in-wordpress-with-paymattic/Paste-the-Webhook-URL-in-Payrexx.webp)
 
-Once you finish setting up your **Payrexx** payment gateway, you can easily add this payment method to any of your existing [Payment Form](/how-to-create-your-first-payment-form-in-a-minute-and-accept-payments-with-paymattic).
+## Using Payrexx in Forms
 
-If you do not have any existing forms, read[ Create a Form from Scratch](/how-to-create-a-form-from-scratch-with-paymattic) or[ Create a Form using Templates](/simple-form-templates) documentation.
+Once you've completed the setup, you can add Payrexx to your forms:
 
-To learn the detailed process of adding a payment method to an existing form, read this [Documentation](/how-to-use-the-payment-method-fields-section).
+1. For existing forms: Add it to any [Payment Form](/payment-method-fields/how-to-create-your-first-payment-form-in-a-minute-and-accept-payments-with-paymattic)
 
-But, remember, the added **Payrexx** payment method in your **Form** will not function unless you complete the configuration process properly.
+2. For new forms:
+   - [Create a Form from Scratch](/form-editor/how-to-create-a-form-from-scratch-with-paymattic)
+   - [Use Form Templates](/form-editor/simple-form-templates)
 
-If you have any further questions, concerns, or suggestions, please do not hesitate to contact our [@support team](https://wpmanageninja.com/support-tickets/?utm_source=wpmn&utm_medium=home&utm_campaign=site#/). Thank you.
+3. Learn more about [adding payment methods](/payment-method-fields/how-to-use-the-payment-method-fields-section)
+
+::: warning Note
+The Payrexx payment method will not function unless you complete the configuration process properly.
+:::
+
+::: tip Need Help?
+If you have any questions, concerns, or suggestions, please contact our [@support team](https://wpmanageninja.com/support-tickets/). We're here to help!
+:::

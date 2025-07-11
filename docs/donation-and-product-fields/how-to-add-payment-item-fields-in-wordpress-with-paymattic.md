@@ -2,153 +2,189 @@
 title: "How to Add Payment Item Fields in WordPress with Paymattic?"
 category: "Donation and Product Fields"
 ---
-# How to Add Payment Item Fields in WordPress with Paymattic?
+# How to Add Payment Item Fields in WordPress with Paymattic
 
-In [Paymattic](https://paymattic.com/), the **Payment Item** field allows you to showcase single or multiple Items (Products) options in your form, allowing users to select and buy their desired Item/s that exist in the form. This article will guide you on how to embed the Payment Item field to the WordPress Site through Paymattic.
+[Paymattic](https://paymattic.com/) provides a versatile **Payment Item** field that allows you to create product listings in your forms. Users can select and purchase items directly through your form. This guide will show you how to set up and customize payment item fields.
+
+::: tip Key Features
+1. Single or multiple product options
+2. Customizable pricing and images
+3. Multiple display templates
+4. Horizontal or vertical layouts
+5. Flexible payment selection options
+:::
+
+## Video Tutorial
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ZQUNKzdWB-8?list=PLXpD0vT4thWH80g5e9wYnoBMgEqUXbr53" title="Payment Item Field Tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Adding Payment Item Field
+## Adding a Payment Item Field
 
-To learn how to add the Payment Item to the Paymattic Form on your WordPress site, follow the steps with the screenshots below –  
+### Step 1: Access Form Editor
 
-First, go to the **All Forms** section from the **Pymattic Navbar,** choose a **Form,** and click the **Pencil/Edit** icon to open the **Editor** page of that form.
+1. Go to **All Forms** from the **Paymattic Navbar**
+2. Select your target form
+3. Click the **Pencil/Edit** icon to open the editor
 
-::: tip
-If you do not have any existing forms, read this [Create a Form from Scratch](./how-to-create-a-form-from-scratch-with-paymattic.md) or [Create a Form using Templates](./simple-form-templates.md) documentation to create one.
+::: tip Creating a New Form
+If you don't have a form yet:
+- [Create a Form from Scratch](/form-editor/how-to-create-a-form-from-scratch-with-paymattic)
+- [Use Form Templates](/form-editor/simple-form-templates)
 :::
 
-For example, I choose an existing form to show the whole process.
+![Access Form Editor](/images/donation-and-product-fields/how-to-add-payment-item-fields-in-wordpress-with-paymattic/1.-Open-desired-form-scaled.webp)
 
-![Open desired form](../public/images/donation-and-product-fields/how-to-add-payment-item-fields-in-wordpress-with-paymattic/1.-Open-desired-form-scaled.webp)
+### Step 2: Add the Field
 
-Once you open the **Editor** page, add the Payment Item field by typing the **"/"** or clicking the **Plus Icon** placed at the bottom.
+You can add the Payment Item field in two ways:
+1. Type **"/"** in the editor
+2. Click the **Plus Icon** at the bottom
 
-::: warning
-We always suggest you keep the [**Name**](./how-to-use-general-form-input-fields-in-wordpress-with-paymattic.md#5-toc-title) and [**Email**](./how-to-use-general-form-input-fields-in-wordpress-with-paymattic.md#6-toc-title) field at the beginning of any Form.
+::: warning Required Fields
+Always include these fields at the start of your form:
+1. [Name Field](/general-input-fields/how-to-use-general-form-input-fields-in-wordpress-with-paymattic#name-field)
+2. [Email Field](/general-input-fields/how-to-use-general-form-input-fields-in-wordpress-with-paymattic#email-field)
+3. [Payment Method](/general-input-fields/how-to-use-the-payment-method-fields-section) (for processing payments)
 :::
 
-![Type / or click + icon](../public/images/donation-and-product-fields/how-to-add-payment-item-fields-in-wordpress-with-paymattic/2.-Type-or-click-icon.webp)
+![Add Field Options](/images/donation-and-product-fields/how-to-add-payment-item-fields-in-wordpress-with-paymattic/2.-Type-or-click-icon.webp)
 
-For example, I choose the **Pluc Icon** option to select the **Payment Item** field under the **Donation & Product Fields** section from the **Choose Form Field** page.
+Select "Payment Item" under the "Donation & Product Fields" section:
 
-::: warning
-Also, don't forget to add a **Payment Method** field for collecting payments. To learn how to add a payment method field, [click here](./how-to-use-the-payment-method-fields-section.md).
-:::
+![Select Payment Item Field](/images/donation-and-product-fields/how-to-add-payment-item-fields-in-wordpress-with-paymattic/3.-Adding-the-Payment-Item-field.webp)
 
-![Adding the Payment Item field](../public/images/donation-and-product-fields/how-to-add-payment-item-fields-in-wordpress-with-paymattic/3.-Adding-the-Payment-Item-field.webp)
+## Configuring Payment Items
 
-## Editing/Customizing the Field
+To customize the field, click the **Settings Icon** in the right corner:
 
-You can see the **Payment Item** field is added to the form.
+![Access Settings](/images/donation-and-product-fields/how-to-add-payment-item-fields-in-wordpress-with-paymattic/4.-Settings-Icon.webp)
 
-::: tip
-You can edit their field name and settings. To learn more about form editing, read this [Documentation](./how-to-edit-forms-in-wordpress-with-paymattic.md).
-:::
+### General Settings
 
-Specifically, to edit the **Payment Item** field according to your needs, click the **Settings Icon** from the right-side corner. 
+![General Settings](/images/donation-and-product-fields/how-to-add-payment-item-fields-in-wordpress-with-paymattic/5.-General-Settings.webp)
 
-![Settings Icon](../public/images/donation-and-product-fields/how-to-add-payment-item-fields-in-wordpress-with-paymattic/4.-Settings-Icon.webp)
+#### Basic Configuration
 
-Now, a pop-up page will appear with various settings options for customizing the field. 
+1. **Required Field**:
+   - Make payment selection mandatory
+   - Ensures form completion
 
-### General Settings 
+2. **Image Options**:
+   - Enable product images
+   - Upload via Plus Icon
+   - Enhance visual appeal
 
-Under this tab, you will find all the General settings for customizing the field according to your needs.
+3. **Layout**:
+   - Horizontal: Products in a single row
+   - Vertical: Products stacked (default)
 
-![General Settings](../public/images/donation-and-product-fields/how-to-add-payment-item-fields-in-wordpress-with-paymattic/5.-General-Settings.webp)
+#### Payment Selection Types
 
-**All the Settings under the General tab mentioned above are briefly explained below –**
-
-#### A. Required
-
-Enable this option to make this field mandatory for users to fill in for a successful submission.
-
-#### B. Enable Image
-
-Enable this option if you want to show image/s in your form. You can simply add image/s by clicking the Plus Icon tab option under **Upload Image**.
-
-#### C. Horizontal Items
-
-Enable this option if you want to showcase your Product/s Horizontally in one line. Otherwise, your Products will be shown vertically one after one.
-
-#### D. Payment Selection Option
-
-Here, you will get **three different options** to add item/s and collect payments through the added item/s. These are:
-
-1. Single Item
-2. Choose one from Multiple Item
-3. Choose Multiple Items
+Choose from three payment collection methods:
 
 ##### 1. Single Item
 
-Select this payment option if you want to offer one Item/Product to your user for collecting payments.
+Best for single product sales or fixed-price services.
 
-- **One Time Payment Amount**: You can set the amount of one-time payment according to your needs. 
+**Options**:
+- Set one-time payment amount
+- Show/hide item title and price
+- Add product image (optional)
 
-- **Show Item Title and Price**: If you want to add an item title & price, you can enable this option.
+![Single Item Settings](/images/donation-and-product-fields/how-to-add-payment-item-fields-in-wordpress-with-paymattic/6.-General-Settings-of-Single-Item.webp)
 
-Once you are done, click the **Update** button to save all your settings and changes.
+##### 2. Choose One from Multiple Items
 
-![General Settings of Single Item](../public/images/donation-and-product-fields/how-to-add-payment-item-fields-in-wordpress-with-paymattic/6.-General-Settings-of-Single-Item.webp)
+Ideal for product catalogs where users select one option.
 
-##### 2. Choose One from Multiple Item
+**Features**:
+- Create product list with prices
+- Add product images
+- Drag-and-drop reordering
+- Display as radio buttons or dropdown
+- Multiple template options
 
-Select this payment option if you want to offer multiple items to your users for choosing one item when making a payment. 
-
-- **Pricing Details:** Here, you can create a list of items with fixed prices and add product images using the **Plus Icon**. You can also rearrange the product rows with the **Drag-and-drop** feature. To add more items, click the **+Add More** button and to delete any item, click the **Trash** icon.
-
-- **Display Type**: With this option, you can set whether you want to set the item selection type as a **Radio** button or **Select** (dropdown list).
-
-- **Paymattic Template**: With this option, you can choose the template for showcasing your product in your form.
-
-Once you are done, click the **Update** button to save all your settings and changes.
-
-![Choose One from Multiple Item](../public/images/donation-and-product-fields/how-to-add-payment-item-fields-in-wordpress-with-paymattic/7.-Choose-One-from-Multiple-Item.webp)
+![Multiple Choice Settings](/images/donation-and-product-fields/how-to-add-payment-item-fields-in-wordpress-with-paymattic/7.-Choose-One-from-Multiple-Item.webp)
 
 ##### 3. Choose Multiple Items
 
-Select this payment option if you want to offer multiple items to your users.
+Perfect for shopping cart functionality.
 
-- **Pricing Details:** Here, you can create a list of items with fixed prices and add product images using the **Plus Icon**. You can also rearrange the product rows with the **Drag-and-drop** feature. To add more items, click the **+Add More** button and to delete any item, click the **Trash** icon.
+**Features**:
+- Multiple product selection
+- Individual pricing
+- Product images
+- Drag-and-drop ordering
+- Template selection
 
-- **Paymattic Template**: With this option, you can choose the template for showcasing your product in your form.
-
-Once you are done, click the **Update** button to save all your settings and changes.
-
-![Choose Multiple Items](../public/images/donation-and-product-fields/how-to-add-payment-item-fields-in-wordpress-with-paymattic/8.-Choose-Multiple-Forms.webp)
+![Multiple Items Settings](/images/donation-and-product-fields/how-to-add-payment-item-fields-in-wordpress-with-paymattic/8.-Choose-Multiple-Forms.webp)
 
 ### Advanced Settings
 
-Once you complete the General settings, go to the **Advanced** tab, and you will find some advanced settings for your Payment Item field. These are:
+![Advanced Settings](/images/donation-and-product-fields/how-to-add-payment-item-fields-in-wordpress-with-paymattic/9.-Advanced-Settings.webp)
 
-- **Conditional Render**: You can set conditional logic to display the field in the form that will be triggered by specific actions taken on a previous input field. To learn more about conditional renderings, click [here](./how-to-use-conditional-logic-in-form-fields-with-paymattic.md).
+1. **Conditional Logic**:
+   - Show/hide based on other fields
+   - Create dynamic forms
+   - Learn about [Conditional Logic](/form-editor/how-to-use-conditional-logic-in-form-fields-with-paymattic)
 
-- **Admin Label**: This label is used for the admin wants to see the field's label from the back end.
+2. **Admin Settings**:
+   - Custom admin label
+   - Field ID for tracking
+   - Backend organization
 
-- **Field Wrapper CSS Class**: This is used for adding a Custom CSS/JS for an entire field of a specific form using the Field Wrapper CSS Class element. To learn more, click [here](./how-to-create-custom-css-js-in-wordpress-with-paymattic.md).
+3. **Styling**:
+   - CSS class customization
+   - Custom styling options
+   - Learn about [Custom CSS/JS](/form-settings/how-to-create-custom-css-js-in-wordpress-with-paymattic)
 
-- **Field ID**: This option is used for adding or tracking form fields. Plus, creating the custom CSS/JS for a specific form field.
+## Adding the Form to Your Site
 
-Once you finish, click the **Update** button to save all your configuration. 
+1. Save your configuration
+2. Copy the provided shortcode
+3. Paste into your desired page/post
+4. Preview using the Eye icon
 
-![Advanced Settings](../public/images/donation-and-product-fields/how-to-add-payment-item-fields-in-wordpress-with-paymattic/9.-Advanced-Settings.webp)
+![Form Management Options](/images/donation-and-product-fields/how-to-add-payment-item-fields-in-wordpress-with-paymattic/10.-Save-Preview-and-Shortcode.webp)
 
-## Embedding Form into Frontend
+## Preview
 
-Here, you can see the **Payment Item** field and other necessary fields are added to the form.
+Here's how your payment form will appear to customers:
 
-To embed and display the form on a specific Page/Post, **copy** this **Shortcode** and paste it into your desired Page/Post.
+![Payment Form Preview](/images/donation-and-product-fields/how-to-add-payment-item-fields-in-wordpress-with-paymattic/11.-Preview-of-Payment-Item-field.webp)
 
-Once you complete the edit, press the **Save** button to save all the changes you made. And, to see the **Preview** of the form, click the **Eye** icon.
+## Best Practices
 
-![Save, Preview and Shortcode](../public/images/donation-and-product-fields/how-to-add-payment-item-fields-in-wordpress-with-paymattic/10.-Save-Preview-and-Shortcode.webp)
+::: tip Product Display Tips
+1. **Images**:
+   - Use high-quality product photos
+   - Maintain consistent image sizes
+   - Optimize for web performance
 
-## Preview of Payment Item field
+2. **Pricing**:
+   - Display prices clearly
+   - Include currency symbols
+   - Consider bulk pricing options
 
-Here is the preview of the **Payment Item** fields in a Form.
+3. **Layout**:
+   - Choose layout based on product count
+   - Use horizontal for few items
+   - Use vertical for detailed descriptions
 
-![Preview of Payment Item field](../public/images/donation-and-product-fields/how-to-add-payment-item-fields-in-wordpress-with-paymattic/11.-Preview-of-Payment-Item-field.webp)
+4. **User Experience**:
+   - Group similar products
+   - Provide clear descriptions
+   - Include product variations if needed
+:::
 
-This way you can easily add the **Payment Item** field in Paymattic Forms!
-If you have any further questions, concerns, or suggestions, please do not hesitate to contact our [@support team](https://wpmanageninja.com/support-tickets/). Thank you.
+::: warning Important
+Always test your payment form thoroughly:
+1. Verify all payment options work
+2. Test on mobile devices
+3. Check email notifications
+4. Verify order processing
+:::
+
+::: tip Need Help?
+Our [@support team](https://wpmanageninja.com/support-tickets/) is ready to assist with any questions or concerns!
+:::

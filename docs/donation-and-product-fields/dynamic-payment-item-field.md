@@ -4,41 +4,41 @@ category: "Donation and Product Fields"
 ---
 # Dynamic Payment Item Field 
 
-In [Paymattic](https://paymattic.com/), the **Dynamic Payment Item,** an **in-built calculation feature** for **Number** and **Product** fields, allows users to perform real-time mathematical operations within any [Payment Form](./how-to-create-your-first-payment-form-in-a-minute-and-accept-payments-with-paymattic.md). 
+In [Paymattic](https://paymattic.com/), the **Dynamic Payment Item,** an **in-built calculation feature** for **Number** and **Product** fields, allows users to perform real-time mathematical operations within any [Payment Form](/form-editor/how-to-create-your-first-payment-form-in-a-minute-and-accept-payments-with-paymattic). 
 
 This article will guide you on how to embed the **Dynamic Payment Item** field to the **WordPress Site** through **Paymattic**.
 
 ::: warning
-Remember, **Dynamic Payment Item** is a premium feature and you need the [Paymattic Pro Plugin](./how-to-install-and-activate-paymattic-in-wordpress.md#1-toc-title) to use this field.
+Remember, **Dynamic Payment Item** is a premium feature and you need the [Paymattic Pro Plugin](/getting-started-with-paymattic/how-to-install-and-activate-paymattic-in-wordpress#installation) to use this field.
 :::
 
 ## Adding Dynamic Payment Item Field 
 
 To learn how to add the **Dynamic Payment Item** field to the **Paymattic Form** on your **WordPress Site**, follow the steps below –  
 
-First, go to the **All Forms** section from the **Pymattic Navbar,** choose a **Form,** and click the **Pencil/Edit** icon to open the **Editor** page of that form.
+First, go to the **All Forms** section from the **Paymattic Navbar,** choose a **Form,** and click the **Pencil/Edit** icon to open the **Editor** page of that form.
 
 ::: tip
-If you do not have any existing form, read the [Create a Form from Scratch](./how-to-create-a-form-from-scratch-with-paymattic.md) or [Create a Form using Templates](./simple-form-templates.md) documentation. For example, I choose an existing form to show the whole process. **For example**, I choose an existing form to show the whole process.
+If you do not have any existing form, read the [Create a Form from Scratch](/form-editor/how-to-create-a-form-from-scratch-with-paymattic) or [Create a Form using Templates](/form-editor/simple-form-templates) documentation. For example, I choose an existing form to show the whole process.
 :::
 
-![Open desired Payment form](../public/images/donation-and-product-fields/dynamic-payment-item-field/1.-Open-desired-Payment-form-scaled.webp)
+![Open desired Payment form](/images/donation-and-product-fields/dynamic-payment-item-field/1.-Open-desired-Payment-form-scaled.webp)
 
 Once you open the **Editor** page, add the necessary fields by typing the **"/"** or clicking the **Plus Icon** placed at the bottom.
 
 ::: warning
-**Remember**, to add a **Payment Gateway** you must add at least one [**Product Field**](./how-to-add-payment-item-fields-in-wordpress-with-paymattic.md) field.
+**Remember**, to add a **Payment Gateway** you must add at least one [**Product Field**](/donation-and-product-fields/how-to-add-payment-item-fields-in-wordpress-with-paymattic) field.
 :::
 
-![Plus Icon to add fields](../public/images/donation-and-product-fields/dynamic-payment-item-field/2.-Plus-Icon-to-add-fields-scaled.webp)
+![Plus Icon to add fields](/images/donation-and-product-fields/dynamic-payment-item-field/2.-Plus-Icon-to-add-fields-scaled.webp)
 
 For example, I choose the **Plus Icon** option to select the **Dynamic Payment Item** field under the **Donation & Product Fields** section from the **Choose Form Field** page.
 
 ::: tip
-Also, don't forget to add a product field (e.g., [Payment Item](./how-to-add-payment-item-fields-in-wordpress-with-paymattic.md), or [Subscription Payment](./how-to-add-susbcription-payment-item-fields-in-paymattic.md) field) to make the Dynamic Payment Item field functional, along with a [Payment Method Field](./how-to-use-the-payment-method-fields-section.md) to collect payments.
+Also, don't forget to add a product field (e.g., [Payment Item](/donation-and-product-fields/how-to-add-payment-item-fields-in-wordpress-with-paymattic), or [Subscription Payment](/donation-and-product-fields/how-to-add-susbcription-payment-item-fields-in-paymattic) field) to make the Dynamic Payment Item field functional, along with a [Payment Method Field](/general-input-fields/how-to-use-the-payment-method-fields-section) to collect payments.
 :::
 
-![select Dynamic Payment Item field](../public/images/donation-and-product-fields/dynamic-payment-item-field/3.-select-Dynamic-Payment-Item-field.webp)
+![select Dynamic Payment Item field](/images/donation-and-product-fields/dynamic-payment-item-field/3.-select-Dynamic-Payment-Item-field.webp)
 
 ### Add Calculation Expression
 
@@ -52,7 +52,7 @@ To add the **Calculation Expression** in the **Dynamic Payment Item** field acco
 You can also **Edit** the **Field Label** according to your needs using the **Pencil Icon** right next to the field name.
 :::
 
-![Settings option](../public/images/donation-and-product-fields/dynamic-payment-item-field/4.-Setings-option-scaled.webp)
+![Settings option](/images/donation-and-product-fields/dynamic-payment-item-field/4.-Setings-option-scaled.webp)
 
 Now, a pop-up page will appear with various settings options for customizing the field.
 
@@ -70,7 +70,7 @@ First, click the **Document Icon** on the right side to add the available input 
 
 Once you finish, click the **Update** button to save all your configuration.
 
-![General Settings](../public/images/donation-and-product-fields/dynamic-payment-item-field/5.-General-Settings-scaled.webp)
+![General Settings](/images/donation-and-product-fields/dynamic-payment-item-field/5.-General-Settings-scaled.webp)
 
 ### Advanced Settings 
 
@@ -78,24 +78,24 @@ Once you complete the General settings, go to the **Advanced** tab, and you will
 
 **A. Admin Label**: This label is used for the admin who wants to see the field's label from the back end. 
 
-**B. Field Wrapper CSS Class**: This is used for adding a Custom CSS/JS for an entire field of a specific form using the Field Wrapper CSS Class element. To learn more, click [here](./how-to-create-custom-css-js-in-wordpress-with-paymattic.md).
+**B. Field Wrapper CSS Class**: This is used for adding a Custom CSS/JS for an entire field of a specific form using the Field Wrapper CSS Class element. To learn more, click [here](/form-settings/how-to-create-custom-css-js-in-wordpress-with-paymattic).
 
-**C. Input Elements CSS Class**: This is used for adding a Custom CSS/JS for a specific input field of a form using the Input Elements CSS Class element. To learn more, click [here](./how-to-create-custom-css-js-in-wordpress-with-paymattic.md).
+**C. Input Elements CSS Class**: This is used for adding a Custom CSS/JS for a specific input field of a form using the Input Elements CSS Class element. To learn more, click [here](/form-settings/how-to-create-custom-css-js-in-wordpress-with-paymattic).
 
-**D. Conditional Render**: You can set conditional logic to display the field in the form that will be triggered by specific actions taken on a previous input field. To learn more about conditional renderings, click [here](./how-to-use-conditional-logic-in-form-fields-with-paymattic.md).
+**D. Conditional Render**: You can set conditional logic to display the field in the form that will be triggered by specific actions taken on a previous input field. To learn more about conditional renderings, click [here](/form-editor/how-to-use-conditional-logic-in-form-fields-with-paymattic).
 
 **E. Field ID**: This option is used to add or track form fields. Plus, creating the custom CSS/JS for a specific form field.
 
 Once you finish, click the **Update** button to save all your configuration.
 
-![Advanced Settings](../public/images/donation-and-product-fields/dynamic-payment-item-field/6.-Advanced-Settings-scaled.webp)
+![Advanced Settings](/images/donation-and-product-fields/dynamic-payment-item-field/6.-Advanced-Settings-scaled.webp)
 
 ## Embedding Form into Front-end
 
 Here, you can see the **Dynamic Payment Item** field and other necessary fields are added to the form.
 
 ::: tip
-You can edit their field name and settings. To learn more about form editing, read this [Documentation](./how-to-edit-forms-in-wordpress-with-paymattic.md#0-toc-title).
+You can edit their field name and settings. To learn more about form editing, read this [Documentation](/form-editor/how-to-edit-forms-in-wordpress-with-paymattic).
 :::
 
 Now, to embed and display the form on a specific Page/Post, **copy** this **Shortcode** and **paste** it into your desired **Page/Post**.
@@ -103,7 +103,7 @@ Now, to embed and display the form on a specific Page/Post, **copy** this **Shor
 Once you complete the edit, press the **Save** button to save all the changes you made.
 Also, to see the **Preview** of the form, click the **Eye** icon.
 
-![Save Form](../public/images/donation-and-product-fields/dynamic-payment-item-field/7.-Save-Form-scaled.webp)
+![Save Form](/images/donation-and-product-fields/dynamic-payment-item-field/7.-Save-Form-scaled.webp)
 
 ## Preview of the Dynamic Payment Item field
 
@@ -111,7 +111,7 @@ Here is the preview of the **Dynamic Payment Item** field in a Form.
 
 You can see that when the user selects the Perfume Blue Item, the Dynamic Payment Item field instantly adds $5 to the original price and displays the price including the delivery charge.
 
-![Form Preview](../public/images/donation-and-product-fields/dynamic-payment-item-field/8.-Form-Preview.webp)
+![Form Preview](/images/donation-and-product-fields/dynamic-payment-item-field/8.-Form-Preview.webp)
 
 ### Supported Mathematical Expression
 

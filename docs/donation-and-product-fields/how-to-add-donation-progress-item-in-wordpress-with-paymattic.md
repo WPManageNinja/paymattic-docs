@@ -2,117 +2,159 @@
 title: "Add Donation Progress Item in Paymattic"
 category: "Donation and Product Fields"
 ---
-# Add Donation Progress Item in Paymattic
+# How to Add a Donation Progress Item in WordPress with Paymattic
 
-In [Paymattic](https://paymattic.com/) the **Donation Progress Item** is an essential feature for creating a **Donation Form** to add a list of items with a fixed price with a progress bar. This article will guide you on how to add the Donation Progress Item to the WordPress Site through Paymattic.
+[Paymattic](https://paymattic.com/) offers a powerful **Donation Progress Item** feature that helps you create engaging donation forms with progress tracking. This feature allows you to add donation items with fixed prices and display a progress bar to track fundraising goals.
+
+::: tip Key Features
+1. Progress bar to track donation goals
+2. Customizable donation amounts
+3. Optional recurring donations
+4. Custom amount support
+5. Initial raised amount display
+:::
+
+::: warning Feature Availability
+The Donation Progress Item is available in both free and pro versions:
+- **Free Features**: Basic progress bar and fixed amounts
+- **Pro Features**: 
+  - Recurring donations
+  - Custom amount option
+  
+Upgrade to [Paymattic Pro](/getting-started-with-paymattic/how-to-install-and-activate-paymattic-in-wordpress) to access all features.
+:::
+
+## Video Tutorial
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/10PaObzyW6k?list=PLXpD0vT4thWH80g5e9wYnoBMgEqUXbr53" title="Donation Progress Item Tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-::: warning
-**Donation Progress Item** is a free feature except for the **Recurring Amount** and **Custom Amount** option and to use these two options in your field, you need [**Paymattic Pro Plugin**](./how-to-install-and-activate-paymattic-in-wordpress.md#1-toc-title).
+## Adding the Donation Progress Item
+
+### Step 1: Access Form Editor
+
+1. Go to **All Forms** from the **Paymattic Navbar**
+2. Select your target form
+3. Click the **Pencil/Edit** icon to open the editor
+
+::: tip Creating a New Form
+If you don't have a form yet:
+- [Create a Form from Scratch](/form-editor/how-to-create-a-form-from-scratch-with-paymattic)
+- [Use Form Templates](/form-editor/simple-form-templates)
 :::
 
-## Adding Donation Progress Item Field
+![Access Form Editor](/images/donation-and-product-fields/how-to-add-donation-progress-item-in-wordpress-with-paymattic/Open-desired-form-7-scaled.webp)
 
-To learn how to add the Donation Progress Item to the Paymattic Donation Form on your WordPress site, follow the steps with the screenshots below –  
+### Step 2: Add the Field
 
-First, go to the **All Forms** section from the **Pymattic Navbar,** choose a **Form,** and click the **Pencil/Edit** icon to open the **Editor** page of that form.
+You can add the Donation Progress Item field in two ways:
+1. Type **"/"** in the editor
+2. Click the **Plus Icon** at the bottom
 
-::: tip
-If you do not have any existing forms, read this [Create a Form from Scratch](./how-to-create-a-form-from-scratch-with-paymattic.md) or [Create a Form using Templates](./simple-form-templates.md) documentation to create one.
+::: warning Important
+Always include [Name](/general-input-fields/how-to-use-general-form-input-fields-in-wordpress-with-paymattic#name-field) and [Email](/general-input-fields/how-to-use-general-form-input-fields-in-wordpress-with-paymattic#email-field) fields at the beginning of your donation forms.
 :::
 
-For example, I choose an existing form to show the whole process.
+![Add Field Options](/images/donation-and-product-fields/how-to-add-donation-progress-item-in-wordpress-with-paymattic/Type-or-click-icon.webp)
 
-![Open desired form](../public/images/donation-and-product-fields/how-to-add-donation-progress-item-in-wordpress-with-paymattic/Open-desired-form-7-scaled.webp)
+Select "Donation Progress Item" from the field options:
 
-Once you open the **Editor** page, add the Donation Progress Item fields by typing the **"/"** or clicking the **Plus Icon** placed at the bottom.
+![Select Donation Progress Item](/images/donation-and-product-fields/how-to-add-donation-progress-item-in-wordpress-with-paymattic/choose-Donation-Progress-Item-field-by-typing-.webp)
 
-::: warning
-**Remember**, we always suggest you keep the [Name](./how-to-use-general-form-input-fields-in-wordpress-with-paymattic.md#5-toc-title) and [Email](./how-to-use-general-form-input-fields-in-wordpress-with-paymattic.md#6-toc-title) field at the beginning of any Form.
-:::
+## Configuring the Donation Progress Item
 
-![Type / or click + icon](../public/images/donation-and-product-fields/how-to-add-donation-progress-item-in-wordpress-with-paymattic/Type-or-click-icon.webp)
+To customize the field, click the **Settings Icon** in the right corner:
 
-For example, I choose the **Type "/" to insert fields** option to select the **Donation Progress Item** field.
+![Access Field Settings](/images/donation-and-product-fields/how-to-add-donation-progress-item-in-wordpress-with-paymattic/Settings-icon-of-Donation-Progress-Item-field.webp)
 
-![choose Donation Progress Item field by typing :](../public/images/donation-and-product-fields/how-to-add-donation-progress-item-in-wordpress-with-paymattic/choose-Donation-Progress-Item-field-by-typing-.webp)
+### General Settings
 
-## Editing/Customizing the Field
+![General Settings](/images/donation-and-product-fields/how-to-add-donation-progress-item-in-wordpress-with-paymattic/General-Settings-of-Donation-Progress-Item.webp)
 
-You can see the **Donation Progress Item** and other necessary fields are added to the form.
+1. **Basic Configuration**:
+   - **Required Field**: Make the donation mandatory
+   - **Enable Image**: Add images to donation options
+   - **Statistics**: Configure goal amount and progress bar
 
-::: tip
-You can edit their field name and settings. To learn more about form editing, read this [Documentation](./how-to-edit-forms-in-wordpress-with-paymattic.md).
-:::
+2. **Amount Settings**:
+   - **Initial Raising Amount**: Set minimum donation value
+   - **Predefined Amounts**: Create fixed donation options
+   - **Custom Amount**: Allow flexible donation amounts (Pro)
+   - **Default Amount**: Set the pre-selected option
 
-Specifically, to edit the **Donation Progress Item** field according to your needs, click the **Settings Icon** from the right-side corner. 
-
-![Settings icon of Donation Progress Item field](../public/images/donation-and-product-fields/how-to-add-donation-progress-item-in-wordpress-with-paymattic/Settings-icon-of-Donation-Progress-Item-field.webp)
-
-Now, a pop-up page will appear with various settings options for customizing the field. 
-
-### General Settings 
-
-All the Settings under the General Tab mentioned in the below screenshot are briefly explained:
-
-A. **Required**: Enable this option to make this field mandatory to fill in for users for a successful submission.
-
-B. **Enable Image**: Enable this option if you want to show image/s in your form. You can simply add image/s by clicking the Plus Icon tab option under **Upload Image**.
-
-C. **Statistics**: Enable this option to set the Donation **Goal amount** and **Show** **a progress bar** to track the donation progress. But, if you don't want to display the progress bar in your form, simply uncheck the **Progress Bar** box.
-
-D. **Initial Raising Amount**: Here, you can set the minimum amount for donations your donors can send.
-
-E. **Predefined donation amounts**: Here, you can set a list of donation items with a fixed price. 
-
-F. **Allow custom amount**: Check this option, if you want your users to pay whatever amount they wish. This is a Pro feature.
-
-G. **Default donation amount**: Here, you set one item from your predefined item list as a default donation item for your donors.
-
-H. **Collect Recurring Donations**: Check the **Allow Recurring Amount** option, if you want to collect subscription payments repeatedly. Here you can set the **Maximum billing time**, and recurring duration as **daily**, **weekly, fortnightly, monthly, quarterly, half-yearly, or yearly** billing intervals and **how you want to display these options**. This is a Pro feature.
-
-Once you set up all the settings, click the **Update** button to save all the customizations.
-
-![General Settings of Donation Progress Item](../public/images/donation-and-product-fields/how-to-add-donation-progress-item-in-wordpress-with-paymattic/General-Settings-of-Donation-Progress-Item.webp)
+3. **Recurring Donations** (Pro):
+   - Enable subscription payments
+   - Set billing intervals (daily/weekly/monthly/etc.)
+   - Configure maximum billing cycles
+   - Customize display options
 
 ### Advanced Settings
 
-Once you complete the General settings, go to the **Advanced** tab, and you will find some advanced settings for your Donation Progress Item field. These are:
+![Advanced Settings](/images/donation-and-product-fields/how-to-add-donation-progress-item-in-wordpress-with-paymattic/Advanced-page.webp)
 
-- **Admin Label**: This label is used for the admin wants to see the field's label from the back end.
+1. **Admin Options**:
+   - **Admin Label**: Custom label for backend
+   - **Field ID**: Unique identifier for tracking
 
-- **Field Wrapper CSS Class**: This is used for adding a Custom CSS/JS for an entire field of a specific form using the Field Wrapper CSS Class element. To learn more, click [here](./how-to-create-custom-css-js-in-wordpress-with-paymattic.md).
+2. **Styling**:
+   - **CSS Class**: Add custom styling
+   - Learn more about [Custom CSS/JS](/form-settings/how-to-create-custom-css-js-in-wordpress-with-paymattic)
 
-- **Conditional Render**: You can set conditional logic to display the field in the form that will be triggered by specific actions taken on a previous input field. To learn more about conditional renderings, click [here](./how-to-use-conditional-logic-in-form-fields-with-paymattic.md).
+3. **Conditional Logic**:
+   - Set display rules based on other fields
+   - Learn about [Conditional Logic](/form-editor/how-to-use-conditional-logic-in-form-fields-with-paymattic)
 
-- **Field ID**: This option is used for adding or tracking form fields. Plus, creating the custom CSS/JS for a specific form field.
+## Adding Payment Methods
 
-Once you finish, click the **Update** button to save all your configuration. 
-
-![Advanced page](../public/images/donation-and-product-fields/how-to-add-donation-progress-item-in-wordpress-with-paymattic/Advanced-page.webp)
-
-### Embed Form into Front-end
-
-Now, you can see the **Donation Progress Item** field along with a **Progress Bar** is added to your form.
-You can change the form's Title and Description by clicking on it.
-
-::: warning
-But, don't forget to add a **Payment Method** field to collect the donation payments. To learn how to add a payment method field, click [here](./how-to-use-the-payment-method-fields-section.md).
+::: warning Required Step
+Don't forget to add a [Payment Method](/general-input-fields/how-to-use-the-payment-method-fields-section) field to process donations.
 :::
 
-Also, to embed and display the form on a specific Page/Post, **copy** this **Shortcode** and paste it into your desired Page/Post.
+## Embedding the Form
 
-Once you complete the edit, press the **Save** button to save all the changes you made.
-And, to see the **Preview** of the form, click the **Eye** icon.
+1. Save your form configuration
+2. Copy the provided shortcode
+3. Paste the shortcode in your desired page/post
+4. Preview using the **Eye** icon
 
-![Added Donation progress item field in form editor](../public/images/donation-and-product-fields/how-to-add-donation-progress-item-in-wordpress-with-paymattic/Added-Donation-progress-item-field-in-form-editor-scaled.webp)
+![Form Editor View](/images/donation-and-product-fields/how-to-add-donation-progress-item-in-wordpress-with-paymattic/Added-Donation-progress-item-field-in-form-editor-scaled.webp)
 
-## Preview of Donation Progress Item Field
+## Preview
 
-Here is the **preview** of the **Donation Progress Item** field in a **Donation Form**.
+Here's how your donation form will appear to donors:
 
-![Preview of Donation Progress Item feature](../public/images/donation-and-product-fields/how-to-add-donation-progress-item-in-wordpress-with-paymattic/Preview-of-Donation-Progress-Item-feature.webp)
+![Donation Form Preview](/images/donation-and-product-fields/how-to-add-donation-progress-item-in-wordpress-with-paymattic/Preview-of-Donation-Progress-Item-feature.webp)
 
-This way you can easily add the **Donation Proggress Item** field in Paymattic Forms!
-If you have any further questions, concerns, or suggestions, please do not hesitate to contact our [@support team](https://wpmanageninja.com/support-tickets/). Thank you.
+## Best Practices
+
+::: tip Optimization Tips
+1. **Goal Setting**:
+   - Set realistic fundraising goals
+   - Update goals based on performance
+
+2. **Amount Options**:
+   - Offer a range of donation amounts
+   - Include suggested amounts
+   - Consider your audience when setting defaults
+
+3. **Progress Display**:
+   - Keep progress bar visible
+   - Update in real-time if possible
+   - Consider showing donor count
+
+4. **Images and Content**:
+   - Use high-quality, relevant images
+   - Write clear, compelling descriptions
+   - Highlight the impact of donations
+:::
+
+::: warning Testing
+Always test your donation form thoroughly:
+1. Verify all payment methods work
+2. Check progress bar updates
+3. Test on mobile devices
+4. Confirm email notifications
+:::
+
+::: tip Need Help?
+Our [@support team](https://wpmanageninja.com/support-tickets/) is ready to assist with any questions or concerns!
+:::

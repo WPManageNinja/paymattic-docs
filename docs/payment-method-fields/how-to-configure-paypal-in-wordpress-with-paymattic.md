@@ -2,68 +2,108 @@
 title: "How to Configure PayPal in WordPress with Paymattic?"
 category: "Payment Method Fields"
 ---
-You can configure the PayPal payment method with Paymattic to securely receive payments from your users. This article will guide you through configuring PayPal on your WordPress Site with the [Paymattic](https://paymattic.com/) plugin.
+# How to Configure PayPal in WordPress with Paymattic
 
-Remember, to get access to the [PayPal](https://paypal.com/) payment gateway, you need the [Paymattic Pro Plugin](/# 1-toc-title).
+[PayPal](https://paypal.com/) is a trusted global payment gateway that allows you to securely receive payments from your users. This article will guide you through configuring PayPal on your WordPress Site with the [Paymattic](https://paymattic.com/) plugin.
+
+::: warning Prerequisites
+To get access to the [PayPal](https://paypal.com/) payment gateway, you need the [Paymattic Pro Plugin](/getting-started-with-paymattic/how-to-install-and-activate-paymattic-in-wordpress).
+:::
 
 ## Configuring PayPal Payment Method
 
-To learn how to configure the PayPal payment gateway through Paymattic, follow the steps with screenshots below –
+Follow these steps to configure the PayPal payment gateway through Paymattic:
 
-First, go to **Payment Gatewa**y from the **Paymattic Navbar**, click the **PayPal** tab from the left sidebar, and the **PayPal Settings** page will open.
+### Step 1: Access PayPal Settings
 
-![](/images/payment-method-fields/how-to-configure-paypal-in-wordpress-with-paymattic/Paypal-tab-under-Payment-Gateway-scaled.webp)
+1. Go to **Payment Gateway** from the **Paymattic Navbar**
+2. Click the **PayPal** tab from the left sidebar
+3. The **PayPal Settings** page will open
 
-Select any **Payment Mode** between **Sandbox** (for test payments) and **Live (**for real payments) as both options follow the same configuration process, e.g., I choose the **Sandbox Mode**.
+![PayPal Settings Tab in Paymattic](/images/payment-method-fields/how-to-configure-paypal-in-wordpress-with-paymattic/Paypal-tab-under-Payment-Gateway-scaled.webp)
 
-Then, enter the email you signed up with on the [PayPal Account](https://www.paypal.com/signin) into the **PayPal Emai**l field.
+### Step 2: Basic Configuration
 
-Finally, press the **Save Settings** button and your PayPal account will be integrated with Paymattic for your WordPress Site.
+1. Select your **Payment Mode**:
+   - **Sandbox Mode** - for test payments
+   - **Live Mode** - for real payments
+   
+   Both options follow the same configuration process. For this guide, we'll use **Sandbox Mode**.
 
-![](/images/payment-method-fields/how-to-configure-paypal-in-wordpress-with-paymattic/Payment-Mode-Paypal-Email.webp)
+2. Enter your PayPal Email:
+   - Use the email you signed up with on your [PayPal Account](https://www.paypal.com/signin)
 
-### Disable IPN Verification &amp; Checkout Logo
+3. Click **Save Settings** to complete the basic integration
 
-Once you configure PayPal, you can set up the **IPN** (Instant Payment Notification) **Verification** and **Checkout Logo** if needed.
-- **Disable IPN Verification**: Check this box if **Payment Data Transfer** is not accessible for you and payments are not being marked as complete. This option allows the site to use a slightly less secure method of verifying purchases.
-- **Checkout Logo**: With this option, you can set a logo from your device to display during checkout. Also, you can remove the logo by simply clicking the **Cross** **Icon**.
+![PayPal Basic Settings](/images/payment-method-fields/how-to-configure-paypal-in-wordpress-with-paymattic/Payment-Mode-Paypal-Email.webp)
 
-Remember, always press the Save Settings button to save the changes you made on your PayPal Settings page.
+### Step 3: Advanced Settings
 
-![](/images/payment-method-fields/how-to-configure-paypal-in-wordpress-with-paymattic/Disable-IPN-Verification-Checkout-Logo.webp)
+#### IPN Verification & Checkout Logo
 
-### Confirmation Page Settings
+::: info IPN and Logo Settings
+1. **Disable IPN Verification**:
+   - Check this box if **Payment Data Transfer** is not accessible
+   - Useful when payments aren't being marked as complete
+   - Uses a slightly less secure verification method
+   
+2. **Checkout Logo**:
+   - Upload a custom logo for the checkout page
+   - Remove logo using the **Cross Icon**
+:::
 
-With this setting, you can select the page where the **Payment Confirmation** and **Payment Failed** notifications will appear after any successful or failed payments.
+::: tip Remember
+Always click **Save Settings** after making changes to your PayPal configuration.
+:::
 
-![](/images/payment-method-fields/how-to-configure-paypal-in-wordpress-with-paymattic/Confirmation-Page-Settings.webp)
+![PayPal Advanced Settings](/images/payment-method-fields/how-to-configure-paypal-in-wordpress-with-paymattic/Disable-IPN-Verification-Checkout-Logo.webp)
 
-### PayPal for Recurring Payments
+#### Confirmation Page Settings
 
-With this setting, you can enable notifications for recurring payments that happen in PayPal.
+Configure where users will be redirected after payment:
+- **Payment Confirmation** - for successful payments
+- **Payment Failed** - for failed payments
 
-To set the notification, copy the provided **URL** and set it in PayPal to collect the information about recurring payments. To learn how to set the URL in PayPal, read this [Documentation](/how-to-set-paypal-ipn-in-wordpress-with-paymattic).
+![PayPal Confirmation Settings](/images/payment-method-fields/how-to-configure-paypal-in-wordpress-with-paymattic/Confirmation-Page-Settings.webp)
 
-If you do not set up the IPN (Instant Payment Notification) notification then it will still work for single payments but recurring payments will not be marked as paid for PayPal subscription payments.
+#### Recurring Payments Configuration
 
-Once you are done, click the **Save Settings** button to save all the changes that you made.
+::: warning Important
+For recurring payments to work properly:
 
-![](/images/payment-method-fields/how-to-configure-paypal-in-wordpress-with-paymattic/PayPal-for-Recurring-Payments.webp)
+1. Enable notifications for recurring PayPal payments
+2. Copy the provided **IPN URL**
+3. Configure the URL in PayPal - [Learn how to set up PayPal IPN](/payment-method-fields/how-to-set-paypal-ipn-in-wordpress-with-paymattic)
 
-## Add PayPal in Forms
+Without IPN setup:
+- Single payments will work normally
+- Recurring payments won't be marked as paid
+:::
 
-Once you finish setting up your **PayPal** payment gateway, you can easily add this payment method to any of your existing [Payment Form](/how-to-create-your-first-payment-form-in-a-minute-and-accept-payments-with-paymattic).
+Click **Save Settings** to apply all changes.
 
-If you do not have any existing forms, read this [Create a Form from Scratch](/how-to-create-a-form-from-scratch-with-paymattic) or[ Create a Form using Templates](/simple-form-templates) documentation to create one.
+![PayPal Recurring Payments Settings](/images/payment-method-fields/how-to-configure-paypal-in-wordpress-with-paymattic/PayPal-for-Recurring-Payments.webp)
 
-To learn the detailed process of adding a payment method to an existing form, read this [Documentation](/how-to-use-the-payment-method-fields-section).
+## Using PayPal in Forms
 
-But, remember, the added **PayPal** payment method in your **Form** will not function unless you complete the configuration process properly.
+Once you've completed the setup, you can add PayPal to your forms:
 
-## Form Specific PayPal Settings
+1. For existing forms: Add it to any [Payment Form](/payment-method-fields/how-to-create-your-first-payment-form-in-a-minute-and-accept-payments-with-paymattic)
 
-To learn how to customize the Settings of Paypal payment method for a specific form, refer to the article below –
+2. For new forms:
+   - [Create a Form from Scratch](/form-editor/how-to-create-a-form-from-scratch-with-paymattic)
+   - [Use Form Templates](/form-editor/simple-form-templates)
 
-[Form Specific Payment Settings](/# 5-toc-title)
+3. Learn more about [adding payment methods](/payment-method-fields/how-to-use-the-payment-method-fields-section)
 
-If you have any further questions, concerns, or suggestions, please do not hesitate to contact our [@support team](https://wpmanageninja.com/support-tickets/?utm_source=wpmn&utm_medium=home&utm_campaign=site#/). Thank you.
+::: warning Note
+The PayPal payment method will not function unless you complete the configuration process properly.
+:::
+
+## Form-Specific PayPal Settings
+
+Need to customize PayPal settings for a specific form? Check out our guide on [Form-Specific Payment Settings](/form-settings/form-specific-payment-settings).
+
+::: tip Need Help?
+If you have any questions, concerns, or suggestions, please contact our [@support team](https://wpmanageninja.com/support-tickets/). We're here to help!
+:::
