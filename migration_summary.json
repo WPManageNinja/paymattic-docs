@@ -1,0 +1,515 @@
+{
+    "total_posts": 82,
+    "categories": {
+        "getting-started-with-paymattic": "Getting Started with Paymattic",
+        "import-export": "Import - Export",
+        "manage-form-entries": "Manage Form Entries",
+        "form-editor": "Form Editor",
+        "donation-and-product-fields": "Donation and Product Fields",
+        "payment-method-fields": "Payment Method Fields",
+        "global-settings": "Global Settings",
+        "email-notification-settings": "Email Notification Settings",
+        "general-input-fields": "General Input Fields",
+        "form-settings": "Form Settings",
+        "reports-and-analyticsi": "Reports &amp; Analytics",
+        "integrations": "Integrations",
+        "faq": "FAQ",
+        "change-log": "Change Log",
+        "lms-integrations": "Learning Management System (LMS) Integrations",
+        "customer-profile": "Customer Profile"
+    },
+    "posts": [
+        {
+            "title": "Paymattic Introduction\u00a0",
+            "category": "getting-started-with-paymattic",
+            "slug": "paymattic-introduction",
+            "file": "docs\/getting-started-with-paymattic\/paymattic-introduction.html"
+        },
+        {
+            "title": "How to Install and Activate Paymattic in WordPress",
+            "category": "getting-started-with-paymattic",
+            "slug": "how-to-install-and-activate-paymattic-in-wordpress",
+            "file": "docs\/getting-started-with-paymattic\/how-to-install-and-activate-paymattic-in-wordpress.html"
+        },
+        {
+            "title": "How to Import-Export Forms with Paymattic",
+            "category": "import-export",
+            "slug": "how-to-import-export-forms-in-wordpress-with-paymattic",
+            "file": "docs\/import-export\/how-to-import-export-forms-in-wordpress-with-paymattic.html"
+        },
+        {
+            "title": "How to View and Manage All Form Entries in WordPress with Paymattic",
+            "category": "manage-form-entries",
+            "slug": "how-to-view-and-manage-all-form-entries-in-wordpress-with-paymattic",
+            "file": "docs\/manage-form-entries\/how-to-view-and-manage-all-form-entries-in-wordpress-with-paymattic.html"
+        },
+        {
+            "title": "How to Create Your First Payment Form in a Minute and Accept Payments with Paymattic?",
+            "category": "form-editor",
+            "slug": "how-to-create-your-first-payment-form-in-a-minute-and-accept-payments-with-paymattic",
+            "file": "docs\/form-editor\/how-to-create-your-first-payment-form-in-a-minute-and-accept-payments-with-paymattic.html"
+        },
+        {
+            "title": "Add Donation Progress Item in Paymattic",
+            "category": "donation-and-product-fields",
+            "slug": "how-to-add-donation-progress-item-in-wordpress-with-paymattic",
+            "file": "docs\/donation-and-product-fields\/how-to-add-donation-progress-item-in-wordpress-with-paymattic.html"
+        },
+        {
+            "title": "How to Add Payment Item Fields in WordPress with Paymattic?",
+            "category": "donation-and-product-fields",
+            "slug": "how-to-add-payment-item-fields-in-wordpress-with-paymattic",
+            "file": "docs\/donation-and-product-fields\/how-to-add-payment-item-fields-in-wordpress-with-paymattic.html"
+        },
+        {
+            "title": "How to Add Subscription Payment Item Fields in Paymattic?",
+            "category": "donation-and-product-fields",
+            "slug": "how-to-add-susbcription-payment-item-fields-in-paymattic",
+            "file": "docs\/donation-and-product-fields\/how-to-add-susbcription-payment-item-fields-in-paymattic.html"
+        },
+        {
+            "title": "How to Add Tabular Product Item Fields in WordPress with Paymattic?",
+            "category": "donation-and-product-fields",
+            "slug": "how-to-add-tabular-product-item-fields-in-wordpress-with-paymattic",
+            "file": "docs\/donation-and-product-fields\/how-to-add-tabular-product-item-fields-in-wordpress-with-paymattic.html"
+        },
+        {
+            "title": "How to Add Item Quantity Field in WordPress with Paymattic?\u00a0",
+            "category": "donation-and-product-fields",
+            "slug": "how-to-add-item-quantity-field-in-wordpress-with-paymattic",
+            "file": "docs\/donation-and-product-fields\/how-to-add-item-quantity-field-in-wordpress-with-paymattic.html"
+        },
+        {
+            "title": "How to Add Custom Payment Amount Field in WordPress with Paymattic?",
+            "category": "donation-and-product-fields",
+            "slug": "how-to-add-user-defined-amount-field-in-wordpress-with-paymattic",
+            "file": "docs\/donation-and-product-fields\/how-to-add-user-defined-amount-field-in-wordpress-with-paymattic.html"
+        },
+        {
+            "title": "How to Add Tax Calculated Amount Field in WordPress with Paymattic?",
+            "category": "donation-and-product-fields",
+            "slug": "how-to-add-tax-calculated-amount-field-in-wordpress-with-paymattic",
+            "file": "docs\/donation-and-product-fields\/how-to-add-tax-calculated-amount-field-in-wordpress-with-paymattic.html"
+        },
+        {
+            "title": "How to Add Coupon Field in WordPress with Paymattic",
+            "category": "donation-and-product-fields",
+            "slug": "how-to-add-coupon-field-in-wordpress-with-paymattic",
+            "file": "docs\/donation-and-product-fields\/how-to-add-coupon-field-in-wordpress-with-paymattic.html"
+        },
+        {
+            "title": "How to Configure Stripe Payment Gateway in WordPress with Paymattic?",
+            "category": "payment-method-fields",
+            "slug": "how-to-configure-stripe-payment-gateway-in-wordpress-with-paymattic",
+            "file": "docs\/payment-method-fields\/how-to-configure-stripe-payment-gateway-in-wordpress-with-paymattic.html"
+        },
+        {
+            "title": "How to Configure PayPal in WordPress with Paymattic?",
+            "category": "payment-method-fields",
+            "slug": "how-to-configure-paypal-in-wordpress-with-paymattic",
+            "file": "docs\/payment-method-fields\/how-to-configure-paypal-in-wordpress-with-paymattic.html"
+        },
+        {
+            "title": "How to Set PayPal IPN in WordPress with Paymattic?",
+            "category": "payment-method-fields",
+            "slug": "how-to-set-paypal-ipn-in-wordpress-with-paymattic",
+            "file": "docs\/payment-method-fields\/how-to-set-paypal-ipn-in-wordpress-with-paymattic.html"
+        },
+        {
+            "title": "How to Integrate Mollie in WordPress with Paymattic?",
+            "category": "payment-method-fields",
+            "slug": "how-to-integrate-mollie-in-wordpress-with-paymattic",
+            "file": "docs\/payment-method-fields\/how-to-integrate-mollie-in-wordpress-with-paymattic.html"
+        },
+        {
+            "title": "How to Integrate Razorpay with Paymattic in WordPress",
+            "category": "payment-method-fields",
+            "slug": "how-to-integrate-razorpay-with-paymattic-in-wordpress",
+            "file": "docs\/payment-method-fields\/how-to-integrate-razorpay-with-paymattic-in-wordpress.html"
+        },
+        {
+            "title": "How to Integrate Paystack in WordPress with Paymattic?",
+            "category": "payment-method-fields",
+            "slug": "how-to-integrate-paystack-in-wordpress-with-paymattic",
+            "file": "docs\/payment-method-fields\/how-to-integrate-paystack-in-wordpress-with-paymattic.html"
+        },
+        {
+            "title": "How to Integrate Payrexx in WordPress with Paymattic",
+            "category": "payment-method-fields",
+            "slug": "how-to-integrate-payrexx-in-wordpress-with-paymattic",
+            "file": "docs\/payment-method-fields\/how-to-integrate-payrexx-in-wordpress-with-paymattic.html"
+        },
+        {
+            "title": "How to Integrate SSLCOMMERZ with Paymattic in WordPress?",
+            "category": "payment-method-fields",
+            "slug": "how-to-integrate-sslcommerz-with-paymattic-in-wordpress",
+            "file": "docs\/payment-method-fields\/how-to-integrate-sslcommerz-with-paymattic-in-wordpress.html"
+        },
+        {
+            "title": "How to Collect Offline Payment in WordPress with Paymattic",
+            "category": "payment-method-fields",
+            "slug": "how-to-collect-offline-payment-in-wordpress-with-paymattic",
+            "file": "docs\/payment-method-fields\/how-to-collect-offline-payment-in-wordpress-with-paymattic.html"
+        },
+        {
+            "title": "How to Use the General Fields",
+            "category": "general-input-fields",
+            "slug": "how-to-use-general-form-input-fields-in-wordpress-with-paymattic",
+            "file": "docs\/general-input-fields\/how-to-use-general-form-input-fields-in-wordpress-with-paymattic.html"
+        },
+        {
+            "title": "How to Configure Confirmation Settings in WordPress?",
+            "category": "form-settings",
+            "slug": "how-to-configure-confirmation-settings-in-wordpress-with-paymattic",
+            "file": "docs\/form-settings\/how-to-configure-confirmation-settings-in-wordpress-with-paymattic.html"
+        },
+        {
+            "title": "How to Change Currency Settings in WordPress with Paymattic",
+            "category": "global-settings",
+            "slug": "how-to-change-currency-settings-in-wordpress-with-paymattic",
+            "file": "docs\/global-settings\/how-to-change-currency-settings-in-wordpress-with-paymattic.html"
+        },
+        {
+            "title": "How to Customize Form Design Settings in WordPress with Paymattic?",
+            "category": "form-settings",
+            "slug": "how-to-customize-form-design-settings-in-wordpress-with-paymattic",
+            "file": "docs\/form-settings\/how-to-customize-form-design-settings-in-wordpress-with-paymattic.html"
+        },
+        {
+            "title": "How to Set Form Scheduling and Restriction Settings in WordPress?",
+            "category": "form-settings",
+            "slug": "how-to-set-form-scheduling-and-restriction-settings-in-wordpress-with-paymattic",
+            "file": "docs\/form-settings\/how-to-set-form-scheduling-and-restriction-settings-in-wordpress-with-paymattic.html"
+        },
+        {
+            "title": "How to Create Custom CSS\/JS in WordPress with Paymattic?\u00a0",
+            "category": "form-settings",
+            "slug": "how-to-create-custom-css-js-in-wordpress-with-paymattic",
+            "file": "docs\/form-settings\/how-to-create-custom-css-js-in-wordpress-with-paymattic.html"
+        },
+        {
+            "title": "How to Configure reCAPTCHA in WordPress with Paymattic",
+            "category": "global-settings",
+            "slug": "how-to-configure-recaptcha-in-wordpress-with-paymattic",
+            "file": "docs\/global-settings\/how-to-configure-recaptcha-in-wordpress-with-paymattic.html"
+        },
+        {
+            "title": "How to View the Reports and Payment Analytics in WordPress?",
+            "category": "reports-and-analyticsi",
+            "slug": "how-to-view-the-reports-and-payment-analytics-in-wordpress-with-paymattic",
+            "file": "docs\/reports-and-analyticsi\/how-to-view-the-reports-and-payment-analytics-in-wordpress-with-paymattic.html"
+        },
+        {
+            "title": "How to Setup Email Notifications in Paymattic WordPress Plugin?",
+            "category": "email-notification-settings",
+            "slug": "how-to-setup-email-notifications-in-paymattic-wordpress-plugin",
+            "file": "docs\/email-notification-settings\/how-to-setup-email-notifications-in-paymattic-wordpress-plugin.html"
+        },
+        {
+            "title": "How to View Single Submission Data and Manage Payments in Paymattic",
+            "category": "manage-form-entries",
+            "slug": "how-to-view-single-submission-data-and-manage-payments-in-paymattic",
+            "file": "docs\/manage-form-entries\/how-to-view-single-submission-data-and-manage-payments-in-paymattic.html"
+        },
+        {
+            "title": "How to Manage User Roles in WordPress with Paymattic?",
+            "category": "global-settings",
+            "slug": "how-to-manage-user-roles-in-wordpress-with-paymattic",
+            "file": "docs\/global-settings\/how-to-manage-user-roles-in-wordpress-with-paymattic.html"
+        },
+        {
+            "title": "How to Edit, Duplicate, or Delete Paymattic Forms",
+            "category": "form-editor",
+            "slug": "how-to-edit-forms-in-wordpress-with-paymattic",
+            "file": "docs\/form-editor\/how-to-edit-forms-in-wordpress-with-paymattic.html"
+        },
+        {
+            "title": "How to Disable IP Address Logging in WordPress with Paymattic?",
+            "category": "manage-form-entries",
+            "slug": "how-to-disable-ip-address-logging-in-wordpress-with-paymattic",
+            "file": "docs\/manage-form-entries\/how-to-disable-ip-address-logging-in-wordpress-with-paymattic.html"
+        },
+        {
+            "title": "How to Create a User Registration Form with Paymattic in WordPress?",
+            "category": "integrations",
+            "slug": "how-to-create-a-user-registration-form-with-paymattic-in-wordpress",
+            "file": "docs\/integrations\/how-to-create-a-user-registration-form-with-paymattic-in-wordpress.html"
+        },
+        {
+            "title": "How to Integrate FluentCRM in WordPress with Paymattic",
+            "category": "integrations",
+            "slug": "how-to-integrate-fluentcrm-in-wordpress-with-paymattic",
+            "file": "docs\/integrations\/how-to-integrate-fluentcrm-in-wordpress-with-paymattic.html"
+        },
+        {
+            "title": "How to Integrate Mailchimp in WordPress with Paymattic?",
+            "category": "integrations",
+            "slug": "how-to-integrate-mailchimp-in-wordpress-with-paymattic",
+            "file": "docs\/integrations\/how-to-integrate-mailchimp-in-wordpress-with-paymattic.html"
+        },
+        {
+            "title": "How to Integrate ActiveCampaign in WordPress with Paymattic?",
+            "category": "integrations",
+            "slug": "how-to-integrate-activecampaign-in-wordpress-with-paymattic",
+            "file": "docs\/integrations\/how-to-integrate-activecampaign-in-wordpress-with-paymattic.html"
+        },
+        {
+            "title": "How to Integrate Twilio with Paymattic in WordPress?",
+            "category": "integrations",
+            "slug": "how-to-integrate-twilio-with-paymattic-in-wordpress",
+            "file": "docs\/integrations\/how-to-integrate-twilio-with-paymattic-in-wordpress.html"
+        },
+        {
+            "title": "How to Integrate Telegram with Paymattic in WordPress?",
+            "category": "integrations",
+            "slug": "how-to-integrate-telegram-with-paymattic-in-wordpress",
+            "file": "docs\/integrations\/how-to-integrate-telegram-with-paymattic-in-wordpress.html"
+        },
+        {
+            "title": "How to Integrate Slack in WordPress with Paymattic?",
+            "category": "integrations",
+            "slug": "how-to-integrate-slack-in-wordpress-with-paymattic",
+            "file": "docs\/integrations\/how-to-integrate-slack-in-wordpress-with-paymattic.html"
+        },
+        {
+            "title": "How to Integrate Zapier with Paymattic in WordPress?",
+            "category": "integrations",
+            "slug": "how-to-integrate-zapier-with-paymattic-in-wordpress",
+            "file": "docs\/integrations\/how-to-integrate-zapier-with-paymattic-in-wordpress.html"
+        },
+        {
+            "title": "How to Integrate Webhook in WordPress with Paymattic?",
+            "category": "integrations",
+            "slug": "how-to-integrate-webhook-in-wordpress-with-paymattic",
+            "file": "docs\/integrations\/how-to-integrate-webhook-in-wordpress-with-paymattic.html"
+        },
+        {
+            "title": "How to Fix Not Sending Email Confirmations Issue in WordPress?",
+            "category": "faq",
+            "slug": "how-to-fix-not-sending-email-confirmations-issue-in-wordpress-with-paymattic",
+            "file": "docs\/faq\/how-to-fix-not-sending-email-confirmations-issue-in-wordpress-with-paymattic.html"
+        },
+        {
+            "title": "Date Formats Customization",
+            "category": "faq",
+            "slug": "date-formats-customization",
+            "file": "docs\/faq\/date-formats-customization.html"
+        },
+        {
+            "title": "Change Log",
+            "category": "change-log",
+            "slug": "change-log",
+            "file": "docs\/change-log\/change-log.html"
+        },
+        {
+            "title": "How to Export Form Entry\/Entries with Paymattic\u00a0\u00a0",
+            "category": "import-export",
+            "slug": "how-to-export-form-entries-in-csv-excel-ods-and-json",
+            "file": "docs\/import-export\/how-to-export-form-entries-in-csv-excel-ods-and-json.html"
+        },
+        {
+            "title": "How to Integrate LifterLMS in WordPress with Paymattic?",
+            "category": "lms-integrations",
+            "slug": "how-to-integrate-lifterlms-in-wordpress-with-paymattic",
+            "file": "docs\/lms-integrations\/how-to-integrate-lifterlms-in-wordpress-with-paymattic.html"
+        },
+        {
+            "title": "How to Integrate LearnDash in WordPress with Paymattic?",
+            "category": "lms-integrations",
+            "slug": "how-to-integrate-learndash-in-wordpress-with-paymattic",
+            "file": "docs\/lms-integrations\/how-to-integrate-learndash-in-wordpress-with-paymattic.html"
+        },
+        {
+            "title": "How to Integrate Tutor LMS in WordPress with Paymattic?",
+            "category": "lms-integrations",
+            "slug": "how-to-integrate-tutor-lms-in-wordpress-with-paymattic",
+            "file": "docs\/lms-integrations\/how-to-integrate-tutor-lms-in-wordpress-with-paymattic.html"
+        },
+        {
+            "title": "How to Use Conditional Logic in Form Fields with Paymattic?",
+            "category": "form-editor",
+            "slug": "how-to-use-conditional-logic-in-form-fields-with-paymattic",
+            "file": "docs\/form-editor\/how-to-use-conditional-logic-in-form-fields-with-paymattic.html"
+        },
+        {
+            "title": "How to View Customer Profile in WordPress with Paymattic?",
+            "category": "customer-profile",
+            "slug": "how-to-view-customer-profile-in-wordpress",
+            "file": "docs\/customer-profile\/how-to-view-customer-profile-in-wordpress.html"
+        },
+        {
+            "title": "How to Create WordPress Donation Form with Simple Form Templates?",
+            "category": "form-editor",
+            "slug": "simple-form-templates",
+            "file": "docs\/form-editor\/simple-form-templates.html"
+        },
+        {
+            "title": "How to Integrate Fluent Support with Paymattic in Wordpress?",
+            "category": "integrations",
+            "slug": "how-to-integrate-fluent-support-with-paymattic-in-wordpress",
+            "file": "docs\/integrations\/how-to-integrate-fluent-support-with-paymattic-in-wordpress.html"
+        },
+        {
+            "title": "How to Configure Billplz in WordPress with Paymattic?",
+            "category": "payment-method-fields",
+            "slug": "how-to-configure-billplz-in-wordpress-with-paymattic",
+            "file": "docs\/payment-method-fields\/how-to-configure-billplz-in-wordpress-with-paymattic.html"
+        },
+        {
+            "title": "How to Integrate Google Sheets in WordPress with Paymattic?",
+            "category": "integrations",
+            "slug": "integrate-google-sheets-in-wordpress-with-paymattic",
+            "file": "docs\/integrations\/integrate-google-sheets-in-wordpress-with-paymattic.html"
+        },
+        {
+            "title": "How to Configure Cloudflare Turnstile Security with Paymattic?",
+            "category": "global-settings",
+            "slug": "how-to-configure-cloudflare-turnstile-with-paymattic",
+            "file": "docs\/global-settings\/how-to-configure-cloudflare-turnstile-with-paymattic.html"
+        },
+        {
+            "title": "How to Create a Step Form with Paymattic",
+            "category": "form-editor",
+            "slug": "creating-a-step-form-with-paymattic",
+            "file": "docs\/form-editor\/creating-a-step-form-with-paymattic.html"
+        },
+        {
+            "title": "How to Manage Subscriptions in WordPress with Paymattic",
+            "category": "manage-form-entries",
+            "slug": "how-to-manage-subscriptions-in-wordpress-with-paymattic",
+            "file": "docs\/manage-form-entries\/how-to-manage-subscriptions-in-wordpress-with-paymattic.html"
+        },
+        {
+            "title": "How to Integrate Square with Paymattic in WordPress?",
+            "category": "payment-method-fields",
+            "slug": "how-to-integrate-square-with-paymattic-in-wordpress",
+            "file": "docs\/payment-method-fields\/how-to-integrate-square-with-paymattic-in-wordpress.html"
+        },
+        {
+            "title": "How to Integrate Xendit Payment Gateway in WordPress with Paymattic?",
+            "category": "payment-method-fields",
+            "slug": "how-to-integrate-xendit-in-wordpress",
+            "file": "docs\/payment-method-fields\/how-to-integrate-xendit-in-wordpress.html"
+        },
+        {
+            "title": "How to Add Flutterwave Payment Gateway in Paymattic?",
+            "category": "payment-method-fields",
+            "slug": "add-flutterwave-payment-gateway-in-paymattic",
+            "file": "docs\/payment-method-fields\/add-flutterwave-payment-gateway-in-paymattic.html"
+        },
+        {
+            "title": "How to Add Currency Switcher in WordPress Form?",
+            "category": "donation-and-product-fields",
+            "slug": "add-currency-switcher-in-wordpress-form",
+            "file": "docs\/donation-and-product-fields\/add-currency-switcher-in-wordpress-form.html"
+        },
+        {
+            "title": "Donation Leaderboard in Paymattic\u00a0",
+            "category": "donation-and-product-fields",
+            "slug": "how-to-add-donation-leaderboard-in-wordpress-with-paymattic",
+            "file": "docs\/donation-and-product-fields\/how-to-add-donation-leaderboard-in-wordpress-with-paymattic.html"
+        },
+        {
+            "title": "How to Create PDF Feed for Form Submissions?",
+            "category": "form-editor",
+            "slug": "how-to-create-pdf-feed-for-form-submissions",
+            "file": "docs\/form-editor\/how-to-create-pdf-feed-for-form-submissions.html"
+        },
+        {
+            "title": "How to Add User Dashboard Module\u00a0in Paymattic?",
+            "category": "global-settings",
+            "slug": "how-to-add-user-dashboard-module-in-paymattic",
+            "file": "docs\/global-settings\/how-to-add-user-dashboard-module-in-paymattic.html"
+        },
+        {
+            "title": "How to integrate Moneris Payment Gateway in Paymattic",
+            "category": "payment-method-fields",
+            "slug": "how-to-integrate-moneris-payment-gateway-in-paymattic",
+            "file": "docs\/payment-method-fields\/how-to-integrate-moneris-payment-gateway-in-paymattic.html"
+        },
+        {
+            "title": "How to Enable Stripe Payment Hold in Paymattic\u00a0",
+            "category": "manage-form-entries",
+            "slug": "stripe-payment-hold-in-paymattic",
+            "file": "docs\/manage-form-entries\/stripe-payment-hold-in-paymattic.html"
+        },
+        {
+            "title": "How to Integrate Viva Wallet With Paymattic?",
+            "category": "payment-method-fields",
+            "slug": "how-to-integrate-viva-wallet-with-paymattic",
+            "file": "docs\/payment-method-fields\/how-to-integrate-viva-wallet-with-paymattic.html"
+        },
+        {
+            "title": "Create a Form from Scratch with Paymattic",
+            "category": "form-editor",
+            "slug": "how-to-create-a-form-from-scratch-with-paymattic",
+            "file": "docs\/form-editor\/how-to-create-a-form-from-scratch-with-paymattic.html"
+        },
+        {
+            "title": "Add Multiple Column Containers in Forms",
+            "category": "form-editor",
+            "slug": "add-multiple-column-containers-in-forms",
+            "file": "docs\/form-editor\/add-multiple-column-containers-in-forms.html"
+        },
+        {
+            "title": "How to Use the Payment Method Fields",
+            "category": "general-input-fields",
+            "slug": "how-to-use-the-payment-method-fields-section",
+            "file": "docs\/general-input-fields\/how-to-use-the-payment-method-fields-section.html"
+        },
+        {
+            "title": "How to Use the Donation &amp; Product Fields\u00a0",
+            "category": "general-input-fields",
+            "slug": "how-to-use-the-product-fields",
+            "file": "docs\/general-input-fields\/how-to-use-the-product-fields.html"
+        },
+        {
+            "title": "Manually Cancel Any Subscription",
+            "category": "manage-form-entries",
+            "slug": "manually-cancel-any-subscription",
+            "file": "docs\/manage-form-entries\/manually-cancel-any-subscription.html"
+        },
+        {
+            "title": "Add Payment Summary Field in Forms\u00a0",
+            "category": "donation-and-product-fields",
+            "slug": "add-payment-summary-field-in-forms",
+            "file": "docs\/donation-and-product-fields\/add-payment-summary-field-in-forms.html"
+        },
+        {
+            "title": "Customize Form-Specific Payment Settings",
+            "category": "form-settings",
+            "slug": "customize-form-specific-payment-settings",
+            "file": "docs\/form-settings\/customize-form-specific-payment-settings.html"
+        },
+        {
+            "title": "Add First &amp; Last Name Fields Separately",
+            "category": "faq",
+            "slug": "add-first-last-name-fields-in-a-form",
+            "file": "docs\/faq\/add-first-last-name-fields-in-a-form.html"
+        },
+        {
+            "title": "How to Integrate FluentCommunity in WordPress with Paymattic\u00a0",
+            "category": "integrations",
+            "slug": "how-to-integrate-fluentcommunity-in-wordpress-with-paymattic",
+            "file": "docs\/integrations\/how-to-integrate-fluentcommunity-in-wordpress-with-paymattic.html"
+        },
+        {
+            "title": "Dynamic Payment Item Field\u00a0",
+            "category": "donation-and-product-fields",
+            "slug": "dynamic-payment-item-field",
+            "file": "docs\/donation-and-product-fields\/dynamic-payment-item-field.html"
+        },
+        {
+            "title": "Configure Authorize.net in WordPress through Paymattic",
+            "category": "payment-method-fields",
+            "slug": "configure-authorize-net-in-wordpress-through-paymattic",
+            "file": "docs\/payment-method-fields\/configure-authorize-net-in-wordpress-through-paymattic.html"
+        },
+        {
+            "title": "How to Refund Payments in Paymattic",
+            "category": "manage-form-entries",
+            "slug": "how-to-refund-payments-in-paymattic",
+            "file": "docs\/manage-form-entries\/how-to-refund-payments-in-paymattic.html"
+        }
+    ]
+}

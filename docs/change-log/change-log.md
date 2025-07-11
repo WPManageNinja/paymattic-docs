@@ -1,0 +1,419 @@
+---
+title: "Change Log"
+category: "Change Log"
+---
+- *= 4.6.6 March 14, 2025 =**
+- Fixes Twenty Twenty-Five theme compatibility issue
+- Fixe Email template shortcode rendering issue
+- Fixes Unable to enroll in multiple LearnDash courses
+- Fixes Broken donation input style in Safari
+- Fixes Subscription amount total with tax
+- Fixes User registration and activity creation on 100% discount
+- Removes Displaying secret courses of (Fluent Community) in Paymattic dashboard
+- Improve choose payment method component
+- Improve Offline-payment method description field
+- *= 4.6.5 February 7, 2025 =**
+- Fixes Container form field was not found in the integration feed issue
+- Fixes CSS conflict affecting radio and checkbox inputs
+- Fixes Password truncation issue
+- Improve Donation progress stats bar is now enabled by default
+- *= 4.6.4 January 27, 2025 =**
+- Adds A placeholder option in the Name field for improved user experience
+- Fixes An issue with container field entries during export.
+- Fixes A responsive issue with the Payment Receipt layout
+- Resolved A conflict with the MasterStudy Plugin
+- Fixed A conflict with the Complianz plugin
+- Improved UI for Moneris checkout pages
+- *= 4.6.3 Decmeber 06, 2024 =**
+- Made subscription field available in Tax field
+- Made Step form buttons editable
+- Fixes issue on user registration with password field
+- Fixes Ui issues
+- Improves Donation component’s UI/UX
+- *= 4.6.2 (Date: Nov 06, 2024) =**
+- Made recurring donation label editable
+- Fixes user login redirect issue
+- *= 4.6.1 (Date: Oct 29, 2024) =**
+- Adds Custom billing interval feature with interval count on subscription field
+- Adds (Fortnightly, Quarterly and Half Yearly) Options for recurring payment on both subscription and donation item field
+- Adds donation progress bar on form specific donor leaderboard
+- Adds ShortCode rendering on Dropdown field
+- Resolves Conditional logic on column container fields
+- Improves product selection on tabular products fields
+- Fixes Escaping/Sanitization issue
+- Fixes Login Redirect issue
+- Fixes issue on User dashboard
+- Fixes css conflict on Date field
+- Fixes Radio component (value missing) on bulk edit editor
+- Fixes target item missing for container fields
+- Fixes Square redirection issue
+- Fixes rendering payment item’s name on payment summary
+- *= 4.6.0 (Date: Oct 3, 2024) =**
+- Updates UI/UX for all modules
+- Adds Resizable column containers
+- Adds Offline payment support for free users
+- Adds Report page for free users
+- Adds Form-specific leader-board
+- Adds Option to set an initial raised amount for leaderboards
+- Adds horizontal payment items option
+- Updates Donation recurring interval button for improved usability
+- Improves Webhook integration
+- Improves Phone field validation and formatting
+- Fixes Google Sheets integration issue
+- Fixes Alignment issue in custom HTML component
+- Fixes Issue allowing “+” sign in the email field
+- *= 4.5.8 (Date: Sep 5, 2024) =**
+- Adds Support for subscriptions with 100% discount coupons
+- Fixes an issue where email notifications were not being sent on successful payments with the Stripe Embedded payment method
+- Fixes the bug related to calling the undefined php\_uname function
+- Fixes Step form component rendering issues in the editor
+- Fixes the issue with the payment item shortcode.
+- *= 4.5.7 (Date: Jun 12, 2024) =**
+- Fixes Stripe related issues
+- Improvement Stripe error handling
+- *= 4.5.6 (Date: May 31, 2024) =**
+- Fixes Stripe Embedded Checkout issue
+- *= 4.5.5 (Date: May 29, 2024) =**
+- Adds Unique Email validation
+- Fixes Conditional logic issue
+- *= 4.5.4 (Date: May 23, 2024) =**
+- Adds VivaWallet payment gateway (addon)
+- Adds Donation Progress Item on the free version
+- Adds Form active/inactive option
+- Adds Conditional logic for coupon code
+- Adds New Free Donation and Payment templates
+- Adds Necessary improvements to the User Dashboard
+- Adds Necessary improvements to various modules
+- Fixes minor issues
+- *= 4.5.2 (**Date:**** **April 24, 2024) =**
+- Adds Moneris payment Gateway
+- Adds Place a hold on a payment method (Stripe)
+- Adds email notification on subscription cancel from user dashboard
+- Adds Tax field on payment receipt in the payment summary section
+- Fixes Paypal IPN issue
+- Fixes Billplz validation issues
+- Fixes Tax item calculation issue
+- Fixes Payment summary related issue
+- Fixes PDF related issue
+- Fixes issue with conditional logic
+- Fixes TutorLMS integration issue for paid courses
+- *= 4.5.0 (**Date:**** **February 19, 2024) =**
+- Adds Customer Dashboard
+- Adds PDF/Invoice
+- Adds Donor Leaderboard
+- Add Filter In Single Form Entry Export
+- Add Maximum value option in number field
+- Makes donation goal required to show statistic and progress bar
+- Fixes Undo/Redo Issue on form editor
+- Fixes Step form toggle issue
+- Fixes String Translatable issue
+- Fixes Razorpay payment checkout issue with tabular product
+- Fixes Donation form custom amount issue
+- Fixes Dropdown field Placeholder and Default Value issue
+- Fixes Tabular product image upload issue
+- Fixes Tabular product template choose issue
+- Fixes Entry exporting issue
+- FIxes Payment summary issue for subscription items
+- *= 4.4.4 (Date: October 16, 2023) =**
+- Fixes Email notification translation string issue
+- Fixes Large screen responsive issue
+- *= 4.4.3 (Date: October 05, 2023)** **=**
+- ﻿﻿Adds Currency Switcher
+- ﻿﻿Adds Flutterwave payment gateway addon
+- ﻿﻿Adds applied coupons column on exported entries
+- ﻿﻿Adds currency sign on payment summary
+- ﻿﻿Makes Address field a free feature
+- ﻿﻿Fixes email validation issue for certain domains
+- ﻿﻿Fixes fractional mismatch issue on Tax percentage
+- ﻿﻿Fixes payment display mismatch upon fixed discount applied
+- ﻿﻿Fixes custom payment credentials settings issue
+- ﻿﻿Fixes Square Item name
+- *= 4.4.2 (Date: July 10, 2023)** **=**
+- Adds Square subscription payment
+- Adds Xendit payment gateway addon
+- Adds Autologin on LMS integration
+- Fixes entry rendering issue
+- Fixes Coupon or discount-related issues
+- Fixes Payments information issues on Entry module
+- Fixes 100% coupon issue
+- Fixes custom URL issue on payment success
+- Fixes Autologin issue on User Registration
+- *= 4.3.5 (Date: May 12, 2023) =**
+- Fixes entry exporting issue
+- Fixes quantity field of Tabular Product Item issue
+- Fixes Tabular Product Item field's product name issue
+- Fixes Dropdown field's placeholder and default value issue
+- Fixes form entry rendering issue
+- Fixes payment methods and logo rendering issues
+- Fixes currency sign issue
+- Fixes string translation issue
+- *= 4.3.4 (Date: March 13, 2023) =**
+- Fixes TutorLMS integration offline payment issue
+- Fixes Billplz donation templates issue
+- Fixes coupon amount issue
+- Fixes single form entry rendering issue
+- Fixes translation issue
+- Fixes add more fields button issue
+- Fixes Step forms issue with Elementor/WPBakery
+- Fixes entry export issue for checkbox
+- Fixes Asynchronous issues on integration module
+- Adds hidden input support on conditional logic
+- Adds advanced date configuration
+- Adds Simple form templates label editable
+- Adds product variation price
+- Adds LMS integration module updates
+- *= 4.3.3 (Date: January 18, 2023)** =
+- Adds shopping cart templates
+- Adds offline subscription management
+- Adds new demo form for product cart template
+- Fixes Stripe Webhook issue
+- Fixes shortcode bug for integration
+- Fixes Step-form backward validation issue.
+- ***= 4.3.2 (Date: December 08, 2022) =****
+- Adds Step form
+- Adds Turnstile (Cloudflare) security
+- Adds Subscription management from the dashboard
+- Adds Support for PHP 8.1
+- Adds AliPay, Sepa Debit, and ACH debit for Stripe
+- Fixes Elementor popup issue
+- Fixes Form payment settings issue
+- Fixes Consent field conditional logic
+- Fixes Export issue
+- Fixes Payments receipt breaking issue
+- Fixes 3D secure payment issue
+- Fixes Other minor issues
+- ***= 4.3.1 (Date: November 10, 2022) =****
+- Adds Billplz gateway (Malaysian gateway)
+- Adds Google Sheet integration
+- Adds Developer API for Payment modules
+- Fixes Receipt issue
+- Fixes Confirmation URL issue
+- Fixes Tax with donation component
+- Fixes UI and full-screen app issues
+- Fixes Donation template default image issue
+- *= 4.3.0 (Date: October 20, 2022) =**
+- Adds New Advanced Form Editor
+- Adds Donation template customizer
+- Adds New UI refactors
+- Adds Conditional email notification
+- Adds Coupon Limit by user
+- Fluent Support Integration
+- Fixes Coupon issue
+- Fixes other Multiple issues
+- *= 4.2.2 (Date: August 16, 2022) =**
+- Fixes Payment total with tax and coupon issue
+- Fixes Select field issue with required checked
+- *= 4.2.1 (Date: August 06, 2022) =**
+- Data sanitization and esc\_\* improvements
+- *= 4.2.0 (Date: August 05, 2022) =**
+- Added Customer Profile **(Pro)**
+- Added Condition with dynamic payment items
+- Added 100% discount with coupon payment
+- Fixed Multi-site activation issue
+- Fixed File upload/export issue
+- Fixed API security updates
+- Fixed Other minor issues
+- *= 4.1.0 (Date: July 07, 2022) =**
+- Added Conditional logic on input fields
+- Added LifterLMS course Integration
+- Added LearnDash course Integration
+- Added TutorLMS course Integration
+- Fixed Shortcode bug
+- Fixed Stripe custom credentials bug
+- Fixed Offline payment with subscription issue
+- *= 4.0.1 **(Date: June 16, 2022)** =**
+- Fixed reports no data validation
+- Fixed Menu spell issue
+- *= 4.0.0 (Date: June 15, 2022) =**
+- Added New UI with more light-free and pro plugin
+- Added Global Reports modules for payments
+- Added subscription sync option
+- Added Donation field
+- Added Phone field
+- Added Payment Summary
+- Added Square payment gateway (Pro)
+- Added Payrexx payment gateway (Pro)
+- Added SSLCOMMERZ Payment Gateway (Pro)
+- Added Form Individual stripe settings.
+- Added Custom PayPal settings for individual form
+- Added Stripe donation
+- Added Card supports for stripe settings
+    (Ideal,FPX, BACS dirrect debit(UK), Bancontact,
+    Giropay, Przelewy24 (P24), EPS)
+- Added Webhook (Pro)
+- Added Telegram (Pro)
+- Added Zapier
+- Added Twillo (SMS) (Pro)
+- Added more prebuild demo forms
+- Added real-time searchable forms
+- Added export form searchable
+- Added Payment method with image format.
+- Fixed default pay method dropdown
+- Fixed email shortcode issues
+- Fixed receipt shortcode issues
+- Fixed typos in a different section
+- Fixed zero decimal currency issue
+- Fixed PayPal IPN issue
+- Fixed 15+ unlisted bugs
+- *= 3.0.1 (Date: November 17, 2021) =**
+- Fixed Export issue
+- Fixed Accessibility issue
+- *= 3.0.0 (Date: November 08, 2021) =**
+- Added New codebase &amp; security improvements
+- Added Mollie payment gateway (One-time payment)
+- Added Razorpay payment gateway (One-time payment)
+- Added Paystack payment gateway (One-time payment)
+- Added Activecampaign CRM
+- Added Mailchimp CRM
+- Added Asynchronous notification trigger
+- Added FluentCRM integration
+- Added Slack integration
+- Added Coupon with multiple subscriptions
+- Added Bulk Resend Notification
+- Added Theme independent form preview
+- Added secure API implementation
+- Added reCaptcha validation on global reCaptcha settings
+- Added Entry UI/UX Improvement
+- Added Gutenberg Block
+- Added Debug environment
+- Added Payment pending notification on receipt
+- Added New payment shortcodes
+- Added New entry filter
+- Added Searchable editor fields
+- Added Password field
+- Added Email attachments
+- Added Create a user on submit/payment paid (if any pay item)
+- Added Entry-Log tag &amp; Log remove option
+- 10+ new unlisted features for developers &amp; users
+- Fixed Coupon issue for zero decimal
+- Fixed Coupon min-amount validation issue
+- Fixed Invoice empty payment item issue
+- Fixed Custom amount shows ceil value issue
+- Fixed User input pay amount button issue
+- Fixed the Email Handler issue
+- Fixed Inline payment coupon issue
+- Fixed Button processing text translation issue
+- Fixed Submission local time issue
+- Fixed PayPal 100% coupon issue
+- Fixed Email special character issue for post\_title
+- Fixed Duplicate login notification issue
+- Fixed Empty form items validation issue
+- Fixed 20 more unlisted bugs
+- *= 2.1.0 (Date: March 17, 2021) =**
+- Fixed Zero-amount on the payment issue
+- Fixed Rounding error issue on tax
+- *= 2.0.3 (Date: March 17, 2021) =**
+- Fixed checkout logo upload issue
+- *= 2.0.2 (Date: March 15, 2021) =**
+- Fixed footer merged issue
+- *= 2.0.1 (Date: March 05, 2021) =**
+- Added nonce security for ajax
+- Fixed resend notification issue
+- *= 2.0.0 (Date: February 17, 2021) =**
+- Added resend / manual email notification
+- Added disable fields for later use
+- Added user access control/role-based access
+- Added quick update entry status (new/read)
+- Added terms condition field to free version
+- Added abandoned item filter
+- Added recurring quantity for stripe
+- Added bulk delete option for entries
+- Added payment field with photo
+- Added max quantity for a tabular item
+- Added transaction-id shortcode
+- Added shortcode for all\_input\_field\_html\_with\_empty
+- Added recurring payment for dashboard widget
+- Added new entry count on the menu
+- Fixed recurring subscriptions daily basis
+- Fixed stripe long-meta data issue
+- Fixed confirmation page shortcode issue
+- Fixed stripe-customer name and email issue
+- Fixed PayPal recurring notification issue
+- Fixed timestamp on universal timezone issue
+- Fixed title bar typo
+- Fixed elementor popup issue
+- Fixed missing translation issue
+- Fixed PayPal docs link issue
+- Fixed required login message issue
+- Fixed non-paid items on receipt
+- Fixed shortcode on URL issue
+- Fixed multi-site deprecated hook issue
+- Fixed email empty fields issue
+- Fixed payment success action hook issue
+- Fixed created and entry time mismatch
+- Fixed missing placeholder to confirm the email
+- Fixed file upload issue
+- Fixed recurring payment currency icon issue
+- Fixed missing stripe billing info on multiple payments
+- *= 1.9.91 (Date: May 02, 2020) =**
+- Stripe Payment Issues have been resolved
+- CSV export issue fixed
+- Receipt Issue resolved
+- The IP logging issue resolved
+- *= 1.9.8 (Date: February 02, 2020) =**
+- Improved SCA Payments processing
+- Fixed a few form-handling bugs
+- Internal Architecture improvements
+- Fixed email and receipt email issues
+- Ability to push all the form data as stripe meta
+- *= 1.9.3 (Date: September 15, 2019) =**
+- Improved Payment Receipt
+- Upgrade Stripe API version
+- Fix Currency Formatter
+- Email bug issue fixed
+- *= 1.9.2 (Date: September 15, 2019) =**
+- Improved Stripe Thank you page
+- 0 Quantity product bug fix
+- Validation Bug fix
+- Better asset management
+- Date Field bug fix
+- Internet explorer error fix
+- PHP improvement
+- *= 1.9.0 (Date: September 13, 2019) =**
+- SCA integration
+- Added Stripe Checkout version 3
+- Fix Date Picker Bug
+- Frontend Notification Fix
+- Frontend Validation
+- Fully re-write the frontend JS. It's faster now
+- Design improvement
+- *= 1.2.6 (Date: August 08, 2019) =**
+- Fixed Stripe webhook
+- Added Advanced settings in the editor
+- Added payment method on placeholders.
+- Improve performance
+- *= 1.2.5 (Date: July 18, 2019) =**
+- Added Google reCaptcha versions 2 and 3
+- Fix the Asterisk sign
+- Fix function undefined error
+- Fix issues of various types.
+- *= 1.2.1 (Date: July 01, 2019) =**
+- Fixed PayPal Payments for Taxable Items
+- Fixed Stripe Trial Period Amounts
+- Rename The plugin
+- Added source vue files
+- *= 1.2.0 (Date: June 19, 2019) =**
+- Fix Zero Decimal Currency for other elements
+- Added Confirm email field
+- Performance Improvement
+- Added more developer hooks
+- UI Upgrades for Admin Panel
+- Added Meta Tables
+- *= 1.1.6 (Date: June 02, 2019) =**
+- Fixed Zero Decimal Currency charges
+- Added Dashboard Widget
+- Improvement of Editor
+- *= 1.1.5 (Date: March 21, 2019) =**
+- Added Reporting screen
+- New Date Time picker
+- HTML field bug fix
+- added new hooks for developers
+- Stripe Payment Method initialization fix
+- Overall improvements
+- Added new form fields
+- estimated human hours for this release: 60 hours &amp; Coffees
+- *= 1.0.1 (Date: March 01, 2019) =**
+- Fix small bugs
+- Fix pagination issues for form entries
+- *= 1.0.0 (Date: February 15, 2019) =**
+- Initial release
