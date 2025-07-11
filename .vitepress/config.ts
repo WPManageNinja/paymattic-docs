@@ -7,25 +7,8 @@ export default defineConfig({
   cleanUrls: true,
   srcDir: './docs',
 
-  // This ensures files are served from their actual locations
-  // but URLs don't include the category
   rewrites: {
-    'getting-started-with-paymattic/:page': ':page',
-    'form-editor/:page': ':page',
-    'form-settings/:page': ':page',
-    'general-input-fields/:page': ':page',
-    'payment-method-fields/:page': ':page',
-    'donation-and-product-fields/:page': ':page',
-    'email-notification-settings/:page': ':page',
-    'customer-profile/:page': ':page',
-    'manage-form-entries/:page': ':page',
-    'global-settings/:page': ':page',
-    'integrations/:page': ':page',
-    'lms-integrations/:page': ':page',
-    'import-export/:page': ':page',
-    'reports-and-analyticsi/:page': ':page',
-    'faq/:page': ':page',
-    'change-log/:page': ':page'
+    ':category/:page': ':page'
   },
 
   themeConfig: {
