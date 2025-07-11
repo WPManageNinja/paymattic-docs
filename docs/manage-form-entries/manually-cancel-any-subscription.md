@@ -2,60 +2,74 @@
 title: "Manually Cancel Any Subscription"
 category: "Manage Form Entries"
 ---
-[Paymattic](https://paymattic.com/) allows the **Admin**/**User** to manually cancel any subscription. This article will guide you through the process of canceling subscriptions from the Admin-end.
 
-## Cancel Subscription from Admin-end
+[Paymattic](https://paymattic.com/) allows both administrators and users to cancel active subscriptions. This guide explains how to cancel subscriptions from the admin perspective.
 
-Remember, to cancel any user subscription from the Admin-end, the entry has to be an Active Subscription.
+:::warning
+Only active subscriptions can be cancelled.
+:::
 
-An admin can manually cancel any subscription of a user in two ways. These are:
-- Cancel Subscription from Paymattic Dashboard
-- Cancel Subscription from the Payment Method Dashboard
+## Cancellation Methods
 
-### Cancelling from Paymattic Dashboard
+Administrators can cancel subscriptions in two ways:
+1. Through the Paymattic Dashboard
+2. Through the Payment Gateway Dashboard
 
-First, go to **Entries** from the **Paymattic Navbar** and click the **View Detail** button of your desired **Subscription Entry** of a user that you want to cancel.
+### Method 1: Paymattic Dashboard
 
-![](/images/manage-form-entries/manually-cancel-any-subscription/Desired-Form-Entry-for-Cancellation-1-2-scaled.webp)
+1. Go to **Entries** from the **Paymattic Navbar**
+2. Find the subscription entry
+3. Click **View Details**
 
-Now, scroll down to the **Subscription (Recurring Payments)** section where you will find the **Cancel Subscription** button under the **Three-dot-icon**, click on it.
+![Access subscription entry](/images/manage-form-entries/manually-cancel-any-subscription/Desired-Form-Entry-for-Cancellation-1-2-scaled.webp)
 
-And, the subscription will be canceled!
+4. Scroll to the **Subscription (Recurring Payments)** section
+5. Click the **Three-dot-icon**
+6. Select **Cancel Subscription**
 
-![](/images/manage-form-entries/manually-cancel-any-subscription/Cancel-Subscription-1.webp)
+![Cancel subscription](/images/manage-form-entries/manually-cancel-any-subscription/Cancel-Subscription-1.webp)
 
-### Cancelling from Payment Method Dashboard
+### Method 2: Payment Gateway Dashboard
 
-First, go to **Entries** from the **Paymattic Navbar** and click the **View Detail** button of your desired **Subscription Entry** of a user that you want to cancel.
+1. Go to **Entries** from the **Paymattic Navbar**
+2. Find the subscription entry
+3. Click **View Details**
 
-![](/images/manage-form-entries/manually-cancel-any-subscription/Desired-Form-Entry-for-Cancellation-1-1-scaled.webp)
+![Access subscription entry](/images/manage-form-entries/manually-cancel-any-subscription/Desired-Form-Entry-for-Cancellation-1-1-scaled.webp)
 
-Now, scroll down to the **Subscription (Recurring Payments)** section where you will find the **Button** to view the desired subscription directly on your **Payment Method Dashboard**.
+4. Scroll to the **Subscription (Recurring Payments)** section
+5. Click the payment gateway link (e.g., **View on Stripe**)
 
-For example, here **user paid the subscription bill with Stripe**, so you can see the **View on Stripe** button.
+:::note Supported Payment Gateways
+Paymattic supports subscriptions through:
+- [Stripe](/how-to-configure-stripe-payment-gateway-in-wordpress-with-paymattic)
+- [PayPal](/how-to-configure-paypal-in-wordpress-with-paymattic)
+- [Square](/how-to-integrate-square-with-paymattic-in-wordpress)
+- [Moneris](/how-to-integrate-moneris-payment-gateway-in-paymattic)
+:::
 
-Now, simply click on it and it will redirect to the specific subscriptions on the Stripe Dashboard.
+![View in payment gateway](/images/manage-form-entries/manually-cancel-any-subscription/View-on-Stripe.webp)
 
-Remember, as of now, **Paymattic** only allows users to pay the subscription bill using the [Stripe](/how-to-configure-stripe-payment-gateway-in-wordpress-with-paymattic), [PayPal](/how-to-configure-paypal-in-wordpress-with-paymattic), [Square](/how-to-integrate-square-with-paymattic-in-wordpress), and [Moneris](/how-to-integrate-moneris-payment-gateway-in-paymattic) payment methods.
+6. In the payment gateway dashboard:
+   - Open the **Actions** dropdown
+   - Click **Cancel Subscription**
 
-![](/images/manage-form-entries/manually-cancel-any-subscription/View-on-Stripe.webp)
+![Cancel in payment gateway](/images/manage-form-entries/manually-cancel-any-subscription/Cancel-from-Payment-methods-dashboard-scaled.webp)
 
-Now, expand the **Actions** dropdown list from the right corner of the dashboard page, and click the **Cancel Subscription** button.
+## User-Side Cancellation
 
-And, the subscription will be canceled!
+Users can cancel their own subscriptions if given permission by the administrator.
 
-![](/images/manage-form-entries/manually-cancel-any-subscription/Cancel-from-Payment-methods-dashboard-scaled.webp)
+### Enable User Cancellation
 
-## Cancel Subscription from User-end
+1. Go to **Settings** from the **Paymattic Navbar**
+2. Open the **User Dashboard** tab
+3. Under **Paymattic User** settings, enable **Cancel subscription**
 
-Paymattic also allows users to cancel their subscriptions from their dashboard.
+For detailed instructions on user-side cancellation, see our [user dashboard guide](/# 1-toc-title).
 
-Remember, users can cancel their subscriptions from their User Dashboard only if the Admin gives them access to do it.
+![Enable user cancellation](/images/manage-form-entries/manually-cancel-any-subscription/Cancel-Subscription-from-User-End-scaled.webp)
 
-To give the desired access to your users, go to **Settings** from the **Paymattic Navbar**, open the **User Dashboard** tab from the left sidebar, and check the **Cancel subscription** button under the **Paymattic User** settings**.**
-
-To learn more details about how to cancel any subscription from the User Dashboard, read this [Documentation](/# 1-toc-title).
-
-![](/images/manage-form-entries/manually-cancel-any-subscription/Cancel-Subscription-from-User-End-scaled.webp)
-
-If you have any further questions, concerns, or suggestions, please do not hesitate to contact our [@support team](https://wpmanageninja.com/support-tickets/?utm_source=wpmn&utm_medium=home&utm_campaign=site#/). Thank you.
+:::tip Need Help?
+If you have any questions, concerns, or suggestions, please [contact our support team](https://wpmanageninja.com/support-tickets/).
+:::

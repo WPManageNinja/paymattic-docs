@@ -2,54 +2,71 @@
 title: "How to Manage Subscriptions in WordPress with Paymattic"
 category: "Manage Form Entries"
 ---
-With [Paymattic](https://paymattic.com/), you can easily manage your subscription with offline payments i.e., those form entries where users want to make payments Offline through direct bank transfer. This article will guide you through the process of managing subscriptions with offline payment in Paymattic.
 
-Remember, as the [Subscription Payment](/how-to-add-susbcription-payment-item-fields-in-paymattic) field is a **Pro Feature**, you need the [Paymattic Pro Plugin](/how-to-install-and-activate-paymattic-in-wordpress) to manage anything related to Subscriptions.
+[Paymattic](https://paymattic.com/) allows you to manage subscription payments, including offline payments made through direct bank transfers. This guide focuses on managing subscription payments in Paymattic.
 
-## Managing Offline Payment Subscriptions
+:::warning
+The [Subscription Payment](/how-to-add-susbcription-payment-item-fields-in-paymattic) feature requires [Paymattic Pro](/how-to-install-and-activate-paymattic-in-wordpress).
+:::
 
-To manage subscriptions that have offline payments, follow the steps with the screenshots below –
+## Managing Subscription Payments
 
-First, go to **Entries** from the **Paymattic Navbar,** and open the desired entry by clicking the **View Details** button that has Offline payment transaction.
-- *Remember**, once you receive the payment, you can **manually update** the **Payment Status** from **Pending** to **Paid** or other statuses as needed.
+### Access Subscription Details
 
-![](/images/manage-form-entries/how-to-manage-subscriptions-in-wordpress-with-paymattic/1.-Open-desired-entry-scaled.webp)
+1. Go to **Entries** from the **Paymattic Navbar**
+2. Find the subscription entry
+3. Click **View Details**
 
-Once you open the detailed entry page, scroll down to the **Related Payments** section where you can see the latest billing information.
+:::tip
+For offline payments, you can manually update the payment status from **Pending** to **Paid** once you receive payment.
+:::
 
-For example, if a user subscribed 3 months earlier and chooses a monthly billing plan, his billing details will appear here for every single month individually.
+![Access subscription entry](/images/manage-form-entries/how-to-manage-subscriptions-in-wordpress-with-paymattic/1.-Open-desired-entry-scaled.webp)
 
-To change the **Subscription Status** for individual bills, click the **Actions** button**.**
+### View Billing Information
 
-​​Always press the **Sync** button to refresh all subscription details for this specific customer.
+Scroll to the **Related Payments** section to see:
+- Latest billing information
+- Individual billing records (e.g., monthly charges)
+- Subscription status for each billing cycle
 
-![](/images/manage-form-entries/how-to-manage-subscriptions-in-wordpress-with-paymattic/2.-Related-Payments-scaled.webp)
+Actions available:
+- Click **Actions** to change subscription status for individual bills
+- Use **Sync** to refresh subscription details
 
-Click the **Change Subscription Payment Status** button and a pop-up will appear.
+![Related payments section](/images/manage-form-entries/how-to-manage-subscriptions-in-wordpress-with-paymattic/2.-Related-Payments-scaled.webp)
 
-![](/images/manage-form-entries/how-to-manage-subscriptions-in-wordpress-with-paymattic/3.-Change-Subscription-Payment-Status.webp)
+### Update Individual Bill Status
 
-Now, select a **new payment status** that fits your needs and click the **Confirm** button.
-And, your **Subscriptions Status** will be changed!
+1. Click **Actions**
+2. Select **Change Subscription Payment Status**
 
-Also, if you want, you can add a **Note** for this specific bill during the status change.
+![Change subscription status](/images/manage-form-entries/how-to-manage-subscriptions-in-wordpress-with-paymattic/3.-Change-Subscription-Payment-Status.webp)
 
-![](/images/manage-form-entries/how-to-manage-subscriptions-in-wordpress-with-paymattic/4.-Edit-Payment-status-pop-up.webp)
+3. Choose the new status
+4. Add an optional note
+5. Click **Confirm**
 
-To change the **Payment Status** for the whole Entry, click the **Change Payment Status** button on the top right corner**.**
+![Edit payment status](/images/manage-form-entries/how-to-manage-subscriptions-in-wordpress-with-paymattic/4.-Edit-Payment-status-pop-up.webp)
 
-![](/images/manage-form-entries/how-to-manage-subscriptions-in-wordpress-with-paymattic/5.-Change-Payment-Status-scaled.webp)
+### Update Overall Entry Status
 
-Now, select a **new payment status** that fits your needs and click the **Confirm** button.
-And, your **Payment Status** will be changed!
+To change the payment status for the entire subscription:
 
-Also, if you want, you can add a **Note** for this entry during the status change.
+1. Click **Change Payment Status** in the top right corner
 
-![](/images/manage-form-entries/how-to-manage-subscriptions-in-wordpress-with-paymattic/6.-Confirm-button.webp)
+![Change overall payment status](/images/manage-form-entries/how-to-manage-subscriptions-in-wordpress-with-paymattic/5.-Change-Payment-Status-scaled.webp)
 
-Here, you can see the **Payment Status** and the **Subscription Status** is updated from Pending to Paid.
+2. Select the new status
+3. Add an optional note
+4. Click **Confirm**
 
-![](/images/manage-form-entries/how-to-manage-subscriptions-in-wordpress-with-paymattic/7.-Paid-Status-scaled.webp)
+![Confirm status change](/images/manage-form-entries/how-to-manage-subscriptions-in-wordpress-with-paymattic/6.-Confirm-button.webp)
 
-This is the simple process to manage subscriptions with offline payments in Paymattic!
-If you have any further questions, concerns, or suggestions, please do not hesitate to contact our [@support team](https://wpmanageninja.com/support-tickets/?utm_source=wpmn&utm_medium=home&utm_campaign=site#/). Thank you.
+The system will update both the payment and subscription status:
+
+![Updated status](/images/manage-form-entries/how-to-manage-subscriptions-in-wordpress-with-paymattic/7.-Paid-Status-scaled.webp)
+
+:::tip Need Help?
+If you have any questions, concerns, or suggestions, please [contact our support team](https://wpmanageninja.com/support-tickets/).
+:::

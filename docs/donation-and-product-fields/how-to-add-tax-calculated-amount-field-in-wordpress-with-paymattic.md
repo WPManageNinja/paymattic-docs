@@ -149,5 +149,5 @@ Always test your tax calculations:
 :::
 
 ::: tip Need Help?
-Our [@support team](https://wpmanageninja.com/support-tickets/) is ready to assist with any questions about tax calculations!
+Our [support team](https://wpmanageninja.com/support-tickets/) is ready to assist with any questions about tax calculations!
 :::

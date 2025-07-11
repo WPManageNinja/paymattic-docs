@@ -2,98 +2,108 @@
 title: "How to Integrate ActiveCampaign in WordPress with Paymattic?"
 category: "Integrations"
 ---
-[Paymattic](https://paymattic.com/) integrates [ActiveCampaign](https://www.activecampaign.com/) a marketing automation tool that helps you to collect customer information, and automatically adds it to your ActiveCampaign list. This article will guide you through integrating **ActiveCampaign** with **Paymattic** on your **WordPress Site**.
 
-ActiveCampaign is the Premium Feature of the Paymattic Plugin. So, you need Paymattic Pro to integrate this.
+[Paymattic](https://paymattic.com/) integrates with [ActiveCampaign](https://www.activecampaign.com/), a marketing automation tool that helps you collect customer information and automatically add it to your ActiveCampaign list. This article will guide you through integrating **ActiveCampaign** with **Paymattic** on your **WordPress** site.
+
+:::warning
+ActiveCampaign integration is a Premium Feature of the Paymattic Plugin. You need Paymattic Pro to use this integration.
+:::
 
 ## Enable ActiveCampaign Integration 
 
-To learn how to enable ActiveCampaign integration, follow the steps with the screenshots below –
+To enable ActiveCampaign integration, follow these steps:
 
-First, go to **Integrations** from the **Paymattic Navbar**, search for **ActiveCampaign** through the search bar, and you will get the **ActiveCampaign** integration module.
+1. Go to **Integrations** from the **Paymattic Navbar**
+2. Search for **ActiveCampaign** in the search bar
+3. Click the **Settings Icon** on the right side of the ActiveCampaign module
+4. Click the **Toggle** button to enable ActiveCampaign
 
-Here, you will see the ActiveCampaign’s **Settings Icon** on the right side, click on it.
+![ActiveCampaign Settings Icon](/images/integrations/how-to-integrate-activecampaign-in-wordpress-with-paymattic/Active-Campaigns-Setting-Icon-scaled.webp)
 
-![](/images/integrations/how-to-integrate-activecampaign-in-wordpress-with-paymattic/Active-Campaigns-Setting-Icon-scaled.webp)
+Once enabled, you'll need to provide your **ActiveCampaign API URL** and **API Key**.
 
-Click the **Toggle** button to enable the ActiveCampaign.
-
-Once you enable ActiveCampaign, you will be asked for the **ActiveCampaign API URL** and **ActiveCampaign API Key** of your ActiveCampaign Account.
-
-![](/images/integrations/how-to-integrate-activecampaign-in-wordpress-with-paymattic/Enable-Active-Campaign-Integration-scaled.webp)
+![Enable ActiveCampaign Integration](/images/integrations/how-to-integrate-activecampaign-in-wordpress-with-paymattic/Enable-Active-Campaign-Integration-scaled.webp)
 
 ### Get the ActiveCampaign API URL and API Key
 
-To learn how to get the **ActiveCampaign API URL** and **ActiveCampaign API Key** from **ActiveCampaign**, follow the steps with screenshots below –
+To get your API credentials:
 
-First, log in to your [Active Campaign Account](https://www.activecampaign.com/) and go to **Settings** from the left sidebar.
+1. Log in to your [ActiveCampaign Account](https://www.activecampaign.com/)
+2. Go to **Settings** from the left sidebar
+3. Open the **Developer** tab
+4. Copy your API URL and API Key using the provided copy buttons
 
-![](/images/integrations/how-to-integrate-activecampaign-in-wordpress-with-paymattic/Settings-tab-of-Active-Campaign-scaled.webp)
+![Settings tab in ActiveCampaign](/images/integrations/how-to-integrate-activecampaign-in-wordpress-with-paymattic/Settings-tab-of-Active-Campaign-scaled.webp)
 
-Now, open the **Developer** tab and you will get your desired **API URL** and API Key. Simply, copy them by clicking the **Copy API URL** and **Copy API Key** buttons.
+![Copy ActiveCampaign API credentials](/images/integrations/how-to-integrate-activecampaign-in-wordpress-with-paymattic/Copy-Active-Campaign-API-URL-Key-scaled.webp)
 
-![](/images/integrations/how-to-integrate-activecampaign-in-wordpress-with-paymattic/Copy-Active-Campaign-API-URL-Key-scaled.webp)
+Then:
 
-Then, return to the **ActiveCampaign API Settings** page under the **Integrations** section from the **Paymattic** **Navbar**.
+1. Return to the **ActiveCampaign API Settings** page in Paymattic
+2. Paste your API URL and API Key into the respective fields
+3. Click **Save Settings** to enable the integration
 
-Paste the **API URL** and **API Key** you copied from **ActiveCampaign** into the **ActiveCampaign API URL** and **ActiveCampaign API Key** fields respectively.
-
-Finally, press the **Save Setting**s button and your ActiveCampaign Integration module will be enabled.
-
-![](/images/integrations/how-to-integrate-activecampaign-in-wordpress-with-paymattic/Paste-the-API-URL-Key-scaled.webp)
+![Paste API credentials](/images/integrations/how-to-integrate-activecampaign-in-wordpress-with-paymattic/Paste-the-API-URL-Key-scaled.webp)
 
 ## Integrate ActiveCampaign into Forms
 
-To learn how to integrate ActiveCampaign into any specific Form in Paymattic, follow the steps with the screenshots below –
+To add ActiveCampaign integration to a specific form:
 
-First, go to **All Forms** from the **Paymattic Navbar**, **select** the **Desired Form** where you want to integrate your **ActiveCampaign,** and click the **Pencil/Editor Icon.**
+1. Go to **All Forms** from the **Paymattic Navbar**
+2. Select the form where you want to add ActiveCampaign
+3. Click the **Pencil/Editor Icon**
 
-![](/images/integrations/how-to-integrate-activecampaign-in-wordpress-with-paymattic/Open-desired-form-8-scaled.webp)Once the **Editor** page opens, go to the **Integrations** tab, click the **Add New Integration** button &amp; select **ActiveCampaign Integration** feed from the dropdown list.
+![Open desired form](/images/integrations/how-to-integrate-activecampaign-in-wordpress-with-paymattic/Open-desired-form-8-scaled.webp)
 
-![](/images/integrations/how-to-integrate-activecampaign-in-wordpress-with-paymattic/Add-new-integration-dropdown-1-scaled.webp)
+4. Go to the **Integrations** tab
+5. Click **Add New Integration**
+6. Select **ActiveCampaign Integration** from the dropdown
 
-Here, you will find a required field to set a name for your integration feed according to your preference.
+![Add new integration](/images/integrations/how-to-integrate-activecampaign-in-wordpress-with-paymattic/Add-new-integration-dropdown-1-scaled.webp)
 
-Also, you must select the **ActiveCampaign List** from the dropdown where you want to send the submitted form data.
+7. Set a name for your integration feed
+8. Select the **ActiveCampaign List** where you want to send form data
 
-![](/images/integrations/how-to-integrate-activecampaign-in-wordpress-with-paymattic/Selecting-active-campaign-list-scaled.webp)
+![Select ActiveCampaign list](/images/integrations/how-to-integrate-activecampaign-in-wordpress-with-paymattic/Selecting-active-campaign-list-scaled.webp)
 
-Once you select the list, a pop-up page will appear with various settings options for configuring the ActiveCampaign.
-- *All the settings options mentioned in the screenshot below are briefly explained:**
-- **Name**: From here, you can change the name anytime if needed.
-- **ActiveCampaign List:** From here, you can change the ActiveCampaign List anytime if needed.
-- **Map Fileds:** Use all the fields under this option to properly link your ActiveCampaign Fields with the Form Fields. Also, you can easily select the **Value** for the **Form Fields** according to the **ActiveCampaign Fields** by using the **Shortcode** button.
-- **Tags**: With this option, you can add tags to your ActiveCampaign contacts with a comma-separated list (e.g. new lead, WPPayForm, web source). Commas within a merge tag value will be created as a single tag.
-- **Enable Dynamic Tag Input:** This option allows ActiveCampaign to add customized tags for specific contacts based on your submission values according to your set conditions.
-- **Note**: You can write a note for the contacts.
-- **Enable Instant Responder**: When this option is enabled, ActiveCampaign will send any instant responders set up when the contact is added to the list.
-- **Enable send the last broadcast campaign**: When this option is enabled, ActiveCampaign will send the last campaign sent out to the list or the contact being added.
-- **Conditional Logics**: This option allows ActiveCampaign integration to function conditionally based on your submission values according to your set conditional logic/s. Also, here, you can add as much conditional logic as you need by clicking the **+ Add More** button and delete any logic by clicking the **Trash Icon** if needed. To learn more, read this [Documentation](/how-to-use-conditional-logic-in-form-fields-with-paymattic).
-- **Enable This Feed**: Check this option, to ensure this integration feed remains enabled, and all the actions of this feed function properly.
+### Configuration Options
 
-Once the setup is done, finally, click the **Create ActiveCampaign Feed** button.
-And, your ActiveCampaign will be integrated into this specific form!
+The integration settings include:
 
-![](/images/integrations/how-to-integrate-activecampaign-in-wordpress-with-paymattic/Add-New-Active-Campaign-Integration-Feed-page.webp)
+- **Name**: Your integration feed name
+- **ActiveCampaign List**: Target list for form submissions
+- **Map Fields**: Link form fields to ActiveCampaign fields using the **Shortcode** button
+- **Tags**: Add comma-separated tags (e.g., "new lead, WPPayForm, web source")
+- **Dynamic Tags**: Enable custom tags based on submission values
+- **Note**: Add a note for the contacts
+- **Instant Responder**: Enable automated responses for new contacts
+- **Last Broadcast**: Send the last campaign to new contacts
+- **Conditional Logic**: Set conditions for the integration. See our [conditional logic guide](/how-to-use-conditional-logic-in-form-fields-with-paymattic)
+- **Enable Feed**: Activate/deactivate the integration
 
-After successful Integration, now you will see that your **ActiveCampaign Integration Feed** has been added here.
+Click **Create ActiveCampaign Feed** to complete the setup.
 
-You can modify your feed anytime by clicking the **Pencil Icon** and delete it by clicking the **Trash Icon**. 
-Also, you can disable or enable this feed anytime by clicking the **Toggl**e button if needed.
+![ActiveCampaign integration settings](/images/integrations/how-to-integrate-activecampaign-in-wordpress-with-paymattic/Add-New-Active-Campaign-Integration-Feed-page.webp)
 
-![](/images/integrations/how-to-integrate-activecampaign-in-wordpress-with-paymattic/Added-Active-Campaign-Intgration-Feed-scaled.webp)
+After successful integration, you can:
+- Modify the feed using the **Pencil Icon**
+- Delete it using the **Trash Icon**
+- Enable/disable using the **Toggle** button
+
+![Added ActiveCampaign Integration Feed](/images/integrations/how-to-integrate-activecampaign-in-wordpress-with-paymattic/Added-Active-Campaign-Intgration-Feed-scaled.webp)
 
 ## Preview of Integrated ActiveCampaign
 
-Here, you can see the preview of the added contacts of ActiveCampaign through the Form entries that I set up during the integration.
+To view your integrated contacts:
 
-First, go to the **Contacts** section from the left sidebar, open the **List** tab, and click on the **Desired Lis**t you integrated into **Paymattic**.
+1. Go to **Contacts** in ActiveCampaign
+2. Open the **List** tab
+3. Click on your integrated list
 
-![](/images/integrations/how-to-integrate-activecampaign-in-wordpress-with-paymattic/Contacts-List-from-Active-campaign-dashboard-scaled.webp)
+![Contacts List in ActiveCampaign](/images/integrations/how-to-integrate-activecampaign-in-wordpress-with-paymattic/Contacts-List-from-Active-campaign-dashboard-scaled.webp)
 
-And, you can see that **Contacts** are added automatically to the chosen **ActiveCampaign Contact List** through the Paymattic Form submission.
+You'll see contacts automatically added from your Paymattic form submissions:
 
-![](/images/integrations/how-to-integrate-activecampaign-in-wordpress-with-paymattic/Preview-of-Active-Campaign-contact-List.webp)
+![Preview of ActiveCampaign contact list](/images/integrations/how-to-integrate-activecampaign-in-wordpress-with-paymattic/Preview-of-Active-Campaign-contact-List.webp)
 
-This way you can easily integrate ActiveCampaign with Paymattic!
-If you have any further questions, concerns, or suggestions, please do not hesitate to contact our [@support team](https://wpmanageninja.com/support-tickets/?utm_source=wpmn&utm_medium=home&utm_campaign=site#/). Thank you.
+That's all you need to integrate ActiveCampaign with Paymattic! If you have any questions, concerns, or suggestions, please contact our [support team](https://wpmanageninja.com/support-tickets/?utm_source=wpmn&utm_medium=home&utm_campaign=site#/).

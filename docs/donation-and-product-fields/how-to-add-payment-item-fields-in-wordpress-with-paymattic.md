@@ -186,5 +186,5 @@ Always test your payment form thoroughly:
 :::
 
 ::: tip Need Help?
-Our [@support team](https://wpmanageninja.com/support-tickets/) is ready to assist with any questions or concerns!
+Our [support team](https://wpmanageninja.com/support-tickets/) is ready to assist with any questions or concerns!
 :::

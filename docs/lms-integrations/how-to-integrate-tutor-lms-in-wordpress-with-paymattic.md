@@ -2,65 +2,77 @@
 title: "How to Integrate Tutor LMS in WordPress with Paymattic?"
 category: "Learning Management System (LMS) Integrations"
 ---
-[Paymattic](https://paymattic.com/) allows you to connect with [TutorLMS](https://tutorlms.com/), a WordPress learning management plugin, to automate your course enrollment, user enrollment, and welcome email notification. This article will guide you through integrating TutorLMS into your WordPress Site with Paymattic.
 
-TutorLMS is the Premium Feature of the Paymattic Plugin. So, you need Paymattic Pro to integrate this.
+[Paymattic](https://paymattic.com/) integrates with [Tutor LMS](https://tutorlms.com/), a WordPress learning management plugin, to automate course enrollment, user registration, and welcome email notifications. This article will guide you through integrating Tutor LMS with Paymattic on your WordPress site.
 
-## Enable TutorLMS Integration
+:::warning
+Tutor LMS integration is a Premium Feature of the Paymattic Plugin. You need Paymattic Pro to use this integration.
+:::
 
-To learn how to enable TutorLMS integration, follow the steps with screenshots below –
+## Prerequisites
 
-First, go to **Integrations** from the **Paymattic Navbar**, search for **Fluent Support** through the search bar, and you will get the TutorLMS integration module.
+Before starting the integration, ensure you have:
+- Installed and activated the Tutor LMS plugin on your WordPress site
+- Set up at least one course in Tutor LMS
 
-Before starting the process, ensure you **Installed** and **Activated** the **TutorLMS Plugin** in your WordPress Site.
+## Enable Tutor LMS Integration
 
-Once you successfully install &amp; activate the TutorLMS plugin, you will get the TutorLMS’s **Settings Icon** on the right side, click on it.
+To enable the integration:
 
-![](/images/lms-integrations/how-to-integrate-tutor-lms-in-wordpress-with-paymattic/TutorLMSs-Icon-scaled.webp)
+1. Go to **Integrations** from the **Paymattic Navbar**
+2. Search for **Tutor LMS** in the search bar
+3. Click the **Settings Icon** on the right side of the Tutor LMS module
+4. Click the **Toggle** button to enable the integration
 
-Click the **Toggle** button and your TutorLMS integration module will be enabled.
+![Tutor LMS Settings Icon](/images/lms-integrations/how-to-integrate-tutor-lms-in-wordpress-with-paymattic/TutorLMSs-Icon-scaled.webp)
 
-![](/images/lms-integrations/how-to-integrate-tutor-lms-in-wordpress-with-paymattic/Enabled-TutorLMS-Integration-scaled.webp)## Integrate TutorLMS into Forms
+![Enable Tutor LMS Integration](/images/lms-integrations/how-to-integrate-tutor-lms-in-wordpress-with-paymattic/Enabled-TutorLMS-Integration-scaled.webp)
 
-To learn how to integrate TutorLMS into any specific Form in Paymattic, follow the steps with the screenshots below –
+## Integrate Tutor LMS into Forms
 
-First, go to **All Forms** from the **Paymattic Navbar**, **select** the **Desired Form** where you want to integrate **TutorLMS,** and click the **Pencil/Editor Icon.**
+To add Tutor LMS to a specific form:
 
-![](/images/lms-integrations/how-to-integrate-tutor-lms-in-wordpress-with-paymattic/Open-desired-form-1-scaled.webp)
+1. Go to **All Forms** from the **Paymattic Navbar**
+2. Select the form where you want to add Tutor LMS
+3. Click the **Pencil/Editor Icon**
 
-Once the **Editor** page opens, go to the **Integrations** tab, click the **Add New Integration** button &amp; select **TutorLMS Integration** feed from the dropdown list.
+![Open desired form](/images/lms-integrations/how-to-integrate-tutor-lms-in-wordpress-with-paymattic/Open-desired-form-1-scaled.webp)
 
-![](/images/lms-integrations/how-to-integrate-tutor-lms-in-wordpress-with-paymattic/Add-new-integration-dropdown-TutorLMS-scaled.webp)
+4. Go to the **Integrations** tab
+5. Click **Add New Integration**
+6. Select **Tutor LMS Integration** from the dropdown
 
-Now, a pop-up page will appear with various settings options for configuring the TutorLMS.
-- *All the settings options mentioned in the screenshot below are briefly explained:**
-- **Feed Name**: Here, you can set a name according to your preference for your feed. This field is required to be filled in.
-- **TutorLMS Course**: Here, you can select the **TutorLMS Course** from the dropdown where you want to send the submitted form data.
-- **Map Fields**: Use all the fields under this option to properly link your TutorLMS User Registration Fields with the Form Fields. Also, you can easily select the **Value** for the **Form Fields** according to the **TutorLMS Fields** by using the **Shortcode** button.
-- **Allow the user login automatically after registration or course purchase**: If you enable this option, the user will be automatically logged in upon completing the form registration or purchase.
-- **Send default WordPress Welcome Email for new WordPress Users**: Here you will also get the checkbox option to give a Welcome Email Notification to your user.
-- **Remove user if refunded or subscription canceled**: Enable this option to remove the user from the TutorLMS course list if they refunded or canceled their subscription.
-- **Enroll course on payment success only**: If you enable this option, the notification will be sent to TutorLMS only after successful payment is received.
-- **Conditional Logics**: This option allows TutorLMS integration to function conditionally based on your submission values according to your set conditional logic/s. Also, here, you can add as much conditional logic as you need by clicking the **+ Add More** button and delete any logic by clicking the **Trash Icon** if needed. To learn more, read this [Documentation](/how-to-use-conditional-logic-in-form-fields-with-paymattic)
-- **Enable This Feed**: Check this option, to ensure this integration feed remains enabled, and all the actions of this feed function properly.
+![Add new integration](/images/lms-integrations/how-to-integrate-tutor-lms-in-wordpress-with-paymattic/Add-new-integration-dropdown-TutorLMS-scaled.webp)
 
-Once the setup is done, finally, click the **Create TutorLMS Feed** button.
-And, your Fluent Support will be integrated into this specific form!
+### Configuration Options
 
-![](/images/lms-integrations/how-to-integrate-tutor-lms-in-wordpress-with-paymattic/Add-New-TutorLMS-Integrartion-Feed-page.webp)
+The integration settings include:
 
-After successful Integration, now you will see that your TutorLMS **Integration Feed** has been added here.
+- **Feed Name**: Required name for your integration feed
+- **Tutor LMS Course**: Select the course for form submissions
+- **Map Fields**: Link form fields to Tutor LMS user registration fields using the **Shortcode** button
+- **Auto Login**: Enable to automatically log in users after registration/purchase
+- **Welcome Email**: Send the default WordPress welcome email to new users
+- **Refund Handling**: Remove users from courses if they refund or cancel subscriptions
+- **Payment Success**: Only enroll users after successful payment
+- **Conditional Logic**: Set conditions for enrollment. See our [conditional logic guide](/how-to-use-conditional-logic-in-form-fields-with-paymattic)
+- **Enable Feed**: Activate/deactivate the integration
 
-You can modify your feed anytime by clicking the **Pencil Icon** and delete it by clicking the **Trash Icon**.
-Also, you can disable or enable this feed anytime by clicking the **Toggl**e button if needed.
+Click **Create Tutor LMS Feed** to complete the setup.
 
-![](/images/lms-integrations/how-to-integrate-tutor-lms-in-wordpress-with-paymattic/Added-TutorLMS-integration-feed-scaled.webp)
+![Tutor LMS integration settings](/images/lms-integrations/how-to-integrate-tutor-lms-in-wordpress-with-paymattic/Add-New-TutorLMS-Integrartion-Feed-page.webp)
 
-## Preview of Integrated TutorLMS
+After successful integration, you can:
+- Modify the feed using the **Pencil Icon**
+- Delete it using the **Trash Icon**
+- Enable/disable using the **Toggle** button
 
-Here, you can see the preview of the newly added students of TutorLMS through the Form entries that I set up during the integration.
+![Added Tutor LMS Integration Feed](/images/lms-integrations/how-to-integrate-tutor-lms-in-wordpress-with-paymattic/Added-TutorLMS-integration-feed-scaled.webp)
 
-![](/images/lms-integrations/how-to-integrate-tutor-lms-in-wordpress-with-paymattic/Preview-of-TutorLMS-scaled.webp)
+## Preview of Integrated Tutor LMS
 
-This way you can easily integrate TutorLMS with Paymattic!
-If you have any further questions, concerns, or suggestions, please do not hesitate to contact our [@support team](https://wpmanageninja.com/support-tickets/?utm_source=wpmn&utm_medium=home&utm_campaign=site#/). Thank you.
+Here's an example of students automatically enrolled through Paymattic form submissions:
+
+![Preview of Tutor LMS enrollments](/images/lms-integrations/how-to-integrate-tutor-lms-in-wordpress-with-paymattic/Preview-of-TutorLMS-scaled.webp)
+
+That's all you need to integrate Tutor LMS with Paymattic! If you have any questions, concerns, or suggestions, please contact our [support team](https://wpmanageninja.com/support-tickets/?utm_source=wpmn&utm_medium=home&utm_campaign=site#/).

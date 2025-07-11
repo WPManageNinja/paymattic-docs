@@ -2,36 +2,49 @@
 title: "How to Import-Export Forms with Paymattic"
 category: "Import - Export"
 ---
-[Paymattic](https://paymattic.com/) allows you to Import and Export forms between websites and saves you from the hassle of creating new forms. This article will guide you through the process of how you can **Import** and **Export** your forms through **Paymattic.**
 
-## Importing Forms 
+[Paymattic](https://paymattic.com/) allows you to transfer forms between WordPress sites using import/export functionality. This guide explains how to move your forms efficiently.
 
-To learn how you can Import forms from other platforms to Paymattic, follow the steps with the screenshots below –
+## Import Forms
 
-First, go to **All Forms** from the **Paymattic Navbar** where you have all your existing forms.
+### Access Import Tool
 
-Now, click the **+ Add New Form** button to Import a new form.
+1. Go to **All Forms** from the **Paymattic Navbar**
+2. Click **+ Add New Form**
 
-![](/images/import-export/how-to-import-export-forms-in-wordpress-with-paymattic/Add-New-Form-button-scaled.webp)Now, click the **Import Form** tab as it allows you to import your JSON format forms from other platforms to Paymattic.
+![Add new form](/images/import-export/how-to-import-export-forms-in-wordpress-with-paymattic/Add-New-Form-button-scaled.webp)
 
-![](/images/import-export/how-to-import-export-forms-in-wordpress-with-paymattic/Import-Form-tab-scaled.webp)Now click the **Download Icon** to select the desired form from your device.
+3. Select the **Import Form** tab
 
-Once you choose the form, click the **Import** button.
+![Import tab](/images/import-export/how-to-import-export-forms-in-wordpress-with-paymattic/Import-Form-tab-scaled.webp)
 
-“**Remember**, the form file must be in JSON format to import into Paymattic.”
+### Import Process
 
-![](/images/import-export/how-to-import-export-forms-in-wordpress-with-paymattic/Import-Button.webp)Here, you can see that the **form** is **imported successfully** and added to **All Forms** sections.
+1. Click the **Download Icon** to browse your device
+2. Select your form file
+3. Click **Import**
 
-![](/images/import-export/how-to-import-export-forms-in-wordpress-with-paymattic/Preview-of-imported-form-scaled.webp)
+:::warning File Format
+Forms must be in JSON format to import into Paymattic.
+:::
 
-## Exporting Forms
+![Import form](/images/import-export/how-to-import-export-forms-in-wordpress-with-paymattic/Import-Button.webp)
 
-To learn how you can Export forms from Paymattic to other platforms, follow the steps with the screenshots below –
+The imported form will appear in your **All Forms** list:
 
-First, go to **All Forms** from the **Paymattic Navbar** where you have all your existing forms.
+![Imported form](/images/import-export/how-to-import-export-forms-in-wordpress-with-paymattic/Preview-of-imported-form-scaled.webp)
 
-Now, click the **Three-dot-icon** option of the desired form you want to export, and press the **Export Form** button. And, your form will be exported in JSON format.
+## Export Forms
 
-![](/images/import-export/how-to-import-export-forms-in-wordpress-with-paymattic/Export-Form-button-scaled.webp)This way you can easily Import/Export as many forms as you want in Paymattic!
+1. Go to **All Forms** from the **Paymattic Navbar**
+2. Find the form to export
+3. Click its **Three-dot-icon**
+4. Select **Export Form**
 
-If you have any further questions, concerns, or suggestions, please do not hesitate to contact our [@support team](https://wpmanageninja.com/support-tickets/?utm_source=wpmn&utm_medium=home&utm_campaign=site#/). Thank you.
+The form will download in JSON format.
+
+![Export form](/images/import-export/how-to-import-export-forms-in-wordpress-with-paymattic/Export-Form-button-scaled.webp)
+
+:::tip Need Help?
+If you have any questions, concerns, or suggestions, please [contact our support team](https://wpmanageninja.com/support-tickets/).
+:::

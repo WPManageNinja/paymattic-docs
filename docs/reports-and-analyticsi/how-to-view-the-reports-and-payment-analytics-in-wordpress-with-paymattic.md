@@ -1,162 +1,161 @@
 ---
-title: "How to View the Reports and Payment Analytics in WordPress?"
-category: "Reports &amp; Analytics"
+title: "How to View Reports and Payment Analytics in WordPress?"
+category: "Reports & Analytics"
 ---
-The Report section of [Paymattic](https://paymattic.com/) will provide a quick rundown of all the entries submitted through your forms. It gives you an easy-to-digest overview of all the submitted entries on a single page. In general, you will have a bird-eye-view of the performance of your payment forms. This article will guide you through using all the features of the Paymattic Reports Section.
 
-## View Reports and Payment Analytics
+[Paymattic](https://paymattic.com/)'s Reports section provides comprehensive analytics for your form submissions and payments. This guide explains how to use each reporting feature to monitor your site's performance.
 
-To learn how to view the Reports and Payment analytics in Paymattic, follow the steps with the screenshots below –
+## Access Reports
 
-First, go to **Paymattic Dashboard** from the **WordPress Left Sidebar,** click the **Reports** section, and all the features will appear to help you view your overall Reports.
+1. Go to **Paymattic Dashboard** in WordPress admin
+2. Click the **Reports** section
 
-![](/images/reports-and-analyticsi/how-to-view-the-reports-and-payment-analytics-in-wordpress-with-paymattic/Reports-section-of-Paymattic-scaled.webp)
+![Reports dashboard](/images/reports-and-analyticsi/how-to-view-the-reports-and-payment-analytics-in-wordpress-with-paymattic/Reports-section-of-Paymattic-scaled.webp)
 
-All the features for viewing the overall report of entire Paymattic activities are organized into nine major sections: These are:
+## Available Reports
 
-1. Reports Overview
-2. Revenue for Period
-3. Payment Methods
-4. Recent Transactions
-5. Payment Status
-6. Top Customers
-7. Revenue Breakdown
-8. Form Status
-9. Active Subscriptions
-- *All the available Sections including their Features are explained below:**
+### 1. Overview Dashboard
 
-### 1. Reports Overview
+View key metrics at a glance:
 
-In this section, you will get four major features to view reports of your Paymattic activities. These are:
+![Overview metrics](/images/reports-and-analyticsi/how-to-view-the-reports-and-payment-analytics-in-wordpress-with-paymattic/Reports-Overview-section-scaled.webp)
 
-1. Total Revenue
-2. Total Pending
-3. Total Customers
-4. Total paid submissions
+#### Total Revenue
+- All successful payments
+- Breakdown by currency
+- Click to view [detailed entries](/# 1-toc-title)
 
-![](/images/reports-and-analyticsi/how-to-view-the-reports-and-payment-analytics-in-wordpress-with-paymattic/Reports-Overview-section-scaled.webp)
+#### Pending Payments
+- Outstanding payment amounts
+- Currency breakdown
+- Click to view [pending entries](/# 1-toc-title)
 
-#### A. Total Revenue:
+#### Customer Count
+- Total unique customers
+- Submission statistics
+- Click for [customer details](/how-to-view-customer-profile-in-wordpress)
 
-The **Total Revenue** tab displays the total amount of payments made by the users till today. If the users pay in different currencies, this tab will also break down the amount into respective currencies.
+![Customer details](/images/reports-and-analyticsi/how-to-view-the-reports-and-payment-analytics-in-wordpress-with-paymattic/Customer-detail-page-scaled.webp)
 
-To view the complete revenue details for each entry, click the **Total Revenue** button.
+#### Paid Submissions
+- Successful payment count
+- Click to view [paid entries](/# 1-toc-title)
 
-It will redirect you to the **"Entries"** section from the **Paymattic Navbar** and open all the entries under the **"Paid"** entry status. For details, please refer to this [Documentation](/# 1-toc-title).
+#### Filter Options
+- **Date Range**: Select specific dates
+- **Quick Filters**: Last week/month/year or all time
 
-#### B. Total Pending 
+![Filter options](/images/reports-and-analyticsi/how-to-view-the-reports-and-payment-analytics-in-wordpress-with-paymattic/Two-filter-options-of-reports-overview-scaled.webp)
 
-The **Total Pending** tab displays the total amount of pending payments by users till today. If the users pay in different currencies, this tab will also break down the amount into respective currencies.
+### 2. Revenue Timeline
 
-To view the complete pending details of each form entry, click the **Total Pending** button.
+:::warning Premium Feature
+Revenue timeline requires [Paymattic Pro](/# 1-toc-title).
+:::
 
-It will redirect you to the **"Entries"** section from the **Paymattic Navbar** and open all the entries under the **"Pending"** entry status. For details, please refer to this [Documentation](/# 1-toc-title).
+Interactive line chart showing:
+- Daily revenue trends
+- Hover for daily totals
+- Filter by:
+  - Date range
+  - Currency
 
-#### C. Total Customers:
-
-The **Total Customers** tab displays the total number of all the customers and their submission details.
-
-To view the complete details of each customer, click the **Total Customer** button. It will redirect you to the customer detail page.
-
-Here, you can see the **total number of form submissions**, the **time of the first form submission**, and the **creation date** of the first submission for each customer.
-
-To learn more details, click the **View Detail** button. For details, please refer to this [Documentation](/how-to-view-customer-profile-in-wordpress).
-
-![](/images/reports-and-analyticsi/how-to-view-the-reports-and-payment-analytics-in-wordpress-with-paymattic/Customer-detail-page-scaled.webp)
-
-#### D. Total Paid Submissions 
-
-The **Total Paid Submissions** tab displays the total number of all the form submissions with successful payments and their submission details.
-
-To view the complete paid submission details for each entry, click the **Total Entries** button.
-
-It will redirect you to the **"Entries"** section from the **Paymattic Navbar** and open all the entries under the **"Paid"** entry status. For details, please refer to this [Documentation](/# 1-toc-title).
-
-##### Filter options of Reports Overview section
-
-Here, you will get two options for filtering the data you want to view specifically in the top right corner. These are:
-- Date filter: With this option, you can view reports from a specific period based on dates.
-- Days filter: With this option, you can view reports from a specific period based on the last week/month, ongoing year, or all reports till the ongoing day.
-
-![](/images/reports-and-analyticsi/how-to-view-the-reports-and-payment-analytics-in-wordpress-with-paymattic/Two-filter-options-of-reports-overview-scaled.webp)
-
-### 2. Revenue for Period
-
-This section shows you the trend of revenue earned in the recent period through a line chart. Each data point on the graph displays the total amount of revenue generated on a specific date while you hover the mouse over it.
-
-You will also get two options for filtering your report data. These are:
-- **Date filter**: With this option, you can view reports from a specific period based on dates.
-- **Currency filter**: With this option, you can select the currency from the dropdown list to view the revenue for different currencies.
-
-Remember, the Revenue for Period section is a Pro feature i.e., to use this feature for viewing reports you need the [Paymattic Pro Plugin.](/# 1-toc-title)
-
-![](/images/reports-and-analyticsi/how-to-view-the-reports-and-payment-analytics-in-wordpress-with-paymattic/Revenue-for-Period.webp)
+![Revenue chart](/images/reports-and-analyticsi/how-to-view-the-reports-and-payment-analytics-in-wordpress-with-paymattic/Revenue-for-Period.webp)
 
 ### 3. Payment Methods
 
-This section presents a donut chart about the number of submissions through each payment method. Each type of payment method is marked in different colors on the chart. If you hover the mouse over on a specific colour it pops up the number of submissions for different payment methods.
+Donut chart displaying:
+- Payment method distribution
+- Color-coded segments
+- Hover for submission counts
 
-![](/images/reports-and-analyticsi/how-to-view-the-reports-and-payment-analytics-in-wordpress-with-paymattic/Payment-Methods.webp)
+![Payment methods](/images/reports-and-analyticsi/how-to-view-the-reports-and-payment-analytics-in-wordpress-with-paymattic/Payment-Methods.webp)
 
-### 4. Recent Transaction
+### 4. Recent Transactions
 
-This section shows the list of recent payments made through your website. Each row in the list includes the **Form Name**, **Customer Name**, **Time of Transaction/Payment**, **Payment Amount**, and **Payment Status**.
+Latest payment activity showing:
+- Form name
+- Customer
+- Transaction time
+- Amount
+- Status (color-coded)
 
-Also, the payment amount is marked in different colors based on paid, pending, processing, refunded, and failed status.
+Click **View Details** for [complete transaction info](/how-to-view-single-submission-data-and-manage-payments-in-paymattic).
 
-To view the complete transaction details for each entry, click the **View Details** button. For details, please refer to this [Documentation](/how-to-view-single-submission-data-and-manage-payments-in-paymattic).
+![Recent transactions](/images/reports-and-analyticsi/how-to-view-the-reports-and-payment-analytics-in-wordpress-with-paymattic/Recent-transaction-scaled.webp)
 
-![](/images/reports-and-analyticsi/how-to-view-the-reports-and-payment-analytics-in-wordpress-with-paymattic/Recent-transaction-scaled.webp)
+### 5. Payment Status Distribution
 
-### 5. Payment Statuses
+Bar chart showing submissions by status:
+- Paid
+- Pending
+- Processing
+- Refunded
+- Failed
+- Abandoned
 
-This section represents the number of form submissions based on payment statuses e.g., **Paid**, **Pending**, **Processing**, **Refunded**, **Failed**, and **Abandoned** transactions on your site.
+Hover for exact counts.
 
-To know the exact number of submissions, just hover the mouse over the bars.
-Also, it generates different color bars based on different types of submissions.
+![Payment status](/images/reports-and-analyticsi/how-to-view-the-reports-and-payment-analytics-in-wordpress-with-paymattic/Payment-Statuses.webp)
 
-![](/images/reports-and-analyticsi/how-to-view-the-reports-and-payment-analytics-in-wordpress-with-paymattic/Payment-Statuses.webp)
+### 6. Top Customers
 
-### 6. Top Customer
+Ranked customer list by payment amount:
+- Filter by currency
+- Default: USD
 
-This section filters the customer list based on the highest amount of payments received. By default, this tab shows the list of customers who paid in dollar($) currency. However, you can change the currency from the top corner to view the top customer list for different currencies.
+![Top customers](/images/reports-and-analyticsi/how-to-view-the-reports-and-payment-analytics-in-wordpress-with-paymattic/Top-Customers.webp)
 
-![](/images/reports-and-analyticsi/how-to-view-the-reports-and-payment-analytics-in-wordpress-with-paymattic/Top-Customers.webp)
+### 7. Revenue Details
 
-### 7. Revenue Breakdown
+Daily revenue breakdown:
+- Net amount per date
+- Submission count
+- Currency filter
 
-This section shows you the recent net revenue amount based on specific dates. You can view the number of submissions for each date of payment. Also, you can change the currency to view the revenue breakdown in different currencies.
+![Revenue details](/images/reports-and-analyticsi/how-to-view-the-reports-and-payment-analytics-in-wordpress-with-paymattic/Revenue-Break-Down.webp)
 
-![](/images/reports-and-analyticsi/how-to-view-the-reports-and-payment-analytics-in-wordpress-with-paymattic/Revenue-Break-Down.webp)
+### 8. Form Performance
 
-### 8. Form Stats
+Per-form analytics:
+- Select form from dropdown
+- View:
+  - Form ID
+  - Total entries
+  - Payment totals
+  - Status breakdown
 
-This section helps you to get a bird-eye-view of the performance for individual forms.
-
-To do this, you need to select a **Form** from the dropdown list and it will display **Form ID**, **Total** **Entries,** and payment received for this specific form.
-
-It also **displays** the **entry count** and **payment amount** based on the **Payment Statuses** (Paid, Processing, Pending, etc.).
-
-![](/images/reports-and-analyticsi/how-to-view-the-reports-and-payment-analytics-in-wordpress-with-paymattic/Form-Stats.webp)
+![Form stats](/images/reports-and-analyticsi/how-to-view-the-reports-and-payment-analytics-in-wordpress-with-paymattic/Form-Stats.webp)
 
 ### 9. Active Subscriptions
 
-This section shows you only the list of recent **paid subscriptions** made through your Paymattic forms on your site. Each row in the list includes the **Form Name**, **Customer Name, Subscription Plan, Subscription Date, Recurring Amount, Total Amount,** and **Billing Count.**
+:::warning Premium Feature
+Subscription tracking requires [Paymattic Pro](/# 1-toc-title).
+:::
 
-To view the complete subscription details for each entry, click the **View Details** button. For details, please refer to this [Documentation](/how-to-view-single-submission-data-and-manage-payments-in-paymattic).
+View active subscriptions:
+- Form name
+- Customer
+- Plan details
+- Billing info
+- Click for [detailed view](/how-to-view-single-submission-data-and-manage-payments-in-paymattic)
 
-And, to view the full Subscription list, click the **All Subscription** button.
-- *Remember**, the **Active Subscriptions** section is a Pro feature i.e., to use this feature for viewing reports you need the [Paymattic Pro Plugin](/# 1-toc-title).
+![Active subscriptions](/images/reports-and-analyticsi/how-to-view-the-reports-and-payment-analytics-in-wordpress-with-paymattic/Active-Subscriptions-scaled.webp)
 
-![](/images/reports-and-analyticsi/how-to-view-the-reports-and-payment-analytics-in-wordpress-with-paymattic/Active-Subscriptions-scaled.webp)
+### 10. Recent Coupons
 
-### 10. Recent Applied Coupons
+Last 10 applied coupons showing:
+- Form name
+- Submission ID
+- Coupon code
+- Customer details
+- Discount amount
+- Usage date
 
-This section shows you a list of the last ten coupons that have been successfully applied to your payment forms. It provides a quick and convenient way to monitor your recent coupon activity.
+Click **View Details** for full submission info or **All Coupons** for complete history.
 
-Each row in the list includes the **Form** name, **Submission ID**, the **Coupon** code used, **Customer** name, **Email**, the **Discount** amount, and the date it was **Created At**.
+![Recent coupons](/images/reports-and-analyticsi/how-to-view-the-reports-and-payment-analytics-in-wordpress-with-paymattic/recently-applied-coupon-Paymattic-scaled.webp)
 
-To view the complete submission details for a specific coupon use, click the **View Details** button. Furthermore, you can click the **All Coupons** button located at the top right corner to navigate to the main coupon management page.
-
-![](/images/reports-and-analyticsi/how-to-view-the-reports-and-payment-analytics-in-wordpress-with-paymattic/recently-applied-coupon-Paymattic-scaled.webp)This way you can easily view all the entire Reports about your Paymattic Activities!
-If you have any further questions, concerns, or suggestions, please do not hesitate to contact our [@support team](https://wpmanageninja.com/support-tickets/?utm_source=wpmn&utm_medium=home&utm_campaign=site#/). Thank you.
+:::tip Need Help?
+If you have any questions, concerns, or suggestions, please [contact our support team](https://wpmanageninja.com/support-tickets/).
+:::
