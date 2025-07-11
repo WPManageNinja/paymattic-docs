@@ -122,5 +122,5 @@ Always respect donor privacy and provide clear information about how their infor
 :::
 
 ::: tip Need Help?
-If you have questions or need assistance, our [@support team](https://wpmanageninja.com/support-tickets/) is ready to help!
+If you have questions or need assistance, our [support team](https://wpmanageninja.com/support-tickets/) is ready to help!
 :::

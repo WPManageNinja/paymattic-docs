@@ -137,4 +137,6 @@ Always test your payment form:
 4. Test on mobile devices
 :::
 
+::: tip Need Help?
 Need help? Contact our [support team](https://wpmanageninja.com/support-tickets/) for assistance!
+:::

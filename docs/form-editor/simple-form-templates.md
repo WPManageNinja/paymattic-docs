@@ -76,5 +76,5 @@ Here is the **preview** of the **Donation Progress Item** field in a **Donation 
 This way you can easily create a **Form** with **Templates** in Paymattic!
 
 ::: tip Need Help?
-If you have any further questions, concerns, or suggestions, please do not hesitate to contact our [@support team](https://wpmanageninja.com/support-tickets/). Thank you.
+If you have any further questions, concerns, or suggestions, please do not hesitate to contact our [support team](https://wpmanageninja.com/support-tickets/). Thank you.
 :::

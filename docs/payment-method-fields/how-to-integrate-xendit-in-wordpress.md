@@ -159,5 +159,5 @@ The Xendit payment method will not function unless you complete the configuratio
 :::
 
 ::: tip Need Help?
-If you have any questions, concerns, or suggestions, please contact our [@support team](https://wpmanageninja.com/support-tickets/). We're here to help!
+If you have any questions, concerns, or suggestions, please contact our [support team](https://wpmanageninja.com/support-tickets/). We're here to help!
 :::

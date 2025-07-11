@@ -143,4 +143,6 @@ Here, you can see the preview of the selected Google Sheet including the Form en
 ![](/images/integrations/integrate-google-sheets-in-wordpress-with-paymattic/Preview-of-Google-Sheets-scaled.webp)
 
 This way you can easily integrate Google Sheets with Paymattic!
-If you have any further questions, concerns, or suggestions, please do not hesitate to contact our [@support team](https://wpmanageninja.com/support-tickets/?utm_source=wpmn&utm_medium=home&utm_campaign=site#/). Thank you.
+::: tip Need Help?
+If you have any further questions, concerns, or suggestions, please do not hesitate to contact our [support team](https://wpmanageninja.com/support-tickets/?utm_source=wpmn&utm_medium=home&utm_campaign=site#/). Thank you.
+:::

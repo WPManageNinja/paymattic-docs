@@ -32,6 +32,6 @@ Example roles you might enable:
 
 ![User role settings](/images/global-settings/how-to-manage-user-roles-in-wordpress-with-paymattic/Paymattic-admin-Permission-page-scaled.webp)
 
-:::tip Need Help?
+::: tip Need Help?
 If you have any questions, concerns, or suggestions, please [contact our support team](https://wpmanageninja.com/support-tickets/).
 :::

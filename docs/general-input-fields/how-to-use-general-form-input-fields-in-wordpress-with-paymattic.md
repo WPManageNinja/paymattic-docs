@@ -251,4 +251,6 @@ To learn the detailed use of **General Settings**, click [here](#a-general-setti
 These are all the General fields that you can use while creating a form in Paymattic.
 All of the fields here help you design a payment form easier and faster.
 
+::: tip Need Help?
 If you have any further questions, concerns, or suggestions, please do not hesitate to contact our [support team](https://wpmanageninja.com/support-tickets/). Thank you.
+:::

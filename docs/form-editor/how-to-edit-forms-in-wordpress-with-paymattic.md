@@ -111,5 +111,5 @@ If you want to delete all forms at once, simply click the checkbox placed left o
 ![Applying bulk delete action](/images/form-editor/how-to-edit-forms-in-wordpress-with-paymattic/Apply-button-scaled.webp)
 
 ::: tip Need Help?
-If you have any further questions, concerns, or suggestions, please do not hesitate to contact our [@support team](https://wpmanageninja.com/support-tickets/). Thank you.
+If you have any further questions, concerns, or suggestions, please do not hesitate to contact our [support team](https://wpmanageninja.com/support-tickets/). Thank you.
 :::

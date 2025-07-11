@@ -100,6 +100,6 @@ Click **Save Currency Settings** to apply changes.
 
 ![Form currency settings](/images/global-settings/how-to-change-currency-settings-in-wordpress-with-paymattic/Settings-of-a-specific-form-Currency-Custom-Settings--scaled.webp)
 
-:::tip Need Help?
+::: tip Need Help?
 If you have any questions, concerns, or suggestions, please [contact our support team](https://wpmanageninja.com/support-tickets/).
 :::

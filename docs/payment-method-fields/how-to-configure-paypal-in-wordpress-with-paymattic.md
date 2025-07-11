@@ -105,5 +105,5 @@ The PayPal payment method will not function unless you complete the configuratio
 Need to customize PayPal settings for a specific form? Check out our guide on [Form-Specific Payment Settings](../form-settings/customize-form-specific-payment-settings).
 
 ::: tip Need Help?
-If you have any questions, concerns, or suggestions, please contact our [@support team](https://wpmanageninja.com/support-tickets/). We're here to help!
+If you have any questions, concerns, or suggestions, please contact our [support team](https://wpmanageninja.com/support-tickets/). We're here to help!
 :::

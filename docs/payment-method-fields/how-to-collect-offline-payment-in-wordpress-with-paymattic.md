@@ -67,5 +67,5 @@ When a customer chooses offline payment:
 :::
 
 ::: tip Need Help?
-If you have any questions, concerns, or suggestions, please contact our [@support team](https://wpmanageninja.com/support-tickets/). We're here to help!
+If you have any questions, concerns, or suggestions, please contact our [support team](https://wpmanageninja.com/support-tickets/). We're here to help!
 :::

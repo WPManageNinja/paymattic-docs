@@ -77,5 +77,5 @@ Here is the **preview** of the **Payment Form** that we just created.
 This way you can easily create a **Payment Form** in Paymattic!
 
 ::: tip Need Help?
-If you have any questions, concerns, or suggestions, please contact our [@support team](https://wpmanageninja.com/support-tickets/).
+If you have any questions, concerns, or suggestions, please contact our [support team](https://wpmanageninja.com/support-tickets/).
 :::
