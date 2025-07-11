@@ -13,15 +13,15 @@ category: "Getting Started with Paymattic"
 
 To learn how to install and activate the **Free Version of Paymattic Plugin** directly from the WordPress Site, follow the steps with the screenshots below –
 
-First, go to the **Plugins**, open the **Add New Plugin** page from the **WordPress** **Dashboard**, search for **Paymattic** through the **Search Plugins** field, and the plugin will appear.
+First, go to the **Plugins**, open the **Add New Plugin** page from the **WordPress Dashboard**, search for **Paymattic** through the **Search Plugins** field, and the plugin will appear.
 
 Now, click the **Install** button and the **Paymattic** plugin will be successfully **installed** on your WordPress site.
 
-![Adding Paymattic plugin free version](../public/images/getting-started-with-paymattic/how-to-install-and-activate-paymattic-in-wordpress/Adding-Paymattic-plugin-directly-from-WordPress-scaled.webp)
+![Adding Paymattic plugin directly from WordPress](../public/images/getting-started-with-paymattic/how-to-install-and-activate-paymattic-in-wordpress/Adding-Paymattic-plugin-directly-from-WordPress-scaled.webp)
 
 Finally, to activate the Paymattic plugin, click on the **Activate** button.
 
-![Activate button](../public/images/getting-started-with-paymattic/how-to-install-and-activate-paymattic-in-wordpress/Activate-button-scaled.webp)
+![Activating Paymattic plugin](../public/images/getting-started-with-paymattic/how-to-install-and-activate-paymattic-in-wordpress/Activate-button-scaled.webp)
 
 ## Installing & Activating Paymattic Pro 
 
@@ -33,7 +33,7 @@ To get the zip file, first purchase the pro plugin from [here](https://paymattic
 
 Or, simply go to the **Dashboard** of Paymatic's free version and click on the **Upgrade to Pro** button to purchase the Pro version.
 
-![Upgrade to Pro button](../public/images/getting-started-with-paymattic/how-to-install-and-activate-paymattic-in-wordpress/Upgrade-to-Pro-button-scaled.webp)
+![Upgrade to Pro button in Paymattic dashboard](../public/images/getting-started-with-paymattic/how-to-install-and-activate-paymattic-in-wordpress/Upgrade-to-Pro-button-scaled.webp)
 
 Once you have purchased the plugin, you will get access to the [WP Manage Ninja Dashboard](https://wpmanageninja.com/). Now, log into the [account](https://wpmanageninja.com/account/dashboard/) with your credentials.
 
@@ -43,25 +43,27 @@ Now, click the **Download** button and the **Paymattic .zip file** will be downl
 You'll also see a **License Key** that you can copy as you need it later to activate the plugin.
 Or, you retrieve it anytime from your [WP Manage Ninja Dashboard](https://wpmanageninja.com/).
 
-![Get the Zip file and license key](../public/images/getting-started-with-paymattic/how-to-install-and-activate-paymattic-in-wordpress/Get-the-Zip-file-and-license-key.webp)
+![Download Paymattic Pro and get license key](../public/images/getting-started-with-paymattic/how-to-install-and-activate-paymattic-in-wordpress/Get-the-Zip-file-and-license-key.webp)
 
 ### Install Paymattic Pro
 
 Once you get the zip file, go to the **Plugins** from your **WordPress Dashboard**, and click on **Add New Plugin**.
 
-![Add New Plugin button](../public/images/getting-started-with-paymattic/how-to-install-and-activate-paymattic-in-wordpress/Add-New-Plugin-button-from-Plugins-page-scaled.webp)
+![Add New Plugin button in WordPress](../public/images/getting-started-with-paymattic/how-to-install-and-activate-paymattic-in-wordpress/Add-New-Plugin-button-from-Plugins-page-scaled.webp)
 
-Now, click the **Upload** **Plugin** button. Then, press the **Choose file** to upload the Paymattic's **.zip file** that you've downloaded before, and press the **Install Now** button.
+Now, click the **Upload Plugin** button. Then, press the **Choose file** to upload the Paymattic's **.zip file** that you've downloaded before, and press the **Install Now** button.
 
 The Paymattic Pro plugin will be successfully installed on your WordPress site!
 
-![Upload plugin choose file install now](../public/images/getting-started-with-paymattic/how-to-install-and-activate-paymattic-in-wordpress/Upload-plugin-choose-file-install-now-scaled.webp)
+![Upload and install Paymattic Pro plugin](../public/images/getting-started-with-paymattic/how-to-install-and-activate-paymattic-in-wordpress/Upload-plugin-choose-file-install-now-scaled.webp)
 
-Now, to activate, click on the **Activate** **Plugin**.
+Now, to activate, click on the **Activate Plugin**.
 
-But, it would be best if you had the License key to successfully activate all the Premium Features and get the latest update of Paymattic. Keep reading to learn how to activate the license.
+::: warning Important
+You need the License key to successfully activate all the Premium Features and get the latest update of Paymattic. Keep reading to learn how to activate the license.
+:::
 
-![Activate Plugin button](../public/images/getting-started-with-paymattic/how-to-install-and-activate-paymattic-in-wordpress/Activate-Plugin-button.webp)
+![Activate Paymattic Pro plugin](../public/images/getting-started-with-paymattic/how-to-install-and-activate-paymattic-in-wordpress/Activate-Plugin-button.webp)
 
 ### Activate the License Key
 
@@ -71,7 +73,7 @@ First, go to **Settings** from your **Paymattic Dashboard**, open **Licensing** 
 
 And finally, click the **Activate Paymattic Pro** button. Your Paymattic Pro plugin will also be successfully Activated on your WordPress site!
 
-![Activate License Key](../public/images/getting-started-with-paymattic/how-to-install-and-activate-paymattic-in-wordpress/Activate-License-Key-scaled.webp)
+![Activate Paymattic Pro license key](../public/images/getting-started-with-paymattic/how-to-install-and-activate-paymattic-in-wordpress/Activate-License-Key-scaled.webp)
 
 ## How to Update Paymattic
 
@@ -83,9 +85,9 @@ Go to the **Installed Plugins** page of your **WordPress Dashboard** and search 
 
 Now, check if any update is available. If yes, just click on the **Update** button.
 
-![Update option of Paymattic](../public/images/getting-started-with-paymattic/how-to-install-and-activate-paymattic-in-wordpress/Update-option-of-Paymattic-scaled.webp)
+![Update Paymattic plugin](../public/images/getting-started-with-paymattic/how-to-install-and-activate-paymattic-in-wordpress/Update-option-of-Paymattic-scaled.webp)
 
 ::: tip Need Help?
 Congratulations now you can explore all the amazing features of Paymattic!
-If you have any further questions, concerns, or suggestions, please do not hesitate to contact our [support team](https://wpmanageninja.com/support-tickets/). Thank you.
+If you have any further questions, concerns, or suggestions, please do not hesitate to contact our [@support team](https://wpmanageninja.com/support-tickets/). Thank you.
 :::
