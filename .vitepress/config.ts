@@ -21,10 +21,10 @@ export default defineConfig({
 
     sidebar: [
       {
-        text: 'Getting Started',
+        text: 'Getting Started with Paymattic',
         items: [
-          { text: 'Introduction', link: '/paymattic-introduction' },
-          { text: 'Installation & Activation', link: '/how-to-install-and-activate-paymattic-in-wordpress' }
+          { text: 'Paymattic Introduction', link: '/paymattic-introduction' },
+          { text: 'How to Install and Activate Paymattic in WordPress', link: '/how-to-install-and-activate-paymattic-in-wordpress' }
         ]
       },
       {
@@ -41,7 +41,7 @@ export default defineConfig({
         ]
       },
       {
-        text: 'Form Fields',
+        text: 'General Input Fields',
         items: [
           { text: 'General Input Fields', link: '/how-to-use-general-form-input-fields-in-wordpress-with-paymattic' },
           { text: 'Payment Method Fields', link: '/how-to-use-the-payment-method-fields-section' },
@@ -49,8 +49,24 @@ export default defineConfig({
         ]
       },
       {
-        text: 'Payment Methods',
+        text: 'Donation and Product Fields',
         items: [
+          { text: 'Payment Item Fields', link: '/how-to-add-payment-item-fields-in-wordpress-with-paymattic' },
+          { text: 'Subscription Payment', link: '/how-to-add-susbcription-payment-item-fields-in-paymattic' },
+          { text: 'Dynamic Payment Item', link: '/dynamic-payment-item-field' },
+          { text: 'Tabular Product Item', link: '/how-to-add-tabular-product-item-fields-in-wordpress-with-paymattic' },
+          { text: 'User Defined Amount', link: '/how-to-add-user-defined-amount-field-in-wordpress-with-paymattic' },
+          { text: 'Item Quantity', link: '/how-to-add-item-quantity-field-in-wordpress-with-paymattic' },
+          { text: 'Currency Switcher', link: '/add-currency-switcher-in-wordpress-form' },
+          { text: 'Payment Summary', link: '/add-payment-summary-field-in-forms' },
+          { text: 'Tax Calculator', link: '/how-to-add-tax-calculated-amount-field-in-wordpress-with-paymattic' },
+          { text: 'Donation Progress', link: '/how-to-add-donation-progress-item-in-wordpress-with-paymattic' }
+        ]
+      },
+      {
+        text: 'Payment Method Fields',
+        items: [
+          { text: 'All Payment Methods', link: '/all-payment-method' },
           { text: 'Stripe', link: '/how-to-configure-stripe-payment-gateway-in-wordpress-with-paymattic' },
           { text: 'PayPal', link: '/how-to-configure-paypal-in-wordpress-with-paymattic' },
           { text: 'Authorize.net', link: '/configure-authorize-net-in-wordpress-through-paymattic' },
@@ -66,24 +82,13 @@ export default defineConfig({
         ]
       },
       {
-        text: 'Form Settings',
+        text: 'Global Settings',
         items: [
-          { text: 'Payment Settings', link: '/customize-form-specific-payment-settings' },
-          { text: 'Design Settings', link: '/how-to-customize-form-design-settings-in-wordpress-with-paymattic' },
-          { text: 'Confirmation Settings', link: '/how-to-configure-confirmation-settings-in-wordpress-with-paymattic' },
-          { text: 'Form Restrictions', link: '/how-to-set-form-scheduling-and-restriction-settings-in-wordpress-with-paymattic' },
-          { text: 'Custom CSS/JS', link: '/how-to-create-custom-css-js-in-wordpress-with-paymattic' }
-        ]
-      },
-      {
-        text: 'Manage Entries',
-        items: [
-          { text: 'View Entries', link: '/how-to-view-and-manage-all-form-entries-in-wordpress-with-paymattic' },
-          { text: 'Single Entry', link: '/how-to-view-single-submission-data-and-manage-payments-in-paymattic' },
-          { text: 'Manage Subscriptions', link: '/how-to-manage-subscriptions-in-wordpress-with-paymattic' },
-          { text: 'Cancel Subscription', link: '/manually-cancel-any-subscription' },
-          { text: 'Refund Payments', link: '/how-to-refund-payments-in-paymattic' },
-          { text: 'Payment Hold', link: '/stripe-payment-hold-in-paymattic' }
+          { text: 'Currency Settings', link: '/how-to-change-currency-settings-in-wordpress-with-paymattic' },
+          { text: 'User Roles', link: '/how-to-manage-user-roles-in-wordpress-with-paymattic' },
+          { text: 'reCAPTCHA', link: '/how-to-configure-recaptcha-in-wordpress-with-paymattic' },
+          { text: 'Cloudflare Turnstile', link: '/how-to-configure-cloudflare-turnstile-with-paymattic' },
+          { text: 'User Dashboard', link: '/how-to-add-user-dashboard-module-in-paymattic' }
         ]
       },
       {
@@ -103,7 +108,7 @@ export default defineConfig({
         ]
       },
       {
-        text: 'LMS Integrations',
+        text: 'Learning Management System (LMS) Integrations',
         items: [
           { text: 'TutorLMS', link: '/how-to-integrate-tutor-lms-in-wordpress-with-paymattic' },
           { text: 'LearnDash', link: '/how-to-integrate-learndash-in-wordpress-with-paymattic' },
@@ -111,20 +116,36 @@ export default defineConfig({
         ]
       },
       {
-        text: 'Global Settings',
+        text: 'Form Settings',
         items: [
-          { text: 'Currency Settings', link: '/how-to-change-currency-settings-in-wordpress-with-paymattic' },
-          { text: 'User Roles', link: '/how-to-manage-user-roles-in-wordpress-with-paymattic' },
-          { text: 'reCAPTCHA', link: '/how-to-configure-recaptcha-in-wordpress-with-paymattic' },
-          { text: 'Cloudflare Turnstile', link: '/how-to-configure-cloudflare-turnstile-with-paymattic' },
-          { text: 'User Dashboard', link: '/how-to-add-user-dashboard-module-in-paymattic' }
+          { text: 'Payment Settings', link: '/customize-form-specific-payment-settings' },
+          { text: 'Design Settings', link: '/how-to-customize-form-design-settings-in-wordpress-with-paymattic' },
+          { text: 'Confirmation Settings', link: '/how-to-configure-confirmation-settings-in-wordpress-with-paymattic' },
+          { text: 'Form Restrictions', link: '/how-to-set-form-scheduling-and-restriction-settings-in-wordpress-with-paymattic' },
+          { text: 'Custom CSS/JS', link: '/how-to-create-custom-css-js-in-wordpress-with-paymattic' }
         ]
       },
       {
-        text: 'Import/Export',
+        text: 'Email Notification Settings',
         items: [
-          { text: 'Import/Export Forms', link: '/how-to-import-export-forms-in-wordpress-with-paymattic' },
-          { text: 'Export Entries', link: '/how-to-export-form-entries-in-csv-excel-ods-and-json' }
+          { text: 'Email Notifications', link: '/how-to-setup-email-notifications-in-paymattic-wordpress-plugin' }
+        ]
+      },
+      {
+        text: 'Manage Form Entries',
+        items: [
+          { text: 'View Entries', link: '/how-to-view-and-manage-all-form-entries-in-wordpress-with-paymattic' },
+          { text: 'Single Entry', link: '/how-to-view-single-submission-data-and-manage-payments-in-paymattic' },
+          { text: 'Manage Subscriptions', link: '/how-to-manage-subscriptions-in-wordpress-with-paymattic' },
+          { text: 'Cancel Subscription', link: '/manually-cancel-any-subscription' },
+          { text: 'Refund Payments', link: '/how-to-refund-payments-in-paymattic' },
+          { text: 'Payment Hold', link: '/stripe-payment-hold-in-paymattic' }
+        ]
+      },
+      {
+        text: 'Reports & Analytics',
+        items: [
+          { text: 'Reports & Analytics', link: '/how-to-view-the-reports-and-payment-analytics-in-wordpress-with-paymattic' }
         ]
       },
       {
@@ -133,6 +154,25 @@ export default defineConfig({
           { text: 'First & Last Name Fields', link: '/add-first-last-name-fields-in-a-form' },
           { text: 'Date Formats', link: '/date-formats-customization' },
           { text: 'Email Issues', link: '/how-to-fix-not-sending-email-confirmations-issue-in-wordpress-with-paymattic' }
+        ]
+      },
+      {
+        text: 'Customer Profile',
+        items: [
+          { text: 'Customer Profile', link: '/how-to-view-customer-profile-in-wordpress' }
+        ]
+      },
+      {
+        text: 'Import - Export',
+        items: [
+          { text: 'Import/Export Forms', link: '/how-to-import-export-forms-in-wordpress-with-paymattic' },
+          { text: 'Export Entries', link: '/how-to-export-form-entries-in-csv-excel-ods-and-json' }
+        ]
+      },
+      {
+        text: 'Change Log',
+        items: [
+          { text: 'Change Log', link: '/change-log' }
         ]
       }
     ],
