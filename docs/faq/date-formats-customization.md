@@ -2,9 +2,10 @@
 title: "Date Formats Customization"
 category: "FAQ"
 ---
+
 # Date Formats Customization
 
-This article will guide you through the process of customizing the date formats for your [Date & Time](/general-input-fields/how-to-use-general-form-input-fields-in-wordpress-with-paymattic#_10-date-amp-) field.
+This article will guide you through the process of customizing the date formats for your [Date & Time](../general-input-fields/how-to-use-general-form-input-fields-in-wordpress-with-paymattic.md#_10-date-amp-) field.
 
 ## Date Formatting Tokens
 
@@ -42,7 +43,7 @@ This article will guide you through the process of customizing the date formats 
 
 Paymattic Date and Time field use [**flatpickr**](https://flatpickr.js.org/) JS library; for advanced users, you can provide the config object in the field's advanced settings.
 
-![Advanced Date Configuration](/images/faq/date-formats-customization/Advance-Date-Configuration.webp)
+![Advanced Date Configuration](../public/images/faq/date-formats-customization/Advance-Date-Configuration.webp)
 
 ### Adding the First Day of Week Date
 

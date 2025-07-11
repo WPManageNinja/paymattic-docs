@@ -9,7 +9,7 @@ In [Paymattic](https://paymattic.com/), the **Custom Payment Amount** field allo
 
 ## Adding Custom Payment Amount Field
 
-To learn how to add the Custom Payment Amount field to the Paymattic Form on your WordPress site, follow the steps with the screenshots below –  
+To learn how to add the Custom Payment Amount field to the Paymattic Form on your WordPress site, follow the steps with the screenshots below –
 
 First, go to the **All Forms** section from the **Pymattic Navbar,** choose a **Form,** and click the **Pencil/Edit** icon to open the **Editor** page of that form.
 
@@ -47,19 +47,19 @@ Specifically, to edit the **Custom Payment Amount** field according to your need
 
 ![Settings Icon](../public/images/donation-and-product-fields/how-to-add-user-defined-amount-field-in-wordpress-with-paymattic/4.-Settings-Icon-3.webp)
 
-Now, a pop-up page will appear with various settings options for customizing the field. 
+Now, a pop-up page will appear with various settings options for customizing the field.
 
 ### General Settings 
 
 All the Settings under the General Tab mentioned in the below screenshot are briefly explained:
 
-- **Required**: Enable this option to make this field mandatory for users to fill in for a successful submission. 
+- **Required**: Enable this option to make this field mandatory for users to fill in for a successful submission.
 
 - **Default Value**: You can set the default amount for your users and use **Smartcode** like {querystring:YOUR_KEY} by clicking the **Shortcode Icon**.
 
-- **Minimum Value**: With this option, you can specify the minimum amount users must pay. 
+- **Minimum Value**: With this option, you can specify the minimum amount users must pay.
 
-Once you finish, click the **Update** button to save all your configuration. 
+Once you finish, click the **Update** button to save all your configuration.
 
 ![General Settings](../public/images/donation-and-product-fields/how-to-add-user-defined-amount-field-in-wordpress-with-paymattic/5.-General-Settings-1.webp)
 
@@ -81,7 +81,7 @@ Once you complete the General settings, go to the **Advanced** tab, and you will
 
 - **Field ID**: This option is used for adding or tracking form fields. Plus, creating the custom CSS/JS for a specific form field.
 
-Once you finish, click the **Update** button to save all your configuration. 
+Once you finish, click the **Update** button to save all your configuration.
 
 ![Advanced Settings](../public/images/donation-and-product-fields/how-to-add-user-defined-amount-field-in-wordpress-with-paymattic/6.-Advanced-Settings-2.webp)
 

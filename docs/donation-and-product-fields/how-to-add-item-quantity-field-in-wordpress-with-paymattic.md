@@ -10,7 +10,7 @@ In [Paymattic](https://paymattic.com/), the **Item Quantity** field enables user
 
 ## Adding Item Quantity Field
 
-To learn how to add the Item Quantity to the Paymattic Form on your WordPress site, follow the steps with the screenshots below –  
+To learn how to add the Item Quantity to the Paymattic Form on your WordPress site, follow the steps with the screenshots below –
 
 First, go to the **All Forms** section from the **Pymattic Navbar,** choose a **Form,** and click the **Pencil/Edit** icon to open the **Editor** page of that form.
 
@@ -50,13 +50,13 @@ Specifically, to edit the **Item Quantity** field according to your needs, click
 
 ![Settings Icon](../public/images/donation-and-product-fields/how-to-add-item-quantity-field-in-wordpress-with-paymattic/4.-Settings-Icon-2.webp)
 
-Now, a pop-up page will appear with various settings options for customizing the field. 
+Now, a pop-up page will appear with various settings options for customizing the field.
 
 ### General Settings 
 
 All the Settings under the General Tab mentioned in the below screenshot are briefly explained:
 
-- **Required**: Enable this option to make this field mandatory for users to fill in for a successful submission. 
+- **Required**: Enable this option to make this field mandatory for users to fill in for a successful submission.
 
 - **Default Quantity**: You can set the default quantity for selecting your items.
 
@@ -66,11 +66,11 @@ All the Settings under the General Tab mentioned in the below screenshot are bri
 Remember, ensure that you use a separate **Item Quantity** field for each **Payment Item** field.
 :::
 
-- **Minimum Quantity**: With this option, you can specify the minimum quantity users must select. 
+- **Minimum Quantity**: With this option, you can specify the minimum quantity users must select.
 
 - **Maximum Quantity**: With this option, you can specify the maximum quantity users can select.
 
-Once you finish, click the **Update** button to save all your configuration. 
+Once you finish, click the **Update** button to save all your configuration.
 
 ![General settings tab](../public/images/donation-and-product-fields/how-to-add-item-quantity-field-in-wordpress-with-paymattic/5.-General-settings-tab.webp)
 
@@ -88,7 +88,7 @@ Once you complete the General settings, go to the **Advanced** tab, and you will
 
 - **Field ID**: This option is used for adding or tracking form fields. Plus, creating the custom CSS/JS for a specific form field.
 
-Once you finish, click the **Update** button to save all your configuration. 
+Once you finish, click the **Update** button to save all your configuration.
 
 ![Advanced Settings](../public/images/donation-and-product-fields/how-to-add-item-quantity-field-in-wordpress-with-paymattic/6.-Advanced-Settings.webp)
 

@@ -2,6 +2,7 @@
 title: "How to Setup Email Notifications in Paymattic WordPress Plugin?"
 category: "Email Notification Settings"
 ---
+
 In [Paymattic](https://paymattic.com/), you can enable Email Notifications for your users to receive a copy of the information that they filled in the form. Besides, the admin can also receive/send custom automatic email notifications.
 
 This article will guide you on how to set up email notifications in Paymattic.
@@ -9,7 +10,6 @@ This article will guide you on how to set up email notifications in Paymattic.
 Remember, you should configure any **SMTP Plugin** in your **WordPress Site** to ensure reliable email delivery without hassle.
 
 We recommend using the [FluentSMTP](https://fluentsmtp.com/) plugin for smart, secure, fast, and free email delivery on WordPress sites. Refer to this [Documentation](https://fluentsmtp.com/docs/installing-fluent-smtp/) to learn how to install and activate FluentSMTP in WordPress.
-.
 
 ## Setup Customer Email Notifications
 
@@ -17,18 +17,18 @@ To learn how you can set the email notifications, follow the steps with screensh
 
 First, go to **All Forms** from the **Paymattic Navbar** and click the **Pencil/Editor Icon** of your **Desired Form** where you want to set up the email notification/s.
 
-![](/images/email-notification-settings/how-to-setup-email-notifications-in-paymattic-wordpress-plugin/EditPencil-icon-of-a-specific-form-scaled.webp)
+![Accessing form editor](../public/images/email-notification-settings/how-to-setup-email-notifications-in-paymattic-wordpress-plugin/EditPencil-icon-of-a-specific-form-scaled.webp)
 
 Once the **Editor** page opens, go to the **Email** tab and click the + **Add New Notification** button.
 
-![](/images/email-notification-settings/how-to-setup-email-notifications-in-paymattic-wordpress-plugin/Add-New-Notification-button-scaled.webp)
+![Adding new email notification](../public/images/email-notification-settings/how-to-setup-email-notifications-in-paymattic-wordpress-plugin/Add-New-Notification-button-scaled.webp)
 
 Now, the **Email Notification** page will appear with all necessary settings options for adding the email notification.
 
 Once the setup is done, finally, click the **Update** button.
 And, your **Email Notification** will be enabled for this specific form!
 
-![](/images/email-notification-settings/how-to-setup-email-notifications-in-paymattic-wordpress-plugin/Full-Settings-page-of-Email-Notification-.webp)
+![Email notification settings page](../public/images/email-notification-settings/how-to-setup-email-notifications-in-paymattic-wordpress-plugin/Full-Settings-page-of-Email-Notification-.webp)
 
 All the settings options mentioned above are briefly explained below:
 
@@ -66,12 +66,12 @@ In the **"Parameter" field** (first field), select an **input field** that needs
 
 Plus, you can choose whether **All** or **Any** one of your conditional logic should match to trigger the actions.
 
-For example, I chose "**Customer Email**" as a parameter, "**Contains**" as conditions, and entered "**@gmail.com**" and "**@yahoo.com**" as the respective values. And, select the “**Any**” option for the conditional match. As a result, only users who meet the conditions of having @gmail.com or @yahoo.com in their submission email address will get the email notification.
+For example, I chose "**Customer Email**" as a parameter, "**Contains**" as conditions, and entered "**@gmail.com**" and "**@yahoo.com**" as the respective values. And, select the "**Any**" option for the conditional match. As a result, only users who meet the conditions of having @gmail.com or @yahoo.com in their submission email address will get the email notification.
 
 Additionally, you can add as many conditions as you want by clicking the + Add More button.
 Also, you can delete any conditions by clicking the **Trash Icon** anytime if needed.
 
-![](/images/email-notification-settings/how-to-setup-email-notifications-in-paymattic-wordpress-plugin/Conditional-Logics.webp)
+![Conditional logic settings](../public/images/email-notification-settings/how-to-setup-email-notifications-in-paymattic-wordpress-plugin/Conditional-Logics.webp)
 
 ### G. When to Send This Email
 
@@ -91,27 +91,27 @@ If you want to send an email after the payment process fails, then you can enabl
 
 #### Manual Notification
 
-You can also send email notifications manually for a specific form’s entries according to your needs. Let’s have a look at how this works –
+You can also send email notifications manually for a specific form's entries according to your needs. Let's have a look at how this works –
 
 First, go to the **All Forms** from the **Paymattic Navbar** and click the **Pencil/Edit** icon of your desired form where you already add the **Email Notification**.
 
-![](/images/email-notification-settings/how-to-setup-email-notifications-in-paymattic-wordpress-plugin/EditPencil-icon-of-a-specific-form-1-scaled.webp)
+![Accessing form editor for manual notification](../public/images/email-notification-settings/how-to-setup-email-notifications-in-paymattic-wordpress-plugin/EditPencil-icon-of-a-specific-form-1-scaled.webp)
 
 Once the **Editor** page opens, go to the **Entries** tab and click the **View Details** button of your desired entry where you want to send the notification manually.
 
-![](/images/email-notification-settings/how-to-setup-email-notifications-in-paymattic-wordpress-plugin/View-details-of-specific-entry--scaled.webp)
+![Viewing entry details](../public/images/email-notification-settings/how-to-setup-email-notifications-in-paymattic-wordpress-plugin/View-details-of-specific-entry--scaled.webp)
 
 Once on the detail entry page, click the **Send Email Notification Manually** button, and a pop-up page will appear.
 
-![](/images/email-notification-settings/how-to-setup-email-notifications-in-paymattic-wordpress-plugin/Send-email-notification-manually-button-scaled.webp)
+![Manual notification button](../public/images/email-notification-settings/how-to-setup-email-notifications-in-paymattic-wordpress-plugin/Send-email-notification-manually-button-scaled.webp)
 
 Now, select from the dropdown which Email Notification you want to send
 
-Plus, you can select where the email should be sent; **Default Recipien**t or **Custom Recipient** email address.
+Plus, you can select where the email should be sent; **Default Recipient** or **Custom Recipient** email address.
 
 Once you are done, click the **Send this notification** button, and your email notification will be sent for this specific submission entry.
 
-![](/images/email-notification-settings/how-to-setup-email-notifications-in-paymattic-wordpress-plugin/Send-notification-pop-up-page.webp)
+![Manual notification settings](../public/images/email-notification-settings/how-to-setup-email-notifications-in-paymattic-wordpress-plugin/Send-notification-pop-up-page.webp)
 
 #### After Subscription Cancel
 
@@ -125,13 +125,13 @@ Also, you can add an email address in the **CC** or **BCC** if you want to send 
 
 Finally, click on the **Update** button to save the changes.
 
-![](/images/email-notification-settings/how-to-setup-email-notifications-in-paymattic-wordpress-plugin/Advanced-Settings.webp)
+![Advanced email settings](../public/images/email-notification-settings/how-to-setup-email-notifications-in-paymattic-wordpress-plugin/Advanced-Settings.webp)
 
 Here, you can see that the Customer Email Notification is added for sending notifications to customers based on the setup you made.
 
 You can **Disable**, **Edit**, and **Delete** this notification anytime if needed by clicking the **Toggle** button, **Edit/Pencil** Icon, and **Trash** Icon respectively.
 
-![](/images/email-notification-settings/how-to-setup-email-notifications-in-paymattic-wordpress-plugin/Preview-of-added-customer-email-notification-scaled.webp)
+![Customer notification preview](../public/images/email-notification-settings/how-to-setup-email-notifications-in-paymattic-wordpress-plugin/Preview-of-added-customer-email-notification-scaled.webp)
 
 ## Setup Admin Email Notifications
 
@@ -141,8 +141,12 @@ You can just simply enable this notification by clicking the **Toggle** button.
 
 To set up this Admin Email Notification according to your requirements, click the **Edit/Pencil Icon**, and follow the same procedure shown above for the **Customer Email Notification.**
 
-But, make sure you must use the **{wp:admin\_email}** shortcode in the **Email To** field.
+::: tip Important
+Make sure you must use the **{wp:admin_email}** shortcode in the **Email To** field.
+:::
 
-![](/images/email-notification-settings/how-to-setup-email-notifications-in-paymattic-wordpress-plugin/Pre-built-Admin-Email-Notification-scaled.webp)
+![Admin notification settings](../public/images/email-notification-settings/how-to-setup-email-notifications-in-paymattic-wordpress-plugin/Pre-built-Admin-Email-Notification-scaled.webp)
 
-If you have any further questions, concerns, or suggestions, please do not hesitate to contact our [@support team](https://wpmanageninja.com/support-tickets/?utm_source=wpmn&utm_medium=home&utm_campaign=site#/). Thank you.
+::: tip Need Help?
+If you have any further questions, concerns, or suggestions, please do not hesitate to [contact our support team](https://wpmanageninja.com/support-tickets/). Thank you.
+:::

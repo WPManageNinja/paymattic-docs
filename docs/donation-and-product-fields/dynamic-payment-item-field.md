@@ -6,7 +6,7 @@ category: "Donation and Product Fields"
 
 In [Paymattic](https://paymattic.com/), the **Dynamic Payment Item,** an **in-built calculation feature** for **Number** and **Product** fields, allows users to perform real-time mathematical operations within any [Payment Form](./how-to-create-your-first-payment-form-in-a-minute-and-accept-payments-with-paymattic.md). 
 
-This article will guide you on how to embed the **Dynamic Payment Item** field to the **WordPress Site** through **Paymattic**. 
+This article will guide you on how to embed the **Dynamic Payment Item** field to the **WordPress Site** through **Paymattic**.
 
 ::: warning
 Remember, **Dynamic Payment Item** is a premium feature and you need the [Paymattic Pro Plugin](./how-to-install-and-activate-paymattic-in-wordpress.md#1-toc-title) to use this field.
@@ -42,14 +42,14 @@ Also, don't forget to add a product field (e.g., [Payment Item](./how-to-add-pay
 
 ### Add Calculation Expression
 
-Now, to make the added **Dynamic Payment Item** field functional for the desired calculation, you need to set up the **Calculation Expression** in the **Settings**. 
+Now, to make the added **Dynamic Payment Item** field functional for the desired calculation, you need to set up the **Calculation Expression** in the **Settings**.
 
 **To learn how to set up the Dynamic Payment Item's Settings, follow the steps below –**
 
-To add the **Calculation Expression** in the **Dynamic Payment Item** field according to your needs, click the **Settings Icon** from the right-side corner. 
+To add the **Calculation Expression** in the **Dynamic Payment Item** field according to your needs, click the **Settings Icon** from the right-side corner.
 
 ::: tip
-You can also **Edit** the **Field Label** according to your needs using the **Pencil Icon** right next to the field name. 
+You can also **Edit** the **Field Label** according to your needs using the **Pencil Icon** right next to the field name.
 :::
 
 ![Settings option](../public/images/donation-and-product-fields/dynamic-payment-item-field/4.-Setings-option-scaled.webp)
@@ -68,7 +68,7 @@ First, click the **Document Icon** on the right side to add the available input 
 
 **For example**, in the screenshot below, you can see that I used the **"{input.payment_item} + 5"** as **Calculation Expression** to add a delivery charge to the items' price. As a result, when users select an item during form-filling, they will see both the original price and the total price (including the delivery charge) for the chosen item. 
 
-Once you finish, click the **Update** button to save all your configuration. 
+Once you finish, click the **Update** button to save all your configuration.
 
 ![General Settings](../public/images/donation-and-product-fields/dynamic-payment-item-field/5.-General-Settings-scaled.webp)
 
@@ -86,7 +86,7 @@ Once you complete the General settings, go to the **Advanced** tab, and you will
 
 **E. Field ID**: This option is used to add or track form fields. Plus, creating the custom CSS/JS for a specific form field.
 
-Once you finish, click the **Update** button to save all your configuration. 
+Once you finish, click the **Update** button to save all your configuration.
 
 ![Advanced Settings](../public/images/donation-and-product-fields/dynamic-payment-item-field/6.-Advanced-Settings-scaled.webp)
 

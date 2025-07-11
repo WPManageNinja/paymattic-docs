@@ -15,7 +15,7 @@ To learn how to view the Customers section in Paymattic, follow the steps with t
 
 First, go to **Paymattic Dashboard** from the **WordPress Left Sidebar,** click the **Customers** section, and all the features will appear to help you view your overall customer profiles.
 
-![Customers section from Paymattic Dashboard](/images/customer-profile/how-to-view-customer-profile-in-wordpress/1.-Customers-section-from-Paymattic-Dahboard-scaled.webp)
+![Customers section from Paymattic Dashboard](../public/images/customer-profile/how-to-view-customer-profile-in-wordpress/1.-Customers-section-from-Paymattic-Dahboard-scaled.webp)
 
 **All the features mentioned above for viewing the profiles of entire customers who submitted Paymattic forms are explained below:**
 
@@ -34,62 +34,62 @@ With this filter option, you can view customers from a specific period based on 
 
 For example, I selected the time frame of 1st to 15th October 2024, and the customers who submitted forms during this period appeared on the Customers page.
 
-![Date Filter](/images/customer-profile/how-to-view-customer-profile-in-wordpress/2.-Date-Filter-scaled.webp)
+![Date filter selection](../public/images/customer-profile/how-to-view-customer-profile-in-wordpress/2.-Date-Filter-scaled.webp)
 
 ### 2. Search Bar
 
 Using this option, you can search for specific customers with User Name & Email.
 For example, here I searched for a customer by name.
 
-![Search Bar](/images/customer-profile/how-to-view-customer-profile-in-wordpress/3.-Search-Bar-scaled.webp)
+![Customer search functionality](../public/images/customer-profile/how-to-view-customer-profile-in-wordpress/3.-Search-Bar-scaled.webp)
 
 ### 3. Name
 
 The **Name** tab displays the list of customers' **Names** and the **Email** **Addresses** they used for form submission.
 
-![Name tab](/images/customer-profile/how-to-view-customer-profile-in-wordpress/4.-Name-scaled.webp)
+![Customer name and email list](../public/images/customer-profile/how-to-view-customer-profile-in-wordpress/4.-Name-scaled.webp)
 
 ### 4. Submissions
 
 The **Submissions** tab shows the total number of form submissions for each customer with the same email.
 
-![Submissions tab](/images/customer-profile/how-to-view-customer-profile-in-wordpress/5.-Submissions-scaled.webp)
+![Form submissions count](../public/images/customer-profile/how-to-view-customer-profile-in-wordpress/5.-Submissions-scaled.webp)
 
 ### 5. First Submission
 
 This tab displays the exact time when a customer submitted his first form.
 
-![First Submission tab](/images/customer-profile/how-to-view-customer-profile-in-wordpress/6.-First-Submission-scaled.webp)
+![First submission timestamp](../public/images/customer-profile/how-to-view-customer-profile-in-wordpress/6.-First-Submission-scaled.webp)
 
 ### 6. Created At
 
 This tab displays the exact date when a customer submitted his first form.
 
-![Created At tab](/images/customer-profile/how-to-view-customer-profile-in-wordpress/7.-Created-At-scaled.webp)
+![Customer creation date](../public/images/customer-profile/how-to-view-customer-profile-in-wordpress/7.-Created-At-scaled.webp)
 
 ### 7. View Detail
 
 This button helps you to see each customer profile in detail.
 
-![View Detail button](/images/customer-profile/how-to-view-customer-profile-in-wordpress/8.-View-Detail-scaled.webp)
+![View detail button location](../public/images/customer-profile/how-to-view-customer-profile-in-wordpress/8.-View-Detail-scaled.webp)
 
 Once you click this button it will redirect you to the detail profile page where you will see the entire detail organized in five major sections. These are:
 
-- **Subscriptions**: Here you will see all the Subscription-related details. Such as subscription item details, submission date, and submission status. Plus, you can visit each submission entry by clicking the **view entry** button. To learn more about single submission entries, [Click Here](/how-to-view-single-submission-data-and-manage-payments-in-paymattic).
-- **Customer Engagement by Form**: Here you will see the submitted form's **ID**, **Title**, and all **Entries** under this specific form. By clicking the **View Entries** button you can see all the entries in one place. To learn more about viewing and managing all form entries, [Click Here](/how-to-view-and-manage-all-form-entries-in-wordpress-with-paymattic).
+- **Subscriptions**: Here you will see all the Subscription-related details. Such as subscription item details, submission date, and submission status. Plus, you can visit each submission entry by clicking the **view entry** button. To learn more about single submission entries, [Click Here](../manage-form-entries/how-to-view-single-submission-data-and-manage-payments-in-paymattic.md).
+- **Customer Engagement by Form**: Here you will see the submitted form's **ID**, **Title**, and all **Entries** under this specific form. By clicking the **View Entries** button you can see all the entries in one place. To learn more about viewing and managing all form entries, [Click Here](../manage-form-entries/how-to-view-and-manage-all-form-entries-in-wordpress-with-paymattic.md).
 - **Activity**: Here, you can see the submitted form's Entry ID, Submission Date, Payment Amount, Payment Method, and Payment Status based on the **Date** and **Payment** **Status** filters.
 - **Customer Profile**: On the left-hand side, you can see the details about the Customer's Name, Email, exact time and date of the First form Submission, and the amount of money the customer spent and received.
-- **Permissions**: You can see what permissions you gave to these customers on the left-hand side. To learn more about user roles and permissions, [Click Here](/how-to-manage-user-roles-in-wordpress-with-paymattic).
+- **Permissions**: You can see what permissions you gave to these customers on the left-hand side. To learn more about user roles and permissions, [Click Here](../global-settings/how-to-manage-user-roles-in-wordpress-with-paymattic.md).
 
-![Detail Page of Customer Profile](/images/customer-profile/how-to-view-customer-profile-in-wordpress/9.-Detail-Page-of-one-Customer-Profile-scaled.webp)
+![Detail Page showing Customer Profile](../public/images/customer-profile/how-to-view-customer-profile-in-wordpress/9.-Detail-Page-of-one-Customer-Profile-scaled.webp)
 
 ### 8. Pagination
 
 With this option, you can set how many customers you want to display per page.
 
-![Pagination](/images/customer-profile/how-to-view-customer-profile-in-wordpress/10.-Pagination-scaled.webp)
+![Pagination settings](../public/images/customer-profile/how-to-view-customer-profile-in-wordpress/10.-Pagination-scaled.webp)
 
 ::: tip Need Help?
 This way you can easily view the entire Customers section in Paymattic!
-If you have any further questions, concerns, or suggestions, please do not hesitate to contact our [support team](https://wpmanageninja.com/support-tickets/). Thank you.
+If you have any further questions, concerns, or suggestions, please do not hesitate to [contact our support team](https://wpmanageninja.com/support-tickets/). Thank you.
 :::

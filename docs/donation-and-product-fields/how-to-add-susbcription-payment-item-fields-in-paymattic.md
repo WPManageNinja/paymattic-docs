@@ -13,7 +13,7 @@ In [Paymattic](https://paymattic.com/), the **Subscription Payment** field allow
 
 ## Adding Subscription Payment Field
 
-To learn how to add the Subscription Payment to the Paymattic Form on your WordPress site, follow the steps with the screenshots below –  
+To learn how to add the Subscription Payment to the Paymattic Form on your WordPress site, follow the steps with the screenshots below –
 
 First, go to the **All Forms** section from the **Pymattic Navbar,** choose a **Form,** and click the **Pencil/Edit** icon to open the **Editor** page of that form.
 
@@ -53,7 +53,7 @@ Specifically, to edit the **Subscription Payment** field according to your needs
 
 ![Settings Icon](../public/images/donation-and-product-fields/how-to-add-susbcription-payment-item-fields-in-paymattic/4.-Settings-Icon-1.webp)
 
-Now, a pop-up page will appear with various settings options for customizing the field. 
+Now, a pop-up page will appear with various settings options for customizing the field.
 
 ### General Settings 
 
@@ -65,7 +65,7 @@ Under this tab, you will find all the General settings for customizing the field
 
 #### A. Required
 
-Enable this option to make this field mandatory for users to fill in for a successful submission. 
+Enable this option to make this field mandatory for users to fill in for a successful submission.
 
 #### B. Show Pricing Level 
 
@@ -90,13 +90,13 @@ Select this plan if you want to offer one pricing plan to your user for collecti
 
 - **Price Billing/Interval**: Here, set the price for your subscription.
 
-- **Enable User Input Amount**: Enable this feature to customize the pricing plan by setting a fixed **Minimum** and **Default** amount, along with a **Label** for this amount. 
+- **Enable User Input Amount**: Enable this feature to customize the pricing plan by setting a fixed **Minimum** and **Default** amount, along with a **Label** for this amount.
 
 - **Billing Interval**: Here, set the billing interval as **Daily**, **Weekly**, **Fortnightly**, **Monthly**, **Quarterly**, **Half-Yearly**, or **Yearly**) for the subscription.
 
 - **Interval Count**: This feature enables you **to specify** the **number of intervals between** **subscription billings** allowing you **to customize your Billing Interval** that suits your needs.
-
-  For example, by choosing a **Monthly** **Billing** **Interval** and setting the **Interval Count** to **2**, subscription bills will occur **every 2 months**.
+    
+    For example, by choosing a **Monthly** **Billing** **Interval** and setting the **Interval Count** to **2**, subscription bills will occur **every 2 months**.
 
 ::: warning
 **Remember**, this **Interval Count** works only for **Stripe** and **PayPal** payment methods. **For Stripe**, a **maximum** of **3 Years** / **156 Weeks** / **36 Months** interval is allowed. And, **for PayPal,** a **maximum** of **1 Year** / **52 Weeks** / **12 Months** interval is allowed."
@@ -114,7 +114,7 @@ Once you complete the setup, click the **Update** button to save all your settin
 
 ##### 2. Choose One from Multiple Pricing Plans
 
-Select this option if you want to offer multiple pricing plans to your users for choosing one plan when making a subscription. 
+Select this option if you want to offer multiple pricing plans to your users for choosing one plan when making a subscription.
 
 - **Plan Selection Type**: With this option, you can set whether you want to set the item selection type as a **Radio** button or Select (dropdown list).
 
@@ -144,7 +144,7 @@ Once you complete the General settings, go to the **Advanced** tab, and you will
 
 - **Field ID**: This option is used for adding or tracking form fields. Plus, creating the custom CSS/JS for a specific form field.
 
-Once you finish, click the **Update** button to save all your configuration. 
+Once you finish, click the **Update** button to save all your configuration.
 
 ![Advanced Settings](../public/images/donation-and-product-fields/how-to-add-susbcription-payment-item-fields-in-paymattic/8.-Advanced-Settings.webp)
 
