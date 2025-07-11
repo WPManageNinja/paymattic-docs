@@ -6,7 +6,7 @@ category: "Donation and Product Fields"
 
 In [Paymattic](https://paymattic.com/), the **Item Quantity** field enables users to select a single item or product in multiple quantities based on their needs. This article will guide you on how to embed the Item Quantity field to the WordPress Site through Paymattic.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/V2oqvWw6Jhs?list=PLXpD0vT4thWH80g5e9wYnoBMgEqUXbr53" title="Item Quantity Field Tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="700" height="400" src="https://www.youtube.com/embed/V2oqvWw6Jhs?list=PLXpD0vT4thWH80g5e9wYnoBMgEqUXbr53" title="Item Quantity Field Tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Adding Item Quantity Field
 

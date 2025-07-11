@@ -7,7 +7,7 @@ category: "Getting Started with Paymattic"
 
 [Paymattic](https://paymattic.com/) is a payment and donation **WordPress Plugin** packed with features and unlimited customizing options. This article will guide you through **installing**, **activating**, and **updating** **Paymattic** both **Free** and **Pro** versions on your WordPress website. Please follow the instructions for a successful installation.
 
-<iframe width="100%" height="400" src="https://www.youtube.com/embed/YlRDCpov8wY?list=PLXpD0vT4thWH80g5e9wYnoBMgEqUXbr53" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="700" height="400" src="https://www.youtube.com/embed/YlRDCpov8wY?list=PLXpD0vT4thWH80g5e9wYnoBMgEqUXbr53" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Installing and Activating Paymattic 
 

@@ -6,7 +6,7 @@ category: "Donation and Product Fields"
 
 In [Paymattic](https://paymattic.com/), the Currency Switcher feature enables donors to select from over 135 currencies directly within the donation form. This article will guide you on embedding the Currency Switcher field into the WordPress Site through Paymattic.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Dcyyd7W9aW4?list=PLXpD0vT4thWH80g5e9wYnoBMgEqUXbr53" title="Currency Switcher Tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="700" height="400" src="https://www.youtube.com/embed/Dcyyd7W9aW4?list=PLXpD0vT4thWH80g5e9wYnoBMgEqUXbr53" title="Currency Switcher Tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ::: warning
 **Currency Switcher** is a premium feature that only works for the [Donation Form](/form-editor/simple-form-templates) (specifically, for the [Donation Progress Item](/donation-and-product-fields/how-to-add-donation-progress-item-in-wordpress-with-paymattic) field). So, you need the [Paymattic Pro Plugin](/getting-started-with-paymattic/how-to-install-and-activate-paymattic-in-wordpress) **to use this field.**

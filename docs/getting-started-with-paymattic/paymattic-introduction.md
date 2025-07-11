@@ -9,7 +9,7 @@ Welcome to Paymattic! You've found the perfect tool for creating secure payment 
 
 Paymattic is a WordPress payment and donation plugin that can build forms as well as collect payments and donations through it. This payment plugin is used on a website to provide a secure payment process.
 
-<iframe width="100%" height="400" src="https://www.youtube.com/embed/-en7Gs7zH8k" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="700" height="400" src="https://www.youtube.com/embed/-en7Gs7zH8k" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Whether you're looking to raise funds for a cause, sell products, or collect payments for services, Paymattic provides all the tools you need in one simple package. With Paymattic, you can effortlessly create forms to:
 - Collect donations for non-profits and fundraising campaigns.
