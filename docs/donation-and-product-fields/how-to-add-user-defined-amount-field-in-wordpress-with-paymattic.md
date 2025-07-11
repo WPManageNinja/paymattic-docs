@@ -2,6 +2,9 @@
 title: "How to Add Custom Payment Amount Field in WordPress with Paymattic?"
 category: "Donation and Product Fields"
 ---
+
+# How to Add Custom Payment Amount Field in WordPress with Paymattic?
+
 In [Paymattic](https://paymattic.com/), the **Custom Payment Amount** field allows users to pay any amount based on their needs. This article will guide you on how to embed the Custom Payment Amount field to the WordPress Site through Paymattic.
 
 ## Adding Custom Payment Amount Field
@@ -12,29 +15,29 @@ First, go to the **All Forms** section from the **Pymattic Navbar,** choose a **
 
 If you do not have any existing form, read this [Create a Form from Scratch](/how-to-create-a-form-from-scratch-with-paymattic) or [Create a Form using Templates](/simple-form-templates) documentation to create one. **For example**, I choose an existing form to show the whole process.
 
-![](/images/donation-and-product-fields/how-to-add-user-defined-amount-field-in-wordpress-with-paymattic/1.-Open-desired-form-3-scaled.webp)
+![Open desired form](/images/donation-and-product-fields/how-to-add-user-defined-amount-field-in-wordpress-with-paymattic/1.-Open-desired-form-3-scaled.webp)
 
-Once you open the **Editor** page, add the **Custom Payment Amount** fields by typing the **“ / ”** or clicking the **Plus Icon** placed at the bottom.
+Once you open the **Editor** page, add the **Custom Payment Amount** fields by typing the **" / "** or clicking the **Plus Icon** placed at the bottom.
 
-We always suggest you keep the [**Name**](/# 5-toc-title) and [**Email**](/# 6-toc-title) field at the beginning of any Form.
+We always suggest you keep the [Name](/how-to-use-general-form-input-fields-in-wordpress-with-paymattic#name-field) and [Email](/how-to-use-general-form-input-fields-in-wordpress-with-paymattic#email-field) field at the beginning of any Form.
 
-![](/images/donation-and-product-fields/how-to-add-user-defined-amount-field-in-wordpress-with-paymattic/2.-Type-or-click-icon-3.webp)
+![Type or click plus icon](/images/donation-and-product-fields/how-to-add-user-defined-amount-field-in-wordpress-with-paymattic/2.-Type-or-click-icon-3.webp)
 
-For example, I choose the **Pluc Icon** option to select the **Custom Payment Amount** field under the **Donation &amp; Product Fields** section from the **Choose Form Field** page.
+For example, I choose the **Plus Icon** option to select the **Custom Payment Amount** field under the **Donation & Product Fields** section from the **Choose Form Field** page.
 
-Also, do not forget to add a [**Payment Method Field**](/how-to-use-the-payment-method-fields-section) for collecting payments.
+Also, do not forget to add a [Payment Method Field](/how-to-use-the-payment-method-fields-section) for collecting payments.
 
-![](/images/donation-and-product-fields/how-to-add-user-defined-amount-field-in-wordpress-with-paymattic/3.-Custom-Amount-field.webp)
+![Custom Amount field](/images/donation-and-product-fields/how-to-add-user-defined-amount-field-in-wordpress-with-paymattic/3.-Custom-Amount-field.webp)
 
 ## Editing/Customizing the Field
 
 You can see the **Custom Payment Amount** and other necessary fields added to the form.
 
-You can edit their field name and settings. To learn more about form editing, read this [Documentation](/how-to-edit-forms-in-wordpress-with-paymattic)*.*
+You can edit their field name and settings. To learn more about form editing, read this [Documentation](/how-to-edit-forms-in-wordpress-with-paymattic).
 
 Specifically, to edit the **Custom Payment Amount** field according to your needs, click the **Settings Icon** from the right-side corner.
 
-![](/images/donation-and-product-fields/how-to-add-user-defined-amount-field-in-wordpress-with-paymattic/4.-Settings-Icon-3.webp)
+![Settings Icon](/images/donation-and-product-fields/how-to-add-user-defined-amount-field-in-wordpress-with-paymattic/4.-Settings-Icon-3.webp)
 
 Now, a pop-up page will appear with various settings options for customizing the field.
 
@@ -42,27 +45,27 @@ Now, a pop-up page will appear with various settings options for customizing the
 
 All the Settings under the General Tab mentioned in the below screenshot are briefly explained:
 - **Required**: Enable this option to make this field mandatory for users to fill in for a successful submission.
-- **Default Value**: You can set the default amount for your users and use **Smartcode** like {querystring:YOUR\_KEY} by clicking the **Shortcode Icon**.
+- **Default Value**: You can set the default amount for your users and use **Smartcode** like {querystring:YOUR_KEY} by clicking the **Shortcode Icon**.
 - **Minimum Value**: With this option, you can specify the minimum amount users must pay.
 
 Once you finish, click the **Update** button to save all your configuration.
 
-![](/images/donation-and-product-fields/how-to-add-user-defined-amount-field-in-wordpress-with-paymattic/5.-General-Settings-1.webp)
+![General Settings](/images/donation-and-product-fields/how-to-add-user-defined-amount-field-in-wordpress-with-paymattic/5.-General-Settings-1.webp)
 
 ### Advanced Settings 
 
 Once you complete the General settings, go to the **Advanced** tab, and you will find some advanced settings for your **Custom Amount** field. These are:
-- **Admin Label**: This label is used for the admin wants to see the field’s label from the back end.
+- **Admin Label**: This label is used for the admin wants to see the field's label from the back end.
 - **Field Wrapper CSS Class**: This is used for adding a Custom CSS/JS for an entire field of a specific form using the Field Wrapper CSS Class element. To learn more, click [here](/how-to-create-custom-css-js-in-wordpress-with-paymattic).
 - **Input Elements CSS Class**: This is used for adding a Custom CSS/JS for a specific input field of a form using the Input Elements CSS Class element. To learn more, click [here](/how-to-create-custom-css-js-in-wordpress-with-paymattic).
 - **Conditional Render**: You can set conditional logic to display the field in the form that will be triggered by specific actions taken on a previous input field. To learn more about conditional renderings, click [here](/how-to-use-conditional-logic-in-form-fields-with-paymattic).
-- **Enable Calculation**: Enabling this feature wil allow you to perform real-time mathematical operations for the **Number** and **Product** fields within any [Payment Form](/how-to-create-your-first-payment-form-in-a-minute-and-accept-payments-with-paymattic). Now, add the desired equation under the **Calculation Expression** box to ensure what calculation you want to perform. To know the detailed guidelines of this **Calculation Feature**, read this [Documentation](/# 2-toc-title).
+- **Enable Calculation**: Enabling this feature wil allow you to perform real-time mathematical operations for the **Number** and **Product** fields within any [Payment Form](/how-to-create-your-first-payment-form-in-a-minute-and-accept-payments-with-paymattic). Now, add the desired equation under the **Calculation Expression** box to ensure what calculation you want to perform. To know the detailed guidelines of this **Calculation Feature**, read this [Documentation](/how-to-use-calculation-feature-in-paymattic).
 - **Enable Additional Checks**: Enable this option to set an extra layer of data integrity check.
 - **Field ID**: This option is used for adding or tracking form fields. Plus, creating the custom CSS/JS for a specific form field.
 
 Once you finish, click the **Update** button to save all your configuration.
 
-![](/images/donation-and-product-fields/how-to-add-user-defined-amount-field-in-wordpress-with-paymattic/6.-Advanced-Settings-2.webp)
+![Advanced Settings](/images/donation-and-product-fields/how-to-add-user-defined-amount-field-in-wordpress-with-paymattic/6.-Advanced-Settings-2.webp)
 
 ## Embedding Form into Frontend
 
@@ -72,13 +75,15 @@ Now, to embed and display the form on a specific Page/Post, **copy** this **Shor
 
 Once you complete the edit, press the **Save** button to save all the changes you made. And, to see the **Preview** of the form, click the **Eye** icon.
 
-![](/images/donation-and-product-fields/how-to-add-user-defined-amount-field-in-wordpress-with-paymattic/7.-save.-preview-and-shortcode-buttons.webp)
+![Save, preview and shortcode buttons](/images/donation-and-product-fields/how-to-add-user-defined-amount-field-in-wordpress-with-paymattic/7.-save.-preview-and-shortcode-buttons.webp)
 
 ## Preview of Custom Payment Amount field
 
 Here is the preview of the **Custom Payment Amount** field in a Form.
 
-![](/images/donation-and-product-fields/how-to-add-user-defined-amount-field-in-wordpress-with-paymattic/8.-Preview-of-Custom-amount-field.webp)
+![Preview of Custom amount field](/images/donation-and-product-fields/how-to-add-user-defined-amount-field-in-wordpress-with-paymattic/8.-Preview-of-Custom-amount-field.webp)
 
+::: tip Need Help?
 This way you can easily add the **Custom Payment Amount** field in Paymattic Forms!
-If you have any further questions, concerns, or suggestions, please do not hesitate to contact our [@support team](https://wpmanageninja.com/support-tickets/?utm_source=wpmn&utm_medium=home&utm_campaign=site#/). Thank you.
+If you have any further questions, concerns, or suggestions, please do not hesitate to contact our [support team](https://wpmanageninja.com/support-tickets/). Thank you.
+:::
