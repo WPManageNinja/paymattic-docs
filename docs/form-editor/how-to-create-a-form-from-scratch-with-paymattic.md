@@ -62,7 +62,7 @@ For example, I am adding the [Payment Item](/how-to-add-payment-item-fields-in-w
 
 Now, go down and you will find all the payment gateways under the **Payment Method Fields** area. Select anyone according to your preference by clicking on it. To learn the detailed use of all fields, read this [Documentation](/how-to-use-the-payment-method-fields-section).
 
-Remember, the added payment method/s in your Form will not function unless you properly complete the configuration process of payment gateways. To learn the details of the configuration process, [click here](https://paymattic.com/docs-category/payment-method-fields/) and read the Documentation you selected as a payment method.
+Remember, the added payment method/s in your Form will not function unless you properly complete the configuration process of payment gateways. To learn the details of the configuration process, [click here](/payment-method-fields/all-payment-method) and read the Documentation you selected as a payment method.
 
 You can select a **[Single Payment Method](/# 2-toc-title)** by clicking on the desired payment gateway name.
 Or, you can select **Multiple Payment Method** by clicking on the **[Choose Payment Method](/# 3-toc-title)** field.

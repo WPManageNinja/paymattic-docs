@@ -24,7 +24,7 @@ Once you open the **Editor** page, type the **“ / ”** or click the **“ + �
 
 On the **Choose form field** page, you will find all the desired **payment gateways** under the **Payment Method Fields** section.
 
-But, you will only see the Payment Method Fields that you have already configured on your site through Paymattic. To learn the Configuration process of Payment Gateways, [click here](https://paymattic.com/docs-category/payment-method-fields/) and read all documentation.
+But, you will only see the Payment Method Fields that you have already configured on your site through Paymattic. To learn the Configuration process of Payment Gateways, [click here](/payment-method-fields/all-payment-method) and read all documentation.
 
 ![](/images/general-input-fields/how-to-use-the-payment-method-fields-section/All-Payment-Method-Fields-2.webp)
 

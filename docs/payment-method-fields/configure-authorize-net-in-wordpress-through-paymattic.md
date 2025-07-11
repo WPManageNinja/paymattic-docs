@@ -137,7 +137,7 @@ Now, open the **Payment Method Fields** section by clicking the **Arrow Icon**, 
 
 Remember, the added payment method in your **Form** will not function unless you properly complete the configuration process of payment gateways.
 
-To configure the **Payment Gateway** on your Site, click [here](https://paymattic.com/docs/) and read the **Payment Method Fields**' **Documentation** you selected as a payment method.
+To configure the **Payment Gateway** on your Site, click [here](/payment-method-fields/all-payment-method) and read the **Payment Method Fields**' **Documentation** you selected as a payment method.
 
 ![](/images/payment-method-fields/configure-authorize-net-in-wordpress-through-paymattic/20.-Choose-Authorize-Payment-gateway.webp)
 

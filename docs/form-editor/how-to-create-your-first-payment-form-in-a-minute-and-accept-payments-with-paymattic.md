@@ -28,7 +28,7 @@ For example, the [Payment Item](/how-to-add-payment-item-fields-in-wordpress-wit
 
 Remember, the added payment method/s in your Form will not function unless you properly complete the configuration process of payment gateways.
 
-To learn the details of the configuration process, [click here](https://paymattic.com/docs-category/payment-method-fields/) and read the documentation you selected as a payment method.
+To learn the details of the configuration process, [click here](/payment-method-fields/all-payment-method) and read the documentation you selected as a payment method.
 
 ![](/images/form-editor/how-to-create-your-first-payment-form-in-a-minute-and-accept-payments-with-paymattic/Choosing-desired-fields.webp)
 
