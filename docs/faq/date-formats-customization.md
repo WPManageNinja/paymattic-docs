@@ -3,7 +3,29 @@ title: "Date Formats Customization"
 category: "FAQ"
 ---
 
-This guide explains how to customize date and time formats in [Paymattic's Date & Time fields](../general-input-fields/how-to-use-general-form-input-fields-in-wordpress-with-paymattic.md#_10-date-amp-).
+:::tip Overview
+This guide explains how to customize date and time formats in Paymattic's [Date & Time fields](../general-input-fields/how-to-use-general-form-input-fields-in-wordpress-with-paymattic.md#_10-date-amp-). Paymattic uses [flatpickr](https://flatpickr.js.org/) for powerful date/time handling.
+:::
+
+## Quick Reference
+
+### Common Date Formats
+
+| Format | Example | Code |
+|--------|---------|------|
+| US Format | 12/31/2023 | "m/d/Y" |
+| EU Format | 31/12/2023 | "d/m/Y" |
+| ISO Format | 2023-12-31 | "Y-m-d" |
+| Full Text | Sunday, December 31, 2023 | "l, F j, Y" |
+| Short Text | Sun, Dec 31, 2023 | "D, M j, Y" |
+
+### Common Time Formats
+
+| Format | Example | Code |
+|--------|---------|------|
+| 12-hour | 2:30 PM | "h:i K" |
+| 24-hour | 14:30 | "H:i" |
+| With Seconds | 2:30:45 PM | "h:i:s K" |
 
 ## Date Format Characters
 
@@ -39,9 +61,53 @@ This guide explains how to customize date and time formats in [Paymattic's Date 
 
 ## Advanced Configuration
 
-Paymattic uses [flatpickr](https://flatpickr.js.org/) for date/time handling. Advanced users can customize behavior through the field's advanced settings:
+Access advanced settings through the field's configuration panel:
 
 ![Advanced settings](/images/faq/date-formats-customization/Advance-Date-Configuration.webp)
+
+### Basic Settings
+
+| Option | Type | Default | Description |
+|--------|------|---------|-------------|
+| dateFormat | String | "Y-m-d" | Date display format |
+| enableTime | Boolean | false | Show time picker |
+| mode | String | "single" | "single", "multiple", or "range" |
+| defaultDate | String/Array | null | Initial selected date(s) |
+| minDate | String/Date | null | Earliest selectable date |
+| maxDate | String/Date | null | Latest selectable date |
+
+### Time Settings
+
+| Option | Type | Default | Description |
+|--------|------|---------|-------------|
+| enableSeconds | Boolean | false | Show seconds input |
+| time_24hr | Boolean | false | Use 24-hour format |
+| defaultHour | Number | 12 | Initial hour value |
+| defaultMinute | Number | 0 | Initial minute value |
+| hourIncrement | Integer | 1 | Hour selection step |
+| minuteIncrement | Integer | 5 | Minute selection step |
+
+### Display Settings
+
+| Option | Type | Default | Description |
+|--------|------|---------|-------------|
+| inline | Boolean | false | Show calendar permanently |
+| static | Boolean | false | Fix calendar position |
+| position | String | "auto" | Calendar placement ("auto", "above", "below") |
+| showMonths | Integer | 1 | Number of months displayed |
+| weekNumbers | Boolean | false | Show week numbers |
+| shorthandCurrentMonth | Boolean | false | Use short month names |
+
+### Input Settings
+
+| Option | Type | Default | Description |
+|--------|------|---------|-------------|
+| allowInput | Boolean | false | Allow manual date entry |
+| clickOpens | Boolean | true | Open on input click |
+| wrap | Boolean | false | Support custom elements |
+| altInput | Boolean | false | Show formatted date |
+| altFormat | String | "F j, Y" | Display format when altInput is true |
+| disableMobile | Boolean | false | Force desktop picker on mobile |
 
 ### Custom Week Start
 
@@ -55,69 +121,21 @@ Set the first day of the week using:
 }
 ```
 
-### Configuration Options
+:::tip Examples
+Common configurations:
+1. Date only: `{ "dateFormat": "Y-m-d" }`
+2. Date + Time: `{ "dateFormat": "Y-m-d H:i", "enableTime": true }`
+3. Range picker: `{ "mode": "range", "dateFormat": "Y-m-d" }`
+4. Multiple dates: `{ "mode": "multiple", "dateFormat": "Y-m-d" }`
+:::
 
-#### Basic Settings
-
-| Option | Type | Default | Description |
-|--------|------|---------|-------------|
-| dateFormat | String | "Y-m-d" | Date display format |
-| enableTime | Boolean | false | Show time picker |
-| mode | String | "single" | "single", "multiple", or "range" |
-| defaultDate | String/Array | null | Initial selected date(s) |
-| minDate | String/Date | null | Earliest selectable date |
-| maxDate | String/Date | null | Latest selectable date |
-
-#### Time Settings
-
-| Option | Type | Default | Description |
-|--------|------|---------|-------------|
-| enableSeconds | Boolean | false | Show seconds input |
-| time_24hr | Boolean | false | Use 24-hour format |
-| defaultHour | Number | 12 | Initial hour value |
-| defaultMinute | Number | 0 | Initial minute value |
-| hourIncrement | Integer | 1 | Hour selection step |
-| minuteIncrement | Integer | 5 | Minute selection step |
-
-#### Display Settings
-
-| Option | Type | Default | Description |
-|--------|------|---------|-------------|
-| inline | Boolean | false | Show calendar permanently |
-| static | Boolean | false | Fix calendar position |
-| position | String | "auto" | Calendar placement ("auto", "above", "below") |
-| showMonths | Integer | 1 | Number of months displayed |
-| weekNumbers | Boolean | false | Show week numbers |
-| shorthandCurrentMonth | Boolean | false | Use short month names |
-
-#### Input Settings
-
-| Option | Type | Default | Description |
-|--------|------|---------|-------------|
-| allowInput | Boolean | false | Allow manual date entry |
-| clickOpens | Boolean | true | Open on input click |
-| wrap | Boolean | false | Support custom elements |
-| altInput | Boolean | false | Show formatted date |
-| altFormat | String | "F j, Y" | Display format when altInput is true |
-| disableMobile | Boolean | false | Force desktop picker on mobile |
-
-#### Advanced Features
-
-| Option | Type | Default | Description |
-|--------|------|---------|-------------|
-| disable | Array | [] | Disable specific dates |
-| enable | Array | [] | Enable only specific dates |
-| formatDate | Function | null | Custom date formatter |
-| parseDate | Function | false | Custom date parser |
-| onChange | Function | null | Date selection handler |
-| onOpen | Function | null | Calendar open handler |
-| onClose | Function | null | Calendar close handler |
-| onReady | Function | null | Initialization handler |
-
-:::tip Documentation
-See [flatpickr's documentation](https://flatpickr.js.org/options/) for complete details.
+:::warning Important
+When using advanced settings:
+1. Use valid JSON format
+2. Test thoroughly after changes
+3. Consider mobile users when customizing
 :::
 
 :::tip Need Help?
-If you have any questions, concerns, or suggestions, please [contact our support team](https://wpmanageninja.com/support-tickets/).
+For complete configuration options, see [flatpickr's documentation](https://flatpickr.js.org/options/). If you need assistance, [contact our support team](https://wpmanageninja.com/support-tickets/).
 :::
