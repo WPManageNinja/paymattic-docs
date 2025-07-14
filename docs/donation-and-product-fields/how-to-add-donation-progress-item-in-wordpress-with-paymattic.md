@@ -24,8 +24,6 @@ The Donation Progress Item is available in both free and pro versions:
 Upgrade to [Paymattic Pro](/getting-started-with-paymattic/how-to-install-and-activate-paymattic-in-wordpress) to access all features.
 :::
 
-## Video Tutorial
-
 <iframe width="700" height="400" src="https://www.youtube.com/embed/10PaObzyW6k?list=PLXpD0vT4thWH80g5e9wYnoBMgEqUXbr53" title="Donation Progress Item Tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Adding the Donation Progress Item

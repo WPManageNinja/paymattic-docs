@@ -14,8 +14,6 @@ category: "Donation and Product Fields"
 5. Flexible payment selection options
 :::
 
-## Video Tutorial
-
 <iframe width="700" height="400" src="https://www.youtube.com/embed/ZQUNKzdWB-8?list=PLXpD0vT4thWH80g5e9wYnoBMgEqUXbr53" title="Payment Item Field Tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Adding a Payment Item Field
