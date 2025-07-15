@@ -143,9 +143,22 @@ export default defineConfig({
         ]
       },
       {
+        text: 'Customer Profile',
+        items: [
+          { text: 'Customer Profile', link: '/how-to-view-customer-profile-in-wordpress' }
+        ]
+      },
+      {
         text: 'Reports & Analytics',
         items: [
           { text: 'Reports & Analytics', link: '/how-to-view-the-reports-and-payment-analytics-in-wordpress-with-paymattic' }
+        ]
+      },
+      {
+        text: 'Import - Export',
+        items: [
+          { text: 'Import/Export Forms', link: '/how-to-import-export-forms-in-wordpress-with-paymattic' },
+          { text: 'Export Entries', link: '/how-to-export-form-entries-in-csv-excel-ods-and-json' }
         ]
       },
       {
@@ -154,19 +167,6 @@ export default defineConfig({
           { text: 'First & Last Name Fields', link: '/add-first-last-name-fields-in-a-form' },
           { text: 'Date Formats', link: '/date-formats-customization' },
           { text: 'Email Issues', link: '/how-to-fix-not-sending-email-confirmations-issue-in-wordpress-with-paymattic' }
-        ]
-      },
-      {
-        text: 'Customer Profile',
-        items: [
-          { text: 'Customer Profile', link: '/how-to-view-customer-profile-in-wordpress' }
-        ]
-      },
-      {
-        text: 'Import - Export',
-        items: [
-          { text: 'Import/Export Forms', link: '/how-to-import-export-forms-in-wordpress-with-paymattic' },
-          { text: 'Export Entries', link: '/how-to-export-form-entries-in-csv-excel-ods-and-json' }
         ]
       },
       {
