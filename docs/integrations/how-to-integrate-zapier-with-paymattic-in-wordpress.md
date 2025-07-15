@@ -2,6 +2,9 @@
 title: "How to Integrate Zapier with Paymattic in WordPress?"
 category: "Integrations"
 ---
+
+# How to Integrate Zapier with Paymattic in WordPress?
+
 [Paymattic](https://paymattic.com/) integrates [Zapier](https://zapier.com/) a cool automation tool that helps you push submitted data automatically to multiple apps. This article will guide you through integrating **Zapier** into your **WordPress** **Site** with **Paymattic**.
 
 ## Enable Zapier Integration 

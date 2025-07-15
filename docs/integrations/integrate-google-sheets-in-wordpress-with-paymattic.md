@@ -2,6 +2,9 @@
 title: "How to Integrate Google Sheets in WordPress with Paymattic?"
 category: "Integrations"
 ---
+
+# How to Integrate Google Sheets in WordPress with Paymattic?
+
 Google Sheets integrates with [Paymattic](https://paymattic.com/) on your WordPress website to manage and organize form responses efficiently. This article will guide you through integrating **Google Sheets** in your **WordPress** **Site** with **Paymattic**.
 
 Google Sheets is the Premium Feature of the Paymattic Plugin. So, you need Paymattic Pro to integrate this.

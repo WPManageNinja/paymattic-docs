@@ -3,6 +3,8 @@ title: "How to Integrate ActiveCampaign in WordPress with Paymattic?"
 category: "Integrations"
 ---
 
+# How to Integrate ActiveCampaign in WordPress with Paymattic?
+
 [Paymattic](https://paymattic.com/) integrates with [ActiveCampaign](https://www.activecampaign.com/), a marketing automation tool that helps you collect customer information and automatically add it to your ActiveCampaign list. This article will guide you through integrating **ActiveCampaign** with **Paymattic** on your **WordPress** site.
 
 :::warning

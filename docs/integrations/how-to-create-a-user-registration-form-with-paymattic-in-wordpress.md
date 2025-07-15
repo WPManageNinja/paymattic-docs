@@ -3,6 +3,8 @@ title: "How to Create a User Registration Form with Paymattic in WordPress?"
 category: "Integrations"
 ---
 
+# How to Create a User Registration Form with Paymattic in WordPress?
+
 [Paymattic](https://paymattic.com/) introduces another impressive module to make the user registration process fast and simple. You can make forms that create user accounts in WordPress with the WP User Registration module. This article will guide you through integrating **WP User Registration** with **Paymattic** on your **WordPress** site.
 
 :::warning

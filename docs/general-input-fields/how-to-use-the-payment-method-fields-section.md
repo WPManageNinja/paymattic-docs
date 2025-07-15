@@ -2,6 +2,9 @@
 title: "How to Use the Payment Method Fields"
 category: "General Input Fields"
 ---
+
+# How to Use the Payment Method Fields
+
 [Paymattic](https://paymattic.com/) provides 15 payment method fields to design a standard payment form to collect payments for your WordPress Site. This article will give you an overview of Paymattic's Payment Method Fields.
 
 ::: warning Pro Feature

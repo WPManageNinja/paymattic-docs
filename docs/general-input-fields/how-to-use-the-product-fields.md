@@ -2,6 +2,9 @@
 title: "How to Use the Donation & Product Fields"
 category: "General Input Fields"
 ---
+
+# How to Use the Donation & Product Fields
+
 [Paymattic](https://paymattic.com/) provides 10 product fields to design a standard payment form for your WordPress Site. This article will give you an overview of Paymattic's General Fields.
 
 ::: warning Pro Features

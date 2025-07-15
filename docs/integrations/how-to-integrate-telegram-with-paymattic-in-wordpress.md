@@ -2,6 +2,9 @@
 title: "How to Integrate Telegram with Paymattic in WordPress?"
 category: "Integrations"
 ---
+
+# How to Integrate Telegram with Paymattic in WordPress?
+
 [Paymattic](https://paymattic.com/) allows you to connect with [Telegram](https://telegram.org/) to send instant notifications to your Telegram channel or group when a form is submitted. This article will guide you through integrating **Telegram** with **Paymattic** on your **WordPress Site**.
 - *Telegram** is the Premium Feature of the Paymattic Plugin. So, you need Paymattic Pro to integrate this.
 

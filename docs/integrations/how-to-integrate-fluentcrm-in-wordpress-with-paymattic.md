@@ -3,6 +3,8 @@ title: "How to Integrate FluentCRM in WordPress with Paymattic"
 category: "Integrations"
 ---
 
+# How to Integrate FluentCRM in WordPress with Paymattic
+
 [Paymattic](https://paymattic.com/) integrates with [FluentCRM](http://www.fluentcrm.com/), a WordPress-based self-hosted email marketing automation plugin that helps you add new prospects to your FluentCRM contact list when a form is submitted. This article will guide you through integrating **FluentCRM** with **Paymattic** on your WordPress site.
 
 ## Prerequisites

@@ -3,6 +3,8 @@ title: "How to Import-Export Forms with Paymattic"
 category: "Import - Export"
 ---
 
+# How to Import-Export Forms with Paymattic
+
 [Paymattic](https://paymattic.com/) allows you to transfer forms between WordPress sites using import/export functionality. This guide explains how to move your forms efficiently.
 
 ## Import Forms

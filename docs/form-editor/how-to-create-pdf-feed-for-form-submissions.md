@@ -2,6 +2,9 @@
 title: "How to Create PDF Feed for Form Submissions?"
 category: "Form Editor"
 ---
+
+# How to Create PDF Feed for Form Submissions?
+
 [Paymattic](https://paymattic.com/) allows you to generate a PDF feed for your form submission i.e., users will get a PDF file in their email after their form submission. This article will guide you on how to create a PDF Feed in Paymattic.
 
 ## Install and Activate PDF Feed
@@ -47,8 +50,6 @@ Once you complete setting up, click the **Save Settings** button to save all you
 ## Add PDF Feed in a Form
 
 First, go to **All Forms** from the **Paymattic Navbar,** choose any existing **Form** you wish to work on, and click the **Pencil/Editor** icon.
-
-If you do not have any existing forms, read these [Create a Form from Scratch](/how-to-create-a-form-from-scratch-with-paymattic) or [Create a Form using Templates](/simple-form-templates) documentation.
 
 For example, I choose the **PDF Form** to show the process.
 

@@ -2,6 +2,9 @@
 title: "How to Use the General Fields"
 category: "General Input Fields"
 ---
+
+# How to Use the General Fields
+
 [Paymattic](https://paymattic.com/) provides 20 general fields to design a standard payment form for your WordPress Site. This article will give you an overview of Paymattic's General Fields.
 
 <iframe width="700" height="400" src="https://www.youtube.com/embed/u8EXokI4g8c?list=PLXpD0vT4thWH80g5e9wYnoBMgEqUXbr53" title="How to Use the General Fields" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

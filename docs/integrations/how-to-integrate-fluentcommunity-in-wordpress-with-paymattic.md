@@ -2,6 +2,9 @@
 title: "How to Integrate FluentCommunity in WordPress with Paymattic "
 category: "Integrations"
 ---
+
+# How to Integrate FluentCommunity in WordPress with Paymattic
+
 [FluentCommunity](https://fluentcommunity.co/) integrates with [Paymattic](https://paymattic.com/), allowing you to **collect payments** and **add members** from the **Paid Course** and **VIP Spaces** of **FluentCommunity** directly through **Paymattic’s** [Payment Forms](/how-to-create-your-first-payment-form-in-a-minute-and-accept-payments-with-paymattic) or [Subscriptions Forms](/#:~:text=WordPress%20with%20Paymattic%3F-,How%20to%20Add%20Subscription%20Payment%20Item%20Fields%20in%20Paymattic%3F,-How%20to%20Add).
 
 This article will guide you through **integrating** **FluentCommunity** **with** **Paymattic** and make the most of your community features.

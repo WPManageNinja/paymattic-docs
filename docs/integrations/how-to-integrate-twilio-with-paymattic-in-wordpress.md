@@ -2,6 +2,9 @@
 title: "How to Integrate Twilio with Paymattic in WordPress?"
 category: "Integrations"
 ---
+
+# How to Integrate Twilio with Paymattic in WordPress?
+
 [Paymattic](https://paymattic.com/) lets you connect with [Twilio](http://www.twilio.com/) to send SMS notifications automatically when a form is submitted. This article will guide you through integrating Twilio with Paymattic on your WordPress Site.
 
 Twilio is the Premium Feature of the Paymattic Plugin. So, you need Paymattic Pro to integrate this.

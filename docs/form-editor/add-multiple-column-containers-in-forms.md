@@ -2,6 +2,9 @@
 title: "Add Multiple Column Containers in Forms"
 category: "Form Editor"
 ---
+
+# Add Multiple Column Containers in Forms
+
 In [Paymattic](https://paymattic.com/) you have the **Multiple Column Container** option to add multiple fields horizontally in one column instead of a new column for each field for your **Paymattic Forms** and make them look more compact and organized to your users.
 
 This article will guide you on how to add the **Multiple Column Container** to your WordPress Site through Paymattic Forms.
@@ -44,9 +47,9 @@ To add fields, click the **Plus Icon** of each column.
 Once you click the Plus Icon, it will redirect you again to the **Choose form field** page where you will get all the field options that Paymattic offers.
 
 Now, choose anyone according to your needs just by clicking on it.
-But, we always suggest you keep the **[Name](/# 5-toc-title)** and **[Email](/# 6-toc-title)** field at the beginning of any Form.
+But, we always suggest you keep the **Name** and **Email** field at the beginning of any Form.
 
-Remember, almost every fields have a similar functionality. For example, I chose the [Name](/# 5-toc-title) field to show the process.
+Remember, almost every fields have a similar functionality. For example, I chose the Name field to show the process.
 
 ![](/images/form-editor/add-multiple-column-containers-in-forms/Choose-fields.webp)
 

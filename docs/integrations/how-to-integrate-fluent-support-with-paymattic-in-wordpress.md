@@ -3,6 +3,8 @@ title: "How to Integrate Fluent Support with Paymattic in WordPress?"
 category: "Integrations"
 ---
 
+# How to Integrate Fluent Support with Paymattic in WordPress?
+
 [Paymattic](https://paymattic.com/) integrates with [Fluent Support](https://fluentsupport.com/), a WordPress plugin that enables paid customer support tickets. This article will guide you through integrating **Fluent Support** with **Paymattic** on your **WordPress** site.
 
 ## Prerequisites

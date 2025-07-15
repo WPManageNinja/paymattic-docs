@@ -2,6 +2,9 @@
 title: "How to Integrate Slack in WordPress with Paymattic?"
 category: "Integrations"
 ---
+
+# How to Integrate Slack in WordPress with Paymattic?
+
 [Paymattic](https://paymattic.com/) lets you connect with [Slack](https://www.slack.com/) to send SMS notifications automatically when a form is submitted. This article will guide you through integrating Slack with Paymattic on your WordPress Site.
 
 ## Enable Slack Integration 

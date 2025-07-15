@@ -3,6 +3,8 @@ title: "How to Integrate Mailchimp in WordPress with Paymattic?"
 category: "Integrations"
 ---
 
+# How to Integrate Mailchimp in WordPress with Paymattic?
+
 [Paymattic](https://paymattic.com/) integrates with [Mailchimp](https://mailchimp.com/) to automatically send contact information from your WordPress website to your Mailchimp account when a form is submitted. This article will guide you through integrating Mailchimp with Paymattic on your WordPress site.
 
 ## Enable Mailchimp Integration 

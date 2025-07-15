@@ -2,6 +2,9 @@
 title: "How to Integrate Webhook in WordPress with Paymattic?"
 category: "Integrations"
 ---
+
+# How to Integrate Webhook in WordPress with Paymattic?
+
 [Paymattic](https://paymattic.com/) has another exciting feature, which is **Webhook Integration** to increase the performance of your payment form. This article will guide you through integrating **Webhook** in your **WordPress** **Site** with **Paymattic**.
 
 ## Enable Fluent Webhook Integration

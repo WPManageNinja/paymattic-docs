@@ -3,6 +3,8 @@ title: "How to Export Form Entries with Paymattic"
 category: "Import - Export"
 ---
 
+# How to Export Form Entries with Paymattic
+
 [Paymattic](https://paymattic.com/) allows you to export form entries in multiple formats: CSV, Excel, ODS, and JSON. This guide explains how to export both individual entries and bulk form submissions.
 
 :::warning Premium Feature
