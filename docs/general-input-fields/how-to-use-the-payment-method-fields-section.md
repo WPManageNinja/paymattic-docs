@@ -17,8 +17,6 @@ To learn how you can find the Payment Method Fields section, follow the steps wi
 
 First, go to the **All Forms** section from the **Paymattic Navbar**, choose a **Form**, and click the **Pencil/Edit** icon to open the **Editor** page of that form.
 
-If you do not have any existing form, read this [Create a Form from Scratch](/form-editor/how-to-create-a-form-from-scratch-with-paymattic) or [Create a Form using Templates](/form-editor/simple-form-templates) documentation to create one.
-
 For example, I choose an existing form to show the whole process.
 
 ![Open Form Editor](/images/general-input-fields/how-to-use-the-payment-method-fields-section/open-desired-form-1-scaled.webp)
@@ -47,7 +45,9 @@ You can add a **Single Payment Method** by clicking on any desired payment gatew
 You must have the Paymattic Pro plugin to get **All Payment Method Fields** except for **Stripe** and **Offline/Cheque** payment methods.
 :::
 
+
 ![Single Payment Method Options](/images/general-input-fields/how-to-use-the-payment-method-fields-section/Payment-Method-Fields.webp)
+
 
 ### Multiple/Choose Payment Method
 
@@ -82,7 +82,7 @@ Once you set up all the settings, click the **Update** button to save all the cu
 
 ![General Settings](/images/general-input-fields/how-to-use-the-payment-method-fields-section/General-Settings-of-Stripe.webp)
 
-::: tip General Settings
+
 All the General Settings mentioned above are explained below:
 
 #### A. Select Payment Method
@@ -106,7 +106,7 @@ When you add multiple payment methods to collect payments, you can select one pa
 #### D. Enable Image
 
 Enable this **Toggle** button to show the Payment Method Platforms' official logo images on your form. Otherwise, only the payment platforms' **Names** will be visible on your form.
-:::
+
 
 ### Advanced Settings
 

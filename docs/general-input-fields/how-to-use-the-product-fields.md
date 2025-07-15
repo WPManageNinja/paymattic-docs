@@ -41,25 +41,25 @@ Fields with a Star Sign (⭐) in the right corner are Pro features. You need to 
 
 Here are all the available Product Fields with detailed documentation for each:
 
-### 1. [Payment Item](/donation-and-product-fields/how-to-add-payment-item-fields-in-wordpress-with-paymattic)
+1. [Payment Item](/donation-and-product-fields/how-to-add-payment-item-fields-in-wordpress-with-paymattic)
 
-### 2. [Donation Progress Item](/donation-and-product-fields/how-to-add-donation-progress-item-in-wordpress-with-paymattic)
+2. [Donation Progress Item](/donation-and-product-fields/how-to-add-donation-progress-item-in-wordpress-with-paymattic)
 
-### 3. [Subscription Payment](/donation-and-product-fields/how-to-add-susbcription-payment-item-fields-in-paymattic)
+3. [Subscription Payment](/donation-and-product-fields/how-to-add-susbcription-payment-item-fields-in-paymattic)
 
-### 4. [Tabular Product Items](/donation-and-product-fields/how-to-add-tabular-product-item-fields-in-wordpress-with-paymattic)
+4. [Tabular Product Items](/donation-and-product-fields/how-to-add-tabular-product-item-fields-in-wordpress-with-paymattic)
 
-### 5. [Item Quantity](/donation-and-product-fields/how-to-add-item-quantity-field-in-wordpress-with-paymattic)
+5. [Item Quantity](/donation-and-product-fields/how-to-add-item-quantity-field-in-wordpress-with-paymattic)
 
-### 6. [Custom Payment Amount](/donation-and-product-fields/how-to-add-user-defined-amount-field-in-wordpress-with-paymattic)
+6. [Custom Payment Amount](/donation-and-product-fields/how-to-add-user-defined-amount-field-in-wordpress-with-paymattic)
 
-### 7. [Payment Summary](/donation-and-product-fields/add-payment-summary-field-in-forms)
+7. [Payment Summary](/donation-and-product-fields/add-payment-summary-field-in-forms)
 
-### 8. [Tax Calculated Amount](/donation-and-product-fields/how-to-add-tax-calculated-amount-field-in-wordpress-with-paymattic)
+8. [Tax Calculated Amount](/donation-and-product-fields/how-to-add-tax-calculated-amount-field-in-wordpress-with-paymattic)
 
-### 9. [Currency Switcher](/donation-and-product-fields/add-currency-switcher-in-wordpress-form)
+9. [Currency Switcher](/donation-and-product-fields/add-currency-switcher-in-wordpress-form)
 
-### 10. [Coupon](/donation-and-product-fields/how-to-add-coupon-field-in-wordpress-with-paymattic)
+10. [Coupon](/donation-and-product-fields/how-to-add-coupon-field-in-wordpress-with-paymattic)
 
 These are all the Product Fields you can use while creating forms in Paymattic.
 
