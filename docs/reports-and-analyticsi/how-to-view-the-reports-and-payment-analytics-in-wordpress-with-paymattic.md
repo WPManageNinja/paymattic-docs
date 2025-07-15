@@ -3,6 +3,8 @@ title: "How to View Reports and Payment Analytics in WordPress?"
 category: "Reports & Analytics"
 ---
 
+# How to View Reports and Payment Analytics in WordPress?
+
 [Paymattic](https://paymattic.com/)'s Reports section provides comprehensive analytics for your form submissions and payments. This guide explains how to use each reporting feature to monitor your site's performance.
 
 ## Access Reports

@@ -3,6 +3,8 @@ title: "How to Refund Payments in Paymattic"
 category: "Manage Form Entries"
 ---
 
+# How to Refund Payments in Paymattic
+
 Paymattic provides integrated refund management directly from your WordPress dashboard. This guide explains the available refund methods and how to use them.
 
 ## Refund Methods

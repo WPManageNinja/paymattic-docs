@@ -3,6 +3,8 @@ title: "How to Integrate LearnDash in WordPress with Paymattic?"
 category: "Learning Management System (LMS) Integrations"
 ---
 
+# How to Integrate LearnDash in WordPress with Paymattic?
+
 [Paymattic](https://paymattic.com/) integrates with [LearnDash](http://www.learndash.com/), a WordPress learning management plugin, to automate course enrollment, user registration, and welcome email notifications. This article will guide you through integrating LearnDash with Paymattic on your WordPress site.
 
 :::warning

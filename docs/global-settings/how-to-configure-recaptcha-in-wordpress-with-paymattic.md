@@ -3,6 +3,8 @@ title: "How to Configure reCAPTCHA in WordPress with Paymattic"
 category: "Global Settings"
 ---
 
+# How to Configure reCAPTCHA in WordPress with Paymattic
+
 [Paymattic](https://paymattic.com/) integrates with [Google reCAPTCHA](https://paymattic.com/configure-google-recaptcha-for-your-website-security/#what-is-google-recaptcha) to protect your WordPress forms from spam and automated submissions. This guide walks you through setting up reCAPTCHA in Paymattic.
 
 ## Get reCAPTCHA API Keys

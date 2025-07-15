@@ -3,6 +3,8 @@ title: "How to Setup Email Notifications in Paymattic WordPress Plugin?"
 category: "Email Notification Settings"
 ---
 
+# How to Setup Email Notifications in Paymattic WordPress Plugin?
+
 [Paymattic](https://paymattic.com/) allows you to configure email notifications for both users and administrators. Users can receive copies of their form submissions, while administrators can set up custom automated notifications.
 
 :::warning

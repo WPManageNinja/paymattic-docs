@@ -3,6 +3,8 @@ title: "How to View Single Submission Data and Manage Payments in Paymattic"
 category: "Manage Form Entries"
 ---
 
+# How to View Single Submission Data and Manage Payments in Paymattic
+
 [Paymattic](https://paymattic.com/) provides detailed views and management options for individual form submissions. This guide explains how to access and manage single form entries.
 
 ## Accessing Single Form Entries

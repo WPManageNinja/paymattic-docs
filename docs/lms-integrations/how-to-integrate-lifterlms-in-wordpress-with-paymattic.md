@@ -3,6 +3,8 @@ title: "How to Integrate LifterLMS in WordPress with Paymattic?"
 category: "Learning Management System (LMS) Integrations"
 ---
 
+# How to Integrate LifterLMS in WordPress with Paymattic?
+
 [Paymattic](https://paymattic.com/) integrates with [LifterLMS](http://www.lifterlms.com/), a WordPress learning management plugin, to automate course enrollment, user registration, and welcome email notifications. This article will guide you through integrating LifterLMS with Paymattic on your WordPress site.
 
 :::warning

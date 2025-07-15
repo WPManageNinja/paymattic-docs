@@ -3,6 +3,8 @@ title: "How to Fix Not Sending Email Confirmations Issue in WordPress?"
 category: "FAQ"
 ---
 
+# How to Fix Not Sending Email Confirmations Issue in WordPress?
+
 :::warning Common Issue
 Email delivery issues are often not related to Paymattic itself but rather to WordPress or server configuration. This guide will help you identify and fix the root cause.
 :::

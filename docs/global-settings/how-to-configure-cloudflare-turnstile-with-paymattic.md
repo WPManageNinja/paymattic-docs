@@ -3,6 +3,8 @@ title: "How to Configure Cloudflare Turnstile Security with Paymattic?"
 category: "Global Settings"
 ---
 
+# How to Configure Cloudflare Turnstile Security with Paymattic?
+
 [Paymattic](https://paymattic.com/) integrates with [Cloudflare Turnstile](https://paymattic.com/cloudflare-turnstile-security-in-wordpress/#what-is-cloudflare-turnstile-security) to protect your forms from spam while providing a CAPTCHA-free experience. This guide explains how to set up Turnstile protection.
 
 ## Get Turnstile Keys

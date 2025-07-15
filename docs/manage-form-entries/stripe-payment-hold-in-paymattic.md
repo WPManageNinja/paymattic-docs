@@ -3,6 +3,8 @@ title: "How to Enable Stripe Payment Hold in Paymattic"
 category: "Manage Form Entries"
 ---
 
+# How to Enable Stripe Payment Hold in Paymattic
+
 [Paymattic](https://paymattic.com/) supports [Stripe](http://stripe.com)'s payment hold feature, which allows you to temporarily reserve funds from a customer's payment method without immediately capturing them. This is useful when you need to verify order details or ensure product availability before finalizing a transaction.
 
 ## Enable Payment Hold

@@ -3,6 +3,8 @@ title: "How to Add User Dashboard Module in Paymattic?"
 category: "Global Settings"
 ---
 
+# How to Add User Dashboard Module in Paymattic?
+
 [Paymattic](https://paymattic.com/)'s User Dashboard allows customers to manage their payments and view submission history directly from WordPress. This guide explains how to set up and configure the User Dashboard.
 
 :::warning

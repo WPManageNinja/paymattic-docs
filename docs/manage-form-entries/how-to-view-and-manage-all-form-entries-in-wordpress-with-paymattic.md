@@ -3,6 +3,8 @@ title: "How to View and Manage All Form Entries in WordPress with Paymattic"
 category: "Manage Form Entries"
 ---
 
+# How to View and Manage All Form Entries in WordPress with Paymattic
+
 [Paymattic](https://paymattic.com/) provides a comprehensive entry management system that allows you to view and manage all form submissions from a central location. This guide covers all the features available in the Entries section.
 
 ## Accessing Form Entries

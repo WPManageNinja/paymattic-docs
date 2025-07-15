@@ -3,6 +3,8 @@ title: "How to Change Currency Settings in WordPress with Paymattic"
 category: "Global Settings"
 ---
 
+# How to Change Currency Settings in WordPress with Paymattic
+
 [Paymattic](https://paymattic.com/) allows you to configure currency settings both globally and per form. This guide covers setting up currencies for payment gateways and customizing currency settings for individual forms.
 
 ## Global Currency Settings

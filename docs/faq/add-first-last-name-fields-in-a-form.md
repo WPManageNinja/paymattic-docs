@@ -3,6 +3,8 @@ title: "Add First & Last Name Fields Separately"
 category: "FAQ"
 ---
 
+# Add First & Last Name Fields Separately
+
 This guide explains how to add separate First Name and Last Name fields to your [Paymattic](http://paymattic.com) forms, either horizontally or vertically.
 
 ## Add Name Fields

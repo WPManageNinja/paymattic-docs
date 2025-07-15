@@ -3,6 +3,8 @@ title: "How to Manage User Roles in WordPress with Paymattic?"
 category: "Global Settings"
 ---
 
+# How to Manage User Roles in WordPress with Paymattic?
+
 [Paymattic](https://paymattic.com/) provides flexible user role management to control access to forms and features. This guide explains how to configure user permissions.
 
 :::note Default Access

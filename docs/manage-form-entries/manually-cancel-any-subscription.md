@@ -3,6 +3,8 @@ title: "Manually Cancel Any Subscription"
 category: "Manage Form Entries"
 ---
 
+# Manually Cancel Any Subscription
+
 [Paymattic](https://paymattic.com/) allows both administrators and users to cancel active subscriptions. This guide explains how to cancel subscriptions from the admin perspective.
 
 :::warning

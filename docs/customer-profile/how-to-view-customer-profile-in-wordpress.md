@@ -3,6 +3,8 @@ title: "How to View Customer Profile in WordPress with Paymattic?"
 category: "Customer Profile"
 ---
 
+# How to View Customer Profile in WordPress with Paymattic?
+
 [Paymattic](https://paymattic.com/)'s Customers section provides comprehensive insights into your customer profiles, including subscriptions, spending, permissions, and engagement data. This guide explains how to access and use these features.
 
 ## Access Customer Profiles

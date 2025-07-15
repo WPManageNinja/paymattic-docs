@@ -3,6 +3,8 @@ title: "How to Manage Subscriptions in WordPress with Paymattic"
 category: "Manage Form Entries"
 ---
 
+# How to Manage Subscriptions in WordPress with Paymattic
+
 [Paymattic](https://paymattic.com/) allows you to manage subscription payments, including offline payments made through direct bank transfers. This guide focuses on managing subscription payments in Paymattic.
 
 :::warning
