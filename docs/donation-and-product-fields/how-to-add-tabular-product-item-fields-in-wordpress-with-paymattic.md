@@ -23,7 +23,7 @@ First, go to the **All Forms** section from the **Paymattic Navbar,** choose a *
 
 If you do not have any existing forms, read these [Create a Form from Scratch](/form-editor/how-to-create-a-form-from-scratch-with-paymattic) or [Create a Form using Templates](/form-editor/simple-form-templates) documentation.
 
-For example, I choose an existing form to show the whole process.
+For example, here we choose an existing form to show the whole process.
 
 ![Open Form Editor](/images/donation-and-product-fields/how-to-add-tabular-product-item-fields-in-wordpress-with-paymattic/Open-desired-form-3-scaled.webp)
 
@@ -67,7 +67,7 @@ Once you set up all the settings, click the **Update** button to save all the cu
 
 ![Table Template Settings](/images/donation-and-product-fields/how-to-add-tabular-product-item-fields-in-wordpress-with-paymattic/Table-Templates-General-Settings.webp)
 
-::: tip Table Template Settings
+
 All the Settings under the General Tab for Table Template are briefly explained below:
 
 #### A. Setup Your Tabular Products
@@ -91,7 +91,7 @@ To add new rows to the table, click on the **+ Add More** button. Also, click th
 #### C. Show Subtotal
 
 If the option is enabled, users can view the subtotal amount below the table.
-:::
+
 
 ### Grid Template's General Settings
 
@@ -101,7 +101,6 @@ Once you set up all the settings, click the **Update** button to save all the cu
 
 ![Grid Template Settings](/images/donation-and-product-fields/how-to-add-tabular-product-item-fields-in-wordpress-with-paymattic/Grid-Templates-generl-Settings-scaled.webp)
 
-::: tip Grid Template Settings
 All the Settings under the General Tab for Grid Template are briefly explained below:
 
 #### A. Setup Your Tabular Products
@@ -129,7 +128,6 @@ For example, if you have a clothing item with a base price of $100, but you wish
 #### C. Show Subtotal
 
 If the option is enabled, users can view the subtotal amount below the table.
-:::
 
 ### Single Line Template's General Settings
 

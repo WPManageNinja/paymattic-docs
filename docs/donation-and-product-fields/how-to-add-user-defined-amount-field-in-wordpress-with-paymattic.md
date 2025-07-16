@@ -7,13 +7,6 @@ category: "Donation and Product Fields"
 
 [Paymattic](https://paymattic.com/) provides a **Custom Payment Amount** field that allows users to enter their own payment amount. This feature is perfect for donations, flexible pricing, or any scenario where users need to specify their own payment value.
 
-::: tip Key Benefits
-- Allow users to enter custom payment amounts
-- Set minimum payment thresholds
-- Add default suggested amounts
-- Enable real-time calculations
-- Perfect for donations and flexible pricing
-:::
 
 ## Adding Custom Payment Amount Field
 
@@ -21,11 +14,6 @@ To add the Custom Payment Amount field to your Paymattic Form, follow these step
 
 First, go to the **All Forms** section from the **Paymattic Navbar**, choose a **Form**, and click the **Pencil/Edit** icon to open the **Editor** page of that form.
 
-::: tip
-If you do not have any existing form, you can:
-- [Create a Form from Scratch](/form-editor/how-to-create-a-form-from-scratch-with-paymattic)
-- [Create a Form using Templates](/form-editor/simple-form-templates)
-:::
 
 ![Open Form Editor](/images/donation-and-product-fields/how-to-add-user-defined-amount-field-in-wordpress-with-paymattic/1.-Open-desired-form-3-scaled.webp)
 
@@ -54,55 +42,83 @@ To customize the Custom Payment Amount field, click the **Settings Icon** in the
 
 ### General Settings
 
+The following settings are available under the **General** Tab for a field that allows users to enter their own payment amount (e.g., a Custom Payment Amount or Donation field).
+
+
+### Required
+Enable this toggle to make this field mandatory. If this option is turned on, a user will not be able to submit the form without entering a value in this field.
+
+### Default Value
+You can set a pre-filled amount that will appear in the field when the page loads. 
+* This field also supports Smartcodes for dynamic values. For example, you can use a Smartcode like ``{querystring:YOUR_KEY}`` by clicking the **Shortcode Icon**. This allows you to populate the amount from a URL parameter, which is useful for custom payment links.
+
+### Minimum Value
+With this option, you can specify the minimum amount that a user must enter to proceed with the payment. If the user enters a value lower than what you set here, they will be prompted to enter a higher amount.
+
+---
+
+Once you have finished, click the **Update** button at the top of the form editor to save all your configurations.
+
 ![General Settings](/images/donation-and-product-fields/how-to-add-user-defined-amount-field-in-wordpress-with-paymattic/5.-General-Settings-1.webp)
-
-Configure these basic options:
-
-1. **Required Field**:
-   - Make the amount entry mandatory
-   - Ensures payment information is provided
-
-2. **Default Value**:
-   - Set a suggested amount
-   - Use Smartcodes like {querystring:YOUR_KEY}
-   - Click the Shortcode Icon for options
-
-3. **Minimum Value**:
-   - Set the minimum acceptable amount
-   - Prevent amounts below threshold
 
 ### Advanced Settings
 
+Once you complete the **General** settings, go to the **Advanced** tab to find more technical options for your **Custom Amount** field.
+
+#### Admin Label
+This label is for internal use only. The text you enter here will be used as the field’s label in the admin backend (for example, on the **Entries** page) to help you identify submissions. It will not be visible to your site visitors.
+
+#### Field Wrapper CSS Class
+This option is used for adding custom CSS classes to the entire field container (the wrapper). This is useful if you want to apply unique styling like borders, margins, or background colors to the whole field.
+
+* **Note:** To learn more, see our guide on applying [**Custom CSS**](/form-settings/how-to-create-custom-css-js-in-wordpress-with-paymattic) to forms.
+
+#### Input Elements CSS Class
+This is used for adding custom CSS classes specifically to the `<input>` element itself (the box where users type the amount). Use this to control the font, color, or other styles of the text input area.
+
+* **Note:** To learn more, see our guide on applying **Custom CSS** to forms.
+
+#### Conditional Render
+You can enable conditional logic to show or hide this field based on a user's input in other fields. This allows you to create dynamic forms that change based on user selections.
+
+* **Note:** For a detailed guide on this feature, please read our documentation on [**Conditional Logic**](/form-editor/how-to-use-conditional-logic-in-form-fields-with-paymattic).
+
+#### Enable Calculation
+Enabling this feature will allow you to use the value from this field in real-time mathematical operations with other **Number** and **Product** fields within your form.
+* When enabled, an equation box will appear. Add your desired formula to the **Calculation Expression** box to define the calculation you want to perform.
+* **Note:** To learn the detailed guidelines for this feature, please read our [**Calculation Feature**](/donation-and-product-fields/dynamic-payment-item-field#calculations) documentation.
+
+#### Enable Additional Checks
+Enable this option to set an extra layer of data integrity validation for the value entered by the user.
+
+#### Field ID
+This option displays the unique ID for this form field. It is used for tracking and can be used by developers to target the field with custom CSS or JavaScript.
+
+---
+
+Once you finish, click the **Update** button to save all your configurations.
+
+
 ![Advanced Settings](/images/donation-and-product-fields/how-to-add-user-defined-amount-field-in-wordpress-with-paymattic/6.-Advanced-Settings-2.webp)
-
-The Advanced tab offers these powerful features:
-
-1. **Admin Options**:
-   - **Admin Label**: Custom backend label
-   - **Field ID**: For tracking and custom styling
-
-2. **Styling**:
-   - **Field Wrapper CSS**: Style the entire field
-   - **Input Elements CSS**: Style specific inputs
-   - Learn about [Custom CSS/JS](/form-settings/how-to-create-custom-css-js-in-wordpress-with-paymattic)
-
-3. **Logic & Calculations**:
-   - **Conditional Render**: Show/hide based on conditions
-   - Learn about [Conditional Logic](/form-editor/how-to-use-conditional-logic-in-form-fields-with-paymattic)
-   - **Enable Calculation**: For real-time math operations
-   - **Calculation Expression**: Define math formulas
-   - More about [Dynamic Calculations](/donation-and-product-fields/dynamic-payment-item-field#calculations)
-
-4. **Data Integrity**:
-   - **Additional Checks**: Extra validation layer
-   - Ensures data accuracy
 
 ## Adding to Your Site
 
-1. Configure all settings
-2. Copy the provided shortcode
-3. Paste into your desired page/post
-4. Preview using the Eye icon
+Once you have added the **Custom Amount** field and configured all other necessary fields, the final step is to save your work and embed the form on your website.
+
+Here is how to finalize your form:
+
+1.  **Save Your Changes**
+    After you finish editing, click the **Save** button located in the top-right corner of the editor. This will save all the configurations you have made.
+
+2.  **Preview the Form**
+    To see how your form will appear to your website visitors, click the **Preview** button (the **Eye** icon) located next to the **Save** button. This will open a new browser tab showing a live preview of your form.
+
+3.  **Copy the Shortcode**
+    To embed the form on a page or post, you will use its unique **Shortcode**. You can find the **Shortcode** at the top of the form editor.
+    * Simply click on the **Shortcode** itself to copy it to your clipboard. It will look similar to this: `[paymattic_form id="123"]`
+    * Navigate to the WordPress post or page where you want to display the form and paste the copied **Shortcode** into the editor.
+
+Once you publish or update the page, your Paymattic form will be live and ready to accept payments.
 
 ![Form Management Options](/images/donation-and-product-fields/how-to-add-user-defined-amount-field-in-wordpress-with-paymattic/7.-save.-preview-and-shortcode-buttons.webp)
 
@@ -127,14 +143,6 @@ Here's how the Custom Payment Amount field appears to users:
    - Add clear field labels
    - Include currency symbols
    - Provide amount guidelines
-:::
-
-::: warning Testing
-Always test your payment form:
-1. Try different amount entries
-2. Verify minimum amount enforcement
-3. Check calculation accuracy
-4. Test on mobile devices
 :::
 
 ::: tip Need Help?

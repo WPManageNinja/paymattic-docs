@@ -6,13 +6,6 @@ category: "Donation and Product Fields"
 
 [Paymattic](https://paymattic.com/) provides a versatile **Payment Item** field that allows you to create product listings in your forms. Users can select and purchase items directly through your form. This guide will show you how to set up and customize payment item fields.
 
-::: tip Key Features
-1. Single or multiple product options
-2. Customizable pricing and images
-3. Multiple display templates
-4. Horizontal or vertical layouts
-5. Flexible payment selection options
-:::
 
 <iframe width="700" height="400" src="https://www.youtube.com/embed/ZQUNKzdWB-8?list=PLXpD0vT4thWH80g5e9wYnoBMgEqUXbr53" title="Payment Item Field Tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -33,7 +26,7 @@ You can add the Payment Item field in two ways:
 1. Type **"/"** in the editor
 2. Click the **Plus Icon** at the bottom
 
-::: warning Required Fields
+::: Tip
 We always suggest to include these fields at the start of your form:
 1. [Name Field](/general-input-fields/how-to-use-general-form-input-fields-in-wordpress-with-paymattic.md#_1-name-field)
 2. [Email Field](/general-input-fields/how-to-use-general-form-input-fields-in-wordpress-with-paymattic.md#_2-email-field)
