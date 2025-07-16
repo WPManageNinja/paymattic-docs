@@ -6,13 +6,6 @@ category: "Donation and Product Fields"
 
 [Paymattic](https://paymattic.com/) provides a powerful **Tax Calculated Amount** field that automatically calculates and applies tax to your form items. This guide will show you how to set up and customize tax calculations in your forms.
 
-::: tip Key Features
-1. Automatic tax calculation
-2. Product-specific tax rates
-3. Real-time updates
-4. Multiple tax field support
-5. Customizable display options
-:::
 
 ::: warning Pro Feature
 The Tax Calculated Amount field requires the [Paymattic Pro Plugin](/getting-started-with-paymattic/how-to-install-and-activate-paymattic-in-wordpress).
@@ -27,12 +20,6 @@ The Tax Calculated Amount field requires the [Paymattic Pro Plugin](/getting-sta
 1. Go to **All Forms** from the **Paymattic Navbar**
 2. Select your target form
 3. Click the **Pencil/Edit** icon to open the editor
-
-::: tip Creating a New Form
-If you don't have a form yet:
-- [Create a Form from Scratch](/form-editor/how-to-create-a-form-from-scratch-with-paymattic)
-- [Use Form Templates](/form-editor/simple-form-templates)
-:::
 
 ![Access Form Editor](/images/donation-and-product-fields/how-to-add-tax-calculated-amount-field-in-wordpress-with-paymattic/1.-Open-desired-form-4-scaled.webp)
 
@@ -65,16 +52,24 @@ To customize the field, click the **Settings Icon** in the right corner:
 
 ### General Settings
 
+
+This guide explains the settings found under the **General** Tab for the **Tax Calculated Amount** field. This field is used to apply a percentage-based tax to a specific payment item in your form.
+
+[Screenshot of the General Tab settings for the Tax Calculated Amount field.]
+
+#### Tax Percentage
+Here, you can set the tax rate that will be applied. Enter the percentage as a number without the percent sign (for example, enter `8` for an 8% tax).
+
+#### Target Product Item
+From this dropdown menu, you must select the **Payment Item** field to which this tax will apply. The calculation will be based on the amount of the selected product.
+
+
+* **Important Note:** Remember to use a separate **Tax Calculated Amount** field for each **Payment Item** field that requires tax. One tax field can only target one payment item.
+
+Once you finish, click the **Update** button at the top of the form editor to save all your configurations.
+
 ![General Settings](/images/donation-and-product-fields/how-to-add-tax-calculated-amount-field-in-wordpress-with-paymattic/5.-General-Settings-2.webp)
 
-1. **Tax Rate Configuration**:
-   - Set tax percentage
-   - Applied to selected items
-   - Real-time calculation
-
-2. **Product Selection**:
-   - Choose target payment items
-   - Link tax to specific products
 
 ::: warning Important
 Use separate Tax Calculated Amount fields for each Payment Item field that needs different tax rates.
@@ -84,22 +79,27 @@ Use separate Tax Calculated Amount fields for each Payment Item field that needs
 
 ![Advanced Settings](/images/donation-and-product-fields/how-to-add-tax-calculated-amount-field-in-wordpress-with-paymattic/6.-Advanced-Field.webp)
 
-1. **Admin Options**:
-   - Custom admin label
-   - Field ID for tracking
-   - Backend organization
+Once you complete the **General** settings for your field, you can go to the **Advanced** tab to find more technical options.
 
-2. **Styling Options**:
-   - Field wrapper CSS class
-   - Input elements CSS class
-   - Learn about [Custom CSS/JS](/form-settings/how-to-create-custom-css-js-in-wordpress-with-paymattic)
+#### Admin Label
+This label is for internal use only. The text you enter here will be used as the field’s label in the admin backend (for example, on the **Entries** page). It will not be visible to the public, making it useful for adding notes or clarifying a field's purpose for your team.
 
-## Adding the Form to Your Site
+#### Field Wrapper CSS Class
+This is used for adding a custom CSS class to the entire field container (the wrapper). This allows you to apply unique styling like borders, margins, or background colors to the whole field element.
 
-1. Save your configuration
-2. Copy the provided shortcode
-3. Paste into your desired page/post
-4. Preview using the Eye icon
+* **Note:** To learn more, see our guide on applying [**Custom CSS**](/form-settings/how-to-create-custom-css-js-in-wordpress-with-paymattic) to forms.
+
+#### Input Elements CSS Class
+This is used for adding a custom CSS class specifically to the `<input>` element itself. Use this to control the font, color, or other styles of the input box where data is entered or displayed.
+
+
+#### Field ID
+This option displays the unique ID assigned to the form field. It is primarily used for custom development, such as targeting the field with custom JavaScript or for integration purposes.
+
+---
+
+Once you finish, click the **Update** button to save all your configurations.
+
 
 ![Form Management Options](/images/donation-and-product-fields/how-to-add-tax-calculated-amount-field-in-wordpress-with-paymattic/7.-Save-preview-shortcode-buttons.webp)
 
