@@ -64,7 +64,7 @@ export default defineConfig({
         ]
       },
       {
-        text: 'Payment Method Fields',
+        text: 'Payment Methods',
         items: [
           { text: 'All Payment Methods', link: '/all-payment-method' },
           { text: 'Stripe', link: '/how-to-configure-stripe-payment-gateway-in-wordpress-with-paymattic' },
