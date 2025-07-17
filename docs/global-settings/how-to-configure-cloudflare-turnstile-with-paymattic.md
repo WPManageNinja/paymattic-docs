@@ -5,48 +5,46 @@ category: "Global Settings"
 
 # How to Configure Cloudflare Turnstile Security with Paymattic?
 
-[Paymattic](https://paymattic.com/) integrates with [Cloudflare Turnstile](https://paymattic.com/cloudflare-turnstile-security-in-wordpress/#what-is-cloudflare-turnstile-security) to protect your forms from spam while providing a CAPTCHA-free experience. This guide explains how to set up Turnstile protection.
+Integrating [Cloudflare Turnstile](https://paymattic.com/cloudflare-turnstile-security-in-wordpress/#what-is-cloudflare-turnstile-security) with [Paymattic](https://paymattic.com/) helps protect your WordPress forms from spam and automated abuse and provides a frustration-free, CAPTCHA-free browsing experience. 
 
-## Get Turnstile Keys
+This article will guide you through the configuration of Cloudflare Turnstile in your WordPress Site through Paymattic. 
 
-### Prerequisites
-- A Cloudflare account
-- If you don't have one, [sign up here](https://www.cloudflare.com/en-gb/products/turnstile/)
+## Get the Turnstile Site & Secret Key
 
-### Create a Widget
+Before configuring Cloudflare Trunstile in Paymattic, you must get the Site and Secret keys from the Cloudflare Turnstile websites.
 
-1. Go to [Cloudflare Turnstile](https://www.cloudflare.com/en-gb/products/turnstile/)
-2. Log in to your account
-3. Open the **Turnstile** tab
-4. Click **Add widget**
+To learn how to get the Cloudflare Turnstile Site and Secret keys, follow the steps with the screenshots below – 
+
+First, go to [Cloudflare Turnstile](https://www.cloudflare.com/en-gb/application-services/products/turnstile/), and log in to your account.
+
+If you don’t have a Cloudflare Turnstile account, you can [sign up here](https://www.cloudflare.com/en-gb/products/turnstile/).
+
+Now, open the **Turnstile** tab from the left sidebar and click the **Add widget** button.
 
 ![Add Turnstile widget](/images/global-settings/how-to-configure-cloudflare-turnstile-with-paymattic/Add-widget-button-1-1-scaled.webp)
 
-Configure your widget:
-- Enter a **Widget name** for identification
-- Add your domain(s)
-- Choose **Widget Mode**
-- Set **Pre-clearance** options
-- Click **Create**
+Now, put a **Name** into the **Widget name** field to identify your website in the future and enter your website/s address in the **Domain** field.
+
+Also, you can choose your **Widget Mode** and **Pre-clearance** according to your preference.
+Once you are done, click the **Create button**, and the Site and Secret keys will be shown.
 
 ![Widget configuration](/images/global-settings/how-to-configure-cloudflare-turnstile-with-paymattic/Add-widget-page.webp)
 
-### Get Your Keys
-
-Copy your generated keys:
-- Click **Copy Site Key**
-- Click **Copy Secret Key**
+Here, you will get your desired **Site key** and **Secret key**. Simply, copy them by clicking the **Copy Site Key** and **Copy Secret Key** buttons.
 
 ![Copy Turnstile keys](/images/global-settings/how-to-configure-cloudflare-turnstile-with-paymattic/Copy-site-and-secret-key.webp)
 
-## Configure in Paymattic
+## Configuring Cloudflare Turnstile
 
-1. Go to **Settings** from the **Paymattic Navbar**
-2. Click the **Turnstile (beta)** tab
-3. Enter your keys:
-   - Paste your **Site Key**
-   - Paste your **Secret Key**
-4. Click **Save Settings**
+To learn how to configure Cloudflare Turnstile with Paymattic, follow the steps with the screenshots below – 
+
+First, go to **Settings** from the Paymattic Navbar and click the **Turnstile** (beta) tab from the left sidebar. 
+
+Now, paste the Site Key and Secret Key into the respective fields you copied from the **Cloudflare Turnstile Site**. 
+
+Finally, press the **Save Settings** button and your Cloudflare Turnstile will be configured.
+
+If you want to clear the settings, simply click the **Clear Settings** button. 
 
 :::tip
 Use the **Clear Settings** button to remove configuration if needed.
@@ -54,13 +52,11 @@ Use the **Clear Settings** button to remove configuration if needed.
 
 ![Configure Turnstile](/images/global-settings/how-to-configure-cloudflare-turnstile-with-paymattic/Paste-the-site-and-secret-key-in-turnstile-from-paymattic-scaled.webp)
 
-## Enable on Forms
+## Adding Cloudflare Turnstile in Forms
 
-Add Turnstile protection to individual forms:
+Once you have successfully configured the Cloudflare Turnstile with Paymattic, it’s time to integrate this with your payment form.
 
-1. Go to **All Forms**
-2. Select your form
-3. Click the **Pencil/Editor** icon
+First, go to **All Forms** from the Paymattic Navbar, choose the form you wish to work on, and click the **Pencil/Editor** icon, e.g., I choose the Donation form to show the process.
 
 :::tip New Forms
 Need to create a form? See our guides for [creating from scratch](/how-to-create-a-form-from-scratch-with-paymattic) or [using templates](/simple-form-templates).
@@ -68,13 +64,9 @@ Need to create a form? See our guides for [creating from scratch](/how-to-create
 
 ![Access form editor](/images/global-settings/how-to-configure-cloudflare-turnstile-with-paymattic/Open-desired-form-scaled.webp)
 
-### Enable Protection
+Go to Settings, open the **Confirmation tab** from the left sidebar, go to **Turnstile Settings**, and check the **Enable turnstile for this form** option.
 
-1. Go to **Settings**
-2. Open the **Confirmation** tab
-3. Find **Turnstile Settings**
-4. Check **Enable turnstile for this form**
-5. Click **Save Turnstile Settings**
+Finally, click the **Save Turnstile Settings** button to integrate the Turnstile with your Paymattic form. 
 
 ![Enable Turnstile protection](/images/global-settings/how-to-configure-cloudflare-turnstile-with-paymattic/Enable-turnstile-for-this-form-option-scaled.webp)
 
