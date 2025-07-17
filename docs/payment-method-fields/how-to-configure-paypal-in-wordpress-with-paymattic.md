@@ -24,16 +24,13 @@ Follow these steps to configure the PayPal payment gateway through Paymattic:
 
 ### Step 2: Basic Configuration
 
-1. Select your **Payment Mode**:
-   - **Sandbox Mode** - for test payments
-   - **Live Mode** - for real payments
-   
-   Both options follow the same configuration process. For this guide, we'll use **Sandbox Mode**.
+1.  **Select Payment Mode:** Choose between **Sandbox** (for test payments) and **Live** (for real payments). Both options follow the same configuration process. For this example, we will select **Sandbox Mode**.
 
-2. Enter your PayPal Email:
-   - Use the email you signed up with on your [PayPal Account](https://www.paypal.com/signin)
+2.  **Enter PayPal Email:** In the **PayPal Email** field, enter the email address associated with your [**PayPal Account**](https://www.paypal.com/signin).
 
-3. Click **Save Settings** to complete the basic integration
+3.  **Save Settings:** Click the **Save Settings** button to finalize the integration.
+
+After saving, your PayPal account will be connected to your Paymattic plugin.
 
 ![PayPal Basic Settings](/images/payment-method-fields/how-to-configure-paypal-in-wordpress-with-paymattic/Payment-Mode-Paypal-Email.webp)
 
@@ -41,20 +38,17 @@ Follow these steps to configure the PayPal payment gateway through Paymattic:
 
 #### IPN Verification & Checkout Logo
 
-::: info IPN and Logo Settings
-1. **Disable IPN Verification**:
-   - Check this box if **Payment Data Transfer** is not accessible
-   - Useful when payments aren't being marked as complete
-   - Uses a slightly less secure verification method
-   
-2. **Checkout Logo**:
-   - Upload a custom logo for the checkout page
-   - Remove logo using the **Cross Icon**
-:::
+Once you configure PayPal, you can set up the **IPN (Instant Payment Notification) Verification** and **Checkout Logo** if needed.
 
-::: tip Remember
-Always click **Save Settings** after making changes to your PayPal configuration.
-:::
+### Disable IPN Verification
+Check this box if **Payment Data Transfer** is not accessible for you and payments are not being marked as complete. 
+
+* **Note:** This option allows the site to use a slightly less secure method of verifying purchases.
+
+### Checkout Logo
+With this option, you can set a logo from your device to display during checkout. You can also remove the logo by simply clicking the **Cross Icon**.
+
+Press the **Save Settings** button to save the changes you made on your **PayPal Settings** page.
 
 ![PayPal Advanced Settings](/images/payment-method-fields/how-to-configure-paypal-in-wordpress-with-paymattic/Disable-IPN-Verification-Checkout-Logo.webp)
 
@@ -68,19 +62,20 @@ Configure where users will be redirected after payment:
 
 #### Recurring Payments Configuration
 
-::: warning Important
-For recurring payments to work properly:
 
-1. Enable notifications for recurring PayPal payments
-2. Copy the provided **IPN URL**
-3. Configure the URL in PayPal - [Learn how to set up PayPal IPN](../payment-method-fields/how-to-set-paypal-ipn-in-wordpress-with-paymattic)
+With this setting, you can enable notifications for recurring payments that happen in PayPal.
 
-Without IPN setup:
-- Single payments will work normally
-- Recurring payments won't be marked as paid
-:::
+To correctly track subscription payments, you must set up PayPal's **IPN (Instant Payment Notification)**.
 
-Click **Save Settings** to apply all changes.
+1.  First, copy the provided `URL` from this section.
+2.  Next, log in to your PayPal account and set this `URL` in your IPN settings. This allows PayPal to send payment information back to your website.
+    * **Note:** To learn exactly where to set the URL in your PayPal account, please read our detailed **Documentation**.
+
+### Important
+If you do not set up the **IPN (Instant Payment Notification)**, single one-time payments will still work correctly. However, recurring subscription payments **will not** be automatically marked as 'Paid' in your **Paymattic** records.
+
+
+Once you are done, click the **Save Settings** button to save all the changes that you made.
 
 ![PayPal Recurring Payments Settings](/images/payment-method-fields/how-to-configure-paypal-in-wordpress-with-paymattic/PayPal-for-Recurring-Payments.webp)
 

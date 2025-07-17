@@ -12,41 +12,29 @@ To get access to the [Mollie](https://mollie.com/) payment gateway, you need the
 
 ## Configuring Mollie Payment Method
 
-Follow these steps to configure the Mollie payment gateway through Paymattic:
+To configure the Mollie payment gateway through **Paymattic**, follow the steps with screenshots below.
 
-### Step 1: Access Mollie Settings
+1.  First, go to **Paymattic** → **Payment Gateway** from your WordPress dashboard.
+2.  Click the **Mollie** tab from the left sidebar, and the **Mollie Settings** page will open.
 
-1. Go to **Payment Gateway** from the **Paymattic Navbar**
-2. Click the **Mollie** tab from the left sidebar
-3. The **Mollie Settings** page will open
-
-### Step 2: Configure Basic Settings
-
-1. Select your **Payment Mode**:
-   - **Test Mode** - for test payments
-   - **Live Mode** - for real payments
-   
-   Both options follow the same configuration process. For this guide, we'll use **Test Mode**.
-
-2. You'll need to obtain the **Publishable Key** from your Mollie Account
+3.  Select a **Payment Mode** between **Test** (for test payments) and **Live** (for real payments). Both options follow the same configuration process. For this example, we will choose the **Test Mode**.
+4.  Then, you need to obtain the **Publishable key** from your [**Mollie Account**](https://my.mollie.com/dashboard/login).
 
 ![Mollie Settings Page in Paymattic](/images/payment-method-fields/how-to-integrate-mollie-in-wordpress-with-paymattic/Payment-gateways-Mollie-Mollie-Settings-page-scaled.webp)
 
 ### Step 3: Get Mollie API Key
 
-1. Log in to your [Mollie Account](https://my.mollie.com/dashboard/login)
-   
-   ::: tip
-   If you don't have an account, [sign up here](https://my.mollie.com/dashboard/signup).
-   :::
+1.  First, log in to your [**Mollie Account**](https://my.mollie.com/dashboard/login). 
+    * If you do not have an account, you will need to sign up first.
 
-2. In the **Mollie Dashboard**:
-   - Go to **Developers** in the navbar
-   - The **API Keys** tab will appear
+2.  Once you log in to the **Mollie Dashboard**, navigate to the **Developers** section from the sidebar menu.
+
+3.  Click on the **API keys** tab to view your keys.
+      - The **API Keys** tab will appear
 
 ![Mollie Developer Dashboard](/images/payment-method-fields/how-to-integrate-mollie-in-wordpress-with-paymattic/Developers-tab-from-Mollie-Dashboard-scaled.webp)
 
-3. Get your API Key:
+4. Get your API Key:
    - For Test Mode: Copy the **Test API Key**
    - For Live Mode: Copy the **Live API Key**
 
@@ -60,11 +48,13 @@ Make sure to use the correct API key that matches your selected Payment Mode:
 
 ### Step 4: Configure in Paymattic
 
-1. Return to **Payment Gateway** from the **Paymattic Navbar**
-2. Click the **Mollie** tab
-3. Enter your credentials:
-   - Paste the API Key into the **Publishable Key** field
-4. Click **Save Settings** to complete the integration
+1.  Go back to your WordPress admin dashboard and navigate to **Paymattic** → **Payment Gateway** and click the **Mollie** tab.
+
+2.  Paste the copied **API key** into the **Publishable key** field.
+
+3.  Finally, press the **Save Settings** button. 
+
+Your Mollie account will now be integrated with **Paymattic** for your WordPress Site.
 
 ![Configure Mollie Credentials in Paymattic](/images/payment-method-fields/how-to-integrate-mollie-in-wordpress-with-paymattic/Paste-API-Key-scaled.webp)
 

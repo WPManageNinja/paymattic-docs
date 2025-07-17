@@ -4,23 +4,12 @@ category: "Payment Method Fields"
 ---
 # How to Integrate Razorpay with Paymattic in WordPress
 
-[Razorpay](https://razorpay.com/) allows you to smoothly handle online payments in India, supporting various payment methods including:
-- Credit cards
-- Debit cards
-- Net banking
-- UPI
-- Popular wallets:
-  - JioMoney
-  - Mobikwik
-  - Airtel Money
-  - FreeCharge
-  - Ola Money
-  - PayZapp
+**Razorpay** allows you to smoothly handle online payments in India, supporting various payment methods including credit cards, debit cards, net banking, UPI, and popular wallets like JioMoney, Mobikwik, Airtel Money, FreeCharge, Ola Money, and PayZapp. 
 
-This article will guide you through configuring Razorpay on your WordPress Site with the Paymattic plugin.
+This article will guide you through configuring **Razorpay** on your WordPress Site with the **Paymattic** plugin.
 
 ::: warning Prerequisites
-To get access to the [Razorpay](https://razorpay.com/) payment gateway, you need the [Paymattic Pro Plugin](/getting-started-with-paymattic/how-to-install-and-activate-paymattic-in-wordpress).
+To get access to the [Razorpay](https://razorpay.com/) payment gateway, you need the [Paymattic Pro Plugin](https://paymattic.com/pricing/).
 :::
 
 ## Configuring Razorpay Payment Method
