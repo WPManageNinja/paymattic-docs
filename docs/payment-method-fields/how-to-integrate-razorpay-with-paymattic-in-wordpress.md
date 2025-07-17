@@ -26,33 +26,24 @@ Follow these steps to configure the Razorpay payment gateway through Paymattic:
 
 ### Step 2: Configure Basic Settings
 
-1. Select your **Payment Mode**:
-   - **Test Mode** - for test payments
-   - **Live Mode** - for real payments
-   
-   Both options follow the same configuration process. For this guide, we'll use **Test Mode**.
+1.  **Select Payment Mode:** Choose between **Test** (for test payments) and **Live** (for real payments). Both options follow the same configuration process. For this example, we'll use **Test Mode**.
 
-2. Choose your **Checkout Style**:
-   - **Modal Checkout** - collect payments directly on your site
-   - **Hosted Checkout** - redirect users to the Razorpay website
+2.  **Choose Checkout Style:** Select your preferred checkout experience.
+    * **Modal Checkout:** This allows users to complete payments in a pop-up directly on your site.
+    * **Hosted Checkout:** This will redirect users to the **Razorpay** website to complete the transaction.
 
-3. You'll need to obtain two credentials from your Razorpay Account:
-   - Public Key
-   - Secret Key
+3.  Next, you need to obtain the **Key ID** (public key) and **Key Secret** (secret key) from your [**Razorpay**](https://dashboard.razorpay.com/signin) account.
 
 ![Payment Mode and Checkout Style Settings](/images/payment-method-fields/how-to-integrate-razorpay-with-paymattic-in-wordpress/Payment-Mode-Checkout-Style-Public-key-Secret-key.webp)
 
 ### Step 3: Get Razorpay Credentials
 
-1. Log in to your [Razorpay Account](https://dashboard.razorpay.com/signin)
-   
-   ::: tip
-   If you don't have an account, [sign up here](https://easy.razorpay.com/onboarding/l1/signup).
-   :::
+1.  First, log in to your [**Razorpay Account**](https://dashboard.razorpay.com/signin).
+    * If you do not have an account, you will need to sign up first.
 
-2. In the **Razorpay Dashboard**:
-   - Go to **Accounts & Settings** in the left sidebar
-   - Click the **API keys** tab
+2.  Once you log in to the **Razorpay Dashboard**, go to the **Accounts & Settings** section from the left sidebar.
+
+3.  Click the **API keys** tab to find your credentials.
 
 ![Razorpay Dashboard API Keys Section](/images/payment-method-fields/how-to-integrate-razorpay-with-paymattic-in-wordpress/RazorPay-dashboard-Account-Settings-API-keys-scaled.webp)
 
@@ -60,11 +51,11 @@ Follow these steps to configure the Razorpay payment gateway through Paymattic:
 To get the Key ID and Key Secret, you need to generate new keys.
 :::
 
-3. Click the **Regenerate Test Key** button to generate new keys
+4. Click the **Regenerate Test Key** button to generate new keys
 
 ![Regenerate Test Keys in Razorpay](/images/payment-method-fields/how-to-integrate-razorpay-with-paymattic-in-wordpress/Regenarate-Test-Key.webp)
 
-4. Copy your credentials:
+5. Copy your credentials:
    - **Key ID**
    - **Key Secret**
 
@@ -72,12 +63,15 @@ To get the Key ID and Key Secret, you need to generate new keys.
 
 ### Step 4: Configure in Paymattic
 
-1. Return to **Payment Gateway** from the **Paymattic Navbar**
-2. Click the **Razorpay** tab
-3. Enter your credentials:
-   - Paste the **Key ID** into the **Public Key** field
-   - Paste the **Key Secret** into the **Secret Key** field
-4. Click **Save Settings** to complete the integration
+1.  Go back to your WordPress dashboard and navigate to **Paymattic** → **Payment Gateway**, then click the **Razorpay** tab.
+
+2.  Paste the **Key ID** you copied from your Razorpay dashboard into the **Key ID** field.
+
+3.  Next, paste the **Key Secret** into the **Key Secret** field.
+
+4.  Finally, press the **Save Settings** button.
+
+Your **Razorpay** account will now be integrated with **Paymattic** for your WordPress Site.
 
 ![Configure Razorpay Credentials in Paymattic](/images/payment-method-fields/how-to-integrate-razorpay-with-paymattic-in-wordpress/Paste-the-Public-key-Secret-key-scaled.webp)
 

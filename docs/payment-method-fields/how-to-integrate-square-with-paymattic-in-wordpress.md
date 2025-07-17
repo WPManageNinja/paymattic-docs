@@ -7,7 +7,7 @@ category: "Payment Method Fields"
 [Square](https://squareup.com/us/en) is a globally recognized payment gateway that you can integrate with [Paymattic](https://paymattic.com/). This article will guide you through configuring Square in your WordPress Site with the Paymattic plugin.
 
 ::: warning Prerequisites
-To get access to the Square payment gateway, you need the [Paymattic Pro Plugin](/getting-started-with-paymattic/how-to-install-and-activate-paymattic-in-wordpress).
+To get access to the Square payment gateway, you need the [Paymattic Pro Plugin](https://paymattic.com/pricing/).
 :::
 
 ## Configuring Square Payment Method
@@ -24,54 +24,43 @@ Follow these steps to configure the Square payment gateway through Paymattic:
 
 ### Step 2: Choose Payment Mode
 
-1. Select your **Payment Mode**:
-   - **Test Mode** - for test payments
-   - **Live Mode** - for real payments
-   
-   Both options follow the same configuration process. For this guide, we'll use **Test Mode**.
+1.  **Select Payment Mode:** Choose between **Test** (for test payments) and **Live** (for real payments). Both options follow the same configuration process. For this example, we will use **Test Mode**.
 
-2. You'll need to obtain two credentials from your Square Account:
-   - Access Key
-   - Location ID
+2.  Next, you need to obtain the **Access key** and **Location ID** from your **Square Account**.
 
 ![Payment Mode Selection](/images/payment-method-fields/how-to-integrate-square-with-paymattic-in-wordpress/Payment-Mode-Access-key-Location-ID.webp)
 
 ### Step 3: Get Square Credentials
 
-Follow these steps to get your Access Token and Location ID:
+To learn how to get an **Access Token** and **Location ID** from your **Square** account, follow the steps below.
 
-1. Log in to your [Square Developer Account](https://squareup.com/login?app=developer&return_to=https://developer.squareup.com/)
-   
-   ::: tip
-   If you don't have an account, [sign up here](https://app.squareup.com/signup/en-GB?return_to=https%3A%2F%2Fdeveloper.squareup.com%2F&v=developers).
-   :::
+* **Note:** To get the credentials for configuration, you need to create an app in your Square account. The following steps will guide you on how to do this.
 
-#### Create a Square Application
+1.  First, log in to your [**Square account**](https://app.squareup.com/login). If you do not have an account, you must sign up first.
 
-1. In the **Square Dashboard**:
-   - Go to **Account** in the navbar
-   - Click **Developer Dashboard**
+2.  Once you log in to the **Square Dashboard**, go to the **Account** section from the navigation bar.
+
+3.  Click the **Developer Dashboard** tab.
 
 ![Square Developer Dashboard](/images/payment-method-fields/how-to-integrate-square-with-paymattic-in-wordpress/Account-Developer-Dashboard-scaled.webp)
 
-2. Under the **Applications** tab:
-   - Click the **Plus Icon** to create a new application
+4. Under the **Applications** tab click on the **Plus Icon** to create a new application
 
 ![Create New Application](/images/payment-method-fields/how-to-integrate-square-with-paymattic-in-wordpress/Plus-icon-under-Applications-scaled.webp)
 
-3. Configure your application:
+5. Configure your application:
    - Enter a **Name** for your application
    - Click **Next**
 
 ![Name Your Application](/images/payment-method-fields/how-to-integrate-square-with-paymattic-in-wordpress/Name-your-application-scaled.webp)
 
-4. Set application permissions:
+6. Set application permissions:
    - Check the **Accept Payments** box
    - Click **Next**
 
 ![Accept Payments Option](/images/payment-method-fields/how-to-integrate-square-with-paymattic-in-wordpress/Accept-Payments-option-scaled.webp)
 
-5. Complete setup:
+7. Complete setup:
    - Select your desired audience option
    - Click **Complete**
 
@@ -93,12 +82,15 @@ Follow these steps to get your Access Token and Location ID:
 
 ### Step 4: Configure in Paymattic
 
-1. Return to **Payment Gateway** from the **Paymattic Navbar**
-2. Click the **Square** tab
-3. Enter your credentials:
-   - Paste the **Access Token** into the **Access Key** field
-   - Paste the **Location ID** into its field
-4. Click **Save Settings** to complete the integration
+1.  Go back to your WordPress dashboard and navigate to **Paymattic** → **Payment Gateway**, then click the **Square** tab.
+
+2.  Paste the copied **Access Token** into the **Access key** field.
+
+3.  Next, paste the copied **Location ID** into the **Location ID** field.
+
+4.  Finally, press the **Save Settings** button.
+
+Your **Square** account will now be integrated with **Paymattic** for your WordPress Site.
 
 ![Configure Square Credentials](/images/payment-method-fields/how-to-integrate-square-with-paymattic-in-wordpress/Paste-the-Access-token-Location-ID-scaled.webp)
 
@@ -110,20 +102,28 @@ To ensure your Square dashboard and Paymattic dashboard stay synchronized and fu
 
 ### Step 1: Get Webhook Details
 
-1. Copy the **Webhook URL** from Paymattic
-2. Note the recommended **Webhook Events** for:
-   - One-time payments
-   - Recurring payments
+To learn how to configure **Square Webhooks** for your WordPress Site, follow the steps with the screenshots below.
+
+* **Important:** To ensure your Square dashboard and **Paymattic** dashboard are in sync and fully functional for all kinds of payments (**one-time/recurring**), you must configure the **Square Webhooks**.
+
+First, you need to copy the webhook details from **Paymattic**.
+
+1.  Copy the **Webhook URL**.
+2.  Copy the recommended **Webhook Events**.
+
+You will need them in the next steps to configure **Square Webhooks** on your **WordPress** Site.
 
 ![Webhook Configuration Details](/images/payment-method-fields/how-to-integrate-square-with-paymattic-in-wordpress/Webhook-URL-and-Events.webp)
 
 ### Step 2: Configure in Square
 
-1. Go to your [Square Developer Dashboard](https://squareup.com/login?app=developer&return_to=https://developer.squareup.com/)
-2. In the left sidebar:
-   - Expand the **Webhook** section
-   - Open the **Subscriptions** tab
-   - Click **Add Subscription**
+Now, go to the [**Square Developer Dashboard**](https://squareup.com/login?app=developer&return_to=https://developer.squareup.com/) and follow these steps:
+
+1.  Click on the **Webhooks** section from the left sidebar.
+
+2.  Open the **Subscriptions** tab.
+
+3.  Click the **Add Subscription** button.
 
 ![Square Webhook Settings](/images/payment-method-fields/how-to-integrate-square-with-paymattic-in-wordpress/Webhooks-Subscriptions-Add-Subscriptions-scaled.webp)
 
