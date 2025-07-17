@@ -5,32 +5,23 @@ category: "Global Settings"
 
 # How to Manage User Roles in WordPress with Paymattic?
 
-[Paymattic](https://paymattic.com/) provides flexible user role management to control access to forms and features. This guide explains how to configure user permissions.
+[Paymattic](https://paymattic.com/) allows you to assign and manage user roles within WordPress, providing flexibility in controlling user access and permissions based on payments or subscriptions. This article will guide you on how to manage user roles efficiently using Paymattic.
 
-:::note Default Access
-By default, only WordPress Administrators have full access to all forms and features.
-:::
+> [!NOTE]Default Access
+> By default, only WordPress Administrators have full access to all forms and features.
 
-## Configure User Roles
+## Managing User Roles
 
-### Access Settings
+To learn how to assign or modify the **User Roles** through Paymattic, follow the steps with the screenshots below – 
 
-1. Go to **Settings** from the **Paymattic Navbar**
-2. Click the **Permission** tab
+First, go to go to **Settings** from the Paymattic Navbar, click the **Permission** tab from the left sidebar, and all the user roles will appear.
 
-### Assign Permissions
+Now, **select the roles** by clicking the **checkbox** you want to give access to your users.
+For example, I selected the Author, Contributor, Tutor Instructor, and Support Agent roles.
 
-Choose which roles can access Paymattic:
+Also, if you want to select all the roles at once, simply click the **Check All** button.
+Once you select the roles, press the **Save Settings** button to save all the changes.
 
-- Check boxes for individual roles
-- Use **Check All** to enable all roles
-- Click **Save Settings** to apply changes
-
-Example roles you might enable:
-- Author
-- Contributor
-- Tutor Instructor
-- Support Agent
 
 ![User role settings](/images/global-settings/how-to-manage-user-roles-in-wordpress-with-paymattic/Paymattic-admin-Permission-page-scaled.webp)
 
