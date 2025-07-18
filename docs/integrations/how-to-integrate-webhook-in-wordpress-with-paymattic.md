@@ -34,7 +34,9 @@ Once the **Editor** page opens, go to the **Integrations** tab, click the **Add 
 ![](/images/integrations/how-to-integrate-webhook-in-wordpress-with-paymattic/Add-new-integrations-dropdown-list-scaled.webp)
 
 Now, a pop-up page will appear with various settings options for configuring the Webhook.
-- *All the settings options mentioned in the screenshot below are briefly explained:**
+
+All the settings options mentioned in the screenshot below are briefly explained:
+
 - **Feed Name**: Here, you can set a name according to your preference for your feed. This field is required to be filled in.
 - **Webhoo URL**: This is also a required field. Here, provide the URL where you want to send the Paymattic submission data. More specifically, enter the URL that is provided by the Webhook recipient. To learn how to get the Webhook URL from the Webhook Site, follow the steps below –
 
@@ -50,8 +52,7 @@ First. go to this [Webhook.site](http://www.webhook.site/) and you will get your
 - **Conditional Logics**: This option allows Webhook integration to function conditionally based on your submission values according to your set conditional logic/s. To learn more, read this [Documentation](/how-to-use-conditional-logic-in-form-fields-with-paymattic).
 - **Enable This Feed**: Check this option, to ensure this integration feed remains enabled, and all the actions of this feed function properly.
 
-Once the setup is done, finally, click the **Create Webhook Feed** button.
-And, your Webhook will be integrated into this specific form!
+Once the setup is done, finally, click the **Create Webhook Feed** button. And, your Webhook will be integrated into this specific form!
 
 ![](/images/integrations/how-to-integrate-webhook-in-wordpress-with-paymattic/Add-New-Webhook-Integration-Feed-page.webp)
 
@@ -69,4 +70,4 @@ Here, you can see the preview of the opened tickets of Webhook through the Form 
 ![](/images/integrations/how-to-integrate-webhook-in-wordpress-with-paymattic/Preview-of-Webhook-Integration-scaled.webp)
 
 This way you can easily integrate Webhook with Paymattic!
-If you have any further questions, concerns, or suggestions, please do not hesitate to contact our [@support team](https://wpmanageninja.com/support-tickets/?utm_source=wpmn&utm_medium=home&utm_campaign=site#/). Thank you.
+If you have any further questions, concerns, or suggestions, please do not hesitate to contact our [support team](https://wpmanageninja.com/support-tickets/?utm_source=wpmn&utm_medium=home&utm_campaign=site#/). Thank you.
