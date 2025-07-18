@@ -40,8 +40,9 @@ Once the setup is done, finally, click the **Create Zapier Feed** button.
 And, your Zapier will be integrated into this specific form!
 
 ![](/images/integrations/how-to-integrate-zapier-with-paymattic-in-wordpress/Add-New-Zapier-Integration-Feed-page-scaled.webp)
-- *All the settings options mentioned above are briefly explained below:**
 
+
+**All the settings options mentioned above are briefly explained below:**
 ### Feed Name
 
 Here, you can set a name according to your preference for your feed. This field is required to be filled in.
@@ -153,5 +154,4 @@ Here, you can see the preview of the emails sent through the Form entries that I
 
 ![](/images/integrations/how-to-integrate-zapier-with-paymattic-in-wordpress/Preview-of-Zapier-integration-scaled.webp)
 
-This way you can easily integrate Zapier with Paymattic!
-If you have any further questions, concerns, or suggestions, please do not hesitate to contact our [@support team](https://wpmanageninja.com/support-tickets/?utm_source=wpmn&utm_medium=home&utm_campaign=site#/). Thank you.
+This way you can easily integrate Zapier with Paymattic! If you have any further questions, concerns, or suggestions, please do not hesitate to contact our [support team](https://wpmanageninja.com/support-tickets/?utm_source=wpmn&utm_medium=home&utm_campaign=site#/). Thank you.
