@@ -6,7 +6,9 @@ category: "Integrations"
 # How to Integrate Telegram with Paymattic in WordPress?
 
 [Paymattic](https://paymattic.com/) allows you to connect with [Telegram](https://telegram.org/) to send instant notifications to your Telegram channel or group when a form is submitted. This article will guide you through integrating **Telegram** with **Paymattic** on your **WordPress Site**.
-- *Telegram** is the Premium Feature of the Paymattic Plugin. So, you need Paymattic Pro to integrate this.
+:::warning Pro Feature
+Telegram is the Premium Feature of the Paymattic Plugin. So, you need Paymattic Pro to integrate this.
+:::
 
 ## Enable Telegram Integration 
 
@@ -62,7 +64,9 @@ Finally, to get the **Chat ID** of your group, add [@GetIdsBot](https://t.me/get
 
 After **adding the GetIDs Bot as a member**, it will send a message to the group with the Group **Chat ID**. Simply, copy it.
 
-Remember, the Chat ID starts with a minus sign (-), and you would have to copy the code exactly provided by the GetIDs bot.
+:::warning Remember
+The Chat ID starts with a minus sign (-), and you would have to copy the code exactly provided by the GetIDs bot.
+:::
 
 ![](/images/integrations/how-to-integrate-telegram-with-paymattic-in-wordpress/Copy-the-Chat-ID.webp)
 
@@ -87,7 +91,9 @@ Once the **Editor** page opens, go to the **Integrations** tab, click the **Add 
 ![](/images/integrations/how-to-integrate-telegram-with-paymattic-in-wordpress/Add-new-integration-dropdown-telegram-scaled.webp)
 
 Now, a pop-up page will appear with various settings options for configuring Telegram.
-- *All the settings options mentioned in the screenshot below are briefly explained:**
+
+All the settings options mentioned in the screenshot below are briefly explained:
+
 - **Name**: Here, you can set a name according to your preference for your feed. This field is required to be filled in.
 - **Message to Send**: Here you can set the texts and information you want to send to the Telegram channel/group as notification. Also, you can use the Shortcode button to set the user data from form entries that you want to send to your Telegram Group/Channel.
 - **Custom Chat/Channel ID**: Use this field if you want to integrate form-specific telegram group/channel, otherwise keep it empty.
@@ -113,4 +119,4 @@ Here, you can see the preview of the notification messages of Telegram through t
 ![](/images/integrations/how-to-integrate-telegram-with-paymattic-in-wordpress/Preview-of-integrated-Telegram.webp)
 
 This way you can easily integrate Telegram with Paymattic!
-If you have any further questions, concerns, or suggestions, please do not hesitate to contact our [@support team](https://wpmanageninja.com/support-tickets/?utm_source=wpmn&utm_medium=home&utm_campaign=site#/). Thank you.
+If you have any further questions, concerns, or suggestions, please do not hesitate to contact our [support team](https://wpmanageninja.com/support-tickets/?utm_source=wpmn&utm_medium=home&utm_campaign=site#/). Thank you.
