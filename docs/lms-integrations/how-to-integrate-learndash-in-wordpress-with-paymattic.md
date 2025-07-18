@@ -74,6 +74,5 @@ Here, you can see the preview of the newly added students of LearnDash through t
 
 ![Preview of LearnDash enrollments](/images/lms-integrations/how-to-integrate-learndash-in-wordpress-with-paymattic/Preview-of-LearnDash-scaled.webp)
 
-This way you can easily integrate LearnDash with Paymattic!
 
 That's all you need to integrate LearnDash with Paymattic! If you have any questions, concerns, or suggestions, please contact our [support team](https://wpmanageninja.com/support-tickets/?utm_source=wpmn&utm_medium=home&utm_campaign=site#/).
