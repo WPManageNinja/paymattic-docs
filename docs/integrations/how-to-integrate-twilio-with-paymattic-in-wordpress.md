@@ -6,8 +6,9 @@ category: "Integrations"
 # How to Integrate Twilio with Paymattic in WordPress?
 
 [Paymattic](https://paymattic.com/) lets you connect with [Twilio](http://www.twilio.com/) to send SMS notifications automatically when a form is submitted. This article will guide you through integrating Twilio with Paymattic on your WordPress Site.
-
+:::warning Pro Feature
 Twilio is the Premium Feature of the Paymattic Plugin. So, you need Paymattic Pro to integrate this.
+:::
 
 ## Enable Twilio Integration 
 
@@ -52,7 +53,9 @@ Once the **Editor** page opens, go to the **Integrations** tab, click the **Add 
 ![](/images/integrations/how-to-integrate-twilio-with-paymattic-in-wordpress/Add-new-integration-dropdown-Twilio-scaled.webp)
 
 Now, a pop-up page will appear with various settings options for configuring Twilio.
-- *All the settings options mentioned in the screenshot below are briefly explained:**
+
+All the settings options mentioned in the screenshot below are briefly explained:
+
 - **Name**: Here, you can set a name according to your preference for your feed. This field is required to be filled in.
 - **To:** Here, provide the number where you want to send the SMS notification. You can also **ShortCode** button to input the phone number.
 - **SMS text**: Here you can set the texts and information you want to send to the number as a notification. Also, you can use the Shortcode button to set the user data from form entries that you want to send to your Telegram Group/Channel.
@@ -72,4 +75,4 @@ Also, you can disable or enable this feed anytime by clicking the **Toggl**e but
 ![](/images/integrations/how-to-integrate-twilio-with-paymattic-in-wordpress/Added-twilio-integration-feed-scaled.webp)
 
 This way you can easily integrate Twilio with Paymattic and send SMS Notifications!
-If you have any further questions, concerns, or suggestions, please do not hesitate to contact our [@support team](https://wpmanageninja.com/support-tickets/?utm_source=wpmn&utm_medium=home&utm_campaign=site#/). Thank you.
+If you have any further questions, concerns, or suggestions, please do not hesitate to contact our [support team](https://wpmanageninja.com/support-tickets/?utm_source=wpmn&utm_medium=home&utm_campaign=site#/). Thank you.
