@@ -9,8 +9,8 @@ category: "Form Settings"
 
 This article will guide you through the process of using the **Payment** (Stripe and PayPal) settings for particular forms.
 
-::: warning
-**Remember**, this **Payment** settings in a form is a **Pro Feature**.
+::: warning Remember
+This Payment settings in a form is a **Pro Feature** and you need [Paymattic Pro Plugin](https://paymattic.com/docs/how-to-install-and-activate-paymattic-in-wordpress/#3-toc-title) to use this feature.
 :::
 
 ## Payment Settings in a Specific Form
