@@ -33,19 +33,20 @@ After you complete coding for your Custom CSS/JS, click the **Save CSS & JS** bu
 
 Before you add any CSS code, you must first add the ID of the specific form. It is necessary to target this specific form and apply CSS styling to it.
 
-Plus, you do not need to include the **<style>/<style>** tag in the Custom CSS panel.
+Plus, you do not need to include the **&lt;style&gt;&lt;/style&gt;** tag in the Custom CSS panel.
 
 ### Custom Javascript (JS)
 
 You can write javascript or jQuery in the custom JS panel. Your additional JS code will run after the form is initialized.
 
-You do not need to include the **<script> </script>** tag in the Custom JS panel.
+You do not need to include the **&lt;script&gt;&lt;/script&gt;** tag in the Custom JS panel.
 
 ::: warning
 Please write valid **JavaScript** code. Invalid JS code may break the Form. You can use the JavaScript variable **$form** to define the JavaScript DOM object of the form.
 :::
 
 This is the simple process of adding Custom CSS/JS to any Paymattic Forms!
+
 ::: tip Need Help?
 If you have any further questions, concerns, or suggestions, please do not hesitate to contact our [support team](https://wpmanageninja.com/support-tickets/). Thank you.
-:::
+::: 
