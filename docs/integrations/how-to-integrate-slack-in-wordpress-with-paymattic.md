@@ -34,9 +34,10 @@ Once the **Editor** page opens, go to the **Integrations** tab, click the **Add 
 ![](/images/integrations/how-to-integrate-slack-in-wordpress-with-paymattic/Add-new-integration-dropdown-slack-scaled.webp)
 
 Now, a pop-up page will appear with various settings options for configuring Slack.
-- *All the settings options mentioned in the screenshot below are briefly explained:**
+
+All the settings options mentioned in the screenshot below are briefly explained:
 - **Feed** **Name**: Here, you can set a name for your feed according to your preference. This field is required to be filled in.
-- **Slack Webhook**: This is also a required field. Here, provide the URL of your **Slack** **Channel** where you want to send the Paymattic’s form submission data. [Click here](/# 2-toc-title) to learn how to get the Webhook URL from Slack.
+- **Slack Webhook**: This is also a required field. Here, provide the URL of your **Slack** **Channel** where you want to send the Paymattic’s form submission data. [Click here](https://paymattic.com/docs/how-to-integrate-slack-in-wordpress-with-paymattic/#2-toc-title) to learn how to get the Webhook URL from Slack.
 - **Trigger notification on payment success only**: If you enable this option, the notification will be sent to your chosen Slack Channel only after successful payment.
 - **Conditional Logics**: This option allows Slack integration to function conditionally based on your submission values according to your set conditional logic/s. Also, here, you can add as much conditional logic as you need by clicking the **+ Add More** button and delete any logic by clicking the **Trash Icon** if needed. To learn more, read this [Documentation](/how-to-use-conditional-logic-in-form-fields-with-paymattic).
 - **Enable This Feed**: Check this option to ensure this integration feed remains enabled and all its actions function properly.
@@ -81,7 +82,9 @@ Where you will get your desired Webhook URL, copy it by clicking the **Copy** bu
 Now, return to the **Add New Slack Integration Feed** page from the Form’s **Integration** tab.
 And, paste the URL you copied from the newly created Slack App into the **Slack** **Webhook** field.
 
-Remember, don’t forget to click the Create Slack Feed button, otherwise your integration will not be saved and function properly.
+:::warning Remember
+Don’t forget to click the **Create Slack Feed** button, otherwise your integration will not be saved and function properly.
+:::
 
 ![](/images/integrations/how-to-integrate-slack-in-wordpress-with-paymattic/Paste-the-Slack-Webhook-URL.webp)
 
@@ -99,4 +102,4 @@ Here, you can see the preview of the notification messages of Slack through the 
 ![](/images/integrations/how-to-integrate-slack-in-wordpress-with-paymattic/Preview-of-Slack.webp)
 
 This way you can easily integrate Slack with Paymattic!
-If you have any further questions, concerns, or suggestions, please do not hesitate to contact our [@support team](https://wpmanageninja.com/support-tickets/). Thank you.
+If you have any further questions, concerns, or suggestions, please do not hesitate to contact our [support team](https://wpmanageninja.com/support-tickets/). Thank you.
