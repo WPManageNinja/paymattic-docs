@@ -6,8 +6,9 @@ category: "Integrations"
 # How to Integrate Google Sheets in WordPress with Paymattic?
 
 Google Sheets integrates with [Paymattic](https://paymattic.com/) on your WordPress website to manage and organize form responses efficiently. This article will guide you through integrating **Google Sheets** in your **WordPress** **Site** with **Paymattic**.
-
+:::warning Pro Feature
 Google Sheets is the Premium Feature of the Paymattic Plugin. So, you need Paymattic Pro to integrate this.
+:::
 
 ## Enable Google Sheets Integration
 
@@ -23,7 +24,8 @@ Click the **Toggle** button to enable the Google Sheets.
 
 Once you enable Google Sheets, you will be asked for the **Access Code** from your Google account to verify the code.
 
-To get the Access code click the [Get Google Sheet Access Code](https://accounts.google.com/o/oauth2/auth?access_type=offline&approval_prompt=force&client_id=157785030834-7bkpc1olhgp9kd683c78dclei5elhoku.apps.googleusercontent.com&redirect_uri=https%3A%2F%2Ffluentforms.com%2Fgapi%2F&response_type=code&scope=https%3A%2F%2Fspreadsheets.google.com%2Ffeeds%2F) link. To learn the detailed process, keep reading.
+>[!Note]
+> To get the Access code click the [Get Google Sheet Access Code](https://accounts.google.com/o/oauth2/auth?access_type=offline&approval_prompt=force&client_id=157785030834-7bkpc1olhgp9kd683c78dclei5elhoku.apps.googleusercontent.com&redirect_uri=https%3A%2F%2Ffluentforms.com%2Fgapi%2F&response_type=code&scope=https%3A%2F%2Fspreadsheets.google.com%2Ffeeds%2F) link. To learn the detailed process, keep reading.
 
 ![](/images/integrations/integrate-google-sheets-in-wordpress-with-paymattic/Enable-google-sheet-Access-Code-scaled.webp)
 
@@ -33,13 +35,14 @@ To learn how to get the Access Code from Google, follow the steps with screensho
 
 To get the Access Code from Google, [click here](https://accounts.google.com/o/oauth2/auth?access_type=offline&approval_prompt=force&client_id=157785030834-7bkpc1olhgp9kd683c78dclei5elhoku.apps.googleusercontent.com&redirect_uri=https%3A%2F%2Ffluentforms.com%2Fgapi%2F&response_type=code&scope=https%3A%2F%2Fspreadsheets.google.com%2Ffeeds%2F), and select the Google Account under which your desired **Google Sheet** exists.
 
-Don’t worry if you see the FluentForms logo on this page. We are temporarily collaborating with the Fluent Forms app to verify your Google Account. Rest, we ensure that your integration functions will not be affected by this.
+>[!Note]
+>Don’t worry if you see the FluentForms logo on this page. We are temporarily collaborating with the Fluent Forms app to verify your Google Account. Rest, we ensure that your integration functions will not be affected by this.
 
 ![](/images/integrations/integrate-google-sheets-in-wordpress-with-paymattic/Choosing-google-account.webp)
 
 Once you choose the desired Google Account, it will take you to the **Paymattic Server** and generate an **Access Code**. Copy the access code by clicking on the **Copy** button.
-
-Ignore the Instruction screenshot attached to this page, and follow the below steps to know where to paste the copied access code.
+>[!Note]
+>Ignore the Instruction screenshot attached to this page, and follow the below steps to know where to paste the copied access code.
 
 ![](/images/integrations/integrate-google-sheets-in-wordpress-with-paymattic/Copy-Access-Code.webp)
 
@@ -64,11 +67,14 @@ Once the **Editor** page opens, go to the **Integrations** tab, click the **Add 
 Now, a pop-up page will appear with various settings options for configuring the Google Sheet.
 
 Once you set up the page, click the **Create Google Sheets Feed** button and the feed will be integrated into your form.
-
-Remember, to function Google Sheets integration with Form properly, you **must provide** the **Spreadsheet ID** and **Worksheet Name** of your **Google Sheets Account** and set up the **Spreadsheet Fields.**
+:::warning Remember
+To function Google Sheets integration with Form properly, you **must provide** the **Spreadsheet ID** and **Worksheet Name** of your **Google Sheets Account** and set up the **Spreadsheet Fields.**
+:::
 
 ![](/images/integrations/integrate-google-sheets-in-wordpress-with-paymattic/Add-new-google-sheet-integratio-feed-page.webp)
-- *All the settings options mentioned above are briefly explained below:**
+
+
+**All the settings options mentioned above are briefly explained below:**
 
 ### Name
 
@@ -89,12 +95,12 @@ To learn how to get the **Spreadsheet ID** and **Worksheet Name** from Google, f
 First, open your Google Sheet where you want to receive the entries of your form.
 
 Now you will get the **Spreadsheet ID** inside the Spreadsheet URL. Now copy the marked portion as it is the **ID** of this particular **Spreadsheet**.
-
-For example, if the spreadsheet URL is: https://docs.google.com/spreadsheets/d/**19BXmmGQUB8v\_jBNJZydbos-sFIzysSFTgeKmDsh-XLc**/edit?gid=0#gid=0. Then the ID of this spreadsheet will be 19BXmmGQUB8v\_jBNJZydbos-sFIzysSFTgeKmDsh-XLc/edit.
+>[!Note]
+>For example, if the spreadsheet URL is: https://docs.google.com/spreadsheets/d/19BXmmGQUB8v_jBNJZydbos-sFIzysSFTgeKmDsh-XLc/edit?gid=0#gid=0. Then the ID of this spreadsheet will be 19BXmmGQUB8v\_jBNJZydbos-sFIzysSFTgeKmDsh-XLc/edit.
 
 Then, copy the specific **Worksheet Name** where you want to receive the entries of your form.
-
-Feel free to name your **Worksheet** as you like. A single spreadsheet can contain multiple Worksheets, but you should select a specific one and copy only that worksheet’s name to receive the form entries.
+>[!Note]
+>Feel free to name your **Worksheet** as you like. A single spreadsheet can contain multiple Worksheets, but you should select a specific one and copy only that worksheet’s name to receive the form entries.
 
 ![](/images/integrations/integrate-google-sheets-in-wordpress-with-paymattic/Copy-Spreadsheet-ID-WorkSheet-Name.webp)
 
@@ -110,7 +116,8 @@ This field is also required to be filled in to send the form entries to your sel
 
 You can name the field label as you want and map the value according to the field label by using the **Shortcode** button.
 
-For example, I just wanted to send the Name, Email, and Total Payment inputs from the form to the sheets. So, I added these fields and values according to the field label.
+>[!Note]
+>For example, I just wanted to send the Name, Email, and Total Payment inputs from the form to the sheets. So, I added these fields and values according to the field label.
 
 You can add as many fields as you need by clicking the **+ Add More** button. Also, can delete any field by clicking the **Trash Icon** if needed.
 
