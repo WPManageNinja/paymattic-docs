@@ -104,7 +104,9 @@ export default defineConfig({
           { text: 'Webhook', link: '/how-to-integrate-webhook-in-wordpress-with-paymattic' },
           { text: 'Slack', link: '/how-to-integrate-slack-in-wordpress-with-paymattic' },
           { text: 'Telegram', link: '/how-to-integrate-telegram-with-paymattic-in-wordpress' },
-          { text: 'Twilio', link: '/how-to-integrate-twilio-with-paymattic-in-wordpress' }
+          { text: 'Twilio', link: '/how-to-integrate-twilio-with-paymattic-in-wordpress' },
+          { text: 'User Registration', link: '/how-to-create-a-user-registration-form-with-paymattic-in-wordpress' }
+
         ]
       },
       {

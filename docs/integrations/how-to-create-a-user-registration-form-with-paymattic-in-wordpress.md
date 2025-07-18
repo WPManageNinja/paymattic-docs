@@ -7,71 +7,72 @@ category: "Integrations"
 
 [Paymattic](https://paymattic.com/) introduces another impressive module to make the user registration process fast and simple. You can make forms that create user accounts in WordPress with the WP User Registration module. This article will guide you through integrating **WP User Registration** with **Paymattic** on your **WordPress** site.
 
-:::warning
+:::warning Pro Feature
 WP User Registration is a Premium Feature of the Paymattic Plugin. You need Paymattic Pro to use this integration.
 :::
 
 ## Enable WP User Registration Integration 
 
-To enable WP User Registration integration, follow these steps:
+To learn how to enable WP User Registration integration, follow the steps with the screenshots below – 
 
-1. Go to **Integrations** from the **Paymattic Navbar** to find the **WP User Registration** integration module
-2. Click the **Settings Icon** on the right side of the WP User Registration module
-3. Click the **Toggle** button to enable WP User Registration
+First, go to **Integrations** from the **Paymattic Navbar** and you will get the **WP User Registration** integration module.
+
+Here, you will see the WP User Registration’s **Settings Icon** on the right side, click on it.
 
 ![Enable WP User Registration module](/images/integrations/how-to-create-a-user-registration-form-with-paymattic-in-wordpress/Wp-User-Registration-module-2-scaled.webp)
+
+Click the **Toggle** button to enable the WP User Registration. 
 
 ![Enable the integration](/images/integrations/how-to-create-a-user-registration-form-with-paymattic-in-wordpress/Enable-User-registration-module-1-scaled.webp)
 
 ## Integrate WP User Registration into Paymattic Forms
 
-To integrate WP User Registration into a specific form, follow these steps:
+To learn how to integrate WP User Registration into any specific Form in Paymattic, follow the steps with the screenshots below – 
 
-1. Go to **All Forms** from the **Paymattic Navbar**
-2. Select the form where you want to integrate WP User Registration
-3. Click the **Pencil/Editor Icon**
+First, go to **All Forms** from the **Paymattic Navbar**, select the Desired Form where you want to integrate your **WP User Registration** and click the **Pencil/Editor** Icon. 
 
 ![Open desired form](/images/integrations/how-to-create-a-user-registration-form-with-paymattic-in-wordpress/Open-desired-forms-scaled.webp)
 
-4. Once the **Editor** page opens, go to the **Integrations** tab
+Once the **Editor** page opens, go to the **Integrations** tab.
 
 ![Integration tab](/images/integrations/how-to-create-a-user-registration-form-with-paymattic-in-wordpress/Integration-tab.webp)
 
-5. Click the **Add New Integration** button and select **User Registration Integration** feed from the dropdown list
+Click the **Add New Integration** button & select **User Registration Integration** feed from the dropdown list. 
 
 ![Add new integration](/images/integrations/how-to-create-a-user-registration-form-with-paymattic-in-wordpress/Add-new-integration-drop-down-scaled.webp)
 
-### Configuration Options
+Now, a pop-up page will appear with various settings options for configuring User Registration. 
 
-A pop-up page will appear with various settings options for configuring User Registration:
+All the settings options mentioned in the screenshot below are briefly explained:
 
-- **Name**: Set a name for your integration feed
-- **Email Address**: Select the form field for the user's email address
-- **User Name**: Set using the `{input.customer_email}` shortcode (customer email will be the username)
-- **Full Name**: Use the `{input.customer_name}` shortcode
-- **Password**: Use the `{input.password}` shortcode
-- **Default User Role**: Select a default WordPress user role
-- **User Meta**: Add custom User Meta Key and Meta Value pairs if needed
-- **Auto Login**: Enable to automatically log in users after registration
-- **Welcome Email**: Option to send the default WordPress welcome email
-- **Duplicate Prevention**: Prevent form submission for existing email addresses
-- **Conditional Logic**: Set conditions for registration. See our [conditional logic guide](/how-to-use-conditional-logic-in-form-fields-with-paymattic)
-- **Logged Out Only**: Enable to run this feed only for logged-out visitors with unregistered emails
+* **Name:** Here, you can set a name according to your preference for your feed.
+* **Email Address:** In this field, you have to select the **Email Address**.
+* **User Name:** Here, you can set the `{input.customer_email}` shortcode by clicking the Shortcode Icon because your customer email will be the user name to log in to your Paymattic user dashboard field.
+* **Full Name:** Here, you can use the `{input.customer_name}` shortcode by clicking the Shortcode Icon.
+* **Password:** Here, use the `{input.password}` shortcode to address your password by clicking the Shortcode Icon.
+* **Default User Role:** You can select a default user role for your Paymattic user.
+* **User Meta:** Here, you can add some User Meta Key and Meta Value if needed.
+* **Allow the user login automatically after registration:** Enable this option and your user will be directly logged into your Paymattic User Dashboard after registration.
+* **Send default WordPress welcome email to user after registration:** Here you will also get the checkbox option to give a Welcome Email Notification to your user.
+* **Don’t create a user if one already exists in the database with the same email address:** If you want to disable the form submission of already existing users then just simply check this box.
+* **Conditional logics:** If you have any conditions about this submission just set the conditions from the Conditional Logic option. To learn more, read our [conditional logic guide](/how-to-use-conditional-logic-in-form-fields-with-paymattic).
+* **Enable this field:** If you check this option, all the actions of this feed will only run for the visitors who are in a logged-out state and the email that is not registered yet.
 
-Once configured, click the **Create User Registration Feed** button to complete the integration.
+Once the setup is done, finally, click the **Create User Registration Feed** button.
+And, your WP User Registration will be integrated into this specific form!
 
 ![User registration configuration](/images/integrations/how-to-create-a-user-registration-form-with-paymattic-in-wordpress/Add-new-user-registration-integration-feed-Popup-page.webp)
 
-After successful integration, you'll see your User Registration Integration Feed in the list. You can:
-- Modify the feed using the **Pencil Icon**
-- Delete it using the **Trash Icon**
-- Enable/disable the feed using the **Toggle** button
+After successful Integration, now you will see that your **User Registration Integration Feed** has been added here. 
+
+You can modify your feed anytime by clicking the **Pencil Icon** and delete it by clicking the **Trash Icon**. 
+Also, you can disable or enable this feed anytime by clicking the **Toggle** button if needed.
 
 ![WP user registration feed integrated](/images/integrations/how-to-create-a-user-registration-form-with-paymattic-in-wordpress/Wp-user-registration-feed-integrated-scaled.webp)
 
 ## Preview of Integrated WP User Registration
 
-Below is an example of automatically added users in WordPress through form entries created during integration:
+Here, you can see the preview of the automatically added users in WordPress through the Form entries that I set up during the integration.
 
 ![Preview of User Registration](/images/integrations/how-to-create-a-user-registration-form-with-paymattic-in-wordpress/Preview-of-User-Registration-scaled.webp)
 
