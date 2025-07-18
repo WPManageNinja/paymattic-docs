@@ -9,112 +9,102 @@ category: "Integrations"
 
 ## Enable Mailchimp Integration 
 
-To enable the integration:
+To learn how to enable Mailchimp integration, follow the steps with the screenshots below – 
 
-1. Go to **Integrations** from the **Paymattic Navbar**
-2. Search for **Mailchimp** in the search bar
-3. Click the **Settings Icon** on the right side of the Mailchimp module
-4. Click the **Toggle** button to enable Mailchimp
+First, go to **Integrations** from the **Paymattic Navbar**, search for Mailchimp through the search bar, and you will get the **Mailchimp integration** module.
+
+Here, you will see Mailchimp’s **Settings Icon** on the right side, click on it.
 
 ![Mailchimp Settings Icon](/images/integrations/how-to-integrate-mailchimp-in-wordpress-with-paymattic/Mailchimps-Settings-Icon-scaled.webp)
 
-Once enabled, you'll need to provide your **Mailchimp API Key**.
+Click the **Toggle** button to enable the Mailchimp.
+Once you enable ActiveCampaign, you will be asked for the **Mailchimp API Key** of your Mailchimp Account.
 
 ![Enable Mailchimp integration](/images/integrations/how-to-integrate-mailchimp-in-wordpress-with-paymattic/Enable-Mailchimp-integration-scaled.webp)
 
-### Get the API Key from Mailchimp
+## Get the API Key from Mailchimp
 
-To get your API key:
+To learn how to get the Mailchimp API Key from ActiveCampaign, follow the steps with screenshots below –
 
-1. Log in to your [Mailchimp Account](https://mailchimp.com/)
-2. Click your profile icon in the top right corner
-3. Select **Profile**
+First, log in to your [Mailchimp Account](https://mailchimp.com/), go to **Profile** from the top right corner, and click the **Profile** button
 
 ![Profile icon in Mailchimp](/images/integrations/how-to-integrate-mailchimp-in-wordpress-with-paymattic/Profile-icon-scaled.webp)
 
-4. Open the **Extras** dropdown
-5. Select **API keys**
+Now, open the **Extras** tab and select the **API keys** from the dropdown list.
 
 ![Extras API keys menu](/images/integrations/how-to-integrate-mailchimp-in-wordpress-with-paymattic/Extras-API-kyes-scaled.webp)
 
-6. Click **Create A Key**
+Then, press the **Create A Key** button.
 
 ![Create API Key button](/images/integrations/how-to-integrate-mailchimp-in-wordpress-with-paymattic/Create-a-Key-button.webp)
 
-7. Enter a name for your API key
-8. Click **Generate Key**
+Provide a **Name** for your API key and click the **Generate Key** button.
 
 ![Generate Key button](/images/integrations/how-to-integrate-mailchimp-in-wordpress-with-paymattic/Generate-Key-button.webp)
 
-9. Copy your new API key using the **Copy to Clipboard** button
+Finally, your Mailchimp API key is generated, copy it by clicking the **Copy to Clipboard** button.
 
 ![Copy API Key](/images/integrations/how-to-integrate-mailchimp-in-wordpress-with-paymattic/Copy-API-Key.webp)
 
-Then:
+Now, return to the **Mailchimp Settings** page under the **Integrations** section from the **Paymattic Navbar** and paste the copied **API Key** into the Mailchimp API Key fields.
 
-1. Return to the **Mailchimp Settings** page in Paymattic
-2. Paste your API key into the **Mailchimp API Key** field
-3. Click **Save Settings** to enable the integration
+Finally, press the **Save Settings** button and your Mailchimp Integration module will be enabled.
 
 ![Paste Mailchimp API key](/images/integrations/how-to-integrate-mailchimp-in-wordpress-with-paymattic/Paste-Mailchimp-API-key-scaled.webp)
 
 ## Integrate Mailchimp into Forms
 
-To add Mailchimp to a specific form:
+To learn how to integrate Mailchimp into any specific Form in Paymattic, follow the steps with the screenshots below –
 
-1. Go to **All Forms** from the **Paymattic Navbar**
-2. Select the form where you want to add Mailchimp
-3. Click the **Pencil/Editor Icon**
+First, go to **All Forms** from the **Paymattic Navbar**, select the **Desired Form** where you want to integrate your Mailchimp and click the **Pencil/Editor** Icon. 
 
 ![Open desired form](/images/integrations/how-to-integrate-mailchimp-in-wordpress-with-paymattic/Open-desired-form-9-scaled.webp)
 
-4. Go to the **Integrations** tab
-5. Click **Add New Integration**
-6. Select **Mailchimp Integration** from the dropdown
+Once the **Editor** page opens, go to the **Integrations** tab, click the **Add New Integration** button & select **Mailchimp Integration feed** from the dropdown list.
 
 ![Add new integration](/images/integrations/how-to-integrate-mailchimp-in-wordpress-with-paymattic/Add-new-integration-dropdown-Mailchimp-scaled.webp)
 
-7. Set a name for your integration feed
-8. Select the **Mailchimp List** where you want to send form data
+Here, you will find a required field to set a name for your integration feed according to your preference.
+Also, you must select **Mailchimp’s List** from the dropdown where you want to send the submitted form data. 
 
 ![Name and List selection](/images/integrations/how-to-integrate-mailchimp-in-wordpress-with-paymattic/Name-List-of-Add-new-mailchimp-feed-page.webp)
 
-### Configuration Options
+Once you select the list, a pop-up page will appear with various settings options for configuring the ActiveCampaign.
 
-The integration settings include:
+All the settings options mentioned in the screenshot below are briefly explained:
 
-- **Name**: Your integration feed name
-- **List**: Target Mailchimp list for form submissions
-- **Map Fields**: Link form fields to Mailchimp fields using the **Shortcode** button
-- **Interest Group**: Map to Mailchimp interest groups
-- **Tags**: Add comma-separated tags (e.g., "new lead, Paymattic, web source")
-- **Dynamic Tags**: Enable custom tags based on submission values
-- **Notes**: Add notes for contacts
-- **Double Opt-in**: Enable email validation for new contacts
-- **ReSubscription**: Re-add inactive or unsubscribed contacts to the active list
-- **VIP Contact**: Mark contacts as VIP
-- **Conditional Logic**: Set conditions for adding contacts. See our [conditional logic guide](/how-to-use-conditional-logic-in-form-fields-with-paymattic)
-- **Enable Feed**: Activate/deactivate the integration
+* **Name:** From here, you can change the name anytime if needed.
+* **List:** From here, you can change the Mailchimp List anytime if needed.
+* **Map Fileds:** Use all the fields under this option to properly link your Mailchimp Fields with the Form Fields. Also, you can easily select the Value for the Form Fields according to the Mailchimp Fields by using the **Shortcode** button.
+* **Interest Group:** With this option, you can map your MailChimp’s Interest group here. 
+* **Tags:** With this option, you can add tags to your ActiveCampaign contacts with a comma-separated list  (e.g. new lead, Paymattic, web source). Commas within a merge tag value will be created as a single tag.
+* **Enable Dynamic Tag Input:** This option allows ActiveCampaign to add customized tags for specific contacts based on your submission values according to your set conditions.
+* **Notes:** You can write a note for the contacts. 
+* **Enable Double Opt-in:** Enable this option if you want to check the validation of the user information (specifically user email).
+* **Enable ReSubscription:** When this option is enabled, if the subscriber is in an inactive state or has previously been unsubscribed, they will be re-added to the active list. 
+* **Mark as VIP Contact:** When you enable this option, contacts will be marked as VIP.
+* **Conditional Logics:** This option allows Mailchimp integration to function conditionally based on your submission values according to your set conditional logic/s. Also, here,  you can add as much conditional logic as you need by clicking the **+ Add More** button and delete any logic by clicking the **Trash Icon** if needed. To learn more, read this [Documentation](/how-to-use-conditional-logic-in-form-fields-with-paymattic). 
+* **Enable This Feed:** Check this option, to ensure this integration feed remains enabled, and all the actions of this feed function properly.
 
-Click **Create Mailchimp Feed** to complete the setup.
+Once the setup is done, finally, click the **Create Mailchimp Feed** button.
+And, your Mailchimp will be integrated into this specific form!
 
 ![Mailchimp integration settings](/images/integrations/how-to-integrate-mailchimp-in-wordpress-with-paymattic/Add-New-Mailchimp-Integration-Feed-page.webp)
 
-After successful integration, you can:
-- Modify the feed using the **Pencil Icon**
-- Delete it using the **Trash Icon**
-- Enable/disable using the **Toggle** button
+After successful Integration, now you will see that your **Mailchimp Integration Feed** has been added here.
+
+You can modify your feed anytime by clicking the **Pencil Icon** and delete it by clicking the **Trash Icon**.
+Also, you can disable or enable this feed anytime by clicking the **Toggle** button if needed.
 
 ![Added Mailchimp Integration Feed](/images/integrations/how-to-integrate-mailchimp-in-wordpress-with-paymattic/Added-Mailchimp-Integration-Feed-scaled.webp)
 
 ## Preview of Integrated Mailchimp
 
-To view your integrated contacts:
+Here, you can see the preview of the added contacts of Mailchimp through the Form entries that I set up during the integration.
 
-1. Open the **Audience** dropdown in Mailchimp
-2. Click the **Contacts** tab
+First, open the **Audience** dropdown and click the **Contacts** tab from the left sidebar.
 
-You'll see contacts automatically added from your Paymattic form submissions:
+And, you can see that **Contacts** are added automatically to the chosen **Mailchimp Contact** List through the Paymattic Form submission. 
 
 ![Preview of Mailchimp contacts](/images/integrations/how-to-integrate-mailchimp-in-wordpress-with-paymattic/Preview-of-Mailchimp-scaled.webp)
 
