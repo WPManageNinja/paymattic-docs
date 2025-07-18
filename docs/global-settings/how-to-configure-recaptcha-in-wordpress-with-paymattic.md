@@ -7,72 +7,64 @@ category: "Global Settings"
 
 [Paymattic](https://paymattic.com/) integrates with [Google reCAPTCHA](https://paymattic.com/configure-google-recaptcha-for-your-website-security/#what-is-google-recaptcha) to protect your WordPress forms from spam and automated submissions. This guide walks you through setting up reCAPTCHA in Paymattic.
 
-## Get reCAPTCHA API Keys
+## Get the reCAPTCHA API Keys
 
-### Generate New Keys
+Before configuring reCAPTCHA in Paymattic, you must get your API keys from Google reCAPTCHA.
+To learn how to get the reCAPTCHA Site and Secret keys, follow the steps with the screenshots below – 
 
-1. Visit the [Google reCAPTCHA Admin Console](https://www.google.com/recaptcha/admin/)
-2. Click the **Plus Icon**
+First, go to the [Google reCaptcha Site](https://www.google.com/recaptcha/admin/create), and click the Plus Icon.
 
 ![Add new site](/images/global-settings/how-to-configure-recaptcha-in-wordpress-with-paymattic/Plus-Icon-from-Google-reCAPTCHA-Site.png)
 
-3. Configure your site:
-   - Enter a **Label** to identify your site
-   - Choose reCAPTCHA version (v2 or v3)
-   - Add your domain(s)
-   - Select or create a Google Cloud project
-4. Click **Submit**
+Now, put a **Name** into the **Label** field to identify your website in the future and choose the **reCAPTCHA type** you prefer (v2 or v3) e.g., I choose V3. 
+
+Then, enter your website/s address in the **Domains** field to register your domain for a reCAPTCHA verification. Also, you can choose your project from the **Google Cloud Platform** dropdown.
+
+Once you provide all the necessary information, click the **Submit** button and you will get your desired Site key and Secret key.
 
 ![Register site](/images/global-settings/how-to-configure-recaptcha-in-wordpress-with-paymattic/Register-a-new-site-page-for-reCAPTCHA-1-1.webp)
 
-### Get Your Keys
+Here, you will get your desired Site key and Secret key. Simply, copy them by clicking the **Copy Site Key** and **Copy Secret Key** buttons.
 
-1. Copy your keys:
-   - Click **Copy Site Key**
-   - Click **Copy Secret Key**
-2. Optional: Click **Go To Settings** for additional configuration
+For additional settings, click the **Go To Settings** button and the Settings page will appear.
 
 ![Copy keys](/images/global-settings/how-to-configure-recaptcha-in-wordpress-with-paymattic/Copy-Site-Secret-keys-scaled.webp)
 
-### Additional Settings
+On the settings page, you can edit the name under the Label field, see the reCAPTCHA type and keys, and change or add the Domain. 
 
-In the settings page you can:
-- Edit site label
-- View reCAPTCHA type and keys
-- Manage domains
-- Update owner email
-- Configure security preferences
+Also, you can change the existing owner’s email address or add an admin email to manage reCAPTCHA in the **Owners** field. Plus, you can set the security preference according to your needs.
+
+Finally, click the **Save** button and all your changes will be saved.
 
 ![reCAPTCHA settings](/images/global-settings/how-to-configure-recaptcha-in-wordpress-with-paymattic/Google-reCAPTCHA-Settings-1-1.webp)
 
-## Configure in Paymattic
+## Configuring reCAPTCHA
 
-1. Go to **Settings** from the **Paymattic Navbar**
-2. Click the **reCAPTCHA** tab
+To learn how to configure reCAPTCHA with Paymattic, follow the steps with the screenshots below – 
 
-Choose your reCAPTCHA type:
-- **Disable reCAPTCHA**: Turn off protection (default)
-- **Visible reCAPTCHA (V2)**: Users check "I'm not a robot"
-- **Invisible reCAPTCHA (V3)**: Background scoring system
+First, go to **Settings** from the **Paymattic Navbar**, click the **reCAPTCHA** tab from the left sidebar, and three options appear. These are: 
+
+* **Disable reCAPTCHA:** You can use this option if you don’t want to enable reCAPTCHA. This option will be selected by default.
+* **Visible reCAPTCHA (V2):** This requires users to check a box indicating they are not a robot i.e., it verifies the request with a challenge.
+* **Invisible reCAPTCHA (V3):** Operates in the background and scores the user’s interaction to determine if they are a bot i.e., it verifies the request a score.
 
 ![Paymattic reCAPTCHA settings](/images/global-settings/how-to-configure-recaptcha-in-wordpress-with-paymattic/reCAPTCHA-Settings-page-scaled.webp)
 
-### Add API Keys
+Now, select a reCAPTCHA type between **V2** or **V3** to configure reCAPTCHA with Paymattic. For example, I choose V2 to show the process. 
 
-1. Select your version (V2 or V3)
-2. Paste your Site Key and Secret Key
-3. Test with the "I'm not a robot" checkbox
-4. Click **Save Settings**
+Paste the **Site Key** and **Secret Key** into the respective fields you copied from the Google reCAPTCHA Site and click the **I’m not a robot** checkbox.
+
+Finally, press the **Save Settings** button and your reCAPTCHA will be configured. 
 
 ![Configure API keys](/images/global-settings/how-to-configure-recaptcha-in-wordpress-with-paymattic/Paste-the-API-keys-into-V3-site-key-and-secret-key-fields.webp)
 
-## Enable on Forms
+## Adding reCAPTCHA in Forms 
 
-Add reCAPTCHA to individual forms:
+Once you have successfully configured the reCAPTCHA with Paymattic, it’s time to integrate this with your payment form.
 
-1. Go to **All Forms**
-2. Select your form
-3. Click the **Pencil/Editor** icon
+To learn the process of integrating the reCAPTCHA in a specific form, follow the steps with screenshots below – 
+
+First, go to **All** Forms from the **Paymattic Navba**r, choose the form you wish to work on, and click the **Pencil/Editor** icon, e.g., I choose the Donation form to show the process.
 
 :::tip New Forms
 Need to create a form? See our guides for [creating from scratch](/how-to-create-a-form-from-scratch-with-paymattic) or [using templates](/simple-form-templates).
@@ -80,15 +72,13 @@ Need to create a form? See our guides for [creating from scratch](/how-to-create
 
 ![Access form editor](/images/global-settings/how-to-configure-recaptcha-in-wordpress-with-paymattic/Open-desired-form-to-integrate-recptcha-scaled.webp)
 
-### Enable Protection
+Go to **Settings**S, open the **SConfirmation**S tab from the left sidebar, go to **SreCAPTCHA**S Settings, and check the **SEnable reCAPTCHA for this form**S option.
 
-1. Go to **Settings**
-2. Open the **Confirmation** tab
-3. Find **reCAPTCHA Settings**
-4. Check **Enable reCAPTCHA for this form**
-5. Click **Save reCAPTCHA Settings**
+Finally, click the **SSave reCAPTCHA**S Settings button and the reCAPTCHA will be integrated with your Paymattic form. 
 
 ![Enable form protection](/images/global-settings/how-to-configure-recaptcha-in-wordpress-with-paymattic/Enable-reCAPTCHA-for-this-form-option-1-scaled.webp)
+
+This way you can easily add reCAPTCHA to your WordPress payment form!
 
 :::tip Need Help?
 If you have any questions, concerns, or suggestions, please [contact our support team](https://wpmanageninja.com/support-tickets/).
