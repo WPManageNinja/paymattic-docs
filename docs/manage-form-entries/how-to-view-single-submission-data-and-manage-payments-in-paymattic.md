@@ -5,50 +5,59 @@ category: "Manage Form Entries"
 
 # How to View Single Submission Data and Manage Payments in Paymattic
 
-[Paymattic](https://paymattic.com/) provides detailed views and management options for individual form submissions. This guide explains how to access and manage single form entries.
+[Paymattic](https://paymattic.com/) allows you to view and manage a single form entry or submission data very precisely. This article will guide you through how to view and manage a single form entry in Paymattic.
 
-## Accessing Single Form Entries
 
-1. Go to **Paymattic Dashboard** in the WordPress admin menu
-2. Click the **Entries** section
-3. Find your target entry and click **View Details**
+## View & Manage A Sigle Form Entry 
+
+To learn how to view & manage a single form entry or submission in Paymattic, follow the steps with the screenshots below – 
+
+First, go to **Paymattic Dashboard** from the WordPress Left Sidebar, click the **Entries** section, and click the **View Details** button of the desired form entry you want to view.
 
 ![Access single entry](/images/manage-form-entries/how-to-view-single-submission-data-and-manage-payments-in-paymattic/1.-Open-desired-form-entry-from-Entries-section-scaled.webp)
 
 ## Entry Management Features
 
-The single entry view provides comprehensive information and management options:
+The single entry view provides comprehensive information and management options. All the features for viewing the entire activities of this specific form entry are organized into nine major options: These are: 
+
+1. Change Payment Status
+2. Entry Actions
+3. Form Entry Data
+4. Payment Items
+5. Transaction Details
+6. Submission Activity Events
+7. FluentCRM Profile
+8. Meta Info
 
 ![Entry details overview](/images/manage-form-entries/how-to-view-single-submission-data-and-manage-payments-in-paymattic/2.-Entire-detail-of-an-entry-scaled.webp)
 
-### Payment Status Management
+### A. Change Payment Status
 
-Change an entry's payment status:
-
-1. Click **Change Payment Status**
-2. Select the new status
-3. Add an optional note
-4. Click **Confirm**
+Using this option, you can change the payment status of your desired form entry anytime if needed. 
+Simply click the **Change Payment Status** button.
 
 ![Change payment status](/images/manage-form-entries/how-to-view-single-submission-data-and-manage-payments-in-paymattic/3.-Change-payment-status.webp)
 
+Now, select a new payment status that fits your needs and click the **Confirm** button.
+Also, if you want, you can add a Note for this entry during the status change.
+
 ![Edit payment status](/images/manage-form-entries/how-to-view-single-submission-data-and-manage-payments-in-paymattic/4.-Edit-Payment-Status-Pop-up.webp)
 
-### Entry Actions
+### B. Entry Actions
 
-Available actions for the entry:
+Here you will find three action options. These are:
 
-- **Print Entry**: Generate a printable version
-- **Export JSON**: Download entry data in JSON format
-- **Send Email Notification**: Manually trigger email notifications
+* **Print This Entry:** Click this button to print the submitted data of a specific form entry.
+* **Export JSON:** Click this button to export the data of this form entry in **JSON** format.
+* **Send Email Notification Manually:** Click this button to send an email notification to the Admin/User manually for this entry. To learn the process of doing it, [click here](/how-to-setup-email-notifications-in-paymattic-wordpress-plugin).
 
 ![Entry actions](/images/manage-form-entries/how-to-view-single-submission-data-and-manage-payments-in-paymattic/5.-Entry-Actions.webp)
 
-### Form Entry Data
+### C. Form Entry Data 
 
-View submitted information:
-- User's name and email
-- Form field responses
+Here, you can view the Name and Email Address of the user who submitted this entry. 
+
+Also, check the **Show empty fields** box if you want to view fields under the **Form Entry Data** section that are not filled in during the submissions.
 
 :::tip
 Check **Show empty fields** to display fields that weren't filled during submission.
@@ -56,45 +65,35 @@ Check **Show empty fields** to display fields that weren't filled during submiss
 
 ![Form entry data](/images/manage-form-entries/how-to-view-single-submission-data-and-manage-payments-in-paymattic/6.-Form-entry-data.webp)
 
-### Payment Details
+### D. Payment Items
 
-#### Items
-View ordered items with:
-- Item name
-- Quantity
-- Meta options
-- Individual and total prices
+Here, you can see the ordered payment item/s Name, Quantity, Meta option data, and price (both single, subtotal, and total). 
 
 ![Payment items](/images/manage-form-entries/how-to-view-single-submission-data-and-manage-payments-in-paymattic/7.-Payment-Items.webp)
 
-#### Transaction Information
-See payment details including:
-- Payment method
-- Total amount
-- Payment status
-- Submission date
+#### E. Transaction Details
+
+Here, you can see the payment method that the user used to pay, the total amount of payment, the payment status, and the submission date of this payment transaction. 
 
 ![Transaction details](/images/manage-form-entries/how-to-view-single-submission-data-and-manage-payments-in-paymattic/8.-Transaction-details.webp)
 
-### Activity Timeline
+### F. Submission Activity  Events 
 
-Track all events related to the submission:
-- View chronological activity history
-- Add notes using **+ Add Note**
-- Remove activities using the **Trash** icon
+Here, you can see all the activity events sequentially based on the timeline for this specific submission.
+
+You can also add a note for the submission activity by clicking the **+ Add Note** button and delete any activity by clicking the **Trash** icon.
 
 ![Submission activity](/images/manage-form-entries/how-to-view-single-submission-data-and-manage-payments-in-paymattic/9.-Submission-Eventt-Activity.webp)
 
-### Integration Information
+### G. FluentCRM Profile 
 
-#### FluentCRM Profile
-This section appears only for [FluentCRM](http://fluentcrm.com) users.
+This section will only appear in a form entry if the user is a [FluentCRM](http://fluentcrm.com) user.
 
 ![FluentCRM profile](/images/manage-form-entries/how-to-view-single-submission-data-and-manage-payments-in-paymattic/10.-Fluent-CRM-Profile.webp)
 
-#### Meta Information
-Enable this section to view additional user metadata.
+#### H. Meta Info
 
+By enabling this option, you can see the Meta information about the user who submitted this form.
 ![Meta information](/images/manage-form-entries/how-to-view-single-submission-data-and-manage-payments-in-paymattic/11.-Meta-Info.webp)
 
 :::tip Need Help?
