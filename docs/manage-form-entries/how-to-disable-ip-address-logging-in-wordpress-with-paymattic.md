@@ -3,18 +3,17 @@ title: "How to Disable IP Address Logging in WordPress with Paymattic?"
 category: "Manage Form Entries"
 ---
 
-How to Disable IP Address Logging in WordPress with Paymattic?
+# How to Disable IP Address Logging in WordPress with Paymattic?
 
 [Paymattic](https://paymattic.com/) offers to automatically collect the IP addresses of users when they submit a new form to help you perform advanced analytics. But you can disable this feature of collecting IP Addresses if needed. This article will guide you through how to disable IP Addresses from each form submission in Paymattic.
 
-## Managing IP Address Logging
+## Disabling IP Addresses from Form Entries 
 
-### Disable IP Address Collection
+To learn how to disable the IP Address from each form submission in Paymattic, follow the steps with the screenshots below – 
 
-1. Go to **Settings** from the **Paymattic Navbar**
-2. Select the **General Settings** tab
-3. Scroll to **Other Settings**
-4. Check **Disable IP Address Logging**
+First, go to **Settings** from the **Paymattic Navbar**, click the **General Settings** tab from the left sidebar, and scroll down to the **Other Settings** section.
+
+Now, check the **Disable IP Address Logging** option to stop collecting the IP Addresses. 
 
 :::tip
 To re-enable IP address collection, simply uncheck the **Disable IP Address Logging** option.
@@ -22,21 +21,20 @@ To re-enable IP address collection, simply uncheck the **Disable IP Address Logg
 
 ![IP address settings](/images/manage-form-entries/how-to-disable-ip-address-logging-in-wordpress-with-paymattic/1.-Other-Settings-scaled.webp)
 
-## Viewing IP Addresses
+## Checking the IP Addresses
 
-To check a submission's IP address:
+To check the user’s IP address, follow the steps with screenshots below – 
 
-1. Go to **Entries** from the **Paymattic Navbar**
-2. Find your target entry
-3. Click **View Details**
+First, go to **Paymattic Dashboard** from the **WordPress Left Sidebar**, click the **Entries** section, and click the **View Details** button of the desired form entry you want to view.
+
 
 ![Access entry details](/images/manage-form-entries/how-to-disable-ip-address-logging-in-wordpress-with-paymattic/2.-desired-form-entry-scaled.webp)
 
-The IP address appears in the **Meta Info** section:
+Here, you can see the **IP Address** is visible of a specific user under the **Meta Info** section on the right side. 
 
 ![View IP address](/images/manage-form-entries/how-to-disable-ip-address-logging-in-wordpress-with-paymattic/3.-View-IP-Address-scaled.webp)
 
-When IP logging is disabled, the IP address field will be empty:
+Once you **Disable the IP Address** from the Other Settings of **Paymmattic’s General Settings**, you can see the **IP Address** option will appear empty.
 
 ![Empty IP address](/images/manage-form-entries/how-to-disable-ip-address-logging-in-wordpress-with-paymattic/4.-empty-ip-address-scaled.webp)
 
