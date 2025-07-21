@@ -5,48 +5,57 @@ category: "Manage Form Entries"
 
 # How to View and Manage All Form Entries in WordPress with Paymattic
 
-[Paymattic](https://paymattic.com/) provides a comprehensive entry management system that allows you to view and manage all form submissions from a central location. This guide covers all the features available in the Entries section.
+[Paymattic](https://paymattic.com/) has an easy-to-use entry management feature that lets you easily view and manage all the form entries from a single page. This article will guide you through using all the features of the Paymattic Entries Section.
 
-## Accessing Form Entries
+## View & Manage Form Entries
 
-1. Go to **Paymattic Dashboard** in the WordPress admin menu
-2. Click the **Entries** section to view all form submissions
+To learn how to view all form entries or submissions in Paymattic, follow the steps with the screenshots below – 
+
+First, go to **Paymattic Dashboard** from the WordPress Left Sidebar, click the **Entries** section, and you can view the list of all submitted form entries on this page.
 
 ![Access entries section](/images/manage-form-entries/how-to-view-and-manage-all-form-entries-in-wordpress-with-paymattic/Entries-section-from-Paymattic-Navbar-scaled.webp)
 
-## Entry Management Features
+All the features for viewing all form entries of entire Paymattic activities are organized into nine major options: These are: 
 
-The entries section offers several filtering and management options:
+Payment Status Filter
+Subscription Filter
+Forms Filter
+Search Bar
+Date Filter
+Entry Status Filter 
+View Details
+Delete
 
 ![Entry management features](/images/manage-form-entries/how-to-view-and-manage-all-form-entries-in-wordpress-with-paymattic/All-features-to-view-entries-scaled.webp)
 
-### Payment Status Filter
+**All the available options mentioned above to view form entries are explained below:**
 
-Filter entries by payment status:
-- Paid
-- Processing
-- Pending
-- Failed
-- Refunded
-- Abandoned
+### A. Payment Status Filter
 
-Example: Select **Paid** to view only completed payments.
+Using this option, you can filter the form entries based on the payment status. Here, you can see the following payment statuses:
+
+* Paid 
+* Processing
+* Pending
+* Failed
+* Refunded
+* Abandoned
+
+Example: I chose the **Paid** tab as the payment status filter and here you can see all the form entries appear based on paid submissions. In the same way, you can filter your form entries based on any payment status according to your needs. 
 
 ![Payment status filter](/images/manage-form-entries/how-to-view-and-manage-all-form-entries-in-wordpress-with-paymattic/Paid-scaled.webp)
 
-### Subscription Filter
-
-View only entries with active subscriptions.
+### B. Subscription
+By selecting this option, you can view only those form entries that have a successful subscription.
 
 ![Subscription filter](/images/manage-form-entries/how-to-view-and-manage-all-form-entries-in-wordpress-with-paymattic/Subscription-scaled.webp)
 
-### Form Filter
+### C. Forms Filter
+Use this option, if you want to view your form entries based on a specific form.
 
-Filter entries by specific form:
+Click the filter option and a dropdown list will appear with all the available forms on your site. Now, select your preferred form to view all entries for that form.
 
-1. Click the form filter dropdown
-2. Select your target form
-3. View entries for that form only
+**Example:** I chose the Donation form, and the two entries I have on this form are now visible.
 
 ![Form filter](/images/manage-form-entries/how-to-view-and-manage-all-form-entries-in-wordpress-with-paymattic/Form-Filter-scaled.webp)
 
@@ -59,62 +68,50 @@ You can also access form-specific entries directly:
 
 ![Quick access to form entries](/images/manage-form-entries/how-to-view-and-manage-all-form-entries-in-wordpress-with-paymattic/Entries-option-under-Three-dot-icon-new-scaled.webp)
 
-### Search Entries
-
-Use the search bar to find specific entries by:
-- User name
-- Email address
-- Payment method
-- Other form fields
+### D. Search Bar
+Using this option, you can search for specific entries with keywords (e.g., user name, user email, payment method, etc).
 
 ![Search entries](/images/manage-form-entries/how-to-view-and-manage-all-form-entries-in-wordpress-with-paymattic/Search-Bar-scaled.webp)
 
-### Date Filter
+### E. Date Filter 
 
-Filter entries by date range:
-1. Click the date filter
-2. Select your date range
-3. View entries within that period
+Use this date filter to view form entries based on a specific time range. 
+
+**Example:** I selected the date range “September 25th to 30th, 2024,” and you can see the two entries within this time frame appeared.
 
 ![Date filter](/images/manage-form-entries/how-to-view-and-manage-all-form-entries-in-wordpress-with-paymattic/Date-Filter-scaled.webp)
 
-### Entry Status Filter
+### F. Entry Status Filter
 
-Filter by entry status:
-- All
-- Read
-- Unread
+Use this option, if you want to view your form entries based on the Entry Status. 
+
+Click the filter option and a dropdown list will appear with available entry status **(All/Read/Unread)**. Now, select your preferred form to view all entries for that form.
+
+**Example:**  I chose the Read form, and all the entries I have on this Status are now visible.
 
 ![Entry status filter](/images/manage-form-entries/how-to-view-and-manage-all-form-entries-in-wordpress-with-paymattic/Entry-Status-scaled.webp)
 
-### View Entry Details
+### G. View Details 
 
-To see complete entry information:
-1. Find the entry in your list
-2. Click **View Details** in the Actions column
+If you wish to see a specific form entry in detail, click the View Details button for your desired form entry located in the right corner under the Actions column.
 
 For more information about viewing individual entries, see our guide on [managing single submissions](/how-to-view-single-submission-data-and-manage-payments-in-paymattic).
 
 ![View entry details](/images/manage-form-entries/how-to-view-and-manage-all-form-entries-in-wordpress-with-paymattic/View-details-scaled.webp)
 
-### Deleting Entries
+### H. Delete 
 
-#### Delete Single Entry
-
-1. Click the **Trash Icon** next to the entry
-2. Confirm deletion in the popup
+If you want to delete any submission data, click the Trash Icon in the right corner of your desired entry that you wish to delete.
 
 ![Delete single entry](/images/manage-form-entries/how-to-view-and-manage-all-form-entries-in-wordpress-with-paymattic/Delete-scaled.webp)
 
+Then, a pop-up will appear asking for your confirmation. Click the **Confirm** button and your form will be deleted.
+
 ![Confirm deletion](/images/manage-form-entries/how-to-view-and-manage-all-form-entries-in-wordpress-with-paymattic/Confirm-delete-button.webp)
 
-#### Bulk Delete Entries
+### Bulk Delete Entries
 
-To delete multiple entries:
-1. Check the boxes next to entries you want to delete
-2. Open the **Bulk Action** dropdown
-3. Select **Delete Entries**
-4. Click **Apply**
+To delete forms in bulk, check the **Form IDs** and expand the **Bulk Action** dropdown to click the **Delete Entries** button.
 
 ![Bulk delete options](/images/manage-form-entries/how-to-view-and-manage-all-form-entries-in-wordpress-with-paymattic/Bulk-actions-for-delete-scaled.webp)
 
