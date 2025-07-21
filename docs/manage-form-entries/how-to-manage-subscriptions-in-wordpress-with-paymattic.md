@@ -5,19 +5,17 @@ category: "Manage Form Entries"
 
 # How to Manage Subscriptions in WordPress with Paymattic
 
-[Paymattic](https://paymattic.com/) allows you to manage subscription payments, including offline payments made through direct bank transfers. This guide focuses on managing subscription payments in Paymattic.
+With [Paymattic](https://paymattic.com/) you can easily manage your subscription with offline payments i.e., those form entries where users want to make payments Offline through direct bank transfer. This article will guide you through the process of managing subscriptions with offline payment in Paymattic.
 
-:::warning
-The [Subscription Payment](/how-to-add-susbcription-payment-item-fields-in-paymattic) feature requires [Paymattic Pro](/how-to-install-and-activate-paymattic-in-wordpress).
+:::warning Pro Feature
+Remember, as the [Subscription Payment](/how-to-add-susbcription-payment-item-fields-in-paymattic) field is a Pro Feature, you need the [Paymattic Pro](/how-to-install-and-activate-paymattic-in-wordpress) to manage anything related to Subscriptions.
 :::
 
-## Managing Subscription Payments
+## Managing Offline Payment Subscriptions
 
-### Access Subscription Details
+To manage subscriptions that have offline payments, follow the steps with the screenshots below – 
 
-1. Go to **Entries** from the **Paymattic Navbar**
-2. Find the subscription entry
-3. Click **View Details**
+First, go to **Entries** from the **Paymattic Navbar**, and open the desired entry by clicking the **View Details** button that has Offline payment transaction.
 
 :::tip
 For offline payments, you can manually update the payment status from **Pending** to **Paid** once you receive payment.
@@ -25,43 +23,37 @@ For offline payments, you can manually update the payment status from **Pending*
 
 ![Access subscription entry](/images/manage-form-entries/how-to-manage-subscriptions-in-wordpress-with-paymattic/1.-Open-desired-entry-scaled.webp)
 
-### View Billing Information
+Once you open the detailed entry page, scroll down to the **Related Payments** section where you can see the latest billing information. 
 
-Scroll to the **Related Payments** section to see:
-- Latest billing information
-- Individual billing records (e.g., monthly charges)
-- Subscription status for each billing cycle
+For example, if a user subscribed 3 months earlier and chooses a monthly billing plan, his billing details will appear here for every single month individually.
 
-Actions available:
-- Click **Actions** to change subscription status for individual bills
-- Use **Sync** to refresh subscription details
+To change the **Subscription Status** for individual bills, click the **Actions** button.
+
+:::tip
+​​Always press the Sync button to refresh all subscription details for this specific customer.
+:::
 
 ![Related payments section](/images/manage-form-entries/how-to-manage-subscriptions-in-wordpress-with-paymattic/2.-Related-Payments-scaled.webp)
 
-### Update Individual Bill Status
-
-1. Click **Actions**
-2. Select **Change Subscription Payment Status**
+Click the **Change Subscription Payment** Status button and a pop-up will appear.
 
 ![Change subscription status](/images/manage-form-entries/how-to-manage-subscriptions-in-wordpress-with-paymattic/3.-Change-Subscription-Payment-Status.webp)
 
-3. Choose the new status
-4. Add an optional note
-5. Click **Confirm**
+Now, select a new payment status that fits your needs and click the **Confirm** button.
+And, your **Subscriptions Status** will be changed!
+
+Also, if you want, you can add a **Note** for this specific bill during the status change.
 
 ![Edit payment status](/images/manage-form-entries/how-to-manage-subscriptions-in-wordpress-with-paymattic/4.-Edit-Payment-status-pop-up.webp)
 
-### Update Overall Entry Status
-
-To change the payment status for the entire subscription:
-
-1. Click **Change Payment Status** in the top right corner
+To change the Payment Status for the whole Entry, click the **Change Payment Status** button on the top right corner.
 
 ![Change overall payment status](/images/manage-form-entries/how-to-manage-subscriptions-in-wordpress-with-paymattic/5.-Change-Payment-Status-scaled.webp)
 
-2. Select the new status
-3. Add an optional note
-4. Click **Confirm**
+Now, select a new payment status that fits your needs and click the **Confirm** button.
+And, your Payment Status will be changed!
+
+Also, if you want, you can add a **Note** for this entry during the status change.
 
 ![Confirm status change](/images/manage-form-entries/how-to-manage-subscriptions-in-wordpress-with-paymattic/6.-Confirm-button.webp)
 
