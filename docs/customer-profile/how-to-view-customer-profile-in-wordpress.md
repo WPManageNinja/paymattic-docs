@@ -90,7 +90,7 @@ Once you click this button it will redirect you to the detail profile page where
 
 ![Detailed profile](/images/customer-profile/how-to-view-customer-profile-in-wordpress/9.-Detail-Page-of-one-Customer-Profile-scaled.webp)
 
-### 8.  Pagination 
+### 8. Pagination 
 
 With this option, you can set how many customers you want to display per page
 
