@@ -5,14 +5,14 @@ category: "Manage Form Entries"
 
 # How to Refund Payments in Paymattic
 
-Paymattic provides integrated refund management directly from your WordPress dashboard. This guide explains the available refund methods and how to use them.
+Paymattic offers a simple and integrated way to handle customer refunds directly from your WordPress dashboard. This guide will walk you through the process step-by-step, using screenshots from the plugin interface.
 
 ## Refund Methods
 
 Paymattic offers two ways to process refunds:
 
-1. **Change Payment Status**: Quick method for full refunds
-2. **Process Refund Button**: Advanced method for partial or subscription refunds
+1. **Change Payment Status (For Full Refunds):** This is the quickest way to process a full refund for a one-time or recurring payment. Also, for changing your payment status.
+2. **Process Refund Button (For Partial or Subscription Refunds):** This method provides more flexibility, allowing you to issue partial refunds or handle refunds for subscription-based payments.
 
 ![Refund options](/images/manage-form-entries/how-to-refund-payments-in-paymattic/Two-refund-options-in-payment-2-scaled.webp)
 
@@ -28,60 +28,49 @@ For other payment gateways:
 2. Use the "Change Payment Status" method to update Paymattic records
 :::
 
-## Full Refunds
+## Process a Full Refund
 
-Use this method to refund an entire transaction. For supported gateways, this automatically returns the full payment to the customer.
+Use this method when you need to return the entire amount of a single transaction. For supported gateways, this process will automatically send the full payment back to the customer.
 
-### Steps
+#### Step 1: Go to Form Entries 
+First, navigate to the form where the payment was made. From the form editor, click on the Entries tab.
 
-1. **Access Form Entries**
-   - Go to your form
-   - Click the **Entries** tab
-
-2. **Find Transaction**
-   - Locate the payment to refund
-   - Click its **ID** to view details
+#### Step 2: View the Transaction
+On the “Form Entries” page, find the transaction you wish to refund and click on ID to view details.
 
 ![Access form entries](/images/manage-form-entries/how-to-refund-payments-in-paymattic/entries-forms-1-scaled.webp)
 
-3. **Process Refund**
-   - Click **Change Payment Status**
-   - Select **Refunded** as the new status
-   - Add an optional note
-   - Click **Confirm**
+#### Step 3: Use the “Change Payment Status” Link
+
+In the single entry view, locate the **Change Payment Status** link next to the main payment details and click on it.
+
+In the “Edit payment status” popup, select **Refunded** as the “New Payment Status.” This action instructs Paymattic to process a full refund through the connected payment gateway. You can add an internal note for your records.
+
+Click the **Confirm** button to proceed.
 
 ![Process full refund](/images/manage-form-entries/how-to-refund-payments-in-paymattic/Single-payment-refund-option-3-scaled.webp)
 
-The status will update to confirm the refund:
+After processing, the payment status will automatically update to **refunded**, confirming the full amount has been returned.
 
 ![Refund confirmation](/images/manage-form-entries/how-to-refund-payments-in-paymattic/refunded-payment-4.webp)
 
-## Partial or Subscription Refunds
+## Process a Partial or Subscription Refund
 
-Use this method for:
-- Refunding a portion of a payment
-- Managing subscription refunds
-- More detailed refund options
+Use this method when you need more flexibility, such as refunding only a portion of a payment or managing refunds for recurring subscriptions. This method also only works for the supported gateways listed in the note above.
 
-### Steps
+#### Step 1 & 2: Navigate and View the Transaction
+Just like in the first method, navigate to **Entries** and click on ID to view details for the specific transaction.
 
-1. **Access Transaction**
-   - Go to **Entries**
-   - Click the transaction **ID**
-
-2. **Open Refund Options**
-   - Scroll to **Transaction Details**
-   - Click the **Refund** button
+#### Step 3: Use the “Refund” Button
+Scroll down to the **Transaction Details** section. Click on the **Refund** button located at the top right of this section. This will open the advanced refund options.
 
 ![Access refund options](/images/manage-form-entries/how-to-refund-payments-in-paymattic/subscription-payment-refund-5.webp)
 
-3. **Process Refund**
-   - Enter the refund amount
-   - Select a refund reason (optional)
-   - Click **Process Refund**
+#### Step 4: Specify the Refund Amount
+The **Refund** popup will appear. In the **Refund Amount** field, enter the specific partial amount you wish to return (e.g., $7). You can also process a full refund from here if needed.
+
+You may also select a **Reason of Refund** for your records. Once you have entered the desired amount, click the **Process Refund** button.
 
 ![Process partial refund](/images/manage-form-entries/how-to-refund-payments-in-paymattic/payment-refund-6-scaled.webp)
 
-The status will update to:
-- **Partially-Refunded**: For partial refunds
-- **Refunded**: For full refunds
+The transaction status will update to **Partially-Refunded** or **Refunded**, depending on the amount you chose to return.
