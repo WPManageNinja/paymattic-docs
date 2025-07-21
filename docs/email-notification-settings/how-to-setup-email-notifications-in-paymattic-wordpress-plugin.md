@@ -81,32 +81,49 @@ First, go to the **All Forms** from the **Paymattic Navbar** and click the **Pen
 
 ![Access form editor](/images/email-notification-settings/how-to-setup-email-notifications-in-paymattic-wordpress-plugin/EditPencil-icon-of-a-specific-form-scaled.webp)
 
+Once the **Editor** page opens, go to the **Entries** tab and click the **View Details** button of your desired entry where you want to send the notification manually.
+
+![View Details](/images/email-notification-settings/how-to-setup-email-notifications-in-paymattic-wordpress-plugin/View-details-of-specific-entry-scaled.webp)
+
+Once on the detail entry page, click the **Send Email Notification Manually** button, and a pop-up page will appear.
+
+![Send Email Notification](/images/email-notification-settings/how-to-setup-email-notifications-in-paymattic-wordpress-plugin/Send-email-notification-manually-button-scaled.webp)
+
+Now, select from the dropdown which **Email Notification** you want to send
+
+Plus, you can select where the email should be sent; **Default Recipient** or **Custom Recipient** email address. 
+
+Once you are done, click the **Send this notification** button, and your email notification will be sent for this specific submission entry. 
+
 ![Manual notification process](/images/email-notification-settings/how-to-setup-email-notifications-in-paymattic-wordpress-plugin/Send-notification-pop-up-page.webp)
 
-#### Advanced Settings
+### After Subscription Cancel
 
-Configure sender details and additional recipients:
+When this option is selected, the email will be sent immediately after the subscription has been canceled. 
 
-- **From Name**: Sender's display name
-- **From Email**: Sender's email address (supports shortcodes)
-- **CC/BCC**: Additional recipients (comma-separated)
+**H. Advanced Settings**
+
+Here, you can specify the sender name and email in the **From Name** and **From Email** fields respectively. Plus, you can add different dynamic data in the **From Email** by clicking **Shortcode** Icon.
+
+Also, you can add an email address in the **CC** or **BCC** if you want to send a copy of the email to another person. Use a **Comma** in between each email address to add more than one receiver.
+
+Finally, click on the **Update** button to save the changes.
 
 ![Advanced email settings](/images/email-notification-settings/how-to-setup-email-notifications-in-paymattic-wordpress-plugin/Advanced-Settings.webp)
 
-After setup, you can:
-- Enable/disable using the **Toggle** button
-- Edit using the **Pencil Icon**
-- Delete using the **Trash Icon**
+Here, you can see that the Customer Email Notification is added for sending notifications to customers based on the setup you made.
+
+You can **Disable**, **Edit**, and **Delete** this notification anytime if needed by clicking the **Toggle** button, **Edit/Pencil** Icon, and **Trash** Icon respectively.  
 
 ![Customer notification preview](/images/email-notification-settings/how-to-setup-email-notifications-in-paymattic-wordpress-plugin/Preview-of-added-customer-email-notification-scaled.webp)
 
-## Admin Notifications
+## Setup Admin Email Notifications
 
-Each form includes a pre-configured admin notification. To use it:
+In every form, when you go to the **Email** tab, you will see that an Admin **Email Notification** is already made for sending email notifications to the **Site Admin**.
 
-1. Go to the **Email** tab
-2. Enable the admin notification using the **Toggle** button
-3. Click the **Edit/Pencil Icon** to customize settings
+You can just simply enable this notification by clicking the **Toggle** button. 
+
+To set up this Admin Email Notification according to your requirements, click the **Edit/Pencil** Icon, and follow the same procedure shown above for the **Customer Email Notification**.
 
 :::warning
 Always use the `{wp:admin_email}` shortcode in the **Email To** field for admin notifications.
