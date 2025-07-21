@@ -65,16 +65,16 @@ Also, you can delete any conditions by clicking the **Trash** Icon anytime if ne
 
 Here you will get some pre-built conditions to send the email according to your wish. There are three available options:
 
-**After Form Submission**
+**After Form Submission:**
 When this option is selected, the email will be sent immediately after the form has been submitted.
 
-**On Payment Success**
+**On Payment Success:**
 If you want to send an email after the payment has been successfully submitted, then you can enable this option.
 
-**On Payment Failed**
+**On Payment Failed:**
 If you want to send an email after the payment process fails, then you can enable this option.
 
-**Manual Notification**
+**Manual Notification:**
 You can also send email notifications manually for a specific form’s entries according to your needs. Let’s have a look at how this works –
 
 First, go to the **All Forms** from the **Paymattic Navbar** and click the **Pencil/Edit** icon of your desired form where you already add the Email Notification.
