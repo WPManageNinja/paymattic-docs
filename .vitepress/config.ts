@@ -141,7 +141,8 @@ export default defineConfig({
           { text: 'Manage Subscriptions', link: '/how-to-manage-subscriptions-in-wordpress-with-paymattic' },
           { text: 'Cancel Subscription', link: '/manually-cancel-any-subscription' },
           { text: 'Refund Payments', link: '/how-to-refund-payments-in-paymattic' },
-          { text: 'Payment Hold', link: '/stripe-payment-hold-in-paymattic' }
+          { text: 'Payment Hold', link: '/stripe-payment-hold-in-paymattic' },
+          { text: 'Disable IP Address', link: '/how-to-disable-ip-address-in-paymnattic' }
         ]
       },
       {

@@ -140,3 +140,7 @@ vite.config.ts.timestamp-*
 *.php
 /split-docs
 docs/public/images/email-notification-settings/.DS_Store
+docs/public/images/.DS_Store
+docs/.DS_Store
+docs/public/.DS_Store
+.DS_Store

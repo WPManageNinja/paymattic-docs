@@ -5,7 +5,7 @@ category: "Manage Form Entries"
 
 How to Disable IP Address Logging in WordPress with Paymattic?
 
-[Paymattic](https://paymattic.com/) automatically collects user IP addresses during form submissions to support advanced analytics. This guide explains how to manage IP address logging in your forms.
+[Paymattic](https://paymattic.com/) offers to automatically collect the IP addresses of users when they submit a new form to help you perform advanced analytics. But you can disable this feature of collecting IP Addresses if needed. This article will guide you through how to disable IP Addresses from each form submission in Paymattic.
 
 ## Managing IP Address Logging
 
