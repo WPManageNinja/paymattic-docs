@@ -7,76 +7,71 @@ category: "Manage Form Entries"
 
 [Paymattic](https://paymattic.com/) supports [Stripe](http://stripe.com)'s payment hold feature, which allows you to temporarily reserve funds from a customer's payment method without immediately capturing them. This is useful when you need to verify order details or ensure product availability before finalizing a transaction.
 
-## Enable Payment Hold
+## Enable Place a Hold on a Payment
 
-### Prerequisites
-- A form with Stripe payment method configured
-- If you need to create a payment form, see our guide on [creating your first payment form](/how-to-create-your-first-payment-form-in-a-minute-and-accept-payments-with-paymattic)
+To learn how to enable Place a Hold on a Payment, follow the steps with the screenshots below – 
 
-### Steps
+First, go to the **All Forms** section from the **Pymattic Navbar**, and open a Payment Form by clicking the **Pencil** icon with the **Stripe** payment method added.
 
-1. Go to **All Forms** from the **Paymattic Navbar**
-2. Open your payment form with the **Pencil Icon**
+If you do not have any existing Payment form, read this [Documentation](/how-to-create-your-first-payment-form-in-a-minute-and-accept-payments-with-paymattic) to learn how to Create a Payment Form.
+
+For example, I choose an existing **Payment Form** to show the whole process.
 
 ![Access payment form](/images/manage-form-entries/stripe-payment-hold-in-paymattic/1.-Open-desired-form-scaled.webp)
 
-3. Click the **Settings Icon** on your [Stripe payment method](/how-to-configure-stripe-payment-gateway-in-wordpress-with-paymattic) field
+Once you open the Editor page, click on the Settings icon of the added [Stripe payment method](/how-to-configure-stripe-payment-gateway-in-wordpress-with-paymattic) field.
 
 ![Stripe settings](/images/manage-form-entries/stripe-payment-hold-in-paymattic/2.-Settings-Icon-of-Stripe-payment-method.webp)
 
-4. Enable **Place a hold on a payment**
-5. Click **Confirm** in the popup
-6. Click **Update** to save changes
+Now, click the **Toggle** button to enable the **Place a hold on a payment** option for Stripe.
 
 ![Enable payment hold](/images/manage-form-entries/stripe-payment-hold-in-paymattic/3.-Enable-Place-a-Hold-on-a-Payment-toggle.webp)
 
+Then, a confirmation message will appear, click on the **Confirm** button, and then the **Update** button.
+And, your **Place a Hold on a  Payment** option will be enabled!
+
 ![Confirm payment hold](/images/manage-form-entries/stripe-payment-hold-in-paymattic/4.-Confirm-button.webp)
 
-## Managing Held Payments
+## Capture the Hold Payment
 
-When payment hold is enabled, new submissions will show an **Authorized** payment status. You can then capture these payments when ready.
+Once the Hold Payment option for Stripe is enabled in a specific Payment Form, **Authorized** payment status will appear in the form entries after each form submission.
 
-### Capture a Held Payment
+To learn how to capture the hold payments through Stripe in a Payment form, follow the steps with the screenshots below – 
 
-1. Go to **Entries** from the **Paymattic Navbar**
-2. Find an entry with **Authorized** status
-3. Click **View Details**
+First, go to **Paymattic Dashboard** from the WordPress Left Sidebar, click the **Entries** section, and click the **View Details** button of the desired authorized form entry.
 
 ![View authorized payment](/images/manage-form-entries/stripe-payment-hold-in-paymattic/5.-Open-desired-entry-scaled.webp)
 
-4. Choose how to capture the payment:
-   - Click **Capture** to process through Paymattic
-   - Click **View on Stripe** to process through Stripe dashboard
+Now, you can capture the payment by clicking the **Capture** button. Also, if you want to capture the payment amount from the Stripe dashboard, click the **View on Stripe** button.
 
 :::warning Stripe Dashboard Capture
-To capture payments from the Stripe dashboard, you must add the 'charge.capture' webhook. See our [webhook configuration guide](/# 3-toc-title) for details.
+Remember, to capture the payment from **Stripe Dashboard** you have to add the **‘charge.capture‘** webhook. To know how to add this webhook you can follow this Documentation.
 :::
 
 ![Capture options](/images/manage-form-entries/stripe-payment-hold-in-paymattic/6.-Capture-button-scaled.webp)
 
-5. In the **Capture Payment** popup:
-   - Enter the amount to capture
-   - Click **Capture**
+After clicking on the **Capture** button a Capture Payment popup will come.
+Now input the amount you want to capture and click the **Capture** button. 
+
+For example, here I captured 5 dollars out of 10 dollars.
 
 Example: Capturing $5 from a $10 held payment:
 
 ![Capture amount](/images/manage-form-entries/stripe-payment-hold-in-paymattic/7.-Capture-amount-field.webp)
 
-### Update Payment Status
-
-After a partial capture, the status changes to **Partially Refunded**. You can update this:
-
-1. Click **Change Payment Status**
+In your Payment Form Entries, now you will see that Uncaptured Paymnet has been Partially Refunded.
+You can also change the **Partially Refunded** payment status by clicking the **Change Payment Status button**.
 
 ![Change status](/images/manage-form-entries/stripe-payment-hold-in-paymattic/8.-Change-Payment-Status-scaled.webp)
 
-2. Select the new status
-3. Add an optional note
-4. Click **Confirm**
+Now, select a new payment status that fits your needs and click the **Confirm** button.
+Also, if you want, you can add a **Note** for this entry during the status change.
 
 ![Edit payment status](/images/manage-form-entries/stripe-payment-hold-in-paymattic/9.-Edit-Payment-Status.webp)
 
-## View Payment History
+## Payment Refund Activity Details 
+
+You will find all payment activity details, including refunded payments, in the Submission Activity Events section of the single entry page.
 
 Find all payment activities, including refunds and captures, in the **Submission Activity Events** section of the entry details:
 
