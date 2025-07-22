@@ -11,8 +11,6 @@ category: "Getting Started with Paymattic"
 
 ## Installing and Activating Paymattic 
 
-To learn how to install and activate the **Free Version of Paymattic Plugin** directly from the WordPress Site, follow the steps with the screenshots below –
-
 First, go to the **Plugins**, open the **Add New Plugin** page from the **WordPress Dashboard**, search for **Paymattic** through the **Search Plugins** field, and the plugin will appear.
 
 Now, click the **Install** button and the **Paymattic** plugin will be successfully **installed** on your WordPress site.
@@ -57,7 +55,7 @@ The Paymattic Pro plugin will be successfully installed on your WordPress site!
 
 ![Upload and install Paymattic Pro plugin](/images/getting-started-with-paymattic/how-to-install-and-activate-paymattic-in-wordpress/Upload-plugin-choose-file-install-now-scaled.webp)
 
-Now, to activate, click on the **Activate Plugin**.
+Now, to activate, click on the **Activate Plugin** button.
 
 ::: warning Important
 You need the License key to successfully activate all the Premium Features and get the latest update of Paymattic. Keep reading to learn how to activate the license.

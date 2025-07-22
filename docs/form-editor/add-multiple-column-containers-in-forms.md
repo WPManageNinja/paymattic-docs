@@ -11,8 +11,6 @@ This article will guide you on how to add the **Multiple Column Container** to y
 
 ## Adding Multiple Column Containers
 
-To learn how to add the **Multiple Column Containers** in a Paymattic Form, follow the steps with the screenshots below –
-
 Open your **Desired Form** where you wish to add the **Multiple Column Containers** feature.
 
 If you do not have any existing forms, read [Create a Form from Scratch](/how-to-create-a-form-from-scratch-with-paymattic) or [Create a Form using Templates](/simple-form-templates) documentation.
@@ -114,4 +112,4 @@ Here is the **preview** of the **Multiple Column Container** fields in a **Form*
 ![](/images/form-editor/add-multiple-column-containers-in-forms/Preview-of-Multiple-Column-Container.webp)
 
 This way you can easily add the **Multiple Column Container** field in Paymattic Forms!
-If you have any further questions, concerns, or suggestions, please do not hesitate to contact our [@support team](https://wpmanageninja.com/support-tickets/). Thank you.
+If you have any further questions, concerns, or suggestions, please do not hesitate to contact our [support team](https://wpmanageninja.com/support-tickets/). Thank you.
