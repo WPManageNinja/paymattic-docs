@@ -9,7 +9,6 @@ The Report section of [Paymattic](https://paymattic.com/) will provide a quick r
 
 ## View Reports and Payment Analytics
 
-To learn how to view the Reports and Payment analytics in Paymattic, follow the steps with the screenshots below – 
 
 First, go to **Paymattic Dashboard** from the WordPress Left Sidebar, click the **Reports** section, and all the features will appear to help you view your overall Reports.
 
@@ -18,14 +17,23 @@ First, go to **Paymattic Dashboard** from the WordPress Left Sidebar, click the 
 All the features for viewing the overall report of entire Paymattic activities are organized into nine major sections: These are: 
 
 1. Reports Overview
+
 2. Revenue for Period
+
 3. Payment Methods
+
 4. Recent Transactions
+
 5. Payment Status
+
 6. Top Customers
+
 7. Revenue Breakdown
+
 8. Form Status
+
 9. Active Subscriptions
+
 
 **All the available Sections including their Features are explained below:**
 
@@ -64,6 +72,7 @@ To view the complete pending details of each form entry, click the **Total Pendi
 >It will redirect you to the “Entries” section from the Paymattic Navbar and open all the entries under the “Pending” entry status. For details, please refer to this [Documentation](/how-to-view-and-manage-all-form-entries-in-wordpress-with-paymattic). 
 
 #### C. Total Customer
+
 The Total Customers tab displays the total number of all the customers and their submission details.
 
 To view the complete details of each customer, click the **Total Customer** button. It will redirect you to the customer detail page.

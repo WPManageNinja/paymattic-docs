@@ -11,7 +11,6 @@ This article will guide you through using all the features of the Customers sect
 
 ## Access Customer Profiles
 
-To learn how to view the Customers section in Paymattic, follow the steps with the screenshots below – 
 
 First, go to **Paymattic Dashboard** from the **WordPress Left Sidebar**, click the **Customers** section, and all the features will appear to help you view your overall customer profiles.
 
@@ -21,14 +20,21 @@ First, go to **Paymattic Dashboard** from the **WordPress Left Sidebar**, click 
 
 **All the features mentioned above for viewing the profiles of entire customers who submitted Paymattic forms are explained below:**
 
-Date Filter
-Search Bar
-Name
-Submissions
-First Submission
-Created At
-View Detail
-Pagination
+1. Date Filter
+
+2. Search Bar
+
+3. Name
+
+4. Submissions
+
+5. First Submission
+
+6. Created At
+
+7. View Detail
+
+8. Pagination
 
 ### 1. Date Filter
 
@@ -75,7 +81,7 @@ This button helps you to see each customer profile in detail.
 
 ![Access details](/images/customer-profile/how-to-view-customer-profile-in-wordpress/8.-View-Detail-scaled.webp)
 
-Once you click this button it will redirect you to the detail profile page where you will see the entire detail organized in five major sections. These are
+Once you click this button it will redirect you to the detail profile page where you will see the entire detail organized in five major sections. These are:
 
 * **Subscriptions:** Here you will see all the Subscription-related details. Such as subscription item details, submission date, and submission status. Plus, you can visit each submission entry by clicking the view entry button. To learn more about single submission entries, [Click Here](/how-to-view-single-submission-data-and-manage-payments-in-paymattic).
 
