@@ -20,12 +20,19 @@ First, go to **Paymattic Dashboard** from the WordPress Left Sidebar, click the 
 The single entry view provides comprehensive information and management options. All the features for viewing the entire activities of this specific form entry are organized into nine major options: These are: 
 
 A. Change Payment Status
+
 B. Entry Actions
+
 C. Form Entry Data
+
 D. Payment Items
+
 E. Transaction Details
+
 F. Submission Activity Events
+
 G. FluentCRM Profile
+
 H. Meta Info
 
 ![Entry details overview](/images/manage-form-entries/how-to-view-single-submission-data-and-manage-payments-in-paymattic/2.-Entire-detail-of-an-entry-scaled.webp)

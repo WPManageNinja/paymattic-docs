@@ -17,15 +17,24 @@ First, go to **Paymattic Dashboard** from the WordPress Left Sidebar, click the 
 All the features for viewing all form entries of entire Paymattic activities are organized into nine major options: These are: 
 
 A. Payment Status Filter
+
 B. Subscription Filter
+
 C. Forms Filter
+
 D. Search Bar
+
 E. Date Filter
+
 F. Entry Status Filter 
+
 G. View Details
+
 H. Delete
 
 ![Entry management features](/images/manage-form-entries/how-to-view-and-manage-all-form-entries-in-wordpress-with-paymattic/All-features-to-view-entries-scaled.webp)
+
+
 
 **All the available options mentioned above to view form entries are explained below:**
 
