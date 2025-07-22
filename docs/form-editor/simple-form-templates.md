@@ -9,7 +9,6 @@ category: "Form Editor"
 
 ## Creating a Form with Templates
 
-To learn how to create a form with pre-built templates in Paymattic, follow the steps with the screenshots below –
 
 First, go to **Paymattic Dashboard** from the **WordPress Left Sidebar**, click the **Create Form** and you will get three options to create forms. These are:
 

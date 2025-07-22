@@ -9,8 +9,6 @@ category: "Form Editor"
 
 ## Conditional Logic In A Form
 
-To learn how to use conditional logic in a specific form, follow the steps with the screenshots below –
-
 First, go to the **All Forms** section from the **Pymattic Navbar**, choose a **Form**, and click the **Pencil/Edit** icon to open the **Editor** page of that form.
 
 ::: tip

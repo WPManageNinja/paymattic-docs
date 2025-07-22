@@ -9,9 +9,7 @@ This article will guide you through the process of how you can easily **Create a
 
 ## Creating a Form from Scratch
 
-To learn how to create a form from scratch with Paymattic, follow the steps with the screenshots below –
-
-First, go to the **Paymattic Dashboard** from the **WordPress Left Sidebar** and click the **Create Form** section. Then, you will get three options to create forms. These are:
+Go to the **Paymattic Dashboard** from the **WordPress Left Sidebar** and click the **Create Form** section. Then, you will get three options to create forms. These are:
 
 - **Blank Form**: This option allows you to create fresh forms from scratch.
 - **Choose Templates**: Here, you can use pre-built templates to create forms to avoid the hassle of making them from scratch.

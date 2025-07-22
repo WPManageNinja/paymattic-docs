@@ -9,7 +9,6 @@ This article will guide you through the process of how you can easily Edit, Dupl
 
 ## How to Edit the Form
 
-To learn how to Edit your forms, follow the steps with screenshots below –
 
 First, go to the **Paymattic Dashboard** from the **WordPress Left Sidebar** and click **All Forms**. And, all your existing Forms will appear on this page.
 

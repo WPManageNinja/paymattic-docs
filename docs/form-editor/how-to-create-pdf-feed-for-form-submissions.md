@@ -9,7 +9,7 @@ category: "Form Editor"
 
 ## Install and Activate PDF Feed
 
-To Activate the PDF Feed in Paymattic you need to Install &amp; Activate the Fluent PDF add-on To learn how to install and activate Fluent PDF, follow the steps accordingly –
+To Activate the PDF Feed in Paymattic you need to Install & Activate the Fluent PDF add-on. 
 
 First, go to **Settings** from the **Paymattic Navbar**, open the **PDF Settings** tab from the left sidebar, and click the **Install &amp; Activate** **Fluent PDF** button.
 
@@ -91,8 +91,6 @@ From here you will get the **Download** option for your PDF Feed to see the prev
 ![](/images/form-editor/how-to-create-pdf-feed-for-form-submissions/Pdf-download-option-scaled.webp)
 
 ## Add PDF Feed into Admin/User Email
-
-To learn how to add PDF Feed into Admin/User Email for a specific Paymattic Form, follow the steps with the screenshots below –
 
 To send the previously added PDF Feed through Emails to the **Admin** or the **User**, go to the **Email** section of the chosen form and click on the **Pencil Icon** button.
 
