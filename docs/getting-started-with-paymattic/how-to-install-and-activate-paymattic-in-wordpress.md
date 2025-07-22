@@ -25,7 +25,7 @@ Finally, to activate the Paymattic plugin, click on the **Activate** button.
 
 ## Installing & Activating Paymattic Pro 
 
-Before starting to install and activate the Paymattic Pro version, you must have the .zip file of the Paymattic Pro Plugin.
+Before starting to install and activate the Paymattic Pro version, you must have the **.zip** file of the Paymattic Pro Plugin.
 
 ### Get the Zip File of Paymattic Pro 
 
@@ -67,8 +67,6 @@ You need the License key to successfully activate all the Premium Features and g
 
 ### Activate the License Key
 
-To activate all the Pro features of Paymattic with the license key, follow the steps with the screenshots below —
-
 First, go to **Settings** from your **Paymattic Dashboard**, open **Licensing** from the left sidebar, and enter the License Key you've copied before into the input field.
 
 And finally, click the **Activate Paymattic Pro** button. Your Paymattic Pro plugin will also be successfully Activated on your WordPress site!
@@ -78,8 +76,6 @@ And finally, click the **Activate Paymattic Pro** button. Your Paymattic Pro plu
 ## How to Update Paymattic
 
 For updating with the latest version of Paymattic, we have implemented an automatic update system compatible with the previous version. Also, you can manually update it anytime if needed.
-
-To Update the Paymattic plugin manually, follow the steps in the screenshot below —
 
 Go to the **Installed Plugins** page of your **WordPress Dashboard** and search for **Paymattic** from the Search Bar in the top right corner.
 
