@@ -5,9 +5,8 @@ category: "FAQ"
 
 # How to Fix Not Sending Email Confirmations Issue in WordPress?
 
-:::warning Common Issue
-Email delivery issues are often not related to Paymattic itself but rather to WordPress or server configuration. This guide will help you identify and fix the root cause.
-:::
+We often face queries that Paymattic is not sending email confirmations to admin. However, the issue is not related to Paymattic and it’s very simple to fix the WordPress email not sending issue. Several factors can contribute to email deliverability issues. Follow the article carefully to solve email delivery issues with Paymattic notification emails.
+
 
 This guide covers the most common solutions for email confirmation issues in Paymattic:
 
@@ -22,10 +21,11 @@ First, ensure you've properly configured the **Email Notification Feed** in Paym
 
 1. Go to **All Forms** in the Paymattic navigation
 2. Click the **Pencil/Edit** icon for your form
-3. Select the **Email** tab
-4. Verify your notification feeds are enabled (green toggle)
 
 ![EditPencil icon](/images/faq/how-to-fix-not-sending-email-confirmations-issue-in-wordpress-with-paymattic/EditPencil-icon-of-a-specific-form-2-scaled.webp)
+
+3. Select the **Email** tab
+4. Verify your notification feeds are enabled (green toggle)
 
 ![Email notification feed](/images/faq/how-to-fix-not-sending-email-confirmations-issue-in-wordpress-with-paymattic/enabled-email-notification-feed-scaled.webp)
 
@@ -36,8 +36,8 @@ For detailed setup instructions, see our [Email Notifications guide](../email-no
 ## 2. Check Submission Activity Logs
 
 ### Successful Delivery
-1. Go to form **Entries**
-2. Select an entry
+1. Go to **Entries** of the particular form
+2. Select an **entry** to check the submission activity log
 3. Look for "**Email Notification broadcasted to**" message
    - This confirms Paymattic successfully triggered the email
 
@@ -50,7 +50,7 @@ If the email failed to send, you'll see an error message:
 
 ## 3. Test Server Email Functionality
 
-If you see "**unable to send email error in API log**", test your server's email capability:
+If there is any issue with your server configuration it will show you the message “**unable to send email error in API log**,” and to fix the issue you should test the email sending function on your server. 
 
 1. Install and activate the **Check & Log Email** plugin
 2. Go to **Check & Log Email** in WordPress dashboard
