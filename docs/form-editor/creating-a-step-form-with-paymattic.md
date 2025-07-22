@@ -9,8 +9,6 @@ In [Paymattic](https://paymattic.com/), you can easily create **Step Forms** i.e
 
 ## Creating a Step Form
 
-To learn how to create Step Forms with Paymattic, follow the steps with the screenshots below –
-
 First, go to the **All Forms** section from the **Paymattic Navbar**, choose a **Form**, and click the **Pencil/Edit** icon to open the **Editor** page of that form.
 
 ::: tip
