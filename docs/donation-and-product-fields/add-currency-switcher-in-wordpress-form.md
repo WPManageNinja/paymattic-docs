@@ -14,7 +14,6 @@ In [Paymattic](https://paymattic.com/), the Currency Switcher feature enables do
 
 ## Adding Currency Switcher Field
 
-To learn how to add the **Currency Switcher** to the Paymattic Form on your WordPress site, follow the steps with the screenshots below –  
 
 First, go to the **All Forms** section from the **Paymattic Navbar,** choose a **Donation Form,** and click the **Pencil/Edit** icon to open the **Editor** page of that form.
 
@@ -58,7 +57,6 @@ Now, a pop-up page will appear with various settings options for customizing the
 
 ### General Settings 
 
-All the Settings under the General Tab mentioned in the below screenshot are briefly explained:
 
 - **Required**: Enable this option to make this field mandatory for users to fill in for a successful submission. 
 
@@ -76,7 +74,7 @@ Once you finish, click the **Update** button to save all your configuration.
 
 #### API Key Configuration in Paymattic's General Settings
 
-To make the currency switcher field functional, you must configure your Currency API Key in the General Settings of Paymattic. To learn the process, follow the steps below – 
+To make the currency switcher field functional, you must configure your Currency API Key in the **General Settings** of Paymattic. 
 
 ##### Get the API Key from Currency API
 

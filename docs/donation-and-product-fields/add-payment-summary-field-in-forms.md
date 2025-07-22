@@ -10,7 +10,6 @@ This article will guide you on how to embed the **Payment Summary** field to the
 
 ## Adding Payment Summary Field
 
-To learn how to add the **Payment Summary** field to the Paymattic Form on your WordPress site, follow the steps with the screenshots below –  
 
 First, go to the **All Forms** section from the **Paymattic Navbar,** choose a **Form,** and click the **Pencil/Edit** icon to open the **Editor** page of that form.
 
@@ -54,7 +53,6 @@ Now, a pop-up page will appear with various settings options for customizing the
 
 ### General Settings 
 
-All the Settings under the General Tab mentioned in the below screenshot are briefly explained:
 
 - **Default Error Message**: Generally, if your form doesn't have any **Payment Item** field, the **Payment Summary** field will not work and an error message will be displayed to your users. In this case, you can set what you want to show in your error message by default.
 
@@ -96,4 +94,4 @@ Here is the preview of the **Payment Summary** field in a Form.
 ![Preview of Payment Summary](/images/donation-and-product-fields/add-payment-summary-field-in-forms/8.-Preview-of-Payment-Summary.webp)
 
 This way you can easily add the **Payment Summary** field in Paymattic Forms!
-If you have any further questions, concerns, or suggestions, please do not hesitate to contact our [@support team](https://wpmanageninja.com/support-tickets/). Thank you.
+If you have any further questions, concerns, or suggestions, please do not hesitate to contact our [support team](https://wpmanageninja.com/support-tickets/). Thank you.

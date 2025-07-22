@@ -13,7 +13,6 @@ In [Paymattic](https://paymattic.com/), the **Subscription Payment** field allow
 
 ## Adding Subscription Payment Field
 
-To learn how to add the Subscription Payment to the Paymattic Form on your WordPress site, follow the steps with the screenshots below –
 
 First, go to the **All Forms** section from the **Paymattic Navbar,** choose a **Form,** and click the **Pencil/Edit** icon to open the **Editor** page of that form.
 

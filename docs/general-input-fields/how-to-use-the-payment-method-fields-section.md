@@ -13,7 +13,6 @@ You must have the Paymattic Pro plugin to get access to **All Payment Method Fie
 
 ## Payment Method Fields Section
 
-To learn how you can find the Payment Method Fields section, follow the steps with the screenshots below –
 
 First, go to the **All Forms** section from the **Paymattic Navbar**, choose a **Form**, and click the **Pencil/Edit** icon to open the **Editor** page of that form.
 
@@ -73,17 +72,15 @@ Once you click the **Settings Icon**, two settings options will appear. These ar
 
 Under the General settings tab, you will get the following settings options:
 
-1. Select Payment Method
-2. Payment Method Settings
-3. Default Payment Method
-4. Enable Image
+A. Select Payment Method
+B. Payment Method Settings
+C. Default Payment Method
+D. Enable Image
 
 Once you set up all the settings, click the **Update** button to save all the customizations.
 
 ![General Settings](/images/general-input-fields/how-to-use-the-payment-method-fields-section/General-Settings-of-Stripe.webp)
 
-
-All the General Settings mentioned above are explained below:
 
 #### A. Select Payment Method
 
@@ -111,6 +108,7 @@ Enable this **Toggle** button to show the Payment Method Platforms' official log
 ### Advanced Settings
 
 Once you complete the General settings, go to the **Advanced** tab, and you will find the advanced settings for your chosen field.
+
 - **Admin Label**: This label is used for the admin who wants to see the field's label from the back end.
 - **Field Wrapper CSS Class**: This is used for adding a Custom CSS/JS for an entire field of a specific form using the Field Wrapper CSS Class element. To learn more, click [here](/form-settings/how-to-create-custom-css-js-in-wordpress-with-paymattic).
 - **Field ID**: This option is used for adding or tracking form fields. Plus, creating the custom CSS/JS for a specific form field.

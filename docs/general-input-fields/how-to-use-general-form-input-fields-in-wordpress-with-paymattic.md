@@ -15,7 +15,6 @@ Only the **File Upload** and **Mask Input** fields require the Paymattic Pro plu
 
 ## Getting General Fields Section
 
-To learn how you can find the General Fields section, follow the steps with the screenshots below –
 
 First, go to the **All Forms** section from the **Paymattic Navbar**, choose a **Form**, and click the **Pencil/Edit** icon to open the **Editor** page of that form.
 

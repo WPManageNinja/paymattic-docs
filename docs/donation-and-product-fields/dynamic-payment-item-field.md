@@ -14,7 +14,6 @@ Remember, **Dynamic Payment Item** is a premium feature and you need the [Paymat
 
 ## Adding Dynamic Payment Item Field 
 
-To learn how to add the **Dynamic Payment Item** field to the **Paymattic Form** on your **WordPress Site**, follow the steps below –  
 
 First, go to the **All Forms** section from the **Paymattic Navbar,** choose a **Form,** and click the **Pencil/Edit** icon to open the **Editor** page of that form.
 
@@ -44,7 +43,6 @@ Also, don't forget to add a product field (e.g., [Payment Item](/donation-and-pr
 
 Now, to make the added **Dynamic Payment Item** field functional for the desired calculation, you need to set up the **Calculation Expression** in the **Settings**.
 
-**To learn how to set up the Dynamic Payment Item's Settings, follow the steps below –**
 
 To add the **Calculation Expression** in the **Dynamic Payment Item** field according to your needs, click the **Settings Icon** from the right-side corner.
 
@@ -134,4 +132,5 @@ To learn more details about the use case of all available mathematical Operators
 | min | Use case: min(10, 15) = 10 |
 
 This way you can easily add the **Dynamic Payment Item** fields in Paymattic Forms!
+
 If you have any further questions, concerns, or suggestions, please do not hesitate to contact our [@support team](https://wpmanageninja.com/support-tickets/). Thank you.

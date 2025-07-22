@@ -13,7 +13,6 @@ Some fields require the Paymattic Pro plugin. Look for the star icon (⭐) in th
 
 ## Getting Product Fields Section
 
-To learn how you can find the Product Fields section, follow the steps with the screenshots below –
 
 First, go to the **All Forms** section from the **Paymattic Navbar**, choose a **Form**, and click the **Pencil/Edit** icon to open the **Editor** page of that form.
 

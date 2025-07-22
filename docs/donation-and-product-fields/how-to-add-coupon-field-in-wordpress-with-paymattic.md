@@ -12,7 +12,6 @@ The **Coupon** field is a premium feature. You'll need the [Paymattic Pro Plugin
 
 ## Creating Coupons
 
-Follow these steps to create a new coupon in Paymattic:
 
 ### Step 1: Access Coupon Settings
 
