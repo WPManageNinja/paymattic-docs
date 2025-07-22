@@ -13,7 +13,6 @@ LearnDash integration is a Premium Feature of the Paymattic Plugin. You need Pay
 
 ## Enable LearnDash Integration
 
-To learn how to enable LearnDash integration, follow the steps with screenshots below – 
 
 First, go to **Integrations** from the **Paymattic Navbar** and search for **LearDash** through the search bar. You will get the **LearnDash** integration module.
 
@@ -31,7 +30,6 @@ Click the **Toggle** button and your LearnDash integration module will be enable
 
 ## Integrate LearnDash into Forms
 
-To learn how to integrate LearnDash into any specific Form in Paymattic, follow the steps with the screenshots below –
 
 First, go to **All Forms** from the **Paymattic Navbar**, select the **Desired Form** where you want to integrate LearnDash, and click the **Pencil/Editor** Icon. 
 
@@ -56,8 +54,7 @@ Remove user if refunded or subscription canceled: Enable this option to remove t
 - **Enable Feed**: Activate/deactivate the integration
 * **Enable This Feed:** Check this option, to ensure this integration feed remains enabled, and all the actions of this feed function properly.
 
-Once the setup is done, finally, click the Create LearnDash Feed button.
-And, your Fluent Support will be integrated into this specific form!
+Once the setup is done, finally, click the Create LearnDash Feed button. And, your Fluent Support will be integrated into this specific form!
 
 ![LearnDash integration settings](/images/lms-integrations/how-to-integrate-learndash-in-wordpress-with-paymattic/Add-New-LearnDash-Integration-Feed-page.webp)
 

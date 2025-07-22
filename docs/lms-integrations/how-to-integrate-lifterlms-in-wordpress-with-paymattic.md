@@ -13,7 +13,6 @@ LifterLMS integration is a Premium Feature of the Paymattic Plugin. You need Pay
 
 ## Enable LifterLMS Integration
 
-To learn how to enable LifterLMS integration, follow the steps with screenshots below – 
 
 First, go to **Integrations** from the **Paymattic Navbar**, search for **LifterLms** through the search bar, and you will get the LifterLMS integration module.
 
@@ -31,7 +30,6 @@ Click the **Toggle** button and your LifterLMS integration module will be enable
 
 ## Integrate LifterLMS into Forms
 
-To learn how to integrate LifterLMS into any specific Form in Paymattic, follow the steps with the screenshots below –
 
 First, go to **All Forms** from the **Paymattic Navbar**, select the Desired Form where you want to integrate LifterLMS, and click the **Pencil/Editor** Icon. 
 
@@ -43,7 +41,7 @@ Once the **Editor** page opens, go to the **Integrations** tab, click the **Add 
 
 Now, a pop-up page will appear with various settings options for configuring the LifterLMS.
 
-All the settings options mentioned in the screenshot below are briefly explained:
+**All the settings options mentioned in the screenshot below are briefly explained:**
 
 * **Feed Name:** Here, you can set a name according to your preference for your feed. This field is required to be filled in.
 * **LifterLMS Course:** Here, you can select the **LifterLMS Course** from the dropdown where you want to send the submitted form data.
@@ -55,8 +53,7 @@ Remove user if refunded or subscription canceled: Enable this option to remove t
 * **Conditional Logics:** This option allows LifterLMS integration to function conditionally based on your submission values according to your set conditional logic/s. Also, here,  you can add as much conditional logic as you need by clicking the **+ Add More** button and delete any logic by clicking the **Trash** Icon if needed. To learn more, read this [Documentation](/how-to-use-conditional-logic-in-form-fields-with-paymattic).
 * **Enable This Feed:** Check this option, to ensure this integration feed remains enabled, and all the actions of this feed function properly.
 
-Once the setup is done, finally, click the **Create LifterLMS Feed** button.
-And, your Fluent Support will be integrated into this specific form!
+Once the setup is done, finally, click the **Create LifterLMS Feed** button. And, your Fluent Support will be integrated into this specific form!
 
 ![LifterLMS integration settings](/images/lms-integrations/how-to-integrate-lifterlms-in-wordpress-with-paymattic/Add-New-LifterLMS-Integration-Feed-page.webp)
 

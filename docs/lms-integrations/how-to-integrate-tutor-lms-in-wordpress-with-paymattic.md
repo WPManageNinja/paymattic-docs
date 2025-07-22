@@ -13,7 +13,6 @@ Tutor LMS integration is a Premium Feature of the Paymattic Plugin. You need Pay
 
 ## Enable TutorLMS Integration
 
-To learn how to enable TutorLMS integration, follow the steps with screenshots below – 
 
 First, go to **Integrations** from the **Paymattic Navbar**, search for **Fluent Support** through the search bar, and you will get the TutorLMS integration module.
 
@@ -31,7 +30,6 @@ Click the **Toggle** button and your TutorLMS integration module will be enabled
 
 ## Integrate TutorLMS into Forms
 
-To learn how to integrate TutorLMS into any specific Form in Paymattic, follow the steps with the screenshots below –
 
 First, go to **All Forms** from the **Paymattic Navbar**, select the Desired Form where you want to integrate TutorLMS, and click the **Pencil/Editor** icon. 
 
@@ -43,7 +41,7 @@ Once the **Editor** page opens, go to the **Integrations** tab, click the **Add 
 
 Now, a pop-up page will appear with various settings options for configuring the TutorLMS.
 
-All the settings options mentioned in the screenshot below are briefly explained:
+**All the settings options mentioned in the screenshot below are briefly explained:**
 
 * **Feed Name:** Here, you can set a name according to your preference for your feed. This field is required to be filled in.
 * **TutorLMS Course:** Here, you can select the **TutorLMS Course** from the dropdown where you want to send the submitted form data.
@@ -55,8 +53,7 @@ Send default WordPress Welcome Email for new WordPress Users: Here you will also
 * **Conditional Logics:** This option allows TutorLMS integration to function conditionally based on your submission values according to your set conditional logic/s. Also, here, you can add as much conditional logic as you need by clicking the **+ Add More** button and delete any logic by clicking the **Trash** Icon if needed. To learn more, read this [conditional logic guide](/how-to-use-conditional-logic-in-form-fields-with-paymattic).
 * **Enable This Feed:** Check this option, to ensure this integration feed remains enabled, and all the actions of this feed function properly.
 
-Once the setup is done, finally, click the Create TutorLMS Feed button.
-And, your Fluent Support will be integrated into this specific form!
+Once the setup is done, finally, click the Create TutorLMS Feed button. And, your Fluent Support will be integrated into this specific form!
 
 ![Tutor LMS integration settings](/images/lms-integrations/how-to-integrate-tutor-lms-in-wordpress-with-paymattic/Add-New-TutorLMS-Integrartion-Feed-page.webp)
 
