@@ -5,6 +5,9 @@ category: "FAQ"
 
 # Date Formats Customization
 
+The Date Format Customizer in Paymattic allows you to control how dates are displayed in your forms, reports, emails, and receipts.
+
+
 :::tip Overview
 This guide explains how to customize date and time formats in Paymattic's [Date & Time fields](../general-input-fields/how-to-use-general-form-input-fields-in-wordpress-with-paymattic#_10-date-amp-time-field). Paymattic uses [flatpickr](https://flatpickr.js.org/) for powerful date/time handling.
 :::
@@ -63,7 +66,7 @@ This guide explains how to customize date and time formats in Paymattic's [Date 
 
 ## Advanced Configuration
 
-Access advanced settings through the field's configuration panel:
+Paymattic Date and Time field use [flatpickr](https://flatpickr.js.org/) JS library; for advanced users, you can provide the config object in the field’s advanced settings.
 
 ![Advanced settings](/images/faq/date-formats-customization/Advance-Date-Configuration.webp)
 
