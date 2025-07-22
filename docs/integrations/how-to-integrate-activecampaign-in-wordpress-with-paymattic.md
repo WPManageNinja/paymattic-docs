@@ -13,7 +13,6 @@ ActiveCampaign integration is a Premium Feature of the Paymattic Plugin. You nee
 
 ## Enable ActiveCampaign Integration 
 
-To learn how to enable ActiveCampaign integration, follow the steps with the screenshots below – 
 
 First, go to **Integrations** from the **Paymattic Navbar**, search for **ActiveCampaign** through the search bar, and you will get the **ActiveCampaign** integration module.
 
@@ -29,7 +28,6 @@ Once you enable ActiveCampaign, you will be asked for the **ActiveCampaign API U
 
 ### Get the ActiveCampaign API URL and API Key
 
-To learn how to get the  ActiveCampaign API URL and ActiveCampaign API Key from ActiveCampaign, follow the steps with screenshots below –
 
 First, log in to your [ActiveCampaign Account](https://www.activecampaign.com/) and go to **Settings** from the left sidebar.
 
@@ -49,7 +47,6 @@ Finally, press the **Save Settings** button and your ActiveCampaign Integration 
 
 ## Integrate ActiveCampaign into Forms
 
-To learn how to integrate ActiveCampaign into any specific Form in Paymattic, follow the steps with the screenshots below –
 
 First, go to **All Forms** from the **Paymattic Navbar**, select the **Desired Form** where you want to integrate your **ActiveCampaign**, and click the **Pencil/Editor** Icon. 
 
@@ -67,7 +64,7 @@ Also, you must select the **ActiveCampaign List** from the dropdown where you wa
 
 Once you select the list, a pop-up page will appear with various settings options for configuring the ActiveCampaign.
 
-All the settings options mentioned in the screenshot below are briefly explained:
+**All the settings options mentioned in the screenshot below are briefly explained:**
 
 * **Name:** From here, you can change the name anytime if needed.
 * **ActiveCampaign List:** From here, you can change the ActiveCampaign List anytime if needed.

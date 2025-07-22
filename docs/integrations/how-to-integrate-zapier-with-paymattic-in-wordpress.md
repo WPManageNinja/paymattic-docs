@@ -9,7 +9,6 @@ category: "Integrations"
 
 ## Enable Zapier Integration 
 
-To learn how to enable Zapier integration, follow the steps with screenshots below –
 
 First, go to **Integrations** from the **Paymattic Navbar**, search for **Zapier** through the search bar, and you will get the **Zapier** integration module.
 
@@ -23,7 +22,6 @@ Click the **Toggle** button and your **Zapier** integration module will be enabl
 
 ## Integrate Zapier into Forms
 
-To learn how to integrate Zapier into any specific Form in Paymattic, follow the steps with the screenshots below –
 
 First, go to **All Forms** from the **Paymattic Navbar**, **select** the **Desired Form** where you want to integrate **Zapier,** and click the **Pencil/Editor Icon.**
 
@@ -43,6 +41,7 @@ And, your Zapier will be integrated into this specific form!
 
 
 **All the settings options mentioned above are briefly explained below:**
+
 ### Feed Name
 
 Here, you can set a name according to your preference for your feed. This field is required to be filled in.

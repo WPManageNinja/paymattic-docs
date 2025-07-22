@@ -12,7 +12,6 @@ Google Sheets is the Premium Feature of the Paymattic Plugin. So, you need Payma
 
 ## Enable Google Sheets Integration
 
-To learn how to enable Google Sheets integration, follow the steps with screenshots below –
 
 First, go to **Integrations** from the **Paymattic Navbar**, search for the **Google Sheet** through the search bar, and you will get the **Google Sheets** integration module.
 
@@ -31,7 +30,6 @@ Once you enable Google Sheets, you will be asked for the **Access Code** from yo
 
 ### Get the Access Code from Google
 
-To learn how to get the Access Code from Google, follow the steps with screenshots below –
 
 To get the Access Code from Google, [click here](https://accounts.google.com/o/oauth2/auth?access_type=offline&approval_prompt=force&client_id=157785030834-7bkpc1olhgp9kd683c78dclei5elhoku.apps.googleusercontent.com&redirect_uri=https%3A%2F%2Ffluentforms.com%2Fgapi%2F&response_type=code&scope=https%3A%2F%2Fspreadsheets.google.com%2Ffeeds%2F), and select the Google Account under which your desired **Google Sheet** exists.
 
@@ -54,7 +52,6 @@ Paste the **access code** you copied from Google into the **Access Code** field 
 
 ## Integrate Google Sheets into Form
 
-To learn how to integrate Google Sheets into any specific Form in Paymattic, follow the steps with the screenshots below –
 
 First, go to **All Forms** from the **Paymattic Navbar**, **select** the **Desired Form** where you want to integrate the Google Sheets, and click the **Pencil/Editor Icon.**
 
@@ -90,7 +87,6 @@ Here, you need to provide the Spreadsheet ID and Worksheet Name of your Google S
 
 #### Get the Spreadsheet ID and Worksheet Name from Google
 
-To learn how to get the **Spreadsheet ID** and **Worksheet Name** from Google, follow the steps with screenshots below –
 
 First, open your Google Sheet where you want to receive the entries of your form.
 
@@ -153,6 +149,7 @@ Here, you can see the preview of the selected Google Sheet including the Form en
 ![](/images/integrations/integrate-google-sheets-in-wordpress-with-paymattic/Preview-of-Google-Sheets-scaled.webp)
 
 This way you can easily integrate Google Sheets with Paymattic!
+
 ::: tip Need Help?
 If you have any further questions, concerns, or suggestions, please do not hesitate to contact our [support team](https://wpmanageninja.com/support-tickets/?utm_source=wpmn&utm_medium=home&utm_campaign=site#/). Thank you.
 :::

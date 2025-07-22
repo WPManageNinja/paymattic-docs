@@ -12,7 +12,6 @@ Twilio is the Premium Feature of the Paymattic Plugin. So, you need Paymattic Pr
 
 ## Enable Twilio Integration 
 
-To learn how to enable **Twilio** integration, follow the steps with the screenshots below –
 
 First, go to **Integrations** from the **Paymattic Navbar**, search for **Twilio** through the search bar, and you will get the **Twilio** integration module.
 
@@ -42,7 +41,6 @@ Finally, press the **Save Setting**s button and your Telegram Integration module
 
 ## Integrate Twilio into Paymattic Forms
 
-To learn how to integrate Twilio into any specific Form in Paymattic, follow the steps with the screenshots below –
 
 First, go to **All Forms** from the **Paymattic Navbar**, **select** the **Desired Form** where you want to integrate your Twilio and click the **Pencil/Editor Icon.**
 
@@ -54,7 +52,7 @@ Once the **Editor** page opens, go to the **Integrations** tab, click the **Add 
 
 Now, a pop-up page will appear with various settings options for configuring Twilio.
 
-All the settings options mentioned in the screenshot below are briefly explained:
+**All the settings options mentioned in the screenshot below are briefly explained:**
 
 - **Name**: Here, you can set a name according to your preference for your feed. This field is required to be filled in.
 - **To:** Here, provide the number where you want to send the SMS notification. You can also **ShortCode** button to input the phone number.
@@ -62,8 +60,7 @@ All the settings options mentioned in the screenshot below are briefly explained
 - **Conditional Logics**: This option allows Twilio integration to function conditionally based on your submission values according to your set conditional logic/s. Also, here, you can add as much conditional logic as you need by clicking the **+ Add More** button and delete any logic by clicking the **Trash Icon** if needed. To learn more, read this [Documentation](/how-to-use-conditional-logic-in-form-fields-with-paymattic).
 - **Enable This Feed**: Check this option, to ensure this integration feed remains enabled, and all the actions of this feed function properly.
 
-Once the setup is done, finally, click the **Create Twilio Feed** button.
-And, your Twilio will be integrated into this specific form!
+Once the setup is done, finally, click the **Create Twilio Feed** button. And, your Twilio will be integrated into this specific form!
 
 ![](/images/integrations/how-to-integrate-twilio-with-paymattic-in-wordpress/Add-new-twilio-integration-feed-page.webp)
 

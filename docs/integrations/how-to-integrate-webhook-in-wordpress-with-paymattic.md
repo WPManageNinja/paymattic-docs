@@ -9,7 +9,6 @@ category: "Integrations"
 
 ## Enable Fluent Webhook Integration
 
-To learn how to enable Webhook integration, follow the steps with screenshots below –
 
 First, go to **Integrations** from the **Paymattic Navbar**, search for **Webhook** through the search bar, and you will get the **Webhook** integration module.
 
@@ -23,7 +22,6 @@ Click the **Toggle** button and your Webhook integration module will be enabled.
 
 ## Integrate Webhook in a Form
 
-To learn how to integrate Webhook into any specific Form in Paymattic, follow the steps with the screenshots below –
 
 First, go to **All Forms** from the **Paymattic Navbar**, **select** the **Desired Form** where you want to integrate the **Webhook** and click the **Pencil/Editor Icon.**
 
@@ -35,7 +33,7 @@ Once the **Editor** page opens, go to the **Integrations** tab, click the **Add 
 
 Now, a pop-up page will appear with various settings options for configuring the Webhook.
 
-All the settings options mentioned in the screenshot below are briefly explained:
+**All the settings options mentioned in the screenshot below are briefly explained:**
 
 - **Feed Name**: Here, you can set a name according to your preference for your feed. This field is required to be filled in.
 - **Webhoo URL**: This is also a required field. Here, provide the URL where you want to send the Paymattic submission data. More specifically, enter the URL that is provided by the Webhook recipient. To learn how to get the Webhook URL from the Webhook Site, follow the steps below –

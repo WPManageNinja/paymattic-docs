@@ -9,7 +9,6 @@ category: "Integrations"
 
 ## Enable Fluent Support Integration
 
-To learn how to enable Fluent Support integration, follow the steps with screenshots below – 
 
 First, go to **Integrations** from the **Paymattic Navbar**, search for **Fluent Support** through the search bar, and you will get the **Fluent Support** integration module.
 
@@ -29,7 +28,6 @@ Click the **Toggle** button and your Fluent Support integration module will be e
 
 ## Integrate Fluent Support into Paymattic Forms
 
-To learn how to integrate Fluent Support into any specific Form in Paymattic, follow the steps with the screenshots below –
 
 First, go to **All Forms** from the **Paymattic Navbar**, select the **Desired Form** where you want to integrate Fluent Support, and click the **Pencil/Editor** Icon.
 
@@ -41,15 +39,14 @@ Once the **Editor** page opens, go to the **Integrations** tab, click the **Add 
 
 Now, a pop-up page will appear with various settings options for configuring Fluent Support. 
 
-All the settings options mentioned in the screenshot below are briefly explained:
+**All the settings options mentioned in the screenshot below are briefly explained:**
 
 * **Feed Name:** Here, you can set a name according to your preference for your feed. This field is required to be filled in.
 * **Primary Fields:** Use all the fields under this option to properly link your Fluent Support Fields with the Form Fields. Also, you can easily select the **Value** for the **Form Fields** according to the Fluent Support Fields by using the **Shortcode** button. 
 * **Create Ticket on Payment Success Only:** If you enable this option, the ticket will be generated only after successful payment is received, i.e., creating the support ticket as soon as the form is submitted with a successful payment. But if you do not enable this option, it will instantly create the ticket without checking the payment status.
 * **Conditional Logics:** This option allows Fluent Support integration to function conditionally based on your submission values according to your set conditional logic/s.  Also, here,  you can add as much conditional logic as you need by clicking the **+ Add More** button and delete any logic by clicking the **Trash** Icon if needed. To learn more, read our [conditional logic documentation](/how-to-use-conditional-logic-in-form-fields-with-paymattic).
 
-Once the setup is done, finally, click the **Create Fluent Support Feed** button.
-And, your Fluent Support will be integrated into this specific form!
+Once the setup is done, finally, click the **Create Fluent Support Feed** button. And, your Fluent Support will be integrated into this specific form!
 
 ![Fluent Support integration settings](/images/integrations/how-to-integrate-fluent-support-with-paymattic-in-wordpress/Add-New-Fluent-Support-Integration-Feed-page.webp)
 

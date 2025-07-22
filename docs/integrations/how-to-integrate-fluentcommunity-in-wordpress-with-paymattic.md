@@ -15,7 +15,6 @@ This article will guide you through **integrating** **FluentCommunity** **with**
 
 Before starting the process, you need to connect the FluentCommunity with Paymattic from the FluentCommunity Plugin.
 
-To learn how to connect FluentCommunity with Paymattic, follow the steps below – 
 
 First, go to **Settings** of **FluentCommunity** from the below-left corner.
 
@@ -41,7 +40,6 @@ If not, go to the **Integrations** from the **Paymattic Navbar**, search for the
 
 ## Integrate FluentCommunity into Paymattic Forms
 
-To learn how to integrate FluentCommunity into any specific Form in Paymattic, follow the steps with the screenshots below –
 
 First, go to **All Forms** from the **Paymattic Navbar**, **select** the **Desired Form** where you want to integrate **FluentCRM** and click the **Pencil/Editor Icon.**
 
@@ -55,7 +53,8 @@ Once you are on the **Editor** page of your desired form, go to the **Integratio
 ![](/images/integrations/how-to-integrate-fluentcommunity-in-wordpress-with-paymattic/5.-adding-Fluent-Community-Integration-feed-scaled.webp)
 
 Now, a pop-up page will appear with various settings options for configuring FluentCommunity.
-All the settings options mentioned in the screenshot below are briefly explained:
+
+**All the settings options mentioned in the screenshot below are briefly explained:**
 
 * **A. Name**: Here, you can set a name according to your preference for your feed
 * **B. Select Spaces or Courses to Enroll**: Here, you can select your desired or all **Space/s** and **Course/s** to set where your users will add as members/students immediately after form submission.

@@ -12,7 +12,6 @@ Telegram is the Premium Feature of the Paymattic Plugin. So, you need Paymattic 
 
 ## Enable Telegram Integration 
 
-To learn how to enable **Telegram** integration, follow the steps with the screenshots below –
 
 First, go to **Integrations** from the **Paymattic Navbar**, search for **Telegram** through the search bar, and you will get the **Telegram** integration module.
 
@@ -30,7 +29,6 @@ Also, you can enter any **Text** in the **Test Message** field to test whether t
 
 ### Get the Bot Token and Chat ID from Telegram
 
-To learn how to get the **Bot Token** and **Chat ID** of the Channel/Group from Telegram**,** follow the steps with screenshots below –
 
 #### Getting Bot Token
 
@@ -80,7 +78,6 @@ Finally, press the **Save Setting**s button and your Telegram Integration module
 
 ## Integrate Telegram into Forms
 
-To learn how to integrate Telegram into any specific Form in Paymattic, follow the steps with the screenshots below –
 
 First, go to **All Forms** from the **Paymattic Navbar**, **select** the **Desired Form** where you want to integrate your Telegram, and click the **Pencil/Editor Icon.**
 
@@ -92,7 +89,7 @@ Once the **Editor** page opens, go to the **Integrations** tab, click the **Add 
 
 Now, a pop-up page will appear with various settings options for configuring Telegram.
 
-All the settings options mentioned in the screenshot below are briefly explained:
+**All the settings options mentioned in the screenshot below are briefly explained:**
 
 - **Name**: Here, you can set a name according to your preference for your feed. This field is required to be filled in.
 - **Message to Send**: Here you can set the texts and information you want to send to the Telegram channel/group as notification. Also, you can use the Shortcode button to set the user data from form entries that you want to send to your Telegram Group/Channel.
@@ -100,8 +97,7 @@ All the settings options mentioned in the screenshot below are briefly explained
 - **Conditional Logics**: This option allows Telegram integration to function conditionally based on your submission values according to your set conditional logic/s. Also, here, you can add as much conditional logic as you need by clicking the **+ Add More** button and delete any logic by clicking the **Trash Icon** if needed. To learn more, read this [Documentation](/how-to-use-conditional-logic-in-form-fields-with-paymattic).
 - **Enable This Feed**: Check this option, to ensure this integration feed remains enabled, and all the actions of this feed function properly.
 
-Once the setup is done, finally, click the **Create Telegram Feed** button.
-And, your Telegram will be integrated into this specific form!
+Once the setup is done, finally, click the **Create Telegram Feed** button. And, your Telegram will be integrated into this specific form!
 
 ![](/images/integrations/how-to-integrate-telegram-with-paymattic-in-wordpress/Add-New-Telegram-Integration-Feed-page.webp)
 

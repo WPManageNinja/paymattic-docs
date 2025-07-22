@@ -9,7 +9,6 @@ category: "Integrations"
 
 ## Enable Mailchimp Integration 
 
-To learn how to enable Mailchimp integration, follow the steps with the screenshots below – 
 
 First, go to **Integrations** from the **Paymattic Navbar**, search for Mailchimp through the search bar, and you will get the **Mailchimp integration** module.
 
@@ -24,7 +23,7 @@ Once you enable ActiveCampaign, you will be asked for the **Mailchimp API Key** 
 
 ## Get the API Key from Mailchimp
 
-To learn how to get the Mailchimp API Key from ActiveCampaign, follow the steps with screenshots below –
+To learn how to get the Mailchimp API Key from ActiveCampaign, follow the step by step process –
 
 First, log in to your [Mailchimp Account](https://mailchimp.com/), go to **Profile** from the top right corner, and click the **Profile** button
 
@@ -54,7 +53,6 @@ Finally, press the **Save Settings** button and your Mailchimp Integration modul
 
 ## Integrate Mailchimp into Forms
 
-To learn how to integrate Mailchimp into any specific Form in Paymattic, follow the steps with the screenshots below –
 
 First, go to **All Forms** from the **Paymattic Navbar**, select the **Desired Form** where you want to integrate your Mailchimp and click the **Pencil/Editor** Icon. 
 
@@ -71,7 +69,7 @@ Also, you must select **Mailchimp’s List** from the dropdown where you want to
 
 Once you select the list, a pop-up page will appear with various settings options for configuring the ActiveCampaign.
 
-All the settings options mentioned in the screenshot below are briefly explained:
+**All the settings options mentioned in the screenshot below are briefly explained:**
 
 * **Name:** From here, you can change the name anytime if needed.
 * **List:** From here, you can change the Mailchimp List anytime if needed.
@@ -86,8 +84,7 @@ All the settings options mentioned in the screenshot below are briefly explained
 * **Conditional Logics:** This option allows Mailchimp integration to function conditionally based on your submission values according to your set conditional logic/s. Also, here,  you can add as much conditional logic as you need by clicking the **+ Add More** button and delete any logic by clicking the **Trash Icon** if needed. To learn more, read this [Documentation](/how-to-use-conditional-logic-in-form-fields-with-paymattic). 
 * **Enable This Feed:** Check this option, to ensure this integration feed remains enabled, and all the actions of this feed function properly.
 
-Once the setup is done, finally, click the **Create Mailchimp Feed** button.
-And, your Mailchimp will be integrated into this specific form!
+Once the setup is done, finally, click the **Create Mailchimp Feed** button. And, your Mailchimp will be integrated into this specific form!
 
 ![Mailchimp integration settings](/images/integrations/how-to-integrate-mailchimp-in-wordpress-with-paymattic/Add-New-Mailchimp-Integration-Feed-page.webp)
 

@@ -9,7 +9,6 @@ category: "Integrations"
 
 ## Enable FluentCRM Integration
 
-To learn how to enable FluentCRM integration, follow the steps with screenshots below – 
 
 First, go to **Integrations** from the **Paymattic Navbar**, search for FluentCRM through the search bar, and you will get the **FluentCRM** integration module.
 
@@ -30,7 +29,6 @@ Click the **Toggle** button and your FluentCRM integration module will be enable
 
 ## Integrate FluentCRM into Forms
 
-To learn how to integrate FluentCRM into any specific Form in Paymattic, follow the steps with the screenshots below –
 
 First, go to **All Forms** from the **Paymattic Navbar**, select the **Desired Form** where you want to integrate FluentCRM and click the **Pencil/Editor** Icon.
 
@@ -42,14 +40,13 @@ Once the **Editor** page opens, go to the **Integrations** tab, click the **Add 
 
 Now, a pop-up page will appear with various settings options for configuring FluentCRM. 
 
-All the settings options mentioned in the screenshot below are briefly explained:
+**All the settings options mentioned in the screenshot below are briefly explained:**
 
 * **Feed Name:** Here, you can set a name according to your preference for your feed. This field is required to be filled in.
 * **Primary Fields:** Use all the fields under this option to properly link your FluentCRM Fields with the Form Fields. Also, you can easily select the Value for the Form Fields according to the FluentCRM Fields by using the Shortcode button. 
 * **Other Fields:** Use this option if you need to add your FluentCRM fields beside the primary fields. Here also, you can select the **Value** according to the **FluentCRM Fields** by using the **Shortcode** button.
 
-Add as many Other Fields as you need by clicking the **+Add More** button.
-Also, Delete any Field by clicking the **Trash** Icon if needed.
+Add as many Other Fields as you need by clicking the **+Add More** button. Also, Delete any Field by clicking the **Trash** Icon if needed.
 
 * **Contact Tags:** With this option, you can add tags to your FluentCRM contacts.
 * **Enable Dynamic Tag Selection:** This option allows you to add customized tags for specific contacts based on your submission values according to your set conditions.

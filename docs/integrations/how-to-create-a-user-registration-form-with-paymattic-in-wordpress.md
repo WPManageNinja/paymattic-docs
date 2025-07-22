@@ -13,7 +13,6 @@ WP User Registration is a Premium Feature of the Paymattic Plugin. You need Paym
 
 ## Enable WP User Registration Integration 
 
-To learn how to enable WP User Registration integration, follow the steps with the screenshots below – 
 
 First, go to **Integrations** from the **Paymattic Navbar** and you will get the **WP User Registration** integration module.
 
@@ -27,7 +26,6 @@ Click the **Toggle** button to enable the WP User Registration.
 
 ## Integrate WP User Registration into Paymattic Forms
 
-To learn how to integrate WP User Registration into any specific Form in Paymattic, follow the steps with the screenshots below – 
 
 First, go to **All Forms** from the **Paymattic Navbar**, select the Desired Form where you want to integrate your **WP User Registration** and click the **Pencil/Editor** Icon. 
 
@@ -43,7 +41,6 @@ Click the **Add New Integration** button & select **User Registration Integratio
 
 Now, a pop-up page will appear with various settings options for configuring User Registration. 
 
-All the settings options mentioned in the screenshot below are briefly explained:
 
 * **Name:** Here, you can set a name according to your preference for your feed.
 * **Email Address:** In this field, you have to select the **Email Address**.
@@ -58,8 +55,7 @@ All the settings options mentioned in the screenshot below are briefly explained
 * **Conditional logics:** If you have any conditions about this submission just set the conditions from the Conditional Logic option. To learn more, read our [conditional logic guide](/how-to-use-conditional-logic-in-form-fields-with-paymattic).
 * **Enable this field:** If you check this option, all the actions of this feed will only run for the visitors who are in a logged-out state and the email that is not registered yet.
 
-Once the setup is done, finally, click the **Create User Registration Feed** button.
-And, your WP User Registration will be integrated into this specific form!
+Once the setup is done, finally, click the **Create User Registration Feed** button. And, your WP User Registration will be integrated into this specific form!
 
 ![User registration configuration](/images/integrations/how-to-create-a-user-registration-form-with-paymattic-in-wordpress/Add-new-user-registration-integration-feed-Popup-page.webp)
 
