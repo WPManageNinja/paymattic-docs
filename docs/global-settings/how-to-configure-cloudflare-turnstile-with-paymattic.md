@@ -12,8 +12,7 @@ This article will guide you through the configuration of Cloudflare Turnstile in
 ## Get the Turnstile Site & Secret Key
 
 Before configuring Cloudflare Trunstile in Paymattic, you must get the Site and Secret keys from the Cloudflare Turnstile websites.
-
-To learn how to get the Cloudflare Turnstile Site and Secret keys, follow the steps with the screenshots below – 
+ 
 
 First, go to [Cloudflare Turnstile](https://www.cloudflare.com/en-gb/application-services/products/turnstile/), and log in to your account.
 
@@ -36,7 +35,6 @@ Here, you will get your desired **Site key** and **Secret key**. Simply, copy th
 
 ## Configuring Cloudflare Turnstile
 
-To learn how to configure Cloudflare Turnstile with Paymattic, follow the steps with the screenshots below – 
 
 First, go to **Settings** from the Paymattic Navbar and click the **Turnstile** (beta) tab from the left sidebar. 
 

@@ -9,7 +9,6 @@ category: "Global Settings"
 
 ## Currency Settings Globally for All Forms
 
-To learn how to set the Currency Settings for your payment gateways, follow the steps with the screenshots below – 
 
 First, go to **Settings** from the **Paymattic Navbar**, click the **General Settings** tab from the left sidebar, and four major settings sections will appear. These are: 
 
@@ -71,7 +70,6 @@ Here you will find three more settings. These are:
 
 ## Changing Currency Settings for Specific Forms
 
-To learn how you can change the currency settings for an individual form, follow the steps with screenshots below –
 
 First, go to the **All Forms** from the **Paymattic Navbar**, choose the form you wish to work on, and click the **Pencil/Editor** icon.
 

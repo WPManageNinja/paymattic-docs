@@ -40,7 +40,6 @@ Finally, click the **Save** button and all your changes will be saved.
 
 ## Configuring reCAPTCHA
 
-To learn how to configure reCAPTCHA with Paymattic, follow the steps with the screenshots below – 
 
 First, go to **Settings** from the **Paymattic Navbar**, click the **reCAPTCHA** tab from the left sidebar, and three options appear. These are: 
 
@@ -62,7 +61,6 @@ Finally, press the **Save Settings** button and your reCAPTCHA will be configure
 
 Once you have successfully configured the reCAPTCHA with Paymattic, it’s time to integrate this with your payment form.
 
-To learn the process of integrating the reCAPTCHA in a specific form, follow the steps with screenshots below – 
 
 First, go to **All** Forms from the **Paymattic Navba**r, choose the form you wish to work on, and click the **Pencil/Editor** icon, e.g., I choose the Donation form to show the process.
 

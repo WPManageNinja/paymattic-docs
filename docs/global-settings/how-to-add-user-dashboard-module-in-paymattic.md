@@ -13,7 +13,6 @@ The User Dashboard is a premium feature available only in [Paymattic Pro](/# 1-t
 
 ## Enable User Dashboard
 
-To learn how to enable and set up the User Dashboard module, follow the steps with the screenshots below – 
 
 First, go to **Settings** from the **Paymattic Navbar**, open the **User Dashboard** tab from the left sidebar, and click the **Enable User Dashboard Module** button.
 
