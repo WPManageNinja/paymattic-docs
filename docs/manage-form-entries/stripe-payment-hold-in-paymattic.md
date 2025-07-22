@@ -9,8 +9,6 @@ category: "Manage Form Entries"
 
 ## Enable Place a Hold on a Payment
 
-To learn how to enable Place a Hold on a Payment, follow the steps with the screenshots below – 
-
 First, go to the **All Forms** section from the **Pymattic Navbar**, and open a Payment Form by clicking the **Pencil** icon with the **Stripe** payment method added.
 
 If you do not have any existing Payment form, read this [Documentation](/how-to-create-your-first-payment-form-in-a-minute-and-accept-payments-with-paymattic) to learn how to Create a Payment Form.
@@ -36,7 +34,6 @@ And, your **Place a Hold on a  Payment** option will be enabled!
 
 Once the Hold Payment option for Stripe is enabled in a specific Payment Form, **Authorized** payment status will appear in the form entries after each form submission.
 
-To learn how to capture the hold payments through Stripe in a Payment form, follow the steps with the screenshots below – 
 
 First, go to **Paymattic Dashboard** from the WordPress Left Sidebar, click the **Entries** section, and click the **View Details** button of the desired authorized form entry.
 
@@ -55,7 +52,7 @@ Now input the amount you want to capture and click the **Capture** button.
 
 For example, here I captured 5 dollars out of 10 dollars.
 
-Example: Capturing $5 from a $10 held payment:
+**Example:** Capturing $5 from a $10 held payment:
 
 ![Capture amount](/images/manage-form-entries/stripe-payment-hold-in-paymattic/7.-Capture-amount-field.webp)
 

@@ -13,7 +13,6 @@ Remember, as the [Subscription Payment](/how-to-add-susbcription-payment-item-fi
 
 ## Managing Offline Payment Subscriptions
 
-To manage subscriptions that have offline payments, follow the steps with the screenshots below – 
 
 First, go to **Entries** from the **Paymattic Navbar**, and open the desired entry by clicking the **View Details** button that has Offline payment transaction.
 
@@ -39,8 +38,7 @@ Click the **Change Subscription Payment** Status button and a pop-up will appear
 
 ![Change subscription status](/images/manage-form-entries/how-to-manage-subscriptions-in-wordpress-with-paymattic/3.-Change-Subscription-Payment-Status.webp)
 
-Now, select a new payment status that fits your needs and click the **Confirm** button.
-And, your **Subscriptions Status** will be changed!
+Now, select a new payment status that fits your needs and click the **Confirm** button. And, your **Subscriptions Status** will be changed!
 
 Also, if you want, you can add a **Note** for this specific bill during the status change.
 
@@ -50,8 +48,7 @@ To change the Payment Status for the whole Entry, click the **Change Payment Sta
 
 ![Change overall payment status](/images/manage-form-entries/how-to-manage-subscriptions-in-wordpress-with-paymattic/5.-Change-Payment-Status-scaled.webp)
 
-Now, select a new payment status that fits your needs and click the **Confirm** button.
-And, your Payment Status will be changed!
+Now, select a new payment status that fits your needs and click the **Confirm** button. And, your Payment Status will be changed!
 
 Also, if you want, you can add a **Note** for this entry during the status change.
 

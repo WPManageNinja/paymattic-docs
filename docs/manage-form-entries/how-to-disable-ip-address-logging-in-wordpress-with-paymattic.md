@@ -9,7 +9,6 @@ category: "Manage Form Entries"
 
 ## Disabling IP Addresses from Form Entries 
 
-To learn how to disable the IP Address from each form submission in Paymattic, follow the steps with the screenshots below – 
 
 First, go to **Settings** from the **Paymattic Navbar**, click the **General Settings** tab from the left sidebar, and scroll down to the **Other Settings** section.
 
@@ -23,7 +22,6 @@ To re-enable IP address collection, simply uncheck the **Disable IP Address Logg
 
 ## Checking the IP Addresses
 
-To check the user’s IP address, follow the steps with screenshots below – 
 
 First, go to **Paymattic Dashboard** from the **WordPress Left Sidebar**, click the **Entries** section, and click the **View Details** button of the desired form entry you want to view.
 
