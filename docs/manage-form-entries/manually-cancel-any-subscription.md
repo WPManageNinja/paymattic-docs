@@ -14,6 +14,7 @@ category: "Manage Form Entries"
 ## Cancellation Methods
 
 Administrators can cancel subscriptions in two ways:
+
 1. Through the Paymattic Dashboard
 2. Through the Payment Gateway Dashboard
 

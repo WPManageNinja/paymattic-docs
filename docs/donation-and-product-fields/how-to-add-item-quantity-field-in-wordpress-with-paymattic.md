@@ -10,7 +10,6 @@ In [Paymattic](https://paymattic.com/), the **Item Quantity** field enables user
 
 ## Adding Item Quantity Field
 
-To learn how to add the Item Quantity to the Paymattic Form on your WordPress site, follow the steps with the screenshots below –
 
 First, go to the **All Forms** section from the **Paymattic Navbar,** choose a **Form,** and click the **Pencil/Edit** icon to open the **Editor** page of that form.
 
@@ -54,7 +53,6 @@ Now, a pop-up page will appear with various settings options for customizing the
 
 ### General Settings 
 
-All the Settings under the General Tab mentioned in the below screenshot are briefly explained:
 
 - **Required**: Enable this option to make this field mandatory for users to fill in for a successful submission.
 

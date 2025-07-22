@@ -133,9 +133,11 @@ This powerful feature allows you to create "smart forms" by showing or hiding th
 * **Note:** For a complete walkthrough, please see our detailed guide on [**Conditional Logic**](/form-editor/how-to-use-conditional-logic-in-form-fields-with-paymattic).
 
 #### Admin Label
+
 This label is for internal use only. The text you enter here will be used as the field's label in the admin dashboard, such as on the **Entries** page. It will not be visible to the public, making it useful for adding notes or clarifying a field's purpose for your team.
 
 #### Field Wrapper CSS Class
+
 If you want to apply custom styling (CSS) to this specific field, you can add one or more CSS class names here. This gives you a way to target the entire field container for custom design adjustments.
 
 * **Note:** To learn more, read our documentation on applying [**Custom CSS**](/form-settings/how-to-create-custom-css-js-in-wordpress-with-paymattic) to form fields.
@@ -143,7 +145,6 @@ If you want to apply custom styling (CSS) to this specific field, you can add on
 #### Field ID
 This is a unique ID assigned to the form field. It is primarily used for custom development, such as targeting the field with custom JavaScript or integrating with other services. This ID is typically generated automatically, but you can define a custom one here if needed.
 
----
 
 After configuring these settings, always remember to click the **Update** button to save your changes.
 

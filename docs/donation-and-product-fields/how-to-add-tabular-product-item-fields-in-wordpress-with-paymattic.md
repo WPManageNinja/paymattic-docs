@@ -17,7 +17,6 @@ Additionally, with the **Grid Template** and **Single Line Template**, you can b
 
 ## Adding Tabular Product Items
 
-To learn how to add the Tabular Product Items to the Paymattic Form on your WordPress site, follow the steps with the screenshots below –
 
 First, go to the **All Forms** section from the **Paymattic Navbar,** choose a **Form,** and click the **Pencil/Edit** icon to open the **Editor** page of that form.
 
@@ -68,7 +67,6 @@ Once you set up all the settings, click the **Update** button to save all the cu
 ![Table Template Settings](/images/donation-and-product-fields/how-to-add-tabular-product-item-fields-in-wordpress-with-paymattic/Table-Templates-General-Settings.webp)
 
 
-All the Settings under the General Tab for Table Template are briefly explained below:
 
 #### A. Setup Your Tabular Products
 
