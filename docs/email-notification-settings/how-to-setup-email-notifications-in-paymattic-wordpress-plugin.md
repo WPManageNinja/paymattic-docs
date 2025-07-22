@@ -15,7 +15,6 @@ We recommend using the [FluentSMTP](https://fluentsmtp.com/) plugin for smart, s
 
 ## Setting Up Email Notifications
 
-To learn how you can set the email notifications, follow the steps with screenshots below – 
 
 First, go to **All Forms** from the **Paymattic Navbar** and click the **Pencil/Editor** Icon of your **Desired Form** where you want to set up the email notifications.
 
@@ -56,8 +55,7 @@ Plus, you can choose whether **All** or **Any** one of your conditional logic sh
 >[!Note]
 >For example, I chose **“Customer Email”** as a parameter, **“Contains”** as conditions, and entered **“@gmail.com”** and **“@yahoo.com”** as the respective values. And, select the **“Any”** option for the conditional match. As a result, only users who meet the conditions of having @gmail.com or @yahoo.com in their submission email address will get the email notification.
 
-Additionally, you can add as many conditions as you want by clicking the + Add More button.
-Also, you can delete any conditions by clicking the **Trash** Icon anytime if needed.
+Additionally, you can add as many conditions as you want by clicking the **+ Add More** button. Also, you can delete any conditions by clicking the **Trash** Icon anytime if needed.
 
 ![Conditional logic settings](/images/email-notification-settings/how-to-setup-email-notifications-in-paymattic-wordpress-plugin/Conditional-Logics.webp)
 
