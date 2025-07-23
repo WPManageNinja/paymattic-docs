@@ -10,7 +10,6 @@ category: "Import - Export"
 
 ## Importing Forms 
 
-To learn how you can Import forms from other platforms to Paymattic, follow the steps with the screenshots below – 
 
 First, go to **All Forms** from the **Paymattic Navbar** where you have all your existing forms.
 
@@ -38,9 +37,7 @@ Here, you can see that the form is **imported successfully** and added to All Fo
 
 ## Exporting Forms
 
-To learn how you can Export forms from Paymattic to other platforms, follow the steps with the screenshots below – 
-
-First, go to **All Forms** from the **Paymattic Navbar** where you have all your existing forms.
+Go to **All Forms** from the **Paymattic Navbar** where you have all your existing forms.
 
 Now, click the **Three-dot-icon** option of the desired form you want to export, and press the **Export** Form button. And, your form will be exported in JSON format. 
 
