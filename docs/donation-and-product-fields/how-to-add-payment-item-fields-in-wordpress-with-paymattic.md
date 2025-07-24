@@ -26,7 +26,7 @@ You can add the Payment Item field in two ways:
 1. Type **"/"** in the editor
 2. Click the **Plus Icon** at the bottom
 
-::: Tip
+::: tip
 We always suggest to include these fields at the start of your form:
 1. [Name Field](/general-input-fields/how-to-use-general-form-input-fields-in-wordpress-with-paymattic.md#_1-name-field)
 2. [Email Field](/general-input-fields/how-to-use-general-form-input-fields-in-wordpress-with-paymattic.md#_2-email-field)

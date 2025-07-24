@@ -13,10 +13,6 @@ To learn how to configure **Confirmation Settings** of a specific form, follow t
 
 First, go to the **All Forms** section from the **Paymattic Navbar**, choose a **Form**, and click the **Pencil/Edit** icon to open the **Editor** page of that form.
 
-::: tip
-If you do not have any existing forms, read [Create a Form from Scratch](../form-editor/how-to-create-a-form-from-scratch-with-paymattic) or [Create a Form using Templates](../form-editor/simple-form-templates) documentation to create one.
-:::
-
 For example, I choose an existing form to show the whole process.
 
 ![Opening a form to configure confirmation settings](/images/form-settings/how-to-configure-confirmation-settings-in-wordpress-with-paymattic/1.-Open-desired-form-9-scaled.webp)

@@ -30,7 +30,7 @@ export default defineConfig({
       {
         text: 'Form Editor',
         items: [
-          { text: 'Create Your First Form', link: '/how-to-create-your-first-payment-form-in-a-minute-and-accept-payments-with-paymattic' },
+          { text: 'Create Payment Form', link: '/how-to-create-your-first-payment-form-in-a-minute-and-accept-payments-with-paymattic' },
           { text: 'Create Form from Scratch', link: '/how-to-create-a-form-from-scratch-with-paymattic' },
           { text: 'Edit Forms', link: '/how-to-edit-forms-in-wordpress-with-paymattic' },
           { text: 'Form Templates', link: '/simple-form-templates' },

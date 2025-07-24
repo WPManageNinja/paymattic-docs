@@ -11,10 +11,6 @@ category: "Form Editor"
 
 First, go to the **All Forms** section from the **Pymattic Navbar**, choose a **Form**, and click the **Pencil/Edit** icon to open the **Editor** page of that form.
 
-::: tip
-If you do not have any existing forms, read the [Create a Form from Scratch](../form-editor/how-to-create-a-form-from-scratch-with-paymattic) or [Create a Form using Templates](../form-editor/simple-form-templates.md) documentation.
-:::
-
 For example, I choose an existing form to show the whole process.
 
 ![Opening a form in Paymattic editor](/images/form-editor/how-to-use-conditional-logic-in-form-fields-with-paymattic/Open-desired-form-scaled.webp)

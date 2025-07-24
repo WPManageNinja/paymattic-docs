@@ -18,8 +18,6 @@ Only the **File Upload** and **Mask Input** fields require the Paymattic Pro plu
 
 First, go to the **All Forms** section from the **Paymattic Navbar**, choose a **Form**, and click the **Pencil/Edit** icon to open the **Editor** page of that form.
 
-If you do not have any existing form, read this [Create a Form from Scratch](/form-editor/how-to-create-a-form-from-scratch-with-paymattic) or [Create a Form using Templates](/form-editor/simple-form-templates) documentation to create one. **For example**, I choose an existing form to show the whole process.
-
 ![Open Form Editor](/images/general-input-fields/how-to-use-general-form-input-fields-in-wordpress-with-paymattic/open-desired-form-10-scaled.webp)
 
 Once you open the **Editor** page, type the **"/"** or click the **"+"** icon placed at the bottom to get the General Fields section.

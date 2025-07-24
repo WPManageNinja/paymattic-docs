@@ -13,8 +13,6 @@ This article will guide you on how to add the **Multiple Column Container** to y
 
 Open your **Desired Form** where you wish to add the **Multiple Column Containers** feature.
 
-If you do not have any existing forms, read [Create a Form from Scratch](/how-to-create-a-form-from-scratch-with-paymattic) or [Create a Form using Templates](/simple-form-templates) documentation.
-
 For example, I choose an existing form to show the whole process.
 
 ![](/images/form-editor/add-multiple-column-containers-in-forms/open-desired-form-scaled.webp)

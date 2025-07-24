@@ -13,10 +13,6 @@ To learn how to schedule forms and restrict/limit the amount of form submissions
 
 First, go to the **All Forms** section from the **Paymattic Navbar**, choose a **Form**, and click the **Pencil/Edit** icon to open the **Editor** page of that form.
 
-::: tip
-If you do not have any existing forms, read [Create a Form from Scratch](../form-editor/how-to-create-a-form-from-scratch-with-paymattic.md) or [Create a Form using Templates](../form-editor/simple-form-templates.md) documentation to create one.
-:::
-
 For example, I choose an existing form to show the whole process.
 
 ![Opening a form to edit scheduling settings](/images/form-settings/how-to-set-form-scheduling-and-restriction-settings-in-wordpress-with-paymattic/1.-Open-desired-form-7-scaled.webp)

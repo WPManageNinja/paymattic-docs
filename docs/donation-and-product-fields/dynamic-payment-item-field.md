@@ -17,10 +17,6 @@ Remember, **Dynamic Payment Item** is a premium feature and you need the [Paymat
 
 First, go to the **All Forms** section from the **Paymattic Navbar,** choose a **Form,** and click the **Pencil/Edit** icon to open the **Editor** page of that form.
 
-::: tip
-If you do not have any existing form, read the [Create a Form from Scratch](/form-editor/how-to-create-a-form-from-scratch-with-paymattic) or [Create a Form using Templates](/form-editor/simple-form-templates) documentation. For example, I choose an existing form to show the whole process.
-:::
-
 ![Open desired Payment form](/images/donation-and-product-fields/dynamic-payment-item-field/1.-Open-desired-Payment-form-scaled.webp)
 
 Once you open the **Editor** page, add the necessary fields by typing the **"/"** or clicking the **Plus Icon** placed at the bottom.

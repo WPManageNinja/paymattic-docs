@@ -44,15 +44,6 @@ To learn more about form editing, read this [Documentation](../form-editor/how-t
 
 Then, you can see the **Donation Progress Item**, **Name**, **Email**, and **Choose Payment Method** fields are already added.
 
-::: tip Related Documentation
-Read these documentations for detailed usage:
-- [Donation Progress Item](../donation-and-product-fields/how-to-add-donation-progress-item-in-wordpress-with-paymattic.md)
-- [General Fields](../general-input-fields/how-to-use-general-form-input-fields-in-wordpress-with-paymattic.md)
-- [Select Payment Method](../general-input-fields/how-to-use-the-payment-method-fields-section#multiplechoose-payment-method)
-
-Remember, the process of adding and customizing every field is almost similar.
-:::
-
 If you want to add a new field/s, click the **Add More field** dropdown arrow and select the desired field you want to add.
 
 ![Form editor with donation template fields](/images/form-editor/simple-form-templates/Editor-page-of-Donation-template-2-scaled.webp)

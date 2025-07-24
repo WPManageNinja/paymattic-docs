@@ -17,10 +17,6 @@ In [Paymattic](https://paymattic.com/), the Currency Switcher feature enables do
 
 First, go to the **All Forms** section from the **Paymattic Navbar,** choose a **Donation Form,** and click the **Pencil/Edit** icon to open the **Editor** page of that form.
 
-::: tip
-If you do not have any existing donation forms, read this [Create a Form from Scratch](/form-editor/how-to-create-a-form-from-scratch-with-paymattic) or [Create a Form using Templates](/form-editor/simple-form-templates) documentation to create one.
-:::
-
 For example, I choose an existing Donation Form to show the whole process.
 
 ![Open desired form](/images/donation-and-product-fields/add-currency-switcher-in-wordpress-form/1.-Open-desired-form-scaled.webp)

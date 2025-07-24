@@ -20,8 +20,6 @@ Additionally, with the **Grid Template** and **Single Line Template**, you can b
 
 First, go to the **All Forms** section from the **Paymattic Navbar,** choose a **Form,** and click the **Pencil/Edit** icon to open the **Editor** page of that form.
 
-If you do not have any existing forms, read these [Create a Form from Scratch](/form-editor/how-to-create-a-form-from-scratch-with-paymattic) or [Create a Form using Templates](/form-editor/simple-form-templates) documentation.
-
 For example, here we choose an existing form to show the whole process.
 
 ![Open Form Editor](/images/donation-and-product-fields/how-to-add-tabular-product-item-fields-in-wordpress-with-paymattic/Open-desired-form-3-scaled.webp)
