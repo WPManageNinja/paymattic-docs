@@ -6,9 +6,25 @@ export default defineConfig({
   base: '/',
   cleanUrls: true,
   srcDir: './docs',
+  ignoreDeadLinks: true,
 
   rewrites: {
-    ':category/:page': ':page'
+    'getting-started-with-paymattic/:page': ':page',
+    'form-editor/:page': ':page',
+    'general-input-fields/:page': ':page',
+    'donation-and-product-fields/:page': ':page',
+    'payment-method-fields/:page': ':page',
+    'global-settings/:page': ':page',
+    'integrations/:page': ':page',
+    'lms-integrations/:page': ':page',
+    'form-settings/:page': ':page',
+    'email-notification-settings/:page': ':page',
+    'manage-form-entries/:page': ':page',
+    'customer-profile/:page': ':page',
+    'reports-and-analyticsi/:page': ':page',
+    'import-export/:page': ':page',
+    'faq/:page': ':page',
+    'change-log/:page': ':page'
   },
 
   themeConfig: {
