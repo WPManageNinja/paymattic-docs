@@ -30,8 +30,8 @@ export default defineConfig({
   themeConfig: {
     logo: '/images/logo.png',
     nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Documentation', link: '/paymattic-introduction' },
+      { text: 'Website', link: 'https://paymattic.com' },
+      { text: 'User Docs', link: '/paymattic-introduction' },
       { text: 'Changelog', link: '/change-log' }
     ],
 
