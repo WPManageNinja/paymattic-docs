@@ -1,0 +1,43 @@
+.category-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.category-card {
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 8px;
+  padding: 1.5rem;
+  transition: all 0.3s ease;
+  background: var(--vp-c-bg-soft);
+}
+
+.category-card:hover {
+  border-color: var(--vp-c-brand);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.category-card h3 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+.category-card h3 a {
+  color: var(--vp-c-brand);
+  text-decoration: none;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.category-card h3 a:hover {
+  text-decoration: underline;
+}
+
+.category-card p {
+  margin-bottom: 0;
+  color: var(--vp-c-text-2);
+  line-height: 1.6;
+}
+

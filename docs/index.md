@@ -7,28 +7,30 @@ hero:
   actions:
     - theme: brand
       text: Get Started
-      link: /getting-started-with-paymattic/paymattic-introduction
-    - theme: alt
-      text: View on GitHub
-      link: https://github.com/WPManageNinja/paymattic
+      link: /paymattic-introduction
 features:
-  - icon: 🛠️
-    title: Easy Form Builder
-    details: Drag and drop form builder with beautiful UI and UX. Create any type of payment form in minutes.
-  - icon: 💳
-    title: Multiple Payment Gateways
-    details: Accept payments via Stripe, PayPal, Authorize.net, Mollie, Razorpay, Square, and many more.
-  - icon: 🔌
-    title: Powerful Integrations
-    details: Integrate with popular services like FluentCRM, Mailchimp, Zapier, Google Sheets, and more.
-  - icon: 📱
-    title: Mobile Responsive
-    details: All forms are fully responsive and work perfectly on all devices.
-  - icon: 🔒
-    title: Secure Payments
-    details: PCI compliant payment processing with SSL encryption and fraud protection.
   - icon: 🚀
-    title: Performance Optimized
-    details: Built with performance in mind. Lightweight and fast loading forms.
----
+    title: Getting Started
+    details: Learn the basics and get up and running with Paymattic
+    link: /paymattic-introduction
+  - icon: 📝
+    title: Form Editor
+    details: Create and customize payment forms with our powerful editor
+    link: /how-to-create-your-first-payment-form-in-a-minute-and-accept-payments-with-paymattic
+  - icon: 💳
+    title: Payment Methods
+    details: Configure and manage payment gateways and methods
+    link: /all-payment-method
+  - icon: 🔌
+    title: Integrations
+    details: Connect Paymattic with your favorite tools and services
+    link: /how-to-integrate-fluentcrm-in-wordpress-with-paymattic
+  - icon: ⚙️
+    title: Global Settings
+    details: Configure global settings, currency, and user roles
+    link: /how-to-change-currency-settings-in-wordpress-with-paymattic
+  - icon: ❓
+    title: FAQ
+    details: Find answers to common questions and troubleshooting tips
+    link: /add-first-last-name-fields-in-a-form
 --- 
