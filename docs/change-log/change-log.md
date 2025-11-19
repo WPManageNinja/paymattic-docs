@@ -5,6 +5,64 @@ category: "Change Log"
 
 # Change Log
 
+## Version 4.6.15 (September 25, 2025)
+- Adds **Auto failed payment status** by time interval.
+- Adds **Conditional logic** in FluentCRM integration for payment fields.
+- Adds Paymattic Dashboard access for **multiple roles**.
+- Adds **Remove FluentCRM contact** after refund.
+- Adds **First/Last name mapping** in FluentCRM feed
+- Fixes forced media compression in HTML Markup field.
+- Fixes missing custom metadata in Stripe payments.
+- Fixes conditional logic with Address Country field.
+- Fixes payment summary translation on frontend.
+- Improves entries queries for **performance**.
+- Improves role updates in User Register integration.
+
+## Version 4.6.14 (August 15, 2025)
+- Fixes PHP version conflict with 7.4
+
+## Version 4.6.12 (July 03, 2025)
+- Adds refund support for Stripe, Razorpay, Paystack, and Square.
+- Adds recently applied coupon list to reports.
+- Adds “On Payment Success” option in integrations.
+- Adds PayPal subscription cancellation from the user dashboard.
+- Fixes Payment summary render correctly when multiple forms are on the same page.
+- Fixes Zaiper integration issue.
+- Fixes notification issue on payment success.
+- Fixes offline payment handling.
+
+## Version 4.6.11 (June 16, 2025)
+- Adds tax support for subscription signup fee
+- Adds filter to customize paymentItem title length
+- Fixes IPN issue with payments
+- Fixes tax calculation for subscription plans
+- Fixes file upload validation issue
+- Fixes CSS override conflict
+- Fixes issue with subscription billing interval
+
+## Version 4.6.10 (May 21, 2025)
+- Adds automated email notifications for upcoming subscription renewals
+- Adds support for multiple subscriptions in Stripe payments
+- Adds translation support and missing translatable strings
+- Fixes custom currency switcher value issues
+- Fixes default image loading with base URL fallback
+- Fixes image slide issue in tabular product items
+- Fixes Google sheet access key verification issue
+
+## Version 4.6.9 (April 18, 2025)
+- Fixes Load text domain incorrectly
+- Fixes Authorize.Net live payment issue
+- More Bug fixes and improvements
+
+## Version 4.6.8 (April 07, 2025)
+- Fixes notice issue
+
+## Version 4.6.7 (March 24, 2025)
+- Adds Dynamic payment field with numerical expression
+- Adds Authorize.net payment gateway
+- Adds condition rendering for tax field
+- Bug fixes and improvements
+
 ## Version 4.6.6 (March 14, 2025)
 - Fixes Twenty Twenty-Five theme compatibility issue
 - Fixe Email template shortcode rendering issue
