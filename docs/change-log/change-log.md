@@ -5,15 +5,18 @@ category: "Change Log"
 
 # Change Log
 
-## Version 4.6.16 (October 28, 2025)
-- Adds **Conditional logic** for Donation item in emails.
-- Fixes Currency switcher field issue in container.
+## Version 4.6.16 (November 18, 2025)
+- Adds **Conditional logic** for Donation item in email.
+- Adds **Selection limit** for checkbox field in advanced settings.
+- Fixes shortcode handling for address and payment fields.
+- Fixes condition rendering for radio field.
+- Fixes currency switcher field issue in container.
 - Fixes payment total mismatch for the subscription payment.
 - Fixes backend validation issue for dynamic payment fields.
 - Fixes Webhook not triggering from pending to failed payment status.
 - Fixes recurring payments not showing in FCRM “Purchase History”.
 - Fixes custom amount issue in recurring payments for payment summary and total.
-- Fixes Stripe Embedded Payment issue.
+- Fixes custom metadata issue in Stripe embedded payments.
 - Improves Address field customization.
 - Improves Country field behavior in address fields.
 
