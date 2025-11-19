@@ -5,6 +5,18 @@ category: "Change Log"
 
 # Change Log
 
+## Version 4.6.16 (October 28, 2025)
+- Adds **Conditional logic** for Donation item in emails.
+- Fixes Currency switcher field issue in container.
+- Fixes payment total mismatch for the subscription payment.
+- Fixes backend validation issue for dynamic payment fields.
+- Fixes Webhook not triggering from pending to failed payment status.
+- Fixes recurring payments not showing in FCRM “Purchase History”.
+- Fixes custom amount issue in recurring payments for payment summary and total.
+- Fixes Stripe Embedded Payment issue.
+- Improves Address field customization.
+- Improves Country field behavior in address fields.
+
 ## Version 4.6.15 (September 25, 2025)
 - Adds **Auto failed payment status** by time interval.
 - Adds **Conditional logic** in FluentCRM integration for payment fields.
@@ -20,6 +32,21 @@ category: "Change Log"
 
 ## Version 4.6.14 (August 15, 2025)
 - Fixes PHP version conflict with 7.4
+
+## Version 4.6.13 (August 14, 2025)
+- Adds **Full Name Component**
+- Adds **E-Check** support for Authorize.Net Payment
+- Adds **Duplicate Integration feed**
+- Adds **Duplicate Notification feed**
+- Fixes condition issue for radio, checkbox and select input field
+- Fixes failed hook trigger for payment field
+- Fixes payment method field operation with “0” payment amount.
+- Fixes Stripe subscription cancellations and permission grants for trialing users
+- Fixes CSS issues in Tabular Product layout
+- Fixes sorting functionality for table elements
+- Fixes removal of special characters from confirmation redirect URL
+- Fixes hide offline payment option after applying coupon
+- Fixes conditionally render subscription
 
 ## Version 4.6.12 (July 03, 2025)
 - Adds refund support for Stripe, Razorpay, Paystack, and Square.
