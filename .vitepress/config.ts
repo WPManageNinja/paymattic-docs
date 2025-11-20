@@ -146,7 +146,9 @@ export default defineConfig({
       {
         text: 'Email Notification Settings',
         items: [
-          { text: 'Email Notifications', link: '/how-to-setup-email-notifications-in-paymattic-wordpress-plugin' }
+          { text: 'Email Notifications', link: '/how-to-setup-email-notifications-in-paymattic-wordpress-plugin' },
+          { text: 'Email Notifications for Subscription Cancel', link: '/how-to-enable-email-notification-for-subscription-cancel' },
+          { text: 'Email Notifications for Donation', link: '/email-notification-for-donation' }
         ]
       },
       {
