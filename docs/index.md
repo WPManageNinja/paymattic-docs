@@ -2,8 +2,11 @@
 layout: home
 hero:
   name: Paymattic
-  text: WordPress Payment Form Builder
-  tagline: Create beautiful payment forms and accept payments with ease
+  text: Payment & donation for WordPress
+  tagline: Create secure, simple payment & donation forms with subscription payments, recurring donations, customer dashboard, donor wall, and more.
+  image:
+    src: /images/brand/homepage-image.png
+    alt: Paymattic
   actions:
     - theme: brand
       text: Get Started

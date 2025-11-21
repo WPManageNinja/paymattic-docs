@@ -8,6 +8,10 @@ export default defineConfig({
   srcDir: './docs',
   ignoreDeadLinks: true,
 
+  head: [
+    ['link', { rel: 'icon', href: '/images/brand/paymattic_primary_icon.png' }]
+  ],
+
   rewrites: {
     'getting-started-with-paymattic/:page': ':page',
     'form-editor/:page': ':page',
@@ -28,7 +32,11 @@ export default defineConfig({
   },
 
   themeConfig: {
-    logo: '/images/logo.png',
+    siteTitle: false,
+    logo: {
+      light: '/images/brand/paymattic_primary_logo.png',
+      dark: '/images/brand/paymattic_secondary_logo.png'
+    },
     nav: [
       { text: 'Website', link: 'https://paymattic.com' },
       { text: 'User Docs', link: '/paymattic-introduction' },
@@ -198,13 +206,8 @@ export default defineConfig({
       }
     ],
     
-    socialLinks: [
-      { icon: 'github', link: 'https://github.com/WPManageNinja/paymattic' }
-    ],
-    
     footer: {
-      message: 'Released under the GPL License.',
-      copyright: 'Copyright © 2024 WPManageNinja'
+      copyright: 'Copyright © 2025 WPManageNinja'
     }
   }
 }) 
