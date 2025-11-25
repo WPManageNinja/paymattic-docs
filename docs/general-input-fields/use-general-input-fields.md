@@ -82,19 +82,17 @@ This field provides a structured way to collect a user’s full name. Instead of
 
 The settings options are:
 
-* **Field Label:** Enter the text that will be displayed as the main label for this field on the form.
-* **First Name:** You can customize the **Sub Label**, **Placeholder** text, and **Default Value** specifically for the first name input.
-* **Middle Name:** You can customize the **Sub Label**, **Placeholder** text, and **Default Value** specifically for the middle name input.
-* **Last Name:** You can customize the **Sub Label**, **Placeholder** text, and **Default Value** specifically for the last name input.
-* **Required:** Enable this option to make the field mandatory. The user will be required to fill in the **First** and **Last Name** to submit the form.
-* **Admin Field Label:** Set a specific label for this field that is only visible to the site admin in the backend for organizational purposes.
-* **Help Message:** Add a short instructional text that will appear below the field to guide the user.
-* **Container Class:** Add custom CSS class names to the field’s container to apply custom styling.
-* **Conditional Logic:** Enable this option to set rules for displaying or hiding this field based on a user’s input in other fields.
+* **Required:** You can make the Full Name field mandatory for submission by toggling this switch to the "on" position.
+* **Name Layout:** This option allows you to select which components of the name you want to collect. Simply check or uncheck the boxes for **First Name**, **Middle Name**, and **Last Name** based on your form requirements.
+* **Default First Name:** Use this field to set a default value that will automatically populate the **First Name** input box when the user views the form.
+* **Default Middle Name:** Use this field to set a default value that will automatically populate the **Middle Name** input box.
+* **Default Last Name:** Use this field to set a default value that will automatically populate the **Last Name** input box.
+
+Once you have configured the General settings (and any options in the Advanced tab), click the **Update** button to save your changes.
 
 ![Settings panel for the Full Name field](/images/general-input-fields/use-general-input-fields/full-name-field.webp)
 
-### 2. Email Field
+### 3. Email Field
 
 This field is used to take customer email addresses as input. The settings options are:
 - **Unique Email**: It will show an error message to the user if they input any value other than a valid email address.
@@ -104,7 +102,7 @@ To learn the detailed use of **General Settings**, click [here](#a-general-setti
 
 ![Email Field Settings](/images/general-input-fields/use-general-input-fields/Email-Address.webp)
 
-### 3. File Upload Field
+### 4. File Upload Field
 
 ::: warning Pro Feature
 The File Upload field is a premium feature of the Paymattic plugin.
@@ -121,7 +119,7 @@ To see the detailed use of the **Advanced Settings** option, click [here](#b-adv
 
 ![File Upload Settings](/images/general-input-fields/use-general-input-fields/File-Upload.webp)
 
-### 4. Phone Number Field
+### 5. Phone Number Field
 
 You can use the Phone Number field to take the user's phone number as input. The General Settings options are:
 - **Required**: This option lets you enable and disable the field's required status. The required option indicates that the input field must be filled up before the form can be submitted.
@@ -132,7 +130,7 @@ To see the detailed use of the **Advanced Settings** option, click [here](#b-adv
 
 ![Phone Number Settings](/images/general-input-fields/use-general-input-fields/Phone-Number.webp)
 
-### 5. Text Area Field
+### 6. Text Area Field
 
 The Textarea field allows you to accept text input in the form of a paragraph. The settings options are:
 - **Minimum Height**: You can adjust the text area field's height to suit your demands; in this case, the number field will be measured in pixels (px).
@@ -141,7 +139,7 @@ To learn the detailed use of **General Settings**, click [here](#a-general-setti
 
 ![Text Area Settings](/images/general-input-fields/use-general-input-fields/Text-area-field.webp)
 
-### 6. Number Field
+### 7. Number Field
 
 The Number Field is another frequently used input field in the payment form, which is utilized to take any numeric value while completing the payment form. Also, if you wish to have your clients' phone numbers, you can apply this input field. You can set a minimum value for this input field.
 
@@ -161,13 +159,13 @@ To learn the detailed use of **Advanced Settings**, click [here](#b-advanced-set
 
 ![Number Field Advanced Settings](/images/general-input-fields/use-general-input-fields/Advanced-Settings-of-Number-Field.webp)
 
-### 7. Dropdown Field
+### 8. Dropdown Field
 
 This field lets you add multiple values to the form as a dropdown list. For example, if you want to provide multiple alternatives to clients, you can utilize this input field.
 
 To learn the detailed use of **General Settings**, click [here](#a-general-settings-options), and for **Advanced Settings**, click [here](#b-advanced-settings-options).
 
-### 8. Radio Field
+### 9. Radio Field
 
 The Radio Field allows you to add multiple values as a radio button in the form.
 
@@ -177,7 +175,7 @@ Plus, the **Inline Radio Items** option lets you showcase your radio options hor
 
 To learn the detailed use of **General Settings**, click [here](#a-general-settings-options), and for **Advanced Settings**, click [here](#b-advanced-settings-options).
 
-### 9. Checkbox Field
+### 10. Checkbox Field
 
 The Checkbox field is an input field that is used in the payment form to add a list of values using the checkbox button.
 
@@ -187,7 +185,7 @@ Plus, the **Inline Checkbox Items** option lets you showcase your checkbox optio
 
 To learn the detailed use of **General Settings**, click [here](#a-general-settings-options), and for **Advanced Settings**, click [here](#b-advanced-settings-options).
 
-### 10. Date & Time Field
+### 11. Date & Time Field
 
 Use the Date Field to take a date as input such as date of birth, or joining date.
 
@@ -196,7 +194,7 @@ This field opens up in calendar format when the user clicks on the date field. Y
 To learn the detailed use of **General Settings**, click [here](#a-general-settings-options), and for **Advanced Settings**, click [here](#b-advanced-settings-options).
 Additionally, to learn the Date Format Customization, click [here](/faq/date-formats-customization).
 
-### 11. Hidden Input Field
+### 12. Hidden Input Field
 
 This is an invisible input field that is not shown in the form while submitting the data. You can use this field to collect system data such as the date and time of form submission, the username, the display name, the site title, the site URL, etc.
 
@@ -204,19 +202,19 @@ And, you can collect all these data according to your needs by using the **Input
 
 To learn the detailed use of **General Settings**, click [here](#a-general-settings-options), and for **Advanced Settings**, click [here](#b-advanced-settings-options).
 
-### 12. Two Column Container Field
+### 13. Two Column Container Field
 
 This field is used to add two fields horizontally in one column instead of a new column for each field for your **Paymattic Forms** and make them look more compact and organized to your users.
 
 The Three Column Container field has the same functionality except for the number of added columns. To learn more, read this [Documentation](/form-editor/add-multiple-column-containers-in-forms).
 
-### 13. Three Column Container Field
+### 14. Three Column Container Field
 
 This field is used to add three fields horizontally in one column instead of a new column for each field for your **Paymattic Forms** and make them look more compact and organized to your users.
 
 The Two Column Container field has the same functionality except for the number of added columns. To learn more, read this [Documentation](/form-editor/add-multiple-column-containers-in-forms).
 
-### 14. HTML Markup Field
+### 15. HTML Markup Field
 
 HTML markup is a strong tool for your payment form. Using this field, you can add elements containing HTML code.
 
@@ -224,37 +222,37 @@ For example, if you want to display an image in your form, you can use HTML Mark
 
 To learn the detailed use of **General Settings**, click [here](#a-general-settings-options), and for **Advanced Settings**, click [here](#b-advanced-settings-options).
 
-### 15. Password Field
+### 16. Password Field
 
 The Password field lets you add a password field in the form. It takes data in a password format while filling up the form.
 
 To learn the detailed use of **General Settings**, click [here](#a-general-settings-options), and for **Advanced Settings**, click [here](#b-advanced-settings-options).
 
-### 16. Single Line Text Field
+### 17. Single Line Text Field
 
 Use the Single Line Text field if you want your users to write a few words to specify any issue in the form.
 
 To learn the detailed use of **General Settings**, click [here](#a-general-settings-options), and for **Advanced Settings**, click [here](#b-advanced-settings-options).
 
-### 17. Address Field
+### 18. Address Field
 
 It is a very vital field to take a user's address or location data as input. You can collect Street addresses, City, State, Zip Code, and Country in different sub-sections.
 
 To learn the detailed use of **General Settings**, click [here](#a-general-settings-options), and for **Advanced Settings**, click [here](#b-advanced-settings-options).
 
-### 18. Content/Terms & Conditions Field
+### 19. Content/Terms & Conditions Field
 
 This option allows you to include Terms and Conditions in your form. You can enter your Terms Text and Terms Description here. You can also select whether the field should be required or optional.
 
 To learn the detailed use of **General Settings**, click [here](#a-general-settings-options), and for **Advanced Settings**, click [here](#b-advanced-settings-options).
 
-### 19. Step Form Field
+### 20. Step Form Field
 
 This field is used to create multi-step forms easily that allow you to collect more data without scaring the users away.
 
 To learn more about this field, read this [Documentation](/form-editor/creating-a-step-form-with-paymattic).
 
-### 20. Mask Input Field
+### 21. Mask Input Field
 
 ::: warning Pro Feature
 The Mask Input field is a premium feature of the Paymattic plugin.
