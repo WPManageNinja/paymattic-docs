@@ -25,7 +25,7 @@ Go to **Paymattic Dashboard** from the WordPress Left Sidebar. Click the **Creat
 
 ![Adding the Donation Progress Item field to the form](/images/email-notification-settings/email-notification-for-donation/edit-form-2.webp)
 
-Now add the **Donation Progress Item** field to your form. After adding the donation progress item, click on the **Settings** icon. If you want to learn more about the **Donation Progress Item** field, please read the related [article](/how-to-setup-email-notifications-in-paymattic-wordpress-plugin).
+Now add the **Donation Progress Item** field to your form. After adding the donation progress item, click on the **Settings** icon. If you want to learn more about the **Donation Progress Item** field, please read the related [article](/setup-email-notifications).
 
 ![Adding the Donation Progress Item field](/images/email-notification-settings/email-notification-for-donation/donation-progress-item-field-3.webp)
 

@@ -1,9 +1,9 @@
 ---
-title: "How to Create WordPress Donation Form with Simple Form Templates?"
+title: "Create WordPress Donation Form with Simple Form Templates"
 category: "Form Editor"
 ---
 
-# How to Create WordPress Donation Form with Simple Form Templates?
+# Create WordPress Donation Form with Simple Form Templates
 
 [Paymattic](https://paymattic.com/) offers the simplest form templates. Not everyone needs extensive customization. Everything you would require when creating a form is already there. This article will guide you through creating a **Form using a Pre-built Template** to collect donation payments.
 
@@ -39,7 +39,7 @@ If you want to see the front-end view of your chosen template before starting th
 Once you click the create form button it will redirect you to the form's **Editor** page where you can change the form's **Title** and add a **Description** by clicking on its name.
 
 ::: tip
-To learn more about form editing, read this [Documentation](../form-editor/how-to-edit-forms-in-wordpress-with-paymattic.md).
+To learn more about form editing, read this [Documentation](/edit-forms).
 :::
 
 Then, you can see the **Donation Progress Item**, **Name**, **Email**, and **Choose Payment Method** fields are already added.

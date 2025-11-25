@@ -19,7 +19,7 @@ features:
   - icon: 📝
     title: Form Editor
     details: Create and customize payment forms with our powerful editor
-    link: /how-to-create-your-first-payment-form-in-a-minute-and-accept-payments-with-paymattic
+    link: /create-payment-form
   - icon: 💳
     title: Payment Methods
     details: Configure and manage payment gateways and methods
@@ -27,13 +27,13 @@ features:
   - icon: 🔌
     title: Integrations
     details: Connect Paymattic with your favorite tools and services
-    link: /how-to-integrate-fluentcrm-in-wordpress-with-paymattic
+    link: /integrate-fluentcrm
   - icon: ⚙️
     title: Global Settings
     details: Configure global settings, currency, and user roles
-    link: /how-to-change-currency-settings-in-wordpress-with-paymattic
+    link: /change-currency-settings
   - icon: ❓
     title: FAQ
     details: Find answers to common questions and troubleshooting tips
-    link: /add-first-last-name-fields-in-a-form
+    link: /add-first-last-name-fields
 --- 

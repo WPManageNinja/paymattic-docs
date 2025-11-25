@@ -1,0 +1,107 @@
+---
+title: "View Customer Profile"
+category: "Customer Profile"
+---
+
+# View Customer Profile
+
+The Customers section of [Paymattic](https://paymattic.com/) will allow you to view your customer profile/s in detail to understand them in a better way. You can see the list of all customers, individual subscription data, the amount spent, site permission status, customer engagement data, customer activity data, and many more. 
+
+This article will guide you through using all the features of the Customers section of Paymattic.
+
+## Access Customer Profiles
+
+
+First, go to **Paymattic Dashboard** from the **WordPress Left Sidebar**, click the **Customers** section, and all the features will appear to help you view your overall customer profiles.
+
+![Access customers](/images/customer-profile/view-customer-profile/1.-Customers-section-from-Paymattic-Dahboard-scaled.webp)
+
+## Customer List Features
+
+**All the features mentioned above for viewing the profiles of entire customers who submitted Paymattic forms are explained below:**
+
+1. Date Filter
+
+2. Search Bar
+
+3. Name
+
+4. Submissions
+
+5. First Submission
+
+6. Created At
+
+7. View Detail
+
+8. Pagination
+
+### 1. Date Filter
+
+With this filter option, you can view customers from a specific period based on dates.
+
+For example, I selected the time frame of 1st to 15th October 2024, and the customers who submitted forms during this period appeared on the Customers page. 
+
+![Date filtering](/images/customer-profile/view-customer-profile/2.-Date-Filter-scaled.webp)
+
+### 2. Search Bar
+
+Using this option, you can search for specific customers with User Name & Email.
+For example, here I searched for a customer by name.
+
+![Customer search](/images/customer-profile/view-customer-profile/3.-Search-Bar-scaled.webp)
+
+### 3. Name 
+
+The Name tab displays the list of customers’ Names and the Email Addresses they used for form submission.
+
+![Customer details](/images/customer-profile/view-customer-profile/4.-Name-scaled.webp)
+
+### 4. Submissions 
+
+The Submissions tab shows the total number of form submissions for each customer with the same email. 
+
+![Submission count](/images/customer-profile/view-customer-profile/5.-Submissions-scaled.webp)
+
+### 5. First Submission 
+
+This tab displays the exact time when a customer submitted his first form.
+
+![First submission](/images/customer-profile/view-customer-profile/6.-First-Submission-scaled.webp)
+
+### 6. Created At 
+
+This tab displays the exact date when a customer submitted his first form.
+
+![Creation date](/images/customer-profile/view-customer-profile/7.-Created-At-scaled.webp)
+
+### 7. View Detail 
+
+This button helps you to see each customer profile in detail. 
+
+![Access details](/images/customer-profile/view-customer-profile/8.-View-Detail-scaled.webp)
+
+Once you click this button it will redirect you to the detail profile page where you will see the entire detail organized in five major sections. These are:
+
+* **Subscriptions:** Here you will see all the Subscription-related details. Such as subscription item details, submission date, and submission status. Plus, you can visit each submission entry by clicking the view entry button. To learn more about single submission entries, [Click Here](/view-single-entry).
+
+* **Customer Engagement by Form:** Here you will see the submitted form’s ID, Title, and all Entries under this specific form. By clicking the View Entries button you can see all the entries in one place. To learn more about viewing and managing all form entries, [Click Here](/view-form-entries).
+
+* **Activity:** Here, you can see the submitted form’s Entry ID, Submission Date, Payment Amount, Payment Method, and Payment Status based on the Date and Payment Status filters.
+
+* **Customer Profile:** On the left-hand side, you can see the details about the Customer’s Name, Email, exact time and date of the First form Submission, and the amount of money the customer spent and received.
+
+* **Permissions:** You can see what permissions you gave to these customers on the left-hand side. To learn more about user roles and permissions, [Click Here](/manage-user-roles).
+
+
+![Detailed profile](/images/customer-profile/view-customer-profile/9.-Detail-Page-of-one-Customer-Profile-scaled.webp)
+
+### 8. Pagination 
+
+With this option, you can set how many customers you want to display per page
+
+![Pagination options](/images/customer-profile/view-customer-profile/10.-Pagination-scaled.webp)
+
+:::tip Need Help?
+If you have any questions, concerns, or suggestions, please [contact our support team](https://wpmanageninja.com/support-tickets/).
+:::

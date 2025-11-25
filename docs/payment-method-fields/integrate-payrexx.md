@@ -1,8 +1,8 @@
 ---
-title: "How to Integrate Payrexx in WordPress with Paymattic"
+title: "Integrate Payrexx with Paymattic"
 category: "Payment Method Fields"
 ---
-# How to Integrate Payrexx in WordPress with Paymattic
+# Integrate Payrexx with Paymattic
 
 [Payrexx](https://www.payrexx.com/) is a globally recognized fast and secure payment gateway that allows you to collect payments worldwide. You can accept payments through:
 

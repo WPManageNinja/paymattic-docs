@@ -48,154 +48,154 @@ export default defineConfig({
         text: 'Getting Started with Paymattic',
         items: [
           { text: 'Paymattic Introduction', link: '/paymattic-introduction' },
-          { text: 'How to Install and Activate Paymattic in WordPress', link: '/how-to-install-and-activate-paymattic-in-wordpress' }
+          { text: 'Install Paymattic', link: '/install-paymattic' }
         ]
       },
       {
         text: 'Form Editor',
         items: [
-          { text: 'Create Payment Form', link: '/how-to-create-your-first-payment-form-in-a-minute-and-accept-payments-with-paymattic' },
-          { text: 'Create Form from Scratch', link: '/how-to-create-a-form-from-scratch-with-paymattic' },
-          { text: 'Edit Forms', link: '/how-to-edit-forms-in-wordpress-with-paymattic' },
+          { text: 'Create Payment Form', link: '/create-payment-form' },
+          { text: 'Create Form from Scratch', link: '/create-form-from-scratch' },
+          { text: 'Edit Forms', link: '/edit-forms' },
           { text: 'Form Templates', link: '/simple-form-templates' },
-          { text: 'Step Forms', link: '/creating-a-step-form-with-paymattic' },
-          { text: 'Multiple Column Layout', link: '/add-multiple-column-containers-in-forms' },
-          { text: 'Conditional Logic', link: '/how-to-use-conditional-logic-in-form-fields-with-paymattic' },
-          { text: 'PDF Feed', link: '/how-to-create-pdf-feed-for-form-submissions' }
+          { text: 'Step Forms', link: '/create-step-form' },
+          { text: 'Multiple Column Layout', link: '/add-multiple-columns' },
+          { text: 'Conditional Logic', link: '/use-conditional-logic' },
+          { text: 'PDF Feed', link: '/create-pdf-feed' }
         ]
       },
       {
         text: 'General Input Fields',
         items: [
-          { text: 'General Input Fields', link: '/how-to-use-general-form-input-fields-in-wordpress-with-paymattic' },
-          { text: 'Payment Method Fields', link: '/how-to-use-the-payment-method-fields-section' },
-          { text: 'Product Fields', link: '/how-to-use-the-product-fields' }
+          { text: 'General Input Fields', link: '/use-general-input-fields' },
+          { text: 'Payment Method Fields', link: '/use-payment-method-fields' },
+          { text: 'Product Fields', link: '/use-product-fields' }
         ]
       },
       {
         text: 'Donation and Product Fields',
         items: [
-          { text: 'Payment Item Fields', link: '/how-to-add-payment-item-fields-in-wordpress-with-paymattic' },
-          { text: 'Subscription Payment', link: '/how-to-add-susbcription-payment-item-fields-in-paymattic' },
-          { text: 'Dynamic Payment Item', link: '/dynamic-payment-item-field' },
-          { text: 'Tabular Product Item', link: '/how-to-add-tabular-product-item-fields-in-wordpress-with-paymattic' },
-          { text: 'User Defined Amount', link: '/how-to-add-user-defined-amount-field-in-wordpress-with-paymattic' },
-          { text: 'Item Quantity', link: '/how-to-add-item-quantity-field-in-wordpress-with-paymattic' },
-          { text: 'Currency Switcher', link: '/add-currency-switcher-in-wordpress-form' },
-          { text: 'Payment Summary', link: '/add-payment-summary-field-in-forms' },
-          { text: 'Tax Calculator', link: '/how-to-add-tax-calculated-amount-field-in-wordpress-with-paymattic' },
-          { text: 'Donation Progress', link: '/how-to-add-donation-progress-item-in-wordpress-with-paymattic' }
+          { text: 'Payment Item Fields', link: '/add-payment-item-fields' },
+          { text: 'Subscription Payment', link: '/add-subscription-payment-fields' },
+          { text: 'Dynamic Payment Item', link: '/dynamic-payment-item' },
+          { text: 'Tabular Product Item', link: '/add-tabular-product-fields' },
+          { text: 'User Defined Amount', link: '/add-user-defined-amount' },
+          { text: 'Item Quantity', link: '/add-item-quantity' },
+          { text: 'Currency Switcher', link: '/add-currency-switcher' },
+          { text: 'Payment Summary', link: '/add-payment-summary' },
+          { text: 'Tax Calculator', link: '/add-tax-calculator' },
+          { text: 'Donation Progress', link: '/add-donation-progress' }
         ]
       },
       {
         text: 'Payment Methods',
         items: [
           { text: 'All Payment Methods', link: '/all-payment-method' },
-          { text: 'Stripe', link: '/how-to-configure-stripe-payment-gateway-in-wordpress-with-paymattic' },
-          { text: 'PayPal', link: '/how-to-configure-paypal-in-wordpress-with-paymattic' },
-          { text: 'Authorize.net', link: '/configure-authorize-net-in-wordpress-through-paymattic' },
-          { text: 'Mollie', link: '/how-to-integrate-mollie-in-wordpress-with-paymattic' },
-          { text: 'Razorpay', link: '/how-to-integrate-razorpay-with-paymattic-in-wordpress' },
-          { text: 'Square', link: '/how-to-integrate-square-with-paymattic-in-wordpress' },
-          { text: 'PayStack', link: '/how-to-integrate-paystack-in-wordpress-with-paymattic' },
-          { text: 'SSLCommerz', link: '/how-to-integrate-sslcommerz-with-paymattic-in-wordpress' },
-          { text: 'Xendit', link: '/how-to-integrate-xendit-in-wordpress' },
-          { text: 'Viva Wallet', link: '/how-to-integrate-viva-wallet-with-paymattic' },
-          { text: 'Moneris', link: '/how-to-integrate-moneris-payment-gateway-in-paymattic' },
-          { text: 'Offline Payment', link: '/how-to-collect-offline-payment-in-wordpress-with-paymattic' }
+          { text: 'Stripe', link: '/configure-stripe' },
+          { text: 'PayPal', link: '/configure-paypal' },
+          { text: 'Authorize.net', link: '/configure-authorize-net' },
+          { text: 'Mollie', link: '/integrate-mollie' },
+          { text: 'Razorpay', link: '/integrate-razorpay' },
+          { text: 'Square', link: '/integrate-square' },
+          { text: 'PayStack', link: '/integrate-paystack' },
+          { text: 'SSLCommerz', link: '/integrate-sslcommerz' },
+          { text: 'Xendit', link: '/integrate-xendit' },
+          { text: 'Viva Wallet', link: '/integrate-viva-wallet' },
+          { text: 'Moneris', link: '/integrate-moneris' },
+          { text: 'Offline Payment', link: '/collect-offline-payment' }
         ]
       },
       {
         text: 'Global Settings',
         items: [
-          { text: 'Currency Settings', link: '/how-to-change-currency-settings-in-wordpress-with-paymattic' },
-          { text: 'User Roles', link: '/how-to-manage-user-roles-in-wordpress-with-paymattic' },
-          { text: 'reCAPTCHA', link: '/how-to-configure-recaptcha-in-wordpress-with-paymattic' },
-          { text: 'Cloudflare Turnstile', link: '/how-to-configure-cloudflare-turnstile-with-paymattic' },
-          { text: 'User Dashboard', link: '/how-to-add-user-dashboard-module-in-paymattic' }
+          { text: 'Currency Settings', link: '/change-currency-settings' },
+          { text: 'User Roles', link: '/manage-user-roles' },
+          { text: 'reCAPTCHA', link: '/configure-recaptcha' },
+          { text: 'Cloudflare Turnstile', link: '/configure-cloudflare-turnstile' },
+          { text: 'User Dashboard', link: '/add-user-dashboard-module' }
         ]
       },
       {
         text: 'Integrations',
         items: [
-          { text: 'FluentCRM', link: '/how-to-integrate-fluentcrm-in-wordpress-with-paymattic' },
-          { text: 'FluentSupport', link: '/how-to-integrate-fluent-support-with-paymattic-in-wordpress' },
-          { text: 'FluentCommunity', link: '/how-to-integrate-fluentcommunity-in-wordpress-with-paymattic' },
-          { text: 'Mailchimp', link: '/how-to-integrate-mailchimp-in-wordpress-with-paymattic' },
-          { text: 'ActiveCampaign', link: '/how-to-integrate-activecampaign-in-wordpress-with-paymattic' },
-          { text: 'Google Sheets', link: '/integrate-google-sheets-in-wordpress-with-paymattic' },
-          { text: 'Zapier', link: '/how-to-integrate-zapier-with-paymattic-in-wordpress' },
-          { text: 'Webhook', link: '/how-to-integrate-webhook-in-wordpress-with-paymattic' },
-          { text: 'Slack', link: '/how-to-integrate-slack-in-wordpress-with-paymattic' },
-          { text: 'Telegram', link: '/how-to-integrate-telegram-with-paymattic-in-wordpress' },
-          { text: 'Twilio', link: '/how-to-integrate-twilio-with-paymattic-in-wordpress' },
-          { text: 'User Registration', link: '/how-to-create-a-user-registration-form-with-paymattic-in-wordpress' }
+          { text: 'FluentCRM', link: '/integrate-fluentcrm' },
+          { text: 'FluentSupport', link: '/integrate-fluent-support' },
+          { text: 'FluentCommunity', link: '/integrate-fluentcommunity' },
+          { text: 'Mailchimp', link: '/integrate-mailchimp' },
+          { text: 'ActiveCampaign', link: '/integrate-activecampaign' },
+          { text: 'Google Sheets', link: '/integrate-google-sheets' },
+          { text: 'Zapier', link: '/integrate-zapier' },
+          { text: 'Webhook', link: '/integrate-webhook' },
+          { text: 'Slack', link: '/integrate-slack' },
+          { text: 'Telegram', link: '/integrate-telegram' },
+          { text: 'Twilio', link: '/integrate-twilio' },
+          { text: 'User Registration', link: '/create-user-registration-form' }
 
         ]
       },
       {
         text: 'Learning Management System (LMS) Integrations',
         items: [
-          { text: 'TutorLMS', link: '/how-to-integrate-tutor-lms-in-wordpress-with-paymattic' },
-          { text: 'LearnDash', link: '/how-to-integrate-learndash-in-wordpress-with-paymattic' },
-          { text: 'LifterLMS', link: '/how-to-integrate-lifterlms-in-wordpress-with-paymattic' }
+          { text: 'TutorLMS', link: '/integrate-tutor-lms' },
+          { text: 'LearnDash', link: '/integrate-learndash' },
+          { text: 'LifterLMS', link: '/integrate-lifterlms' }
         ]
       },
       {
         text: 'Form Settings',
         items: [
-          { text: 'Payment Settings', link: '/customize-form-specific-payment-settings' },
-          { text: 'Design Settings', link: '/how-to-customize-form-design-settings-in-wordpress-with-paymattic' },
-          { text: 'Confirmation Settings', link: '/how-to-configure-confirmation-settings-in-wordpress-with-paymattic' },
-          { text: 'Form Restrictions', link: '/how-to-set-form-scheduling-and-restriction-settings-in-wordpress-with-paymattic' },
-          { text: 'Custom CSS/JS', link: '/how-to-create-custom-css-js-in-wordpress-with-paymattic' }
+          { text: 'Payment Settings', link: '/customize-payment-settings' },
+          { text: 'Design Settings', link: '/customize-form-design' },
+          { text: 'Confirmation Settings', link: '/configure-confirmation' },
+          { text: 'Form Restrictions', link: '/set-form-restrictions' },
+          { text: 'Custom CSS/JS', link: '/create-custom-css-js' }
         ]
       },
       {
         text: 'Email Notification Settings',
         items: [
-          { text: 'Email Notifications', link: '/how-to-setup-email-notifications-in-paymattic-wordpress-plugin' },
-          { text: 'Email Notifications for Subscription Cancel', link: '/how-to-enable-email-notification-for-subscription-cancel' },
+          { text: 'Email Notifications', link: '/setup-email-notifications' },
+          { text: 'Email Notifications for Subscription Cancel', link: '/enable-subscription-cancel-email' },
           { text: 'Email Notifications for Donation', link: '/email-notification-for-donation' }
         ]
       },
       {
         text: 'Manage Form Entries',
         items: [
-          { text: 'View Entries', link: '/how-to-view-and-manage-all-form-entries-in-wordpress-with-paymattic' },
-          { text: 'Single Entry', link: '/how-to-view-single-submission-data-and-manage-payments-in-paymattic' },
-          { text: 'Manage Subscriptions', link: '/how-to-manage-subscriptions-in-wordpress-with-paymattic' },
-          { text: 'Cancel Subscription', link: '/manually-cancel-any-subscription' },
-          { text: 'Refund Payments', link: '/how-to-refund-payments-in-paymattic' },
-          { text: 'Payment Hold', link: '/stripe-payment-hold-in-paymattic' },
-          { text: 'Disable IP Address', link: '/how-to-disable-ip-address-logging-in-wordpress-with-paymattic' }
+          { text: 'View Entries', link: '/view-form-entries' },
+          { text: 'Single Entry', link: '/view-single-entry' },
+          { text: 'Manage Subscriptions', link: '/manage-subscriptions' },
+          { text: 'Cancel Subscription', link: '/cancel-subscription' },
+          { text: 'Refund Payments', link: '/refund-payments' },
+          { text: 'Payment Hold', link: '/stripe-payment-hold' },
+          { text: 'Disable IP Address', link: '/disable-ip-logging' }
         ]
       },
       {
         text: 'Customer Profile',
         items: [
-          { text: 'Customer Profile', link: '/how-to-view-customer-profile-in-wordpress' }
+          { text: 'Customer Profile', link: '/view-customer-profile' }
         ]
       },
       {
         text: 'Reports & Analytics',
         items: [
-          { text: 'Reports & Analytics', link: '/how-to-view-the-reports-and-payment-analytics-in-wordpress-with-paymattic' }
+          { text: 'Reports & Analytics', link: '/view-reports-analytics' }
         ]
       },
       {
         text: 'Import - Export',
         items: [
-          { text: 'Import/Export Forms', link: '/how-to-import-export-forms-in-wordpress-with-paymattic' },
-          { text: 'Export Entries', link: '/how-to-export-form-entries-in-csv-excel-ods-and-json' }
+          { text: 'Import/Export Forms', link: '/import-export-forms' },
+          { text: 'Export Entries', link: '/export-form-entries' }
         ]
       },
       {
         text: 'FAQ',
         items: [
-          { text: 'First & Last Name Fields', link: '/add-first-last-name-fields-in-a-form' },
+          { text: 'First & Last Name Fields', link: '/add-first-last-name-fields' },
           { text: 'Date Formats', link: '/date-formats-customization' },
-          { text: 'Email Issues', link: '/how-to-fix-not-sending-email-confirmations-issue-in-wordpress-with-paymattic' }
+          { text: 'Email Issues', link: '/fix-email-confirmation-issue' }
         ]
       },
       {
