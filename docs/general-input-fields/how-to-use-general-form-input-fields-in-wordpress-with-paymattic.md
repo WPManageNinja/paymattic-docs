@@ -1,9 +1,9 @@
 ---
-title: "Use the General Fields"
+title: "How to Use the General Fields"
 category: "General Input Fields"
 ---
 
-# Use the General Fields
+# How to Use the General Fields
 
 [Paymattic](https://paymattic.com/) provides 20 general fields to design a standard payment form for your WordPress Site. This article will give you an overview of Paymattic's General Fields.
 
@@ -18,17 +18,17 @@ Only the **File Upload** and **Mask Input** fields require the Paymattic Pro plu
 
 First, go to the **All Forms** section from the **Paymattic Navbar**, choose a **Form**, and click the **Pencil/Edit** icon to open the **Editor** page of that form.
 
-![Open Form Editor](/images/general-input-fields/use-general-input-fields/open-desired-form-10-scaled.webp)
+![Open Form Editor](/images/general-input-fields/how-to-use-general-form-input-fields-in-wordpress-with-paymattic/open-desired-form-10-scaled.webp)
 
 Once you open the **Editor** page, type the **"/"** or click the **"+"** icon placed at the bottom to get the General Fields section.
 
-![Add Field Options](/images/general-input-fields/use-general-input-fields/Type-2222-or-click-2222-scaled.webp)
+![Add Field Options](/images/general-input-fields/how-to-use-general-form-input-fields-in-wordpress-with-paymattic/Type-2222-or-click-2222-scaled.webp)
 
 On the **Choose form field** page, you will find all the desired **general input fields** under the **General Fields** section.
 
 Now, you can select any field/s according to your needs by simply clicking on its name.
 
-![General Fields Section](/images/general-input-fields/use-general-input-fields/General-Fields-section.webp)
+![General Fields Section](/images/general-input-fields/how-to-use-general-form-input-fields-in-wordpress-with-paymattic/General-Fields-section.webp)
 
 ## Common Settings of General Fields
 
@@ -36,7 +36,7 @@ All the general input fields have some common settings options for configuration
 
 After adding your desired field/s, click the **Settings** icon in the right corner of a field that you wish to work on.
 
-![Settings Icon](/images/general-input-fields/use-general-input-fields/Settings-Icon-of-a-field.webp)
+![Settings Icon](/images/general-input-fields/how-to-use-general-form-input-fields-in-wordpress-with-paymattic/Settings-Icon-of-a-field.webp)
 
 Once you click the **Settings Icon**, two settings options will appear. These are:
 
@@ -51,7 +51,7 @@ Once you click the Settings icon, the **General** settings options will appear. 
 
 Once you set up all the settings, click the **Update** button to save all the customizations.
 
-![General Settings](/images/general-input-fields/use-general-input-fields/common-General-Settings.webp)
+![General Settings](/images/general-input-fields/how-to-use-general-form-input-fields-in-wordpress-with-paymattic/common-General-Settings.webp)
 
 ### B. Advanced Settings Options
 
@@ -64,7 +64,7 @@ Once you complete the General settings, go to the **Advanced** tab, and you will
 
 Once you finish, click the **Update** button to save all your configuration.
 
-![Advanced Settings](/images/general-input-fields/use-general-input-fields/Common-Advanced-Settings.webp)
+![Advanced Settings](/images/general-input-fields/how-to-use-general-form-input-fields-in-wordpress-with-paymattic/Common-Advanced-Settings.webp)
 
 ## Detail of All General Fields
 
@@ -76,24 +76,6 @@ This field in the payment form is used to collect the customers' names when they
 
 To learn the detailed use of **General Settings**, click [here](#a-general-settings-options), and for **Advanced Settings**, click [here](#b-advanced-settings-options).
 
-### 2. Full Name
-
-This field provides a structured way to collect a user’s full name. Instead of a single input box, it is divided into **First Name**, **Middle Name**, and **Last Name** to ensure the data you collect is clean and properly organized.
-
-The settings options are:
-
-* **Field Label:** Enter the text that will be displayed as the main label for this field on the form.
-* **First Name:** You can customize the **Sub Label**, **Placeholder** text, and **Default Value** specifically for the first name input.
-* **Middle Name:** You can customize the **Sub Label**, **Placeholder** text, and **Default Value** specifically for the middle name input.
-* **Last Name:** You can customize the **Sub Label**, **Placeholder** text, and **Default Value** specifically for the last name input.
-* **Required:** Enable this option to make the field mandatory. The user will be required to fill in the **First** and **Last Name** to submit the form.
-* **Admin Field Label:** Set a specific label for this field that is only visible to the site admin in the backend for organizational purposes.
-* **Help Message:** Add a short instructional text that will appear below the field to guide the user.
-* **Container Class:** Add custom CSS class names to the field’s container to apply custom styling.
-* **Conditional Logic:** Enable this option to set rules for displaying or hiding this field based on a user’s input in other fields.
-
-![Settings panel for the Full Name field](/images/general-input-fields/how-to-use-general-form-input-fields-in-wordpress-with-paymattic/full-name-field.webp)
-
 ### 2. Email Field
 
 This field is used to take customer email addresses as input. The settings options are:
@@ -102,7 +84,7 @@ This field is used to take customer email addresses as input. The settings optio
 
 To learn the detailed use of **General Settings**, click [here](#a-general-settings-options), and for **Advanced Settings**, click [here](#b-advanced-settings-options).
 
-![Email Field Settings](/images/general-input-fields/use-general-input-fields/Email-Address.webp)
+![Email Field Settings](/images/general-input-fields/how-to-use-general-form-input-fields-in-wordpress-with-paymattic/Email-Address.webp)
 
 ### 3. File Upload Field
 
@@ -119,7 +101,7 @@ If you want your users to upload single or several files when completing the for
 
 To see the detailed use of the **Advanced Settings** option, click [here](#b-advanced-settings-options).
 
-![File Upload Settings](/images/general-input-fields/use-general-input-fields/File-Upload.webp)
+![File Upload Settings](/images/general-input-fields/how-to-use-general-form-input-fields-in-wordpress-with-paymattic/File-Upload.webp)
 
 ### 4. Phone Number Field
 
@@ -130,7 +112,7 @@ You can use the Phone Number field to take the user's phone number as input. The
 
 To see the detailed use of the **Advanced Settings** option, click [here](#b-advanced-settings-options).
 
-![Phone Number Settings](/images/general-input-fields/use-general-input-fields/Phone-Number.webp)
+![Phone Number Settings](/images/general-input-fields/how-to-use-general-form-input-fields-in-wordpress-with-paymattic/Phone-Number.webp)
 
 ### 5. Text Area Field
 
@@ -139,7 +121,7 @@ The Textarea field allows you to accept text input in the form of a paragraph. T
 
 To learn the detailed use of **General Settings**, click [here](#a-general-settings-options), and for **Advanced Settings**, click [here](#b-advanced-settings-options).
 
-![Text Area Settings](/images/general-input-fields/use-general-input-fields/Text-area-field.webp)
+![Text Area Settings](/images/general-input-fields/how-to-use-general-form-input-fields-in-wordpress-with-paymattic/Text-area-field.webp)
 
 ### 6. Number Field
 
@@ -151,15 +133,15 @@ The General settings options of Number Field are:
 - **Minimum Value**: This setting lets you set the smallest allowed value for the field. If a user enters a value lower than this, the form will show an error, ensuring the input meets your criteria.
 - **Maximum Value**: This setting lets you set the largest allowed value for the field. If a user enters a value higher than this, the form will show an error, ensuring the input stays within the limit.
 
-![Number Field General Settings](/images/general-input-fields/use-general-input-fields/General-Settings-of-Number-Field.webp)
+![Number Field General Settings](/images/general-input-fields/how-to-use-general-form-input-fields-in-wordpress-with-paymattic/General-Settings-of-Number-Field.webp)
 
 The Advanced settings options of Number Field are:
-- **Enable Calculation**: Enabling this feature will allow you to perform real-time mathematical operations for the **Number** and **Product** fields within any [Payment Form](/create-payment-form). Now, add the desired equation under the **Calculation Expression** box to ensure what calculation you want to perform. To know the detailed guidelines of this **Calculation Feature**, read this [Documentation](/use-product-fields#calculation-feature).
+- **Enable Calculation**: Enabling this feature will allow you to perform real-time mathematical operations for the **Number** and **Product** fields within any [Payment Form](/form-editor/how-to-create-your-first-payment-form-in-a-minute-and-accept-payments-with-paymattic). Now, add the desired equation under the **Calculation Expression** box to ensure what calculation you want to perform. To know the detailed guidelines of this **Calculation Feature**, read this [Documentation](/general-input-fields/how-to-use-the-product-fields#calculation-feature).
 - **Enable Additional Checks**: Enable this option to set an extra layer of data integrity check.
 
 To learn the detailed use of **Advanced Settings**, click [here](#b-advanced-settings-options).
 
-![Number Field Advanced Settings](/images/general-input-fields/use-general-input-fields/Advanced-Settings-of-Number-Field.webp)
+![Number Field Advanced Settings](/images/general-input-fields/how-to-use-general-form-input-fields-in-wordpress-with-paymattic/Advanced-Settings-of-Number-Field.webp)
 
 ### 7. Dropdown Field
 
