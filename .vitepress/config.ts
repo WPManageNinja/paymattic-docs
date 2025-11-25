@@ -45,7 +45,7 @@ export default defineConfig({
 
     sidebar: [
       {
-        text: 'Getting Started with Paymattic',
+        text: 'Getting Started',
         items: [
           { text: 'Paymattic Introduction', link: '/paymattic-introduction' },
           { text: 'Install Paymattic', link: '/install-paymattic' }
