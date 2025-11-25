@@ -92,7 +92,7 @@ The settings options are:
 * **Container Class:** Add custom CSS class names to the field’s container to apply custom styling.
 * **Conditional Logic:** Enable this option to set rules for displaying or hiding this field based on a user’s input in other fields.
 
-![Settings panel for the Full Name field](/images/general-input-fields/how-to-use-general-form-input-fields-in-wordpress-with-paymattic/full-name-field.webp)
+![Settings panel for the Full Name field](/images/general-input-fields/use-general-input-fields/full-name-field.webp)
 
 ### 2. Email Field
 
