@@ -37,6 +37,9 @@ export default defineConfig({
       light: '/images/brand/paymattic_primary_logo.png',
       dark: '/images/brand/paymattic_secondary_logo.png'
     },
+    search: {
+      provider: 'local'
+    },
     nav: [
       { text: 'Website', link: 'https://paymattic.com' },
       { text: 'User Docs', link: '/paymattic-introduction' },
