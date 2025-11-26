@@ -30,7 +30,15 @@ Then, you need to obtain the **API Login ID, Transaction key, Client Key,** and 
 To easily get access to the dashboard of your authorize.net account, click the **account dashboard** link as shown in the screenshot below.
 :::
 
-![Required Credentials](/images/payment-method-fields/configure-authorize-net/3.-Authorize-Required-Credentials-.webp)
+## Enable E-Check Payment Option
+
+Authorize.net also allows you to accept **E-Check** payments. An **E-Check**, or electronic check, is a payment method that allows customers to pay directly from their bank account (checking or savings) instead of using a credit card.
+
+On the **Authorize.net Settings** page, scroll down below the **API** key fields.
+
+Now, simply click the **toggle** button to activate the **Enable E-Check payment option** as shown in the screenshot.
+
+![Enabling the E-Check payment option in Authorize.net settings](/images/payment-method-fields/configure-authorize-net/authorize-net-enable-echeck.webp)
 
 ### Get All the Required Credentials from Authorize.net
 
