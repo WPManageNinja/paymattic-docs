@@ -121,7 +121,7 @@ In every form, when you go to the **Email** tab, you will see that an Admin **Em
 
 You can just simply enable this notification by clicking the **Toggle** button. 
 
-To set up this Admin Email Notification according to your requirements, click the **Edit/Pencil** Icon, and follow the same procedure shown above for the **Customer Email Notification**.
+To set up this Admin Email Notification according to your requirements, click the **Edit/Pencil** Icon, and follow the same procedure shown above for the **Customer Email Notification**. Also, you can duplicate this existing integration feed, by clicking the **Duplicate** icon. This allows you to recreate similar feeds with just one click.
 
 :::warning
 Always use the `{wp:admin_email}` shortcode in the **Email To** field for admin notifications.
