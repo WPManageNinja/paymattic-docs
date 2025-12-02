@@ -5,26 +5,26 @@ Paymattic provides comprehensive support for various payment gateways to help yo
 ## Available Payment Gateways
 
 ### Popular Payment Gateways
-- [Configure Stripe Payment Gateway](/payment-method-fields/how-to-configure-stripe-payment-gateway-in-wordpress-with-paymattic)
-- [Configure PayPal](/payment-method-fields/how-to-configure-paypal-in-wordpress-with-paymattic)
-- [Configure Square](/payment-method-fields/how-to-integrate-square-with-paymattic-in-wordpress)
-- [Configure Authorize.net](/payment-method-fields/configure-authorize-net-in-wordpress-through-paymattic)
+- [Configure Stripe Payment Gateway](/configure-stripe)
+- [Configure PayPal](/configure-paypal)
+- [Configure Square](/integrate-square)
+- [Configure Authorize.net](/configure-authorize-net)
 
 ### Regional Payment Gateways
-- [Configure Mollie](/payment-method-fields/how-to-integrate-mollie-in-wordpress-with-paymattic)
-- [Configure Razorpay](/payment-method-fields/how-to-integrate-razorpay-with-paymattic-in-wordpress)
-- [Configure Paystack](/payment-method-fields/how-to-integrate-paystack-in-wordpress-with-paymattic)
-- [Configure Payrexx](/payment-method-fields/how-to-integrate-payrexx-in-wordpress-with-paymattic)
-- [Configure SSLCOMMERZ](/payment-method-fields/how-to-integrate-sslcommerz-with-paymattic-in-wordpress)
-- [Configure Billplz](/payment-method-fields/how-to-configure-billplz-in-wordpress-with-paymattic)
-- [Configure Xendit](/payment-method-fields/how-to-integrate-xendit-in-wordpress)
-- [Configure Flutterwave](/payment-method-fields/add-flutterwave-payment-gateway-in-paymattic)
-- [Configure Moneris](/payment-method-fields/how-to-integrate-moneris-payment-gateway-in-paymattic)
-- [Configure Viva Wallet](/payment-method-fields/how-to-integrate-viva-wallet-with-paymattic)
+- [Configure Mollie](/integrate-mollie)
+- [Configure Razorpay](/integrate-razorpay)
+- [Configure Paystack](/integrate-paystack)
+- [Configure Payrexx](/integrate-payrexx)
+- [Configure SSLCOMMERZ](/integrate-sslcommerz)
+- [Configure Billplz](/configure-billplz)
+- [Configure Xendit](/integrate-xendit)
+- [Configure Flutterwave](/add-flutterwave)
+- [Configure Moneris](/integrate-moneris)
+- [Configure Viva Wallet](/integrate-viva-wallet)
 
 ### Additional Settings
-- [Configure PayPal IPN](/payment-method-fields/how-to-set-paypal-ipn-in-wordpress-with-paymattic)
-- [Setup Offline Payments](/payment-method-fields/how-to-collect-offline-payment-in-wordpress-with-paymattic)
+- [Configure PayPal IPN](/set-paypal-ipn)
+- [Setup Offline Payments](/collect-offline-payment)
 
 ## Key Features
 
