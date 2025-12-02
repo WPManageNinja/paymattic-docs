@@ -31,6 +31,12 @@ export default defineConfig({
     'change-log/:page': ':page'
   },
 
+  vite: {
+    build: {
+      chunkSizeWarningLimit: 1000
+    }
+  },
+
   themeConfig: {
     siteTitle: false,
     logo: {
