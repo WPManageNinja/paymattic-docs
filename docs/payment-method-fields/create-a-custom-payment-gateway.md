@@ -132,6 +132,23 @@ Here is your quick launch checklist:
 3. Update the API calls to connect your chosen payment provider.
 4. Run a quick test and then deploy.
 
+
+## Reference Example Gateways
+
+To help accelerate your development process, you can reference the full, working code of Paymattic's official payment gateway add-ons. These repositories serve as excellent starting templates for building your custom gateway:
+
+Mollie: https://github.com/WPManageNinja/mollie-for-paymattic
+
+VivaWallet: https://github.com/WPManageNinja/vivawallet-payment-for-paymattic
+
+Moneris: https://github.com/WPManageNinja/moneris-payment-for-paymattic
+
+Flutterwave: https://github.com/WPManageNinja/flutterwave-payment-for-paymattic
+
+Authorize.net: https://github.com/WPManageNinja/authorizedotnet-for-paymattic
+
+Xendit: https://github.com/WPManageNinja/xendit-payment-for-paymattic
+
 This way, integrating a payment gateway takes under an hour, rather than weeks of complex documentation and debugging.
 
 ::: tip Need Help?
