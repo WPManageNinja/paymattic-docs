@@ -111,7 +111,8 @@ export default defineConfig({
           { text: 'Xendit', link: '/integrate-xendit' },
           { text: 'Viva Wallet', link: '/integrate-viva-wallet' },
           { text: 'Moneris', link: '/integrate-moneris' },
-          { text: 'Offline Payment', link: '/collect-offline-payment' }
+          { text: 'Offline Payment', link: '/collect-offline-payment' },
+          { text: 'Create Custom Payment Gateway', link: '/create-a-custom-payment-gateway' }
         ]
       },
       {
