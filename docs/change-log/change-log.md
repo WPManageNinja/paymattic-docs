@@ -5,6 +5,10 @@ category: "Change Log"
 
 # Change Log
 
+## Version 4.6.17 – 04 December, 2025
+- Fixes security issues like sanitization and escaping.
+- Add IPN data in form data raw for Stripe payments.
+
 ## Version 4.6.16 (November 18, 2025)
 - Adds **Conditional logic** for Donation item in email.
 - Adds **Selection limit** for checkbox field in advanced settings.
