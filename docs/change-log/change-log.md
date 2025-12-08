@@ -5,7 +5,7 @@ category: "Change Log"
 
 # Change Log
 
-## Version 4.6.17 – 04 December, 2025
+## Version 4.6.17 (04 December, 2025)
 - Fixes security issues like sanitization and escaping.
 - Add IPN data in form data raw for Stripe payments.
 
