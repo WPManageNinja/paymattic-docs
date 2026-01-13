@@ -217,7 +217,7 @@ export default defineConfig({
     ],
     
     footer: {
-      copyright: 'Copyright © 2025 WPManageNinja'
+      copyright: 'Copyright © 2026 WPManageNinja'
     }
   }
 }) 
