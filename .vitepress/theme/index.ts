@@ -4,6 +4,7 @@ import Feedback from './components/Feedback.vue' // Import the file for feedback
 import Layout from './Layout.vue' // Import new layout file
 
 
+
 export default {
   extends: DefaultTheme,
   Layout,
