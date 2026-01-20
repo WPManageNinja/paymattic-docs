@@ -1,3 +1,4 @@
+import { h } from 'vue'
 import DefaultTheme from 'vitepress/theme'
 import './style.css'
 import Feedback from './components/Feedback.vue' // Import the file for feedback widget
