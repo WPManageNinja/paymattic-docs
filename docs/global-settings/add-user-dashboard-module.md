@@ -172,9 +172,9 @@ Now in your front end, you will see your User Registration Form like the below s
 
 ![Registration form](/images/global-settings/add-user-dashboard-module/Preview-of-User-Registration-Form.webp)
 
-Your user dashboard will look like the screenshot below.
+Your user dashboard will look like the screenshot below. You can also download the invoice by clicking on the **Download** button.
 
-![User dashboard](/images/global-settings/add-user-dashboard-module/Preview-of-User-Dashboard.webp)
+![User dashboard](/images/global-settings/add-user-dashboard-module/dfownload-invoice-from-user-dashboard.webp)
 
 Congrats! Your User Dashboard is ready to use now.
 

@@ -5,6 +5,20 @@ category: "Change Log"
 
 # Change Log
 
+## Version 4.6.18 (27 February, 2026)
+- Adds Xendit Subscription support.
+- Adds Download invoice option in User Dashboard.
+- Adds Subscription cancellation for Authorize.net and Xendit in User Dashboard.
+- Adds Conditional render for Donation Component.
+- Improves Currency sign position dynamic in leaderboard.
+- Improves Wordpress media in pdf.
+- Improves UI for Field disabled.
+- Improves Stripe Direct bank transfer in the hosted checkout.
+- Fixes Refund issue for users with Paymattic Admin permission.
+- Fixes FluentCRM conditional list issue with multiple checkboxes.
+- Fixes Google Sheets sync issue with second address field.
+- Fixes Schedule security audit.
+
 ## Version 4.6.17 (04 December, 2025)
 - Fixes security issues like sanitization and escaping.
 - Add IPN data in form data raw for Stripe payments.
