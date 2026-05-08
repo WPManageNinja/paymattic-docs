@@ -52,10 +52,21 @@ In the **“Parameter”** field (first field), select an **input field** that n
 
 Plus, you can choose whether **All** or **Any** one of your conditional logic should match to trigger the actions.
 
->[!Note]
->For example, I chose **“Customer Email”** as a parameter, **“Contains”** as conditions, and entered **“@gmail.com”** and **“@yahoo.com”** as the respective values. And, select the **“Any”** option for the conditional match. As a result, only users who meet the conditions of having @gmail.com or @yahoo.com in their submission email address will get the email notification.
+**Available Parameters**
 
-Additionally, you can add as many conditions as you want by clicking the **+ Add More** button. Also, you can delete any conditions by clicking the **Trash** Icon anytime if needed.
+When you click the **Parameter** dropdown, you will see the input fields from your form listed as options. These typically include:
+
+- **Name** — Use this to target submissions based on the user’s name. For example, you can send a specific notification only when a submission matches a particular name.
+- **customer_email** — Use this to filter notifications by the submitter’s email address. For example, you can send a notification only to users with a specific domain like `@gmail.com` or `@company.com`.
+- **donation_item** — Use this to trigger notifications based on which donation item or product the user selected in the form.
+- **choose_payment_method** — Use this to send notifications based on the payment method chosen by the user, such as **Pay with Card (Stripe)**, **PayPal**, or any other available option.
+
+>[!Note]
+>The parameters listed in the dropdown reflect the actual input fields added to your form. So if your form includes additional fields like a phone number or address, they will also appear as selectable parameter options.
+
+**Example:** I chose **“customer_email”** as a parameter, **“Contains”** as the condition, and entered **“@gmail.com”** and **“@yahoo.com”** as the respective values. Then I selected the **“Any”** option for the conditional match. As a result, only users who have `@gmail.com` or `@yahoo.com` in their submission email address will receive the email notification.
+
+Additionally, you can add as many conditions as you want by clicking the **+ Add More** button. Also, you can delete any condition by clicking the **Trash** Icon anytime if needed.
 
 ![Conditional logic settings](/images/email-notification-settings/setup-email-notifications/Conditional-Logics.webp)
 
