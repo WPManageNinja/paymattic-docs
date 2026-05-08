@@ -45,7 +45,7 @@ All the settings options mentioned in the screenshot below are briefly explained
 
 * **Feed Name:** Here, you can set a name according to your preference for your feed. This field is required to be filled in.
 * **LearnDash Course:** Here, you can select the **LearnDash Course** from the dropdown where you want to send the submitted form data.
-* **Map Fields:** Use all the fields under this option to properly link your LearnDash User Registration Fields with the Form Fields. Also, you can easily select the **Value** for the Form Fields according to the **LearnDash Fields** by using the **Shortcode** button.
+* **Map Fields:** Use all the fields under this option to properly link your LearnDash User Registration Fields with the Form Fields. This includes support for **First Name** and **Last Name** fields, so you can map them directly to the corresponding form fields for accurate user registration. Also, you can easily select the **Value** for the Form Fields according to the **LearnDash Fields** by using the **Shortcode** button.
 * **Allow the user login automatically after registration or course purchase:** If you enable this option, the user will be automatically logged in upon completing the form registration or purchase. 
 * **Send default WordPress Welcome Email for new WordPress Users:** Here you will also get the checkbox option to give a Welcome Email Notification to your user.
 Remove user if refunded or subscription canceled: Enable this option to remove the user from the LearnDash course list if they refunded or canceled their subscription.
