@@ -11,18 +11,20 @@ Stay updated with the latest improvements, new features, bug fixes, and performa
 
 _Released on May 07, 2026_
 
-### ✨ New Features
+:::tabs
+== ✨ New Features
 - Adds Conditional option to choose payment method in email notifications
 
-### 🚀 Improvements
+== 🚀 Improvements
 - Improves compatibility with the Fluentforms-pdf
 - Improves Customizable labels for recurring donation billing intervals
 - Improves Translatable billing interval strings
 
-### 🐞 Bug Fixes
+== 🐞 Bug Fixes
 - Fixes Namespace error in email notifications
 - Fixes Stripe "No such customer" error from stale cached customers
 - Fixes Payment Summary shortcode not rendering
+:::
 
 ---
 
@@ -30,17 +32,19 @@ _Released on May 07, 2026_
 
 _Released on April 16, 2026_
 
-### ✨ New Features
+:::tabs
+== ✨ New Features
 - Adds Support for First Name and Last Name fields in LearnDash integration
 
-### 🚀 Improvements
+== 🚀 Improvements
 - Improves Full name handling for Billplz payments
 
-### 🐞 Bug Fixes
+== 🐞 Bug Fixes
 - Fixes CSRF vulnerability in form submission, Stripe, Paystack, and Razorpay payment confirmation handlers
 - Fixes Mailchimp configuration issue
 - Fixes Fixed-amount coupon issue
 - Fixes Billplz payment status issue on custom redirect
+:::
 
 ---
 
@@ -48,17 +52,19 @@ _Released on April 16, 2026_
 
 _Released on March 11, 2026_
 
-### ✨ New Features
+:::tabs
+== ✨ New Features
 - Adds Payment status filter to user dashboard
 
-### 🚀 Improvements
+== 🚀 Improvements
 - Improves Currency symbol in report stats
 
-### 🐞 Bug Fixes
+== 🐞 Bug Fixes
 - Fixes Address field conditional logic with custom fields
 - Fixes Default currency detection in Reports
 - Fixes Donation Advanced form duplication
 - Fixes Google Sheets integration for guest users
+:::
 
 ---
 
@@ -66,23 +72,25 @@ _Released on March 11, 2026_
 
 _Released on February 27, 2026_
 
-### ✨ New Features
+:::tabs
+== ✨ New Features
 - Adds Xendit Subscription support
 - Adds Download invoice option in User Dashboard
 - Adds Subscription cancellation for Authorize.net and Xendit in User Dashboard
 - Adds Conditional render for Donation Component
 
-### 🚀 Improvements
+== 🚀 Improvements
 - Improves Currency sign position dynamic in leaderboard
 - Improves WordPress media in PDF
 - Improves UI for Field disabled
 - Improves Stripe Direct bank transfer in the hosted checkout
 
-### 🐞 Bug Fixes
+== 🐞 Bug Fixes
 - Fixes Refund issue for users with Paymattic Admin permission
 - Fixes FluentCRM conditional list issue with multiple checkboxes
 - Fixes Google Sheets sync issue with second address field
 - Fixes Schedule security audit
+:::
 
 ---
 
@@ -90,11 +98,13 @@ _Released on February 27, 2026_
 
 _Released on December 04, 2025_
 
-### ✨ New Features
+:::tabs
+== ✨ New Features
 - Adds IPN data in form data raw for Stripe payments
 
-### 🐞 Bug Fixes
+== 🐞 Bug Fixes
 - Fixes security issues like sanitization and escaping
+:::
 
 ---
 
@@ -102,15 +112,16 @@ _Released on December 04, 2025_
 
 _Released on November 18, 2025_
 
-### ✨ New Features
+:::tabs
+== ✨ New Features
 - Adds **Conditional logic** for Donation item in email
 - Adds **Selection limit** for checkbox field in advanced settings
 
-### 🚀 Improvements
+== 🚀 Improvements
 - Improves Address field customization
 - Improves Country field behavior in address fields
 
-### 🐞 Bug Fixes
+== 🐞 Bug Fixes
 - Fixes shortcode handling for address and payment fields
 - Fixes condition rendering for radio field
 - Fixes currency switcher field issue in container
@@ -120,6 +131,7 @@ _Released on November 18, 2025_
 - Fixes recurring payments not showing in FCRM "Purchase History"
 - Fixes custom amount issue in recurring payments for payment summary and total
 - Fixes custom metadata issue in Stripe embedded payments
+:::
 
 ---
 
@@ -127,22 +139,24 @@ _Released on November 18, 2025_
 
 _Released on September 25, 2025_
 
-### ✨ New Features
+:::tabs
+== ✨ New Features
 - Adds **Auto failed payment status** by time interval
 - Adds **Conditional logic** in FluentCRM integration for payment fields
 - Adds Paymattic Dashboard access for **multiple roles**
 - Adds **Remove FluentCRM contact** after refund
 - Adds **First/Last name mapping** in FluentCRM feed
 
-### 🚀 Improvements
+== 🚀 Improvements
 - Improves entries queries for **performance**
 - Improves role updates in User Register integration
 
-### 🐞 Bug Fixes
+== 🐞 Bug Fixes
 - Fixes forced media compression in HTML Markup field
 - Fixes missing custom metadata in Stripe payments
 - Fixes conditional logic with Address Country field
 - Fixes payment summary translation on frontend
+:::
 
 ---
 
@@ -150,8 +164,10 @@ _Released on September 25, 2025_
 
 _Released on August 15, 2025_
 
-### 🐞 Bug Fixes
+:::tabs
+== 🐞 Bug Fixes
 - Fixes PHP version conflict with 7.4
+:::
 
 ---
 
@@ -159,13 +175,14 @@ _Released on August 15, 2025_
 
 _Released on August 14, 2025_
 
-### ✨ New Features
+:::tabs
+== ✨ New Features
 - Adds **Full Name Component**
 - Adds **E-Check** support for Authorize.Net Payment
 - Adds **Duplicate Integration feed**
 - Adds **Duplicate Notification feed**
 
-### 🐞 Bug Fixes
+== 🐞 Bug Fixes
 - Fixes condition issue for radio, checkbox and select input field
 - Fixes failed hook trigger for payment field
 - Fixes payment method field operation with "0" payment amount
@@ -175,6 +192,7 @@ _Released on August 14, 2025_
 - Fixes removal of special characters from confirmation redirect URL
 - Fixes hide offline payment option after applying coupon
 - Fixes conditionally render subscription
+:::
 
 ---
 
@@ -182,17 +200,19 @@ _Released on August 14, 2025_
 
 _Released on July 03, 2025_
 
-### ✨ New Features
+:::tabs
+== ✨ New Features
 - Adds refund support for Stripe, Razorpay, Paystack, and Square
 - Adds recently applied coupon list to reports
 - Adds "On Payment Success" option in integrations
 - Adds PayPal subscription cancellation from the user dashboard
 
-### 🐞 Bug Fixes
+== 🐞 Bug Fixes
 - Fixes Payment summary render correctly when multiple forms are on the same page
 - Fixes Zapier integration issue
 - Fixes notification issue on payment success
 - Fixes offline payment handling
+:::
 
 ---
 
@@ -200,16 +220,18 @@ _Released on July 03, 2025_
 
 _Released on June 16, 2025_
 
-### ✨ New Features
+:::tabs
+== ✨ New Features
 - Adds tax support for subscription signup fee
 - Adds filter to customize paymentItem title length
 
-### 🐞 Bug Fixes
+== 🐞 Bug Fixes
 - Fixes IPN issue with payments
 - Fixes tax calculation for subscription plans
 - Fixes file upload validation issue
 - Fixes CSS override conflict
 - Fixes issue with subscription billing interval
+:::
 
 ---
 
@@ -217,16 +239,18 @@ _Released on June 16, 2025_
 
 _Released on May 21, 2025_
 
-### ✨ New Features
+:::tabs
+== ✨ New Features
 - Adds automated email notifications for upcoming subscription renewals
 - Adds support for multiple subscriptions in Stripe payments
 - Adds translation support and missing translatable strings
 
-### 🐞 Bug Fixes
+== 🐞 Bug Fixes
 - Fixes custom currency switcher value issues
 - Fixes default image loading with base URL fallback
 - Fixes image slide issue in tabular product items
 - Fixes Google sheet access key verification issue
+:::
 
 ---
 
@@ -234,10 +258,12 @@ _Released on May 21, 2025_
 
 _Released on April 18, 2025_
 
-### 🐞 Bug Fixes
+:::tabs
+== 🐞 Bug Fixes
 - Fixes Load text domain incorrectly
 - Fixes Authorize.Net live payment issue
 - More bug fixes and improvements
+:::
 
 ---
 
@@ -245,8 +271,10 @@ _Released on April 18, 2025_
 
 _Released on April 07, 2025_
 
-### 🐞 Bug Fixes
+:::tabs
+== 🐞 Bug Fixes
 - Fixes notice issue
+:::
 
 ---
 
@@ -254,13 +282,15 @@ _Released on April 07, 2025_
 
 _Released on March 24, 2025_
 
-### ✨ New Features
+:::tabs
+== ✨ New Features
 - Adds Dynamic payment field with numerical expression
 - Adds Authorize.net payment gateway
 - Adds condition rendering for tax field
 
-### 🚀 Improvements
+== 🚀 Improvements
 - Bug fixes and improvements
+:::
 
 ---
 
@@ -268,18 +298,20 @@ _Released on March 24, 2025_
 
 _Released on March 14, 2025_
 
-### 🚀 Improvements
+:::tabs
+== 🚀 Improvements
 - Improves choose payment method component
 - Improves Offline-payment method description field
 - Removes displaying secret courses of Fluent Community in Paymattic dashboard
 
-### 🐞 Bug Fixes
+== 🐞 Bug Fixes
 - Fixes Twenty Twenty-Five theme compatibility issue
 - Fixes Email template shortcode rendering issue
 - Fixes Unable to enroll in multiple LearnDash courses
 - Fixes Broken donation input style in Safari
 - Fixes Subscription amount total with tax
 - Fixes User registration and activity creation on 100% discount
+:::
 
 ---
 
@@ -287,13 +319,15 @@ _Released on March 14, 2025_
 
 _Released on February 07, 2025_
 
-### 🚀 Improvements
+:::tabs
+== 🚀 Improvements
 - Improves Donation progress stats bar is now enabled by default
 
-### 🐞 Bug Fixes
+== 🐞 Bug Fixes
 - Fixes Container form field was not found in the integration feed issue
 - Fixes CSS conflict affecting radio and checkbox inputs
 - Fixes Password truncation issue
+:::
 
 ---
 
@@ -301,17 +335,19 @@ _Released on February 07, 2025_
 
 _Released on January 27, 2025_
 
-### ✨ New Features
+:::tabs
+== ✨ New Features
 - Adds a placeholder option in the Name field for improved user experience
 
-### 🚀 Improvements
+== 🚀 Improvements
 - Resolves a conflict with the MasterStudy Plugin
 - Resolves a conflict with the Complianz plugin
 - Improves UI for Moneris checkout pages
 
-### 🐞 Bug Fixes
+== 🐞 Bug Fixes
 - Fixes an issue with container field entries during export
 - Fixes a responsive issue with the Payment Receipt layout
+:::
 
 ---
 
@@ -319,16 +355,18 @@ _Released on January 27, 2025_
 
 _Released on December 06, 2024_
 
-### ✨ New Features
+:::tabs
+== ✨ New Features
 - Makes subscription field available in Tax field
 - Makes Step form buttons editable
 
-### 🚀 Improvements
+== 🚀 Improvements
 - Improves Donation component's UI/UX
 
-### 🐞 Bug Fixes
+== 🐞 Bug Fixes
 - Fixes issue on user registration with password field
 - Fixes UI issues
+:::
 
 ---
 
@@ -336,11 +374,13 @@ _Released on December 06, 2024_
 
 _Released on November 06, 2024_
 
-### 🚀 Improvements
+:::tabs
+== 🚀 Improvements
 - Makes recurring donation label editable
 
-### 🐞 Bug Fixes
+== 🐞 Bug Fixes
 - Fixes user login redirect issue
+:::
 
 ---
 
@@ -348,17 +388,18 @@ _Released on November 06, 2024_
 
 _Released on October 29, 2024_
 
-### ✨ New Features
+:::tabs
+== ✨ New Features
 - Adds Custom billing interval feature with interval count on subscription field
 - Adds Fortnightly, Quarterly and Half Yearly options for recurring payment on both subscription and donation item field
 - Adds donation progress bar on form specific donor leaderboard
 - Adds ShortCode rendering on Dropdown field
 
-### 🚀 Improvements
+== 🚀 Improvements
 - Resolves Conditional logic on column container fields
 - Improves product selection on tabular products fields
 
-### 🐞 Bug Fixes
+== 🐞 Bug Fixes
 - Fixes Escaping/Sanitization issue
 - Fixes Login Redirect issue
 - Fixes issue on User dashboard
@@ -367,6 +408,7 @@ _Released on October 29, 2024_
 - Fixes target item missing for container fields
 - Fixes Square redirection issue
 - Fixes rendering payment item's name on payment summary
+:::
 
 ---
 
@@ -374,7 +416,8 @@ _Released on October 29, 2024_
 
 _Released on October 03, 2024_
 
-### ✨ New Features
+:::tabs
+== ✨ New Features
 - Adds Resizable column containers
 - Adds Offline payment support for free users
 - Adds Report page for free users
@@ -382,16 +425,17 @@ _Released on October 03, 2024_
 - Adds Option to set an initial raised amount for leaderboards
 - Adds horizontal payment items option
 
-### 🚀 Improvements
+== 🚀 Improvements
 - Updates UI/UX for all modules
 - Updates Donation recurring interval button for improved usability
 - Improves Webhook integration
 - Improves Phone field validation and formatting
 
-### 🐞 Bug Fixes
+== 🐞 Bug Fixes
 - Fixes Google Sheets integration issue
 - Fixes Alignment issue in custom HTML component
 - Fixes Issue allowing "+" sign in the email field
+:::
 
 ---
 
@@ -399,14 +443,16 @@ _Released on October 03, 2024_
 
 _Released on September 05, 2024_
 
-### ✨ New Features
+:::tabs
+== ✨ New Features
 - Adds Support for subscriptions with 100% discount coupons
 
-### 🐞 Bug Fixes
+== 🐞 Bug Fixes
 - Fixes an issue where email notifications were not being sent on successful payments with the Stripe Embedded payment method
 - Fixes the bug related to calling the undefined php_uname function
 - Fixes Step form component rendering issues in the editor
 - Fixes the issue with the payment item shortcode
+:::
 
 ---
 
@@ -414,11 +460,13 @@ _Released on September 05, 2024_
 
 _Released on June 12, 2024_
 
-### 🚀 Improvements
+:::tabs
+== 🚀 Improvements
 - Improves Stripe error handling
 
-### 🐞 Bug Fixes
+== 🐞 Bug Fixes
 - Fixes Stripe related issues
+:::
 
 ---
 
@@ -426,8 +474,10 @@ _Released on June 12, 2024_
 
 _Released on May 31, 2024_
 
-### 🐞 Bug Fixes
+:::tabs
+== 🐞 Bug Fixes
 - Fixes Stripe Embedded Checkout issue
+:::
 
 ---
 
@@ -435,11 +485,13 @@ _Released on May 31, 2024_
 
 _Released on May 29, 2024_
 
-### ✨ New Features
+:::tabs
+== ✨ New Features
 - Adds Unique Email validation
 
-### 🐞 Bug Fixes
+== 🐞 Bug Fixes
 - Fixes Conditional logic issue
+:::
 
 ---
 
@@ -451,7 +503,8 @@ _Released on May 23, 2024_
 - Adds VivaWallet payment gateway (addon)
 :::
 
-### ✨ New Features
+:::tabs
+== ✨ New Features
 - Adds Donation Progress Item on the free version
 - Adds Form active/inactive option
 - Adds Conditional logic for coupon code
@@ -459,8 +512,9 @@ _Released on May 23, 2024_
 - Adds Necessary improvements to the User Dashboard
 - Adds Necessary improvements to various modules
 
-### 🐞 Bug Fixes
+== 🐞 Bug Fixes
 - Fixes minor issues
+:::
 
 ---
 
@@ -472,12 +526,13 @@ _Released on April 24, 2024_
 - Adds Moneris payment Gateway
 :::
 
-### ✨ New Features
+:::tabs
+== ✨ New Features
 - Adds Place a hold on a payment method (Stripe)
 - Adds email notification on subscription cancel from user dashboard
 - Adds Tax field on payment receipt in the payment summary section
 
-### 🐞 Bug Fixes
+== 🐞 Bug Fixes
 - Fixes Paypal IPN issue
 - Fixes Billplz validation issues
 - Fixes Tax item calculation issue
@@ -485,6 +540,7 @@ _Released on April 24, 2024_
 - Fixes PDF related issue
 - Fixes issue with conditional logic
 - Fixes TutorLMS integration issue for paid courses
+:::
 
 ---
 
@@ -492,7 +548,8 @@ _Released on April 24, 2024_
 
 _Released on February 19, 2024_
 
-### ✨ New Features
+:::tabs
+== ✨ New Features
 - Adds Customer Dashboard
 - Adds PDF/Invoice
 - Adds Donor Leaderboard
@@ -500,7 +557,7 @@ _Released on February 19, 2024_
 - Adds Maximum value option in number field
 - Makes donation goal required to show statistic and progress bar
 
-### 🐞 Bug Fixes
+== 🐞 Bug Fixes
 - Fixes Undo/Redo Issue on form editor
 - Fixes Step form toggle issue
 - Fixes String Translatable issue
@@ -511,6 +568,7 @@ _Released on February 19, 2024_
 - Fixes Tabular product template choose issue
 - Fixes Entry exporting issue
 - Fixes Payment summary issue for subscription items
+:::
 
 ---
 
@@ -518,9 +576,11 @@ _Released on February 19, 2024_
 
 _Released on October 16, 2023_
 
-### 🐞 Bug Fixes
+:::tabs
+== 🐞 Bug Fixes
 - Fixes Email notification translation string issue
 - Fixes Large screen responsive issue
+:::
 
 ---
 
@@ -532,18 +592,20 @@ _Released on October 05, 2023_
 - Adds Flutterwave payment gateway addon
 :::
 
-### ✨ New Features
+:::tabs
+== ✨ New Features
 - Adds Currency Switcher
 - Adds applied coupons column on exported entries
 - Adds currency sign on payment summary
 - Makes Address field a free feature
 
-### 🐞 Bug Fixes
+== 🐞 Bug Fixes
 - Fixes email validation issue for certain domains
 - Fixes fractional mismatch issue on Tax percentage
 - Fixes payment display mismatch upon fixed discount applied
 - Fixes custom payment credentials settings issue
 - Fixes Square Item name
+:::
 
 ---
 
@@ -556,16 +618,18 @@ _Released on July 10, 2023_
 - Adds Xendit payment gateway addon
 :::
 
-### ✨ New Features
+:::tabs
+== ✨ New Features
 - Adds Autologin on LMS integration
 
-### 🐞 Bug Fixes
+== 🐞 Bug Fixes
 - Fixes entry rendering issue
 - Fixes Coupon or discount-related issues
 - Fixes Payments information issues on Entry module
 - Fixes 100% coupon issue
 - Fixes custom URL issue on payment success
 - Fixes Autologin issue on User Registration
+:::
 
 ---
 
@@ -573,7 +637,8 @@ _Released on July 10, 2023_
 
 _Released on May 12, 2023_
 
-### 🐞 Bug Fixes
+:::tabs
+== 🐞 Bug Fixes
 - Fixes entry exporting issue
 - Fixes quantity field of Tabular Product Item issue
 - Fixes Tabular Product Item field's product name issue
@@ -582,6 +647,7 @@ _Released on May 12, 2023_
 - Fixes payment methods and logo rendering issues
 - Fixes currency sign issue
 - Fixes string translation issue
+:::
 
 ---
 
@@ -589,14 +655,15 @@ _Released on May 12, 2023_
 
 _Released on March 13, 2023_
 
-### ✨ New Features
+:::tabs
+== ✨ New Features
 - Adds hidden input support on conditional logic
 - Adds advanced date configuration
 - Adds Simple form templates label editable
 - Adds product variation price
 - Adds LMS integration module updates
 
-### 🐞 Bug Fixes
+== 🐞 Bug Fixes
 - Fixes TutorLMS integration offline payment issue
 - Fixes Billplz donation templates issue
 - Fixes coupon amount issue
@@ -606,6 +673,7 @@ _Released on March 13, 2023_
 - Fixes Step forms issue with Elementor/WPBakery
 - Fixes entry export issue for checkbox
 - Fixes Asynchronous issues on integration module
+:::
 
 ---
 
@@ -613,15 +681,17 @@ _Released on March 13, 2023_
 
 _Released on January 18, 2023_
 
-### ✨ New Features
+:::tabs
+== ✨ New Features
 - Adds shopping cart templates
 - Adds offline subscription management
 - Adds new demo form for product cart template
 
-### 🐞 Bug Fixes
+== 🐞 Bug Fixes
 - Fixes Stripe Webhook issue
 - Fixes shortcode bug for integration
 - Fixes Step-form backward validation issue
+:::
 
 ---
 
@@ -629,14 +699,15 @@ _Released on January 18, 2023_
 
 _Released on December 08, 2022_
 
-### ✨ New Features
+:::tabs
+== ✨ New Features
 - Adds Step form
 - Adds Turnstile (Cloudflare) security
 - Adds Subscription management from the dashboard
 - Adds Support for PHP 8.1
 - Adds AliPay, Sepa Debit, and ACH debit for Stripe
 
-### 🐞 Bug Fixes
+== 🐞 Bug Fixes
 - Fixes Elementor popup issue
 - Fixes Form payment settings issue
 - Fixes Consent field conditional logic
@@ -644,6 +715,7 @@ _Released on December 08, 2022_
 - Fixes Payments receipt breaking issue
 - Fixes 3D secure payment issue
 - Fixes Other minor issues
+:::
 
 ---
 
@@ -655,16 +727,18 @@ _Released on November 10, 2022_
 - Adds Billplz gateway (Malaysian gateway)
 :::
 
-### ✨ New Features
+:::tabs
+== ✨ New Features
 - Adds Google Sheet integration
 - Adds Developer API for Payment modules
 
-### 🐞 Bug Fixes
+== 🐞 Bug Fixes
 - Fixes Receipt issue
 - Fixes Confirmation URL issue
 - Fixes Tax with donation component
 - Fixes UI and full-screen app issues
 - Fixes Donation template default image issue
+:::
 
 ---
 
@@ -672,7 +746,8 @@ _Released on November 10, 2022_
 
 _Released on October 20, 2022_
 
-### ✨ New Features
+:::tabs
+== ✨ New Features
 - Adds New Advanced Form Editor
 - Adds Donation template customizer
 - Adds New UI refactors
@@ -680,9 +755,10 @@ _Released on October 20, 2022_
 - Adds Coupon Limit by user
 - Adds Fluent Support Integration
 
-### 🐞 Bug Fixes
+== 🐞 Bug Fixes
 - Fixes Coupon issue
 - Fixes other multiple issues
+:::
 
 ---
 
@@ -690,9 +766,11 @@ _Released on October 20, 2022_
 
 _Released on August 16, 2022_
 
-### 🐞 Bug Fixes
+:::tabs
+== 🐞 Bug Fixes
 - Fixes Payment total with tax and coupon issue
 - Fixes Select field issue with required checked
+:::
 
 ---
 
@@ -700,8 +778,10 @@ _Released on August 16, 2022_
 
 _Released on August 06, 2022_
 
-### 🚀 Improvements
+:::tabs
+== 🚀 Improvements
 - Data sanitization and esc_* improvements
+:::
 
 ---
 
@@ -713,17 +793,19 @@ _Released on August 05, 2022_
 - Adds Customer Profile
 :::
 
-### ✨ New Features
+:::tabs
+== ✨ New Features
 - Adds Condition with dynamic payment items
 - Adds 100% discount with coupon payment
 
-### 🚀 Improvements
+== 🚀 Improvements
 - Improves API security
 - Fixes other minor issues
 
-### 🐞 Bug Fixes
+== 🐞 Bug Fixes
 - Fixes Multi-site activation issue
 - Fixes File upload/export issue
+:::
 
 ---
 
@@ -731,16 +813,18 @@ _Released on August 05, 2022_
 
 _Released on July 07, 2022_
 
-### ✨ New Features
+:::tabs
+== ✨ New Features
 - Adds Conditional logic on input fields
 - Adds LifterLMS course Integration
 - Adds LearnDash course Integration
 - Adds TutorLMS course Integration
 
-### 🐞 Bug Fixes
+== 🐞 Bug Fixes
 - Fixes Shortcode bug
 - Fixes Stripe custom credentials bug
 - Fixes Offline payment with subscription issue
+:::
 
 ---
 
@@ -748,9 +832,11 @@ _Released on July 07, 2022_
 
 _Released on June 16, 2022_
 
-### 🐞 Bug Fixes
+:::tabs
+== 🐞 Bug Fixes
 - Fixes reports no data validation
 - Fixes Menu spell issue
+:::
 
 ---
 
@@ -767,7 +853,8 @@ _Released on June 15, 2022_
 - Adds Twilio (SMS)
 :::
 
-### ✨ New Features
+:::tabs
+== ✨ New Features
 - Adds New UI with more light — free and pro plugin
 - Adds Global Reports modules for payments
 - Adds subscription sync option
@@ -783,3 +870,4 @@ _Released on June 15, 2022_
 - Adds real-time searchable forms
 - Adds export form searchable
 - Adds Payment method with image format
+:::

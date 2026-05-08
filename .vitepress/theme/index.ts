@@ -1,16 +1,11 @@
-import { h } from 'vue'
 import DefaultTheme from 'vitepress/theme'
+import { enhanceAppWithTabs } from 'vitepress-plugin-tabs/client'
+import type { App } from 'vue'
 import './style.css'
-import Feedback from './components/Feedback.vue' // Import the file for feedback widget
-import Layout from './Layout.vue' // Import new layout file
-
-
 
 export default {
   extends: DefaultTheme,
-  Layout,
-  enhanceApp({ app }) {
-    app.component('Feedback', Feedback)
+  enhanceApp({ app }: { app: App }) {
+    enhanceAppWithTabs(app)
   }
-} 
-
+}

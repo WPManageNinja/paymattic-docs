@@ -1,4 +1,5 @@
 import { defineConfig } from 'vitepress'
+import { tabsMarkdownPlugin } from 'vitepress-plugin-tabs'
 
 export default defineConfig({
   title: 'Paymattic Documentation',
@@ -29,6 +30,12 @@ export default defineConfig({
     'import-export/:page': ':page',
     'faq/:page': ':page',
     'change-log/:page': ':page'
+  },
+
+  markdown: {
+    config(md) {
+      md.use(tabsMarkdownPlugin)
+    }
   },
 
   vite: {
