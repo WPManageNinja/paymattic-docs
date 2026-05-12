@@ -161,6 +161,10 @@ Once you've completed the setup, you can add Viva Wallet to your forms:
 The Viva Wallet payment method will not function unless you complete the configuration process properly.
 :::
 
+::: warning Subscription Payments Not Supported
+Viva Wallet only supports **one-time payments**. If your form requires subscription or recurring billing, please use a different payment gateway such as [Stripe](/payment-method-fields/how-to-integrate-stripe-with-paymattic) or [PayPal](/payment-method-fields/how-to-integrate-paypal-with-paymattic).
+:::
+
 ## Currency Selection in Payment Form 
 
 ::: tip Important
