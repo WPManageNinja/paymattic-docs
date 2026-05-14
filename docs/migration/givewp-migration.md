@@ -5,7 +5,7 @@ category: "Migration"
 
 # How to Migrate GiveWP into Paymattic
 
-[Paymattic](https://paymattic.com/) offers a dedicated migration tool that allows you to migrate your donation forms, donors, and payment history from GiveWP in a few guided steps. This guide will walk you through the process of migrating your data efficiently while ensuring environmental compatibility.
+[Paymattic](https://paymattic.com/) offers a dedicated migration tool that allows you to move your donation forms, donors, and payment history from GiveWP in a few guided steps. This tool ensures that your fundraising efforts continue seamlessly by preserving donor data, custom fields, and recurring subscription statuses.
 
 ## Prerequisites & Required Add-ons
 
@@ -21,11 +21,15 @@ First, go to **Settings** from the **Paymattic Pro** sidebar menu. Click the **G
 
 Before moving any data, the migrator scans to ensure your environment is ready. This step flags any compatibility notes before a single row is written to your database.
 
-Click the orange **Run Pre-flight Check** button.
+- Click the orange **Run Pre-flight Check** button.
+- **Add-on Compatibility:** The migrator will automatically detect GiveWP add-ons such as **Recurring Donations**, **Gift Aid**, **Form Field Manager (FFM)**, and **Currency Switcher**.
 
-:::warning Database Backup
-It is highly recommended to back up your database before proceeding, as this tool writes directly to your DB.
-:::
+
+>If you are migrating Currency Switcher data or complex payment gateways, ensure Paymattic Pro is active; otherwise, these specific elements will not migrate.
+
+
+>[!Note]
+> It is highly recommended to back up your database before proceeding, as this tool writes directly to your DB.
 
 ![Pre-flight Check](/images/migration/givewp-migration/pre-flight-check-1.webp)
 
@@ -33,9 +37,9 @@ It is highly recommended to back up your database before proceeding, as this too
 
 Once the check is complete, you will see a summary of your system status and a preview of the data available for migration.
 
-- **System Status:** Ensures GiveWP is detected and Paymattic Pro is active.
-- **Migration Preview:** Displays the total count of Donations, Forms, and compatible add-ons (such as Recurring, Stripe, Currency Switcher, or Form Field Manager) that will be migrated.
-- **Migration Options:** If you wish to include test data, check the box for **Include test-mode donations**.
+* **Data Counts:** You will see total counts for **Forms**, **Donations**, and **Subscriptions**.
+* **Form Structure:** Paymattic will automatically migrate form titles, goal amounts, and multi-level pricing. It will also auto-inject required **Name** and **Email** fields into the new Paymattic forms.
+* **Migration Options:** Check the **Include test-mode donations** box if you wish to migrate sandbox data.
 
 Click the **Start Migration** button to begin the process.
 
@@ -47,7 +51,7 @@ Click the **Start Migration** button to begin the process.
 After the migration finishes, you will be presented with a **Validation Report** to confirm that the data was transferred successfully.
 
 - **Migration Summary:** Shows the status of your Forms and Donations (e.g., 6 / 6 successful) and any errors encountered.
-- **Actions:**
+- **Available Actions:**
   - **Rollback Migration:** Deletes all Paymattic data created during this session and resets the state.
   - **Start Over:** Resets the migration checkpoint without deleting existing data.
   - **Download Report (JSON):** Allows you to export the full migration report for your records.
@@ -59,6 +63,14 @@ After the migration finishes, you will be presented with a **Validation Report**
 You can verify that your data has been moved correctly by navigating to **Paymattic Pro > Entries**. Here, you will see your migrated donations listed with their respective IDs, Donor names, Emails, and Payment Status (e.g., Paid or Pending).
 
 ![Verify Migrated Entries](/images/migration/givewp-migration/entries-4.webp)
+
+#### Important: Out of Scope Items
+
+Some GiveWP-specific features do not have a direct equivalent in Paymattic and will not be migrated:
+
+- Peer-to-Peer (P2P) campaigns
+- Tributes/Memorial data
+- Annual Receipts or Sequential IDs
 
 This way, you can easily migrate your entire donation ecosystem from GiveWP to Paymattic!
 
