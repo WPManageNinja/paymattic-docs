@@ -29,7 +29,8 @@ export default defineConfig({
     'reports-and-analyticsi/:page': ':page',
     'import-export/:page': ':page',
     'faq/:page': ':page',
-    'change-log/:page': ':page'
+    'change-log/:page': ':page',
+    'migration/:page': ':page'
   },
 
   markdown: {
@@ -205,6 +206,12 @@ export default defineConfig({
         items: [
           { text: 'Import/Export Forms', link: '/import-export-forms' },
           { text: 'Export Entries', link: '/export-form-entries' }
+        ]
+      },
+      {
+        text: 'Migration',
+        items: [
+          { text: 'Migrate from GiveWP', link: '/givewp-migration' }
         ]
       },
       {
