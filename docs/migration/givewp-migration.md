@@ -50,11 +50,13 @@ Click the **Start Migration** button to begin the process.
 
 After the migration finishes, you will be presented with a **Validation Report** to confirm that the data was transferred successfully.
 
-- **Migration Summary:** Shows the status of your Forms and Donations (e.g., 6 / 6 successful) and any errors encountered.
-- **Available Actions:**
-  - **Rollback Migration:** Deletes all Paymattic data created during this session and resets the state.
-  - **Start Over:** Resets the migration checkpoint without deleting existing data.
-  - **Download Report (JSON):** Allows you to export the full migration report for your records.
+**Migration Summary:** Shows the status of your Forms and Donations (e.g., 6 / 6 successful) and any errors encountered.
+
+**Available Actions:**
+
+ * **Download JSON:** Click this button at the top right of the summary card to export the full migration report for your records.
+ * **Rollback Migration:** Located under the Reset migration section. Click the **Rollback** button to delete all Paymattic data created by this migration. GiveWP data is never touched and this action cannot be undone.
+ * **Start Over:** Click the **Start over** button to reset only the migration checkpoint. This does not delete migrated data. Use Rollback if you also want to delete data.
 
 ![Validation Report](/images/migration/givewp-migration/migration-summary-3.webp)
 
