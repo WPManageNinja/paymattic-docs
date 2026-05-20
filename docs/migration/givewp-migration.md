@@ -21,7 +21,7 @@ First, go to **Settings** from the **Paymattic Pro** sidebar menu. Click the **G
 
 Before moving any data, the migrator scans to ensure your environment is ready. This step flags any compatibility notes before a single row is written to your database.
 
-- Click the orange **Run Pre-flight Check** button.
+- Click the orange **Run A Pre-flight Check** button.
 - **Add-on Compatibility:** The migrator will automatically detect GiveWP add-ons such as **Recurring Donations**, **Gift Aid**, **Form Field Manager (FFM)**, and **Currency Switcher**.
 
 
@@ -50,13 +50,15 @@ Click the **Start Migration** button to begin the process.
 
 After the migration finishes, you will be presented with a **Validation Report** to confirm that the data was transferred successfully.
 
-**Migration Summary:** Shows the status of your Forms and Donations (e.g., 6 / 6 successful) and any errors encountered.
+**Migration Success Banner:** A green confirmation banner will appear at the top stating: "Migration complete. All your GiveWP data has been moved to Paymattic. Review the summary below."
+
+**View All Forms:** A dedicated orange View **All Forms** button is available inside the success banner to quickly let you view your newly created forms.
+
+**Migration Summary:** Shows the exact status of your migrated items (e.g., 1 / 1 Forms and 5 / 7 Donations successfully moved) along with any logged Errors.
 
 **Available Actions:**
-
- * **Download JSON:** Click this button at the top right of the summary card to export the full migration report for your records.
- * **Rollback Migration:** Located under the Reset migration section. Click the **Rollback** button to delete all Paymattic data created by this migration. GiveWP data is never touched and this action cannot be undone.
- * **Start Over:** Click the **Start over** button to reset only the migration checkpoint. This does not delete migrated data. Use Rollback if you also want to delete data.
+  * **Download JSON:** Click this button at the right side of the Migration Summary bar to export the full migration report as a JSON file for your records.
+  * **Reset migration:** Click this expandable section at the bottom to access system recovery tools if needed.
 
 ![Validation Report](/images/migration/givewp-migration/migration-summary-3.webp)
 

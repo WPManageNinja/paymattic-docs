@@ -7,6 +7,25 @@ category: "Change Log"
 
 Stay updated with the latest improvements, new features, bug fixes, and performance enhancements in Paymattic.
 
+## Version 4.6.22
+
+_Released on May 20, 2026_
+
+:::tabs
+== ✨ New Features
+- Adds GiveWP to Paymattic migration with pre-checks, compatibility report, and one-click rollback.
+
+== 🚀 Improvements
+- Improves Customer list and entry view to flag migrated GiveWP donors with a tooltip badge.
+
+== 🐞 Bug Fixes
+- Fixes Donation progress bar not reflecting the current goal total.
+- Fixes Payment Total shortcode not applying the discounted price.
+- Fixes Configurable permitted roles for User Dashboard access.
+:::
+
+---
+
 ## Version 4.6.21
 
 _Released on May 07, 2026_
