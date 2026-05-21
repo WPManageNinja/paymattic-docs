@@ -22,21 +22,67 @@ The migrator writes data directly into your database. To prevent incomplete migr
 
 ## Understanding Data Migration Scope
 
-To eliminate confusion regarding exactly what maps over and what does not, review the functional breakdown below:
+To eliminate confusion regarding exactly what maps over and what does not, review the functional breakdown below.
 
 ### What Will Be Migrated Automatically
 
- * **Donation Forms:** Core titles, descriptions, goals, display statuses, and custom target caps.
- * **Donors & Role Mapping:** Donor profiles are preserved. Users assigned the `give_donor` role are safely assigned permissions to seamlessly log into the front-end Paymattic User Dashboard post-migration.
- * **Donations & Payment Status:** Individual transaction histories are converted accurately (e.g., GiveWP's `complete` maps directly to Paymattic's paid, along with `pending` and `refunded` states).
- * **Multi-level Donation Amounts:** Set amount points, custom input configurations (minimum/maximum caps), and layouts map to matching Paymattic fields.
- * **Supported GiveWP Add-ons:** Built-in extraction for **Recurring Donations** (daily, weekly, monthly, yearly, quarterly, fortnightly, half-yearly frequencies), **Gift Aid**, **Form Field Manager (FFM)**, and **Currency Switcher**.
+Everything in this list is handled by the migrator without any manual setup on your part.
+
+**Donation Forms**
+
+Each GiveWP donation form is recreated as a Paymattic form with its core configuration preserved form title, description, goal amount, publish/draft status, and any custom target cap you configured (e.g. "stop accepting donations after $10,000"). The Paymattic form is created in *Draft* status by default so you can review and publish it on your own schedule.
+
+**Donors & Role Mapping**
+
+Every donor profile in GiveWP is preserved in the migrated data. Any WordPress user who held the `give_donor` role is automatically given the equivalent Paymattic permissions, so they can log into the Paymattic front-end User Dashboard immediately after migration and see their full donation history without you having to touch user roles by hand.
+
+**Donations & Payment Status**
+
+All individual donation transactions are converted record-by-record with their full history intact. Statuses are mapped accurately so your books reconcile:
+
+| GiveWP Status | Paymattic Status |
+| --- | --- |
+| `complete` / `publish` | `paid` |
+| `pending` | `pending` |
+| `refunded` | `refunded` |
+| `failed` | `failed` |
+| `abandoned` / `cancelled` | `failed` |
+
+Original gateway transaction IDs, payment dates, amounts, donor name, email, and billing address all carry over.
+
+**Multi-level Donation Amounts**
+
+If your GiveWP form offered set donation tiers (e.g. $10 / $25 / $50 / Custom), all of those amount levels move over together with their layout (radio buttons, dropdown, buttons), the custom input range (minimum and maximum caps), and the donor's selected level on each historical donation.
+
+**Supported GiveWP Add-ons**
+
+The migrator has built-in extraction for the following GiveWP add-ons:
+
+- **Recurring Donations** — including all standard intervals: daily, weekly, fortnightly, monthly, quarterly, half-yearly, and yearly. Subscriptions and their renewal payment history are both migrated.
+- **Form Field Manager (FFM)** — any custom fields you collected on donation forms are migrated as Paymattic form fields, with the per-donation values preserved.
+- **Currency Switcher** — the form-level currency configuration and each donation's selected currency and amount are preserved exactly as the donor paid them.
+
 
 ### What Will NOT Be Migrated (Out of Scope)
 
- - Peer-to-Peer (P2P) campaigns & Tributes / Memorial data (No direct Paymattic structural equivalent).
- - Annual Receipts & Sequential Donation IDs.
- - Payment Gateway API Credentials (Gateway credentials are not exportable between different plugin architectures; these must be configured globally in Paymattic settings).
+These items have no Paymattic equivalent or are deliberately excluded. Handle them separately before deactivating GiveWP.
+
+- **P2P Campaigns & Tributes / Memorial Donations**: Paymattic has no P2P (team pages, leaderboards) or "In Memory of…" feature. Keep GiveWP active in read-only mode for reference if needed.
+- **Annual Receipts & Sequential Donation IDs**: GiveWP-specific outputs (e.g. *DON-2025-00041*). Paymattic uses its own IDs and receipt templates. **Export annual receipts and Gift Aid CSV from GiveWP first**: it is your only HMRC / IRS record.
+- **Payment Gateway API Credentials**: Stripe, PayPal, Razorpay, etc. secrets are not copied. Shared webhooks risk cross-plugin event collisions. Reconfigure in *Paymattic → Global Settings → Payment Settings* before taking new donations.
+
+
+### Recommended Pre-Migration Checklist
+
+Complete these steps before running the migrator to avoid data loss or broken payment loops.
+
+1. **Back up your database.** The migrator writes directly to your live tables.
+2. **Export Gift Aid / Annual Receipts** as CSV from *GiveWP → Tools → Export*.
+3. **Note down your gateway credentials** so you can paste them into Paymattic settings post-migration.
+4. **Install and activate Paymattic** (Lite + Pro if you need recurring, currency switcher, or FFM mapping).
+5. **Run the Pre-flight Check** — this scans your environment, counts your records, and warns you of any compatibility issues before a single row is written.
+
+Once the pre-flight check is green, you can run the migration. After it completes, review the migrated forms (they start as drafts), confirm a few sample donations look correct, and only then deactivate GiveWP.
 
 ## Step 1: Pre-flight Check
 
