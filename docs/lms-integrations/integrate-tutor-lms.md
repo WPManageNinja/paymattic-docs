@@ -14,7 +14,7 @@ Tutor LMS integration is a Premium Feature of the Paymattic Plugin. You need Pay
 ## Enable TutorLMS Integration
 
 
-First, go to **Integrations** from the **Paymattic Navbar**, search for **Fluent Support** through the search bar, and you will get the TutorLMS integration module.
+First, go to **Integrations** from the **Paymattic Navbar**, search for **TutorLMS** through the search bar, and you will get the TutorLMS integration module.
 
 :::warning Note
 Before starting the process, ensure you Installed and Activated the TutorLMS Plugin in your WordPress Site.
