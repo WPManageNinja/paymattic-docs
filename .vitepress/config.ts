@@ -101,7 +101,8 @@ export default defineConfig({
           { text: 'Currency Switcher', link: '/add-currency-switcher' },
           { text: 'Payment Summary', link: '/add-payment-summary' },
           { text: 'Tax Calculator', link: '/add-tax-calculator' },
-          { text: 'Donation Progress', link: '/add-donation-progress' }
+          { text: 'Donation Progress', link: '/add-donation-progress' },
+          { text: 'Fee Recovery', link: '/add-fee-recovery-field' }
         ]
       },
       {
