@@ -6,13 +6,19 @@ category: "Donation and Product Fields"
 
 [Paymattic](https://paymattic.com/) provides a **Fee Recovery** field that lets you pass payment gateway transaction fees back to the payer. Instead of absorbing processing costs yourself, you can give donors or customers the option to cover the fee keeping 100% of the intended amount.
 
+#### Prerequisites
+
+ - **Paymattic** is installed and activated on your WordPress site.
+ - You have created at least one payment form.
+ - A payment gateway, such as **Stripe** or **PayPal**, is connected to your site to process payments.
+
 ::: warning Pro Feature
 The Fee Recovery field requires the [Paymattic Pro Plugin](/getting-started-with-paymattic/how-to-install-and-activate-paymattic-in-wordpress).
 :::
 
-## Adding the Fee Recovery Field
+## Add the Field
 
-### Step 1: Open the Form Editor
+### Step 1: Open the Editor
 
 1. Go to **All Forms** from the **Paymattic Navbar**
 2. Click **+ Add New Form** to create a new form, or click the **Pencil/Edit** icon on an existing form
@@ -36,7 +42,7 @@ To open the field settings, click the **Settings (gear) icon** on the right side
 
 ![Fee Recovery field in editor with settings icon](/images/donation-and-product-fields/add-fee-recovery-field/access-the-field-settings-3.webp)
 
-## Configuring the Fee Recovery Field
+## Field Settings
 
 The field settings panel has two tabs: **General** and **Advanced**.
 

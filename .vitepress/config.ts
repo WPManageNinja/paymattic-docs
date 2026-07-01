@@ -102,7 +102,8 @@ export default defineConfig({
           { text: 'Payment Summary', link: '/add-payment-summary' },
           { text: 'Tax Calculator', link: '/add-tax-calculator' },
           { text: 'Donation Progress', link: '/add-donation-progress' },
-          { text: 'Fee Recovery', link: '/add-fee-recovery-field' }
+          { text: 'Fee Recovery', link: '/add-fee-recovery-field' },
+          { text: 'Gift Aid', link: '/add-gift-aid' }
         ]
       },
       {
