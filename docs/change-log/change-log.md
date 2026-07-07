@@ -7,6 +7,26 @@ category: "Change Log"
 
 Stay updated with the latest improvements, new features, bug fixes, and performance enhancements in Paymattic.
 
+## Version 4.6.23
+
+_Released on July 07, 2026_
+
+:::tabs
+== ✨ New Features
+- Adds Gift Aid declaration support.
+- Adds Fee Recovery field.
+
+== 🚀 Improvements
+- Improves GiveWP donation migration.
+- Improves multi-select checkboxes in tabular products.
+
+== 🐞 Bug Fixes
+- Fixes conditional logic validation for required file upload fields.
+- Fixes Stripe IPN sync.
+:::
+
+---
+
 ## Version 4.6.22
 
 _Released on May 20, 2026_
