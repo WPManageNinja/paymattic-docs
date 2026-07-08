@@ -11,6 +11,8 @@ category: "Learning Management System (LMS) Integrations"
 LearnDash integration is a Premium Feature of the Paymattic Plugin. You need Paymattic Pro to use this integration.
 :::
 
+<iframe width="700" height="400" src="https://www.youtube.com/embed/7DhmHx_goeo" title="Paymattic | Manage Your LearnDash LMS Payment With EASE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## Enable LearnDash Integration
 
 
