@@ -7,6 +7,8 @@ category: "Form Editor"
 
 In [Paymattic](https://paymattic.com/), you can easily create **Step Forms** i.e., to create multi-step forms that allow you to collect more data without scaring the users away. This article will guide you through Creating Step Forms.
 
+<iframe width="700" height="400" src="https://www.youtube.com/embed/j8lmKvM02BE" title="How To Create a Multi-step Form in WordPress with Paymattic" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## Creating a Step Form
 
 First, go to the **All Forms** section from the **Paymattic Navbar**, choose a **Form**, and click the **Pencil/Edit** icon to open the **Editor** page of that form.

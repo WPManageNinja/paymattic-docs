@@ -7,6 +7,8 @@ category: "Form Editor"
 
 In [Paymattic](https://paymattic.com/), you can easily create **Step Forms** to accept payment through different platforms. This article will guide you through Creating Payment Forms to Collect Payments.
 
+<iframe width="700" height="400" src="https://www.youtube.com/embed/OZ6ilKn_bXs" title="How to create your first payment Form with Paymattic | Paymattic Ep: 01" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## Creating A Payment Form 
 
 First, go to the **All Forms** section from the **Paymattic Navbar**, choose a **Form**, and click the **Pencil/Edit** icon to open the **Editor** page of that form.
