@@ -5,8 +5,6 @@ category: "Donation and Product Fields"
 
 # Add Tabular Product Item Fields
 
-<iframe width="700" height="400" src="https://www.youtube.com/embed/fzeIsWGljc0?list=PLXpD0vT4thWH80g5e9wYnoBMgEqUXbr53" title="Tabular Product Items Tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 In [Paymattic](https://paymattic.com/), the Tabular Product Items field lets you display products neatly on your website in a Table, Grid, or Single Line format, making it easy for customers to view their products. This article will guide you on how to add the Tabular Product Items field to the WordPress Site through Paymattic.
 
 ::: warning Pro Feature
@@ -14,6 +12,8 @@ In [Paymattic](https://paymattic.com/), the Tabular Product Items field lets you
 :::
 
 Additionally, with the **Grid Template** and **Single Line Template**, you can build the **Shopping Cart/s** to showcase your products in your forms.
+
+<iframe width="700" height="400" src="https://www.youtube.com/embed/fzeIsWGljc0?list=PLXpD0vT4thWH80g5e9wYnoBMgEqUXbr53" title="Tabular Product Items Tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Adding Tabular Product Items
 
