@@ -238,14 +238,28 @@ main a:focus {
   .VPHero {
     padding: 2rem 0;
   }
-  
+
   .VPHero .image {
     margin-top: 2rem;
     padding: 0 1rem;
   }
-  
+
   .VPHero .image img {
     max-width: 100%;
   }
+}
+
+/* Responsive YouTube/video embeds in docs.
+   Makes iframes scale to the content column (like images) with a 16:9 frame,
+   overriding the hard-coded width/height attributes. */
+.vp-doc iframe {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  border: 0;
+  border-radius: 8px;
+  margin: 1em 0;
 }
 
