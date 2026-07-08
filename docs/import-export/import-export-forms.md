@@ -7,6 +7,7 @@ category: "Import - Export"
 
 [Paymattic](https://paymattic.com/) allows you to Import and Export forms between websites and saves you from the hassle of creating new forms. This article will guide you through the process of how you can Import and Export your forms through Paymattic.
 
+<iframe width="700" height="400" src="https://www.youtube.com/embed/6PqcOWDpGVE" title="How to Import & Export Forms, Entries, & more in Paymattic" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Importing Forms 
 

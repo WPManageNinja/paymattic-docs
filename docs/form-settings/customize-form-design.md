@@ -7,6 +7,8 @@ category: "Form Settings"
 
 [Paymattic](https://paymattic.com/) offers the **Design** settings option which allows you to style your form's design as you want. This article will guide you through the process of Designing Forms according to your own preferences in Paymattic.
 
+<iframe width="700" height="400" src="https://www.youtube.com/embed/97hKHqkK5ac" title="How to Setup Form Design on Paymattic | WordPress" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## Customizing Form Design
 
 To learn how to Customizing the Design of a specific form, follow the steps with the screenshots below –
