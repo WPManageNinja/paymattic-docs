@@ -6,6 +6,8 @@ category: "Payment Method Fields"
 
 [Stripe](https://stripe.com/) is a globally recognized payment gateway that is completely free to integrate with [Paymattic](https://paymattic.com/). It supports 135+ currencies! You can accept payment from any debit card and credit card using Stripe. This article will guide you through **configuring** **Stripe** in your **WordPress** **Site** with the **Paymattic** plugin.
 
+<iframe width="700" height="400" src="https://www.youtube.com/embed/GZyD9F2tk8M" title="How to Integrate Stripe on WordPress with Paymattic for FREE!" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## Configuring Stripe Payment Method 
 
 To learn how to configure the Stripe payment gateway through Paymattic, follow the steps with screenshots below –

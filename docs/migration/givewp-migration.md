@@ -12,6 +12,8 @@ This guide provides a detailed walkthrough of the migration interface and covers
 
 First, go to **Settings** from the **Paymattic** sidebar menu. Click the **Migrator** tab from the left sidebar to open the migration interface.
 
+<iframe width="700" height="400" src="https://www.youtube.com/embed/wNIijIoJArI" title="Migrate from GiveWP to Paymattic in Minutes" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## Before You Start: Requirements & Safety
 
 The migrator writes data directly into your database. To prevent incomplete migrations or data corruption, make sure your site meets the following requirements before executing the tool:
