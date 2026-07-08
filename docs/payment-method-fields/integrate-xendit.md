@@ -21,6 +21,8 @@ This comprehensive guide will walk you through every step of configuring the Xen
 To get access to the [Xendit](https://www.xendit.co/en/) payment gateway, you need the [Paymattic Pro Plugin](/getting-started-with-paymattic/how-to-install-and-activate-paymattic-in-wordpress).
 :::
 
+<iframe width="700" height="400" src="https://www.youtube.com/embed/U8p50yKXHXk" title="Integrate Xendit with Paymattic: WordPress Payments in Southeast Asia" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## Configuring the Xendit Payment Method
 
 The following steps will establish the core connection between **Paymattic** and your Xendit account. This is a one-time setup that involves installing the Xendit add-on, obtaining API keys, and configuring webhooks for seamless communication.
