@@ -65,7 +65,8 @@ export default defineConfig({
         text: 'Getting Started',
         items: [
           { text: 'Paymattic Introduction', link: '/paymattic-introduction' },
-          { text: 'Install Paymattic', link: '/install-paymattic' }
+          { text: 'Install Paymattic', link: '/install-paymattic' },
+          { text: 'Glossary', link: '/glossary' }
         ]
       },
       {
