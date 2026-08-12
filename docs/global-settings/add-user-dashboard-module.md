@@ -37,8 +37,17 @@ Now, select the roles by clicking the **checkbox** according to your preference.
 
 But, if you want to select all the roles at once, simply click the **Check All** button.
 
+The following permissions are available for your users:
+
+* **Read Entry:** Allows users to view their own submitted form entries from the user dashboard.
+* **Read Subscription Entry:** Allows users to view their subscription details, including status and billing history, from the user dashboard.
+* **Cancel Subscription:** Allows users to cancel their own active subscriptions directly from the user dashboard.
+* **Sync Subscription Billing:** Allows users to manually sync their subscription’s billing status with the payment gateway from the user dashboard, so the latest billing/payment information is reflected instantly.
+* **Update Subscription Card:** Allows users to update the card/payment method attached to their active subscriptions directly from the user dashboard, without contacting the admin.
+
+
 :::warning
-Remember, if you want your users to be able to cancel their subscriptions from their user dashboard, make sure to check the “Cancel Subscription” box.
+Remember, if you want your users to be able to cancel their subscriptions from their user dashboard, make sure to check the “Cancel Subscription” box. Similarly, to let users update their payment card or sync their billing status on their own, make sure to check the “Update Subscription Card” and “Sync Subscription Billing” boxes respectively.
 :::
 
 ![User permissions](/images/global-settings/add-user-dashboard-module/Paymattic-user.webp)
