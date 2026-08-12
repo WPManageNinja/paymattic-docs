@@ -97,14 +97,14 @@ Your **Square** account will now be integrated with **Paymattic** for your WordP
 ## Configuring Webhooks
 
 ::: warning Important
-To ensure your Square dashboard and Paymattic dashboard stay synchronized and fully functional for all payment types (one-time/recurring), you must configure Square Webhooks.
+To ensure your Square dashboard and Paymattic dashboard stay synchronized and fully functional for all payment types (recurring), you must configure Square Webhooks.
 :::
 
 ### Step 1: Get Webhook Details
 
 To learn how to configure **Square Webhooks** for your WordPress Site, follow the steps with the screenshots below.
 
-* **Important:** To ensure your Square dashboard and **Paymattic** dashboard are in sync and fully functional for all kinds of payments (**one-time/recurring**), you must configure the **Square Webhooks**.
+* **Important:** To ensure your Square dashboard and **Paymattic** dashboard are in sync and fully functional for all kinds of payments (**recurring**), you must configure the **Square Webhooks**.
 
 First, you need to copy the webhook details from **Paymattic**.
 
@@ -160,6 +160,22 @@ The recommended events and their purposes:
 4. Click **Save** to complete the webhook configuration
 
 ![Configure Webhook Subscription](/images/payment-method-fields/integrate-square/Add-a-webhook-subscription-page.webp)
+
+### Step 3: Add the Webhook Signature Key
+
+After saving the webhook subscription, Square generates a **Signature Key** for that subscription. Paymattic uses this key to verify that incoming webhook requests genuinely come from Square, so it must be configured for webhooks to work.
+
+1. On the same **Webhook Subscription** page in Square, copy the **Signature Key**.
+
+![Signature Key](/images/payment-method-fields/integrate-square/signature-key.webp)
+
+2. Go back to your WordPress dashboard and navigate to **Paymattic** → **Payment Gateway** → **Square** tab.
+3. Paste the copied **Signature Key** into the **Signature Key** field.
+4. Click the **Save Settings** button.
+
+::: warning Per-Mode Signature Keys
+Square generates a separate **Signature Key** for each webhook subscription. If you configure webhooks for both **Test** and **Live** mode, make sure you copy each mode's Signature Key into the Signature Key field under its matching mode in Paymattic. Mixing up the keys will cause webhook signature verification to fail, and your payment/subscription statuses will stop syncing.
+:::
 
 ## Using Square in Forms
 
