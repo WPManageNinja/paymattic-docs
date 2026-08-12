@@ -117,6 +117,9 @@ You can name the field label as you want and map the value according to the fiel
 
 You can add as many fields as you need by clicking the **+ Add More** button. Also, can delete any field by clicking the **Trash Icon** if needed.
 
+>[!Note]
+>If your form has multiple **Payment Item** fields (e.g. products, plans, donation items), you can map each item field individually as a Spreadsheet Field using the **Shortcode** button, alongside your regular form fields.
+
 ![](/images/integrations/integrate-google-sheets/Spreadsheet-Fields.webp)
 
 ### Conditional Logic

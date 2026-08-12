@@ -75,6 +75,7 @@ Once you select the list, a pop-up page will appear with various settings option
 * **List:** From here, you can change the Mailchimp List anytime if needed.
 * **Map Fileds:** Use all the fields under this option to properly link your Mailchimp Fields with the Form Fields. Also, you can easily select the Value for the Form Fields according to the Mailchimp Fields by using the **Shortcode** button.
 * **Interest Group:** With this option, you can map your MailChimp’s Interest group here. 
+* **Payment Item Fields:** If your form has multiple **Payment Item** fields (e.g. products, plans, donation items), you can map each item field individually to your Mailchimp Fields using the **Shortcode** button, alongside your regular form fields.
 * **Tags:** With this option, you can add tags to your ActiveCampaign contacts with a comma-separated list  (e.g. new lead, Paymattic, web source). Commas within a merge tag value will be created as a single tag.
 * **Enable Dynamic Tag Input:** This option allows ActiveCampaign to add customized tags for specific contacts based on your submission values according to your set conditions.
 * **Notes:** You can write a note for the contacts. 

@@ -43,6 +43,7 @@ Now, a pop-up page will appear with various settings options for configuring Flu
 
 * **Feed Name:** Here, you can set a name according to your preference for your feed. This field is required to be filled in.
 * **Primary Fields:** Use all the fields under this option to properly link your Fluent Support Fields with the Form Fields. Also, you can easily select the **Value** for the **Form Fields** according to the Fluent Support Fields by using the **Shortcode** button. 
+* **Payment Item Fields:** If your form has multiple **Payment Item** fields (e.g. products, plans, donation items), you can map each item field individually to your Fluent Support Fields using the **Shortcode** button, alongside your regular form fields.
 * **Create Ticket on Payment Success Only:** If you enable this option, the ticket will be generated only after successful payment is received, i.e., creating the support ticket as soon as the form is submitted with a successful payment. But if you do not enable this option, it will instantly create the ticket without checking the payment status.
 * **Conditional Logics:** This option allows Fluent Support integration to function conditionally based on your submission values according to your set conditional logic/s.  Also, here,  you can add as much conditional logic as you need by clicking the **+ Add More** button and delete any logic by clicking the **Trash** Icon if needed. To learn more, read our [conditional logic documentation](/use-conditional-logic).
 

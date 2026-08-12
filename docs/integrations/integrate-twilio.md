@@ -57,6 +57,7 @@ Now, a pop-up page will appear with various settings options for configuring Twi
 - **Name**: Here, you can set a name according to your preference for your feed. This field is required to be filled in.
 - **To:** Here, provide the number where you want to send the SMS notification. You can also **ShortCode** button to input the phone number.
 - **SMS text**: Here you can set the texts and information you want to send to the number as a notification. Also, you can use the Shortcode button to set the user data from form entries that you want to send to your Telegram Group/Channel.
+- **Payment Item Fields**: If your form has multiple **Payment Item** fields (e.g. products, plans, donation items), you can include each item field individually in your SMS text using the **Shortcode** button, alongside your regular form fields.
 - **Conditional Logics**: This option allows Twilio integration to function conditionally based on your submission values according to your set conditional logic/s. Also, here, you can add as much conditional logic as you need by clicking the **+ Add More** button and delete any logic by clicking the **Trash Icon** if needed. To learn more, read this [Documentation](/use-conditional-logic).
 - **Enable This Feed**: Check this option, to ensure this integration feed remains enabled, and all the actions of this feed function properly.
 

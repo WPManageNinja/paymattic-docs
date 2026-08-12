@@ -47,6 +47,7 @@ First. go to this [Webhook.site](http://www.webhook.site/) and you will get your
 - **Request Format**: Select the data format for the Webhook request. You have to choose one format between JSON and FORM.
 - **Request Header**: Choose whether you want to send any headers with the Webhook request.
 - **Request Body**: Select body if you want to send any specific body text with the webhook request, otherwise all fields will be sent.
+- **Payment Item Fields**: If your form has multiple **Payment Item** fields (e.g. products, plans, donation items), you can include each item field individually in your **Request Body** using the **Shortcode** button, alongside your regular form fields.
 - **Conditional Logics**: This option allows Webhook integration to function conditionally based on your submission values according to your set conditional logic/s. To learn more, read this [Documentation](/use-conditional-logic).
 - **Enable This Feed**: Check this option, to ensure this integration feed remains enabled, and all the actions of this feed function properly.
 

@@ -94,6 +94,7 @@ Now, a pop-up page will appear with various settings options for configuring Tel
 - **Name**: Here, you can set a name according to your preference for your feed. This field is required to be filled in.
 - **Message to Send**: Here you can set the texts and information you want to send to the Telegram channel/group as notification. Also, you can use the Shortcode button to set the user data from form entries that you want to send to your Telegram Group/Channel.
 - **Custom Chat/Channel ID**: Use this field if you want to integrate form-specific telegram group/channel, otherwise keep it empty.
+- **Payment Item Fields**: If your form has multiple **Payment Item** fields (e.g. products, plans, donation items), you can include each item field individually in your Telegram message using the **Shortcode** button, alongside your regular form fields.
 - **Conditional Logics**: This option allows Telegram integration to function conditionally based on your submission values according to your set conditional logic/s. Also, here, you can add as much conditional logic as you need by clicking the **+ Add More** button and delete any logic by clicking the **Trash Icon** if needed. To learn more, read this [Documentation](/use-conditional-logic).
 - **Enable This Feed**: Check this option, to ensure this integration feed remains enabled, and all the actions of this feed function properly.
 

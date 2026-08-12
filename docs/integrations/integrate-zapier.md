@@ -84,6 +84,10 @@ And, paste the **URL** you copied from Zapier into the **Webhook URL** field.
 
 ![](/images/integrations/integrate-zapier/Paste-webhook-url.webp)
 
+### Payment Item Fields
+
+If your form has multiple **Payment Item** fields (e.g. products, plans, donation items), you can include each item field individually in the data sent to Zapier using the **Shortcode** button, alongside your regular form fields.
+
 ### Conditional Logics and Enable This Feed
 - **Conditional Logics**: 
     Enabling this option by clicking the **Toggle** button allows Zapier integration to function conditionally based on your submission values according to your set conditional logic/s. Also, here, you can add as much conditional logic as you need by clicking the **+ Add More** button and delete any logic by clicking the **Trash Icon** if needed.

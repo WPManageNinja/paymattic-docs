@@ -38,6 +38,7 @@ Now, a pop-up page will appear with various settings options for configuring Sla
 - **Feed** **Name**: Here, you can set a name for your feed according to your preference. This field is required to be filled in.
 - **Slack Webhook**: This is also a required field. Here, provide the URL of your **Slack** **Channel** where you want to send the Paymattic’s form submission data. [Click here](https://paymattic.com/docs/how-to-integrate-slack-in-wordpress-with-paymattic/#2-toc-title) to learn how to get the Webhook URL from Slack.
 - **Trigger notification on payment success only**: If you enable this option, the notification will be sent to your chosen Slack Channel only after successful payment.
+- **Payment Item Fields**: If your form has multiple **Payment Item** fields (e.g. products, plans, donation items), you can include each item field individually in your Slack notification message using the **Shortcode** button, alongside your regular form fields.
 - **Conditional Logics**: This option allows Slack integration to function conditionally based on your submission values according to your set conditional logic/s. Also, here, you can add as much conditional logic as you need by clicking the **+ Add More** button and delete any logic by clicking the **Trash Icon** if needed. To learn more, read this [Documentation](/use-conditional-logic).
 - **Enable This Feed**: Check this option to ensure this integration feed remains enabled and all its actions function properly.
 

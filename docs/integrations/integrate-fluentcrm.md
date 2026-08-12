@@ -53,6 +53,7 @@ Now, a pop-up page will appear with various settings options for configuring Flu
     * You can also check the **Enable Default List (when no conditions match)** box to select a fallback list for contacts who do not meet any of your defined conditions.
 * **Primary Fields:** Use all the fields under this option to properly link your FluentCRM Fields with the Form Fields. Also, you can easily select the **Value** for the **Form Fields** according to the **FluentCRM Fields** by using the **Shortcode** button.
 * **Other Fields:** Use this option if you need to add your FluentCRM fields beside the primary fields. Here also, you can select the **Value** according to the **FluentCRM Fields** by using the **Shortcode** button.
+* **Payment Item Fields:** If your form has multiple **Payment Item** fields (e.g. products, plans, donation items), you can map each item field individually to your FluentCRM Fields using the **Shortcode** button, alongside your regular form fields.
     * Add as many **Other Fields** as you need by clicking the **+Add More** button.
     * Also, **Delete** any Field by clicking the **Trash Icon** if needed.
 * **Contact Tags:** With this option, you can add tags to your FluentCRM contacts.

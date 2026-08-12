@@ -36,7 +36,7 @@ By default, the **FluentCommunity** module will be enabled in your **Paymattic**
 
 If not, go to the **Integrations** from the **Paymattic Navbar**, search for the **FluentCommunity** through the search bar, and manually **Enable** it by turning on the toggle to get access to the **FluentCommunity Integration Feed.**
 
-![](/images/integrations/integrate-fluentcommunity/3.-Enabled-Fluent-Community-scaled.webp)
+![Enable FluentCommunity](/images/integrations/integrate-fluentcommunity/3.-Enabled-Fluent-Community-scaled.webp)
 
 ## Integrate FluentCommunity into Paymattic Forms
 
@@ -66,7 +66,8 @@ Now, a pop-up page will appear with various settings options for configuring Flu
 * **H. Join/Enroll space/course on payment success only**: Check this option if you want your users to **Join/Enroll** in a **Space/Course** only when the payment is successful. If you keep it unchecked, users can get access to the space/course without payment succeed.
 * **I. Remove from space/course if payment refunded**: Checking this option will allow you to remove users automatically from space/course if payment is refunded.
 * **J. Remove from space/course if subscription canceled**: Checking this option will allow you to remove users automatically from space/course if they cancel their subscriptions.
-* **K. Enable conditional logic**: Enable this toggle if you want to set any conditions on this form submission. To learn the details use of this Conditional Logic, read this [Documentation](/use-conditional-logic). Plus, to get access to this feature, you need the [Paymattic Pro Plugin](https://paymattic.com/docs/how-to-install-and-activate-paymattic-in-wordpress/#1-toc-title).
+* **K. Payment Item Fields**: If your form has multiple **Payment Item** fields (e.g. products, plans, donation items), you can map each item field individually using the **Shortcode** button, alongside your regular form fields.
+* **L. Enable conditional logic**: Enable this toggle if you want to set any conditions on this form submission. To learn the details use of this Conditional Logic, read this [Documentation](/use-conditional-logic). Plus, to get access to this feature, you need the [Paymattic Pro Plugin](https://paymattic.com/docs/how-to-install-and-activate-paymattic-in-wordpress/#1-toc-title).
 
 Once you set up the page, click the **Create FluentCommunity Feed** button and the feed will be integrated into this specific form.
 

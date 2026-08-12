@@ -87,6 +87,7 @@ The Events recommended by Paymattic are:
 - **charge.succeeded**: Triggers when a charge is successfully processed, basically this event occurs when a payment is completed on Stripe.
 - **charge.captured**: Triggers when a previously authorized charge is successfully captured. You must use this for **Hold payments**.
 - **invoice.payment_succeeded**: Triggers when a payment for an invoice is successful. This is often used for **Subscription** **payments**.
+- **invoice.payment_failed**: Triggers when a payment for a subscription renewal invoice fails. This is used to handle failed recurring payments, so Paymattic can update the subscription/payment status accordingly and notify you and your customer.
 - **charge.refunded**: Triggers when a charge is refunded. This event helps track refund activity that happened on Stripe.
 - **customer.subscription.deleted**: Triggers when a customer's subscription is canceled or ends. This could be due to customer action, automatic cancellation, or a failed payment after retries.
 - **Checkout.session.completed**: Triggers when a checkout session is successfully completed. This event confirms that the customer successfully paid for the session.

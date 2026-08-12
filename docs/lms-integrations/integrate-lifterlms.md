@@ -46,6 +46,7 @@ Now, a pop-up page will appear with various settings options for configuring the
 * **Feed Name:** Here, you can set a name according to your preference for your feed. This field is required to be filled in.
 * **LifterLMS Course:** Here, you can select the **LifterLMS Course** from the dropdown where you want to send the submitted form data.
 * **Map Fields:** Use all the fields under this option to properly link your LifterLMS User Registration Fields with the Form Fields. Also, you can easily select the **Value** for the **Form Fields** according to the **LifterLMS Fields** by using the **Shortcode** button.
+* **Payment Item Fields:** If your form has multiple **Payment Item** fields (e.g. courses, plans, bundles), you can map each item field individually to your LifterLMS Fields using the **Shortcode** button, alongside your regular form fields.
 * **Allow the user login automatically after registration or course purchase:** If you enable this option, the user will be automatically logged in upon completing the form registration or purchase. 
 * **Send default WordPress Welcome Email for new WordPress Users:** Here you will also get the checkbox option to give a Welcome Email Notification to your user.
 Remove user if refunded or subscription canceled: Enable this option to remove the user from the LifterLMS course list if they refunded or canceled their subscription.

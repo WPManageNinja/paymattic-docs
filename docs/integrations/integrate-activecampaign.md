@@ -69,6 +69,7 @@ Once you select the list, a pop-up page will appear with various settings option
 * **Name:** From here, you can change the name anytime if needed.
 * **ActiveCampaign List:** From here, you can change the ActiveCampaign List anytime if needed.
 * **Map Fileds:** Use all the fields under this option to properly link your ActiveCampaign Fields with the Form Fields. Also, you can easily select the **Value** for the **Form Fields** according to the **ActiveCampaign Fields** by using the **Shortcode** button. 
+* **Payment Item Fields:** If your form has multiple **Payment Item** fields (e.g. products, plans, donation items), you can map each item field individually to your ActiveCampaign Fields using the **Shortcode** button, alongside your regular form fields.
 * **Tags:** With this option, you can add tags to your ActiveCampaign contacts with a comma-separated list (e.g. new lead, WPPayForm, web source). Commas within a merge tag value will be created as a single tag.
 * **Enable Dynamic Tag Input:** This option allows ActiveCampaign to add customized tags for specific contacts based on your submission values according to your set conditions.
 * **Note:** You can write a note for the contacts.

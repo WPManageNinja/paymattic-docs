@@ -43,17 +43,23 @@ Now, a pop-up page will appear with various settings options for configuring Use
 
 
 * **Name:** Here, you can set a name according to your preference for your feed.
-* **Email Address:** In this field, you have to select the **Email Address**.
-* **User Name:** Here, you can set the `{input.customer_email}` shortcode by clicking the Shortcode Icon because your customer email will be the user name to log in to your Paymattic user dashboard field.
-* **Full Name:** Here, you can use the `{input.customer_name}` shortcode by clicking the Shortcode Icon.
-* **Password:** Here, use the `{input.password}` shortcode to address your password by clicking the Shortcode Icon.
-* **Default User Role:** You can select a default user role for your Paymattic user.
-* **User Meta:** Here, you can add some User Meta Key and Meta Value if needed.
+* **Map Fields:** Use this table to link the **User Registration Fields** with your **Form Fields**.
+    - **Email Address:** This is a required field. Select the corresponding **Email Address** field from your form using the dropdown.
+    - **User Name:** Select a field or type a custom value by clicking the **Grid Icon**. If your form has multiple **Payment Item** fields (e.g. products, plans, donation items), you can also map one of them here. Keep it empty if you want the username and the user email to be the same.
+    - **Full Name:** Select a field or type a custom value by clicking the **Grid Icon**.
+    - **Password:** Select a field or type a custom value by clicking the **Grid Icon**. Keep it empty if you want the password to be auto-generated.
+* **Default User Role:** Select a default user role (e.g., Editor, Author, Contributor, Subscriber, Paymattic User) for your Paymattic user.
+* **User Meta:** Here, you can add User Meta Key and Meta Value pairs if needed. Click the **+ Add More** button to add multiple meta fields, and the **Trash Icon** to remove any.
+* **Payment Item Fields:** If your form has multiple **Payment Item** fields (e.g. products, plans, donation items), you can map each item field individually to your User Registration Fields using the Shortcode button, alongside your regular form fields.
 * **Allow the user login automatically after registration:** Enable this option and your user will be directly logged into your Paymattic User Dashboard after registration.
 * **Send default WordPress welcome email to user after registration:** Here you will also get the checkbox option to give a Welcome Email Notification to your user.
 * **Don’t create a user if one already exists in the database with the same email address:** If you want to disable the form submission of already existing users then just simply check this box.
-* **Conditional logics:** If you have any conditions about this submission just set the conditions from the Conditional Logic option. To learn more, read our [conditional logic guide](/use-conditional-logic).
-* **Enable this field:** If you check this option, all the actions of this feed will only run for the visitors who are in a logged-out state and the email that is not registered yet.
+* **Conditional Logics:** Enable the **Enable conditional logic** toggle if you have any conditions about this submission, and set the conditions from the Conditional Logic option. To learn more, read our [conditional logic guide](/use-conditional-logic).
+* **Enable This Feed:** If you check this option, all the actions of this feed will only run for the visitors who are in a logged-out state and the email that is not registered yet.
+
+:::warning Transaction-Related Fields
+Please be cautious when selecting transaction-related fields (e.g., Transaction ID), because integrations mostly run asynchronously and the transaction might not have happened yet at the time of integration. As a result, you might not get the selected field's value.
+:::
 
 Once the setup is done, finally, click the **Create User Registration Feed** button. And, your WP User Registration will be integrated into this specific form!
 
