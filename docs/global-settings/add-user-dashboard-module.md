@@ -175,6 +175,21 @@ For example, I pasted the **ShortCode** to the default Paymattic Dashboard page 
 
 ![Add to page](/images/global-settings/add-user-dashboard-module/Paste-the-shortcode-on-Paymattic-Dashboard-Page-scaled.webp)
 
+### Update Subscription Card
+
+If you enabled the **Update Subscription Card** permission, your users can update the card attached to their active subscriptions directly from the **Manage Subscription** table in their User Dashboard.
+
+To update the card, click the **Card Icon** next to the desired subscription in the **Action** column, and the **Update Card** pop-up will appear.
+
+![Update subscription card](/images/global-settings/add-user-dashboard-module/user-card-update-08.webp)
+
+Here, you can see the **Current Card** on file. Enter the new **Card Number**, **MM/YY**, and **CVC**, or click the **Autofill** button to auto-fill the card details. Once done, click the **Update** button to save the new card.
+
+> [!NOTE]
+> To prevent abuse, users are limited to a set number of card updates per day. The pop-up shows how many attempts remain, e.g., "You can update your card 10 more times today."
+
+This way, your users can keep their subscription payments running smoothly without needing to contact you whenever their card expires or changes.
+
 ### Final Result
 
 Now in your front end, you will see your User Registration Form like the below screenshot. Here your user needs to fill up the form to make complete the registration. 

@@ -7,6 +7,35 @@ category: "Change Log"
 
 Stay updated with the latest improvements, new features, bug fixes, and performance enhancements in Paymattic.
 
+## Version 4.6.25
+
+_Released on August 20, 2026_
+
+:::tabs
+== ✨ New Features
+- Adds Stripe subscription card update support for the User Dashboard.
+- Adds Payment item field mapping and conditional support in integration feeds.
+- Adds Square webhook signature verification with per-mode signature keys.
+
+== 🚀 Improvements
+- Improves Failed recurring payment handling for Stripe subscription renewals.
+- Improves JSON export memory usage by streaming results instead of accumulating the full dataset.
+
+== 🐞 Bug Fixes
+- Fixes User Dashboard access for permitted roles missing dashboard capabilities.
+- Fixes Stripe renewal webhooks not parsing the updated invoice schema.
+- Fixes Duplicate coupon AJAX requests when an Elementor popup reinitializes the form.
+- Fixes Phone field script error caused by the classic utils.js enqueue.
+- Fixes FluentCommunity integration endpoint accessible without authentication.
+- Fixes Webhook and Zapier feed mutations not scoped to the authorized form.
+- Fixes PayPal IPN bypass option removed; IPN always verified; debug log redacted to safe fields.
+- Fixes Subscription cancellation proceeding without ownership verification.
+- Fixes Predefined donation amounts enforced server-side when custom input is disabled.
+- Fixes Customer full name overwritten when form has multiple Full Name fields.
+:::
+
+---
+
 ## Version 4.6.23
 
 _Released on July 07, 2026_
