@@ -1,5 +1,6 @@
 import { defineConfig } from 'vitepress'
 import { tabsMarkdownPlugin } from 'vitepress-plugin-tabs'
+import { zoomablePlugin } from './theme/markdown-plugin-zoomable'
 
 export default defineConfig({
   title: 'Paymattic Documentation',
@@ -36,6 +37,7 @@ export default defineConfig({
   markdown: {
     config(md) {
       md.use(tabsMarkdownPlugin)
+      md.use(zoomablePlugin)
     }
   },
 
