@@ -7,6 +7,34 @@ category: "Change Log"
 
 Stay updated with the latest improvements, new features, bug fixes, and performance enhancements in Paymattic.
 
+## Version 4.6.26
+
+_Released on September 14, 2026_
+
+:::tabs
+== ✨ New Features
+- Adds Server-side pagination for User Dashboard submission entries.
+
+== 🐞 Bug Fixes
+- Fixes Stripe SCA payment and subscription confirmation not binding PaymentIntent to the target submission.
+- Fixes Razorpay redirect and callback handlers not binding payment IDs to the target submission.
+- Fixes Mollie IPN handler processing events without verifying submission binding.
+- Fixes Stripe hosted checkout cancel link changing status on already-paid submissions.
+- Fixes Draft form preview visible to other users by guessing the post ID.
+- Fixes Stripe subscription renewal refunds incorrectly marking the original payment as refunded.
+- Fixes Integration notifications triggerable without authentication.
+- Fixes Stripe webhook events verified by re-fetching from Stripe instead of trusting the raw payload.
+- Fixes Dashboard showing submissions belonging to other users.
+- Fixes Stripe customer lookup using the wrong API key in connected account setups.
+- Fixes duplicate step and conditional listeners on Elementor popup reopen.
+- Fixes item_quantity values that overflow absint accepted as valid.
+- Fixes pricing index not validated before array dereference in paymentItem.
+- Fixes subscription plan index not validated before array dereference.
+- Fixes scheduled security audit findings.
+:::
+
+---
+
 ## Version 4.6.25
 
 _Released on August 20, 2026_
