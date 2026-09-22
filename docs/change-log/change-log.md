@@ -9,7 +9,7 @@ Stay updated with the latest improvements, new features, bug fixes, and performa
 
 ## Version 4.6.26
 
-_Released on September 14, 2026_
+_Released on September 22, 2026_
 
 :::tabs
 == ✨ New Features
@@ -30,6 +30,7 @@ _Released on September 14, 2026_
 - Fixes item_quantity values that overflow absint accepted as valid.
 - Fixes pricing index not validated before array dereference in paymentItem.
 - Fixes subscription plan index not validated before array dereference.
+- Fixes subscription amount displaying incorrectly on subscription entries in the entries list.
 - Fixes scheduled security audit findings.
 :::
 
