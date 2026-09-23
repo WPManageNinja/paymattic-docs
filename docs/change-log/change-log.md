@@ -30,7 +30,7 @@ _Released on September 22, 2026_
 - Fixes item_quantity values that overflow absint accepted as valid.
 - Fixes pricing index not validated before array dereference in paymentItem.
 - Fixes subscription plan index not validated before array dereference.
-- Fixes subscription amount displaying incorrectly on subscription entries in the entries list.
+- Fixes Subscription amount displaying incorrectly in embedded Stripe on subscription entries.
 - Fixes scheduled security audit findings.
 :::
 
