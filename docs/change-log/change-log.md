@@ -7,6 +7,24 @@ category: "Change Log"
 
 Stay updated with the latest improvements, new features, bug fixes, and performance enhancements in Paymattic.
 
+## Version 4.6.27
+
+_Released on September 25, 2026_
+
+:::tabs
+== ✨ New Features
+- Adds Webhook feeds now support custom header key names.
+
+== 🚀 Improvements
+- Improves Zero-total submissions are blocked when a required product has a blank or zero quantity.
+
+== 🐞 Bug Fixes
+- Fixes Stripe subscription cancellations are restricted to the subscription owner.
+- Fixes Receipt settings no longer get overwritten when saving confirmation settings.
+:::
+
+---
+
 ## Version 4.6.26
 
 _Released on September 22, 2026_
