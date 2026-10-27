@@ -1,5 +1,5 @@
 import { defineConfig } from 'vitepress'
-import { existsSync } from 'node:fs'
+import { existsSync, readFileSync, writeFileSync, mkdirSync } from 'node:fs'
 import { join, dirname } from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { tabsMarkdownPlugin } from 'vitepress-plugin-tabs'
@@ -39,6 +39,12 @@ export default defineConfig({
   cleanUrls: true,
   srcDir: './docs',
   ignoreDeadLinks: true,
+
+  // Generates /sitemap.xml at build time from every built page (honours cleanUrls and
+  // rewrites), so it never needs manual upkeep. robots.txt points crawlers at it.
+  sitemap: {
+    hostname: SITE_URL
+  },
 
   head: [
     ['link', { rel: 'icon', href: '/images/brand/paymattic_primary_icon.png' }],
@@ -85,6 +91,50 @@ export default defineConfig({
     build: {
       chunkSizeWarningLimit: 1000
     }
+  },
+
+  // Agent-friendly output, regenerated on every build so it never goes stale:
+  //  - /llms.txt       index of every page (title + description) grouped by category
+  //  - /llms-full.txt  the full text of every page in one file
+  //  - /<page>.md      clean markdown twin of each page (frontmatter stripped)
+  async buildEnd(siteConfig) {
+    const rewrites = siteConfig.rewrites.map as Record<string, string>
+    const groups = new Map<string, string[]>()
+    const full: string[] = []
+
+    for (const src of [...siteConfig.pages].sort()) {
+      const dest = rewrites[src] ?? src
+      if (dest === 'index.md') continue
+      const raw = readFileSync(join(siteConfig.srcDir, src), 'utf-8')
+      const fm = raw.match(/^---\r?\n([\s\S]*?)\r?\n---\r?\n?/)
+      const body = fm ? raw.slice(fm[0].length) : raw
+      const field = (k: string) =>
+        fm?.[1].match(new RegExp(`^${k}:\\s*["']?(.*?)["']?\\s*$`, 'm'))?.[1] ?? ''
+      const title = field('title') || dest.replace(/\.md$/, '')
+      const category = field('category') || 'Other'
+      const desc = field('description')
+      const url = `${SITE_URL}/${dest.replace(/\.md$/, '')}`
+
+      const twin = join(siteConfig.outDir, dest)
+      mkdirSync(dirname(twin), { recursive: true })
+      writeFileSync(twin, body)
+
+      if (!groups.has(category)) groups.set(category, [])
+      groups.get(category)!.push(`- [${title}](${url}.md)${desc ? `: ${desc}` : ''}`)
+      full.push(`# ${title}\n\nSource: ${url}\n\n${body.trim()}\n`)
+    }
+
+    const index = [
+      '# Paymattic Documentation',
+      '',
+      '> Documentation for Paymattic, a WordPress payment form and donation plugin. Each link below is a plain-markdown version of the page.',
+      ''
+    ]
+    for (const [cat, links] of groups) index.push(`## ${cat}`, '', ...links, '')
+    index.push(`Full content in a single file: ${SITE_URL}/llms-full.txt`, '')
+
+    writeFileSync(join(siteConfig.outDir, 'llms.txt'), index.join('\n'))
+    writeFileSync(join(siteConfig.outDir, 'llms-full.txt'), full.join('\n---\n\n'))
   },
 
   // Per-page SEO tags: canonical URL plus the Open Graph / Twitter values that differ
