@@ -7,6 +7,18 @@ category: "Change Log"
 
 Stay updated with the latest improvements, new features, bug fixes, and performance enhancements in Paymattic.
 
+## Version 4.6.28
+
+_Released on October 9, 2026_
+
+:::tabs
+== 🐞 Bug Fixes
+- Fixes Schedule audit and Improvements.
+- Fixes Data handling improvements for invoice text, activity log.
+:::
+
+---
+
 ## Version 4.6.27
 
 _Released on September 25, 2026_
